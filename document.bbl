@@ -1,20 +1,16 @@
 \begin{thebibliography}{1}
 
-\bibitem{Predatorunitbudget}
-Department of the air force fiscal year 2011 budget estimates.
-\newblock
-  \url{http://www.saffm.hq.af.mil/shared/media/document/AFD-100128-072.pdf}.
-
-\bibitem{Predatorprogrambudget}
-Exhibit r-2, rdt&e budget item justification.
-\newblock
-  \url{https://apps.dtic.mil/descriptivesum/Y2012/Other/stamped/0305219BB_7_PB_2012.pdf}.
-
 \bibitem{AUVSI}
 AUVSI.
 \newblock The economic impact of unmanned aircraft systems integration in the
   united states.
 \newblock \url{https://www.auvsi.org/our-impact/economic-report}.
+
+\bibitem{Predatorprogrambudget}
+United States Special~Operations Command.
+\newblock Exhibit r-2, rdt\&e budget item justification.
+\newblock
+  \url{https://apps.dtic.mil/descriptivesum/Y2012/Other/stamped/0305219BB_7_PB_2012.pdf}.
 
 \bibitem{UAVusage}
 Divya Joshi.
@@ -28,6 +24,12 @@ Shea O'Donnell.
 \newblock A short history of unmanned aerial vehicles.
 \newblock
   \url{https://consortiq.com/media-centre/blog/short-history-unmanned-aerial-vehicles-uavs}.
+
+\bibitem{Predatorunitbudget}
+United States~Department of~the Air~Force.
+\newblock Department of the air force fiscal year 2011 budget estimates.
+\newblock
+  \url{http://www.saffm.hq.af.mil/shared/media/document/AFD-100128-072.pdf}.
 
 \bibitem{Goldman}
 Goldman Sachs.
