@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.9)  23 APR 2019 22:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.9)  21 JUL 2019 14:01
 entering extended mode
 **./document.tex
 (document.tex
@@ -32,280 +32,44 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
-)
-("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fourier\fourier.st
-y"
-Package: fourier 2005/01/01 1.4 fourier-GUTenberg package
-Now handling font encoding FML ...
-... no UTF-8 mapping file for font encoding FML
-Now handling font encoding FMS ...
-... no UTF-8 mapping file for font encoding FMS
-Now handling font encoding FMX ...
-... no UTF-8 mapping file for font encoding FMX
- ("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty"
-Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
- ("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1enc.def"
-File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-))
-("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\textcomp.sty"
-Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
-Package textcomp Info: Sub-encoding information:
-(textcomp)               5 = only ISO-Adobe without \textcurrency
-(textcomp)               4 = 5 + \texteuro
-(textcomp)               3 = 4 + \textohm
-(textcomp)               2 = 3 + \textestimated + \textcurrency
-(textcomp)               1 = TS1 - \textcircled - \t
-(textcomp)               0 = TS1 (full)
-(textcomp)             Font families with sub-encoding setting implement
-(textcomp)             only a restricted character set as indicated.
-(textcomp)             Family '?' is the default used for unknown fonts.
-(textcomp)             See the documentation for details.
-Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
-("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1enc.def"
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-Now handling font encoding TS1 ...
-... processing UTF-8 mapping file for font encoding TS1
-
-("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1enc.dfu"
-File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
-   defining Unicode char U+00A2 (decimal 162)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00A4 (decimal 164)
-   defining Unicode char U+00A5 (decimal 165)
-   defining Unicode char U+00A6 (decimal 166)
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00A8 (decimal 168)
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AC (decimal 172)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00AF (decimal 175)
-   defining Unicode char U+00B0 (decimal 176)
-   defining Unicode char U+00B1 (decimal 177)
-   defining Unicode char U+00B2 (decimal 178)
-   defining Unicode char U+00B3 (decimal 179)
-   defining Unicode char U+00B4 (decimal 180)
-   defining Unicode char U+00B5 (decimal 181)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+00B9 (decimal 185)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+00BC (decimal 188)
-   defining Unicode char U+00BD (decimal 189)
-   defining Unicode char U+00BE (decimal 190)
-   defining Unicode char U+00D7 (decimal 215)
-   defining Unicode char U+00F7 (decimal 247)
-   defining Unicode char U+0192 (decimal 402)
-   defining Unicode char U+02C7 (decimal 711)
-   defining Unicode char U+02D8 (decimal 728)
-   defining Unicode char U+02DD (decimal 733)
-   defining Unicode char U+0E3F (decimal 3647)
-   defining Unicode char U+2016 (decimal 8214)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+203B (decimal 8251)
-   defining Unicode char U+203D (decimal 8253)
-   defining Unicode char U+2044 (decimal 8260)
-   defining Unicode char U+204E (decimal 8270)
-   defining Unicode char U+2052 (decimal 8274)
-   defining Unicode char U+20A1 (decimal 8353)
-   defining Unicode char U+20A4 (decimal 8356)
-   defining Unicode char U+20A6 (decimal 8358)
-   defining Unicode char U+20A9 (decimal 8361)
-   defining Unicode char U+20AB (decimal 8363)
-   defining Unicode char U+20AC (decimal 8364)
-   defining Unicode char U+20B1 (decimal 8369)
-   defining Unicode char U+2103 (decimal 8451)
-   defining Unicode char U+2116 (decimal 8470)
-   defining Unicode char U+2117 (decimal 8471)
-   defining Unicode char U+211E (decimal 8478)
-   defining Unicode char U+2120 (decimal 8480)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2126 (decimal 8486)
-   defining Unicode char U+2127 (decimal 8487)
-   defining Unicode char U+212E (decimal 8494)
-   defining Unicode char U+2190 (decimal 8592)
-   defining Unicode char U+2191 (decimal 8593)
-   defining Unicode char U+2192 (decimal 8594)
-   defining Unicode char U+2193 (decimal 8595)
-   defining Unicode char U+2329 (decimal 9001)
-   defining Unicode char U+232A (decimal 9002)
-   defining Unicode char U+2422 (decimal 9250)
-   defining Unicode char U+25E6 (decimal 9702)
-   defining Unicode char U+25EF (decimal 9711)
-   defining Unicode char U+266A (decimal 9834)
-   defining Unicode char U+FEFF (decimal 65279)
-))
-LaTeX Info: Redefining \oldstylenums on input line 334.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
-
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
-Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-)
-("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fourier\fourier-or
-ns.sty"
-Package: fourier-orns 2004/01/30 1.1 fourier-ornaments package
-)
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 50.
-LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 50.
+) ("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\lmodern.sty"
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> T1/futs/m/n on input line 50.
-LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 50.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/futs/m/n on input line 50.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  T1/futs/m/n --> T1/futs/b/n on input line 51.
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 59.
-LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
-(Font)              `letters' in the math version `normal' on input line 59.
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> FML/futmi/m/it on input line 59.
-LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
-(Font)              `letters' in the math version `bold' on input line 59.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> FML/futmi/m/it on input line 59.
-\symotherletters=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  FML/futmi/m/it --> FML/futmi/b/it on input line 61.
-LaTeX Font Info:    Overwriting symbol font `otherletters' in version `bold'
-(Font)                  FML/futm/m/it --> FML/futm/b/it on input line 62.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 64.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 66.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 68.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 69.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 70.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 71.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 72.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 73.
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 113.
-LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 113.
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> FMS/futm/m/n on input line 113.
-LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 113.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> FMS/futm/m/n on input line 113.
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 114.
-LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 1
-14.
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 114.
-LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 114
-.
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 114.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 115.
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/futs/bx/n on input line 115.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/futs/bx/n on input line 115.
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 116.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 117.
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/futs/m/it on input line 117.
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/futs/m/it on input line 117.
-LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 118.
-LaTeX Font Info:    Redeclaring math symbol \parallel on input line 134.
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 148.
-LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 186.
-LaTeX Font Info:    Redeclaring math symbol \varvarrho on input line 187.
-LaTeX Font Info:    Redeclaring math delimiter \Vert on input line 210.
-LaTeX Font Info:    Redeclaring math delimiter \vert on input line 215.
-LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 225.
-LaTeX Font Info:    Redeclaring math delimiter \backslash on input line 227.
-LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 229.
-LaTeX Font Info:    Redeclaring math delimiter \langle on input line 231.
-LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 233.
-LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 235.
-LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 237.
-LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 239.
-LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 241.
-LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 243.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 247.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 248.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 249.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 250.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 251.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 252.
-LaTeX Font Info:    Redeclaring math accent \check on input line 253.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 254.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 255.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 256.
-\symUfutm=\mathgroup5
-)
-("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) ("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.st
+y"
 Package: babel 2019/04/03 3.29 The Babel package
+
 ("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def
 "
 File: switch.def 2019/04/03 3.29 Babel switching mechanism
@@ -381,10 +145,6 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 y"
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box29
-) ("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cite\cite.sty"
-LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 332.
-Package: cite 2015/02/27  v 5.5
 )
 ("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\enumerate.st
 y"
@@ -577,6 +337,77 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
+("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/natbib\natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip46
+\bibsep=\skip47
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count110
+)
+("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
+y"
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip48
+
+For additional information on amsmath, use the `?' option.
+
+("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.st
+y"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
+"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks24
+\ex@=\dimen137
+))
+("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
+"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen138
+)
+("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
+"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count111
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count112
+\leftroot@=\count113
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count114
+\DOTSCASE@=\count115
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box34
+\strutbox@=\box35
+\big@size=\dimen139
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count116
+\c@MaxMatrixCols=\count117
+\dotsspace@=\muskip11
+\c@parentequation=\count118
+\dspbrk@lvl=\count119
+\tag@help=\toks25
+\row@=\count120
+\column@=\count121
+\maxfields@=\count122
+\andhelp@=\toks26
+\eqnshift@=\dimen140
+\alignsep@=\dimen141
+\tagshift@=\dimen142
+\tagwidth@=\dimen143
+\totwidth@=\dimen144
+\lineht@=\dimen145
+\@envbody=\toks27
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
 ("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
@@ -589,10 +420,10 @@ Package xcolor Info: Driver file: pdftex.def on input line 225.
 ("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/colortbl\colortbl.
 sty"
 Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
-\everycr=\toks24
-\minrowclearance=\skip46
+\everycr=\toks29
+\minrowclearance=\skip51
 )
-\rownum=\count110
+\rownum=\count123
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -603,34 +434,34 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 26.
+Package hyperref Info: Option `colorlinks' set `true' on input line 30.
 
 ("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.
 sty"
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip47
-\f@nch@O@elh=\skip48
-\f@nch@O@erh=\skip49
-\f@nch@O@olh=\skip50
-\f@nch@O@orh=\skip51
-\f@nch@O@elf=\skip52
-\f@nch@O@erf=\skip53
-\f@nch@O@olf=\skip54
-\f@nch@O@orf=\skip55
+\f@nch@headwidth=\skip52
+\f@nch@O@elh=\skip53
+\f@nch@O@erh=\skip54
+\f@nch@O@olh=\skip55
+\f@nch@O@orh=\skip56
+\f@nch@O@elf=\skip57
+\f@nch@O@erf=\skip58
+\f@nch@O@olf=\skip59
+\f@nch@O@orf=\skip60
 )
 ("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titlesec\titlesec.
 sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box34
-\beforetitleunit=\skip56
-\aftertitleunit=\skip57
-\ttl@plus=\dimen137
-\ttl@minus=\dimen138
-\ttl@toksa=\toks25
-\titlewidth=\dimen139
-\titlewidthlast=\dimen140
-\titlewidthfirst=\dimen141
+\ttl@box=\box36
+\beforetitleunit=\skip61
+\aftertitleunit=\skip62
+\ttl@plus=\dimen146
+\ttl@minus=\dimen147
+\ttl@toksa=\toks30
+\titlewidth=\dimen148
+\titlewidthlast=\dimen149
+\titlewidthfirst=\dimen150
 )
 ("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/blindtext\blindtex
 t.sty"
@@ -639,109 +470,77 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 ("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count111
-\c@Blindtext=\count112
-\c@blind@countparstart=\count113
-\blind@countxx=\count114
-\blindtext@numBlindtext=\count115
-\blind@countyy=\count116
-\c@blindlist=\count117
-\c@blindlistlevel=\count118
-\c@blindlist@level=\count119
-\blind@listitem=\count120
-\c@blind@listcount=\count121
-\c@blind@levelcount=\count122
-\blind@mathformula=\count123
-\blind@Mathformula=\count124
-\c@blind@randomcount=\count125
-\c@blind@randommax=\count126
-\c@blind@pangramcount=\count127
-\c@blind@pangrammax=\count128
+\c@blindtext=\count124
+\c@Blindtext=\count125
+\c@blind@countparstart=\count126
+\blind@countxx=\count127
+\blindtext@numBlindtext=\count128
+\blind@countyy=\count129
+\c@blindlist=\count130
+\c@blindlistlevel=\count131
+\c@blindlist@level=\count132
+\blind@listitem=\count133
+\c@blind@listcount=\count134
+\c@blind@levelcount=\count135
+\blind@mathformula=\count136
+\blind@Mathformula=\count137
+\c@blind@randomcount=\count138
+\c@blind@randommax=\count139
+\c@blind@pangramcount=\count140
+\c@blind@pangrammax=\count141
 )
 ("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fncychap\fncychap.
 sty"
 Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
-\RW=\skip58
-\mylen=\skip59
-\myhi=\skip60
-\px=\skip61
-\py=\skip62
-\pyy=\skip63
-\pxx=\skip64
+\RW=\skip63
+\mylen=\skip64
+\myhi=\skip65
+\px=\skip66
+\py=\skip67
+\pyy=\skip68
+\pxx=\skip69
 ) (document.aux
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
 )
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 49.
-LaTeX Font Info:    Try loading font information for FML+futm on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 52.
 
-
-("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fourier\fmlfutm.fd
-"
-File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
+("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmss.fd"
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 49.
-LaTeX Font Info:    Try loading font information for FMS+futm on input line 49.
-
-
-("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fourier\fmsfutm.fd
-"
-File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
-)
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 49.
-LaTeX Font Info:    Try loading font information for FMX+futm on input line 49.
-
-
-("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fourier\fmxfutm.fd
-"
-File: fmxfutm.fd futm-extension
-)
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 49.
- ("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
-File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 49.
- ("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cmss.fd"
-File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Info: Redefining \. on input line 49.
-LaTeX Info: Redefining \% on input line 49.
+LaTeX Info: Redefining \. on input line 52.
+LaTeX Info: Redefining \% on input line 52.
 
 ("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
 df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count129
-\scratchdimen=\dimen142
-\scratchbox=\box35
-\nofMPsegments=\count130
-\nofMParguments=\count131
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count132
-\MPscratchDim=\dimen143
-\MPnumerator=\count133
-\makeMPintoPDFobject=\count134
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count142
+\scratchdimen=\dimen151
+\scratchbox=\box37
+\nofMPsegments=\count143
+\nofMParguments=\count144
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count145
+\MPscratchDim=\dimen152
+\MPnumerator=\count146
+\makeMPintoPDFobject=\count147
+\everyMPtoPDFconversion=\toks32
 )
 ("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
 base.sty"
@@ -758,8 +557,8 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\AtBeginShipoutBox=\box36
-Package hyperref Info: Link coloring ON on input line 49.
+\AtBeginShipoutBox=\box38
+Package hyperref Info: Link coloring ON on input line 52.
 
 ("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
 ty"
@@ -769,11 +568,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 estring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count135
+\c@section@level=\count148
 )
-LaTeX Info: Redefining \ref on input line 49.
-LaTeX Info: Redefining \pageref on input line 49.
-LaTeX Info: Redefining \nameref on input line 49.
+LaTeX Info: Redefining \ref on input line 52.
+LaTeX Info: Redefining \pageref on input line 52.
+LaTeX Info: Redefining \nameref on input line 52.
  (document.out) (document.out)
 \@outlinefile=\write3
 \openout3 = `document.out'.
@@ -781,56 +580,64 @@ LaTeX Info: Redefining \nameref on input line 49.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (Portadas/PortadaVirgen.tex
-\centeroffset=\skip65
-<imagenes/logo_UPM.png, id=31, 398.4486pt x 185.0112pt>
+\centeroffset=\skip70
+<imagenes/logo_UPM.png, id=39, 398.4486pt x 185.0112pt>
 File: imagenes/logo_UPM.png Graphic file (type png)
 <use imagenes/logo_UPM.png>
 Package pdftex.def Info: imagenes/logo_UPM.png  used on input line 10.
 (pdftex.def)             Requested size: 323.9978pt x 150.44261pt.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 12.
 
-
-LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <10.95> not available
-(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 12.
-
-
-LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <14.4> not available
-(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 12.
-
-LaTeX Font Info:    Try loading font information for T1+futs on input line 18.
-("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fourier\t1futs.fd"
-File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
+("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmr.fd"
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for FML+futmi on input line 18
-.
 
-("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fourier\fmlfutmi.f
-d"
-File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
+LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 12.
+
+
+LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <14.4> not available
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 12.
+
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 18.
+("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 18.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 18.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 18.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 18.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 18.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 18.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 18.
+
+("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 18.
+
+
+("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 18.
+
+
+("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 18.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 18.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 18.
 
 Overfull \hbox (24.0pt too wide) in paragraph at lines 7--19
 | $[]$ 
  []
 
-<imagenes/logo_ETSIAE.jpg, id=33, 559.3698pt x 256.7994pt>
+<imagenes/logo_ETSIAE.jpg, id=41, 559.3698pt x 256.7994pt>
 File: imagenes/logo_ETSIAE.jpg Graphic file (type jpg)
 <use imagenes/logo_ETSIAE.jpg>
-Package pdftex.def Info: imagenes/logo_ETSIAE.jpg  used on input line 26.
+Package pdftex.def Info: imagenes/logo_ETSIAE.jpg  used on input line 27.
 (pdftex.def)             Requested size: 108.0011pt x 49.57999pt.
 
-Overfull \hbox (26.41779pt too wide) in paragraph at lines 21--32
+Overfull \hbox (26.43333pt too wide) in paragraph at lines 21--33
 |  $[]$ 
  []
 
@@ -882,6 +689,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
 
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 20.
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 20.
 
 Underfull \hbox (badness 10000) in paragraph at lines 20--22
 
@@ -910,7 +721,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--51
 
  []
 
-[7]) (Capitulos/02_Analisis-Semejantes.tex [8]
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+<imagenes/AEuler.png, id=100, 1927.2pt x 872.25874pt>
+File: imagenes/AEuler.png Graphic file (type png)
+<use imagenes/AEuler.png>
+Package pdftex.def Info: imagenes/AEuler.png  used on input line 81.
+(pdftex.def)             Requested size: 227.62204pt x 103.01614pt.
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 82.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 82.
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+[8 <./imagenes/AEuler.png>] [9]) (Capitulos/02_Analisis-Semejantes.tex [10]
 Cap\'{\i }tulo 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
@@ -918,222 +768,279 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--14
-
+Overfull \hbox (39.70717pt too wide) in paragraph at lines 13--35
+ [][] 
  []
 
+[11
+
+]
 Package epstopdf Info: Source file: <graficos/anald.eps>
-(epstopdf)                    date: 2019-04-23 21:11:02
-(epstopdf)                    size: 20594 bytes
+(epstopdf)                    date: 2019-05-21 22:08:56
+(epstopdf)                    size: 20588 bytes
 (epstopdf)             Output file: <graficos/anald-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-23 21:15:15
-(epstopdf)                    size: 7349 bytes
+(epstopdf)                    date: 2019-05-21 22:10:14
+(epstopdf)                    size: 7304 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/anald-eps-converte
 d-to.pdf graficos/anald.eps>
-(epstopdf)             \includegraphics on input line 21.
+(epstopdf)             \includegraphics on input line 78.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./graficos/anald-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/anald-eps-converted-to.pdf, id=88, 361.35pt x 293.095pt>
+<graficos/anald-eps-converted-to.pdf, id=130, 362.35374pt x 296.10625pt>
 File: graficos/anald-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/anald-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/anald-eps-converted-to.pdf  used on input lin
-e 21.
-(pdftex.def)             Requested size: 227.62204pt x 184.62845pt.
+e 78.
+(pdftex.def)             Requested size: 227.62204pt x 186.01024pt.
 Package epstopdf Info: Source file: <graficos/analomega.eps>
-(epstopdf)                    date: 2019-04-23 21:11:03
-(epstopdf)                    size: 20303 bytes
+(epstopdf)                    date: 2019-05-21 22:08:57
+(epstopdf)                    size: 20316 bytes
 (epstopdf)             Output file: <graficos/analomega-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-23 21:15:16
-(epstopdf)                    size: 7653 bytes
+(epstopdf)                    date: 2019-05-21 22:10:15
+(epstopdf)                    size: 7536 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/analomega-eps-conv
 erted-to.pdf graficos/analomega.eps>
-(epstopdf)             \includegraphics on input line 26.
+(epstopdf)             \includegraphics on input line 84.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analomega-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analomega-eps-converted-to.pdf, id=89, 370.38374pt x 293.095pt>
+<graficos/analomega-eps-converted-to.pdf, id=131, 371.3875pt x 296.10625pt>
 File: graficos/analomega-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analomega-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analomega-eps-converted-to.pdf  used on input
- line 26.
-(pdftex.def)             Requested size: 227.62204pt x 180.12488pt.
+ line 84.
+(pdftex.def)             Requested size: 227.62204pt x 181.48752pt.
 Package epstopdf Info: Source file: <graficos/analb.eps>
-(epstopdf)                    date: 2019-04-23 21:11:03
-(epstopdf)                    size: 20524 bytes
+(epstopdf)                    date: 2019-05-21 22:08:58
+(epstopdf)                    size: 20518 bytes
 (epstopdf)             Output file: <graficos/analb-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-23 21:15:16
-(epstopdf)                    size: 7301 bytes
+(epstopdf)                    date: 2019-05-21 22:10:16
+(epstopdf)                    size: 7256 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/analb-eps-converte
 d-to.pdf graficos/analb.eps>
-(epstopdf)             \includegraphics on input line 31.
+(epstopdf)             \includegraphics on input line 90.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analb-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analb-eps-converted-to.pdf, id=90, 361.35pt x 293.095pt>
+<graficos/analb-eps-converted-to.pdf, id=132, 362.35374pt x 296.10625pt>
 File: graficos/analb-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analb-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analb-eps-converted-to.pdf  used on input lin
-e 31.
-(pdftex.def)             Requested size: 227.62204pt x 184.62845pt.
+e 90.
+(pdftex.def)             Requested size: 227.62204pt x 186.01024pt.
 Package epstopdf Info: Source file: <graficos/analbtr.eps>
-(epstopdf)                    date: 2019-04-23 21:11:04
-(epstopdf)                    size: 20543 bytes
+(epstopdf)                    date: 2019-05-21 22:08:59
+(epstopdf)                    size: 20658 bytes
 (epstopdf)             Output file: <graficos/analbtr-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-23 21:15:17
-(epstopdf)                    size: 7312 bytes
+(epstopdf)                    date: 2019-05-21 22:10:16
+(epstopdf)                    size: 7274 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/analbtr-eps-conver
 ted-to.pdf graficos/analbtr.eps>
-(epstopdf)             \includegraphics on input line 36.
+(epstopdf)             \includegraphics on input line 96.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analbtr-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analbtr-eps-converted-to.pdf, id=91, 361.35pt x 293.095pt>
+<graficos/analbtr-eps-converted-to.pdf, id=133, 368.37625pt x 296.10625pt>
 File: graficos/analbtr-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analbtr-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analbtr-eps-converted-to.pdf  used on input l
-ine 36.
-(pdftex.def)             Requested size: 227.62204pt x 184.62845pt.
+ine 96.
+(pdftex.def)             Requested size: 227.62204pt x 182.96497pt.
 Package epstopdf Info: Source file: <graficos/analaut.eps>
-(epstopdf)                    date: 2019-04-23 21:11:05
-(epstopdf)                    size: 20317 bytes
+(epstopdf)                    date: 2019-05-21 22:08:59
+(epstopdf)                    size: 20549 bytes
 (epstopdf)             Output file: <graficos/analaut-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-23 21:15:18
-(epstopdf)                    size: 7573 bytes
+(epstopdf)                    date: 2019-05-21 22:10:17
+(epstopdf)                    size: 7250 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/analaut-eps-conver
 ted-to.pdf graficos/analaut.eps>
-(epstopdf)             \includegraphics on input line 41.
+(epstopdf)             \includegraphics on input line 102.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analaut-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analaut-eps-converted-to.pdf, id=92, 361.35pt x 293.095pt>
+<graficos/analaut-eps-converted-to.pdf, id=134, 368.37625pt x 296.10625pt>
 File: graficos/analaut-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analaut-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analaut-eps-converted-to.pdf  used on input l
-ine 41.
-(pdftex.def)             Requested size: 227.62204pt x 184.62845pt.
+ine 102.
+(pdftex.def)             Requested size: 227.62204pt x 182.96497pt.
 Package epstopdf Info: Source file: <graficos/analtecho.eps>
-(epstopdf)                    date: 2019-04-23 21:11:05
-(epstopdf)                    size: 20108 bytes
+(epstopdf)                    date: 2019-05-21 22:09:00
+(epstopdf)                    size: 20355 bytes
 (epstopdf)             Output file: <graficos/analtecho-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-23 21:15:19
-(epstopdf)                    size: 7531 bytes
+(epstopdf)                    date: 2019-05-21 22:10:18
+(epstopdf)                    size: 7400 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/analtecho-eps-conv
 erted-to.pdf graficos/analtecho.eps>
-(epstopdf)             \includegraphics on input line 46.
+(epstopdf)             \includegraphics on input line 108.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analtecho-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analtecho-eps-converted-to.pdf, id=93, 377.41pt x 293.095pt>
+<graficos/analtecho-eps-converted-to.pdf, id=135, 384.43625pt x 296.10625pt>
 File: graficos/analtecho-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analtecho-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analtecho-eps-converted-to.pdf  used on input
- line 46.
-(pdftex.def)             Requested size: 227.62204pt x 176.77069pt.
+ line 108.
+(pdftex.def)             Requested size: 227.62204pt x 175.32468pt.
 Package epstopdf Info: Source file: <graficos/analv.eps>
-(epstopdf)                    date: 2019-04-23 21:11:06
-(epstopdf)                    size: 20965 bytes
+(epstopdf)                    date: 2019-05-21 22:09:00
+(epstopdf)                    size: 20960 bytes
 (epstopdf)             Output file: <graficos/analv-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-04-23 21:15:21
-(epstopdf)                    size: 7631 bytes
+(epstopdf)                    date: 2019-05-21 22:10:18
+(epstopdf)                    size: 7497 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/analv-eps-converte
 d-to.pdf graficos/analv.eps>
-(epstopdf)             \includegraphics on input line 56.
+(epstopdf)             \includegraphics on input line 114.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analv-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analv-eps-converted-to.pdf, id=94, 376.40625pt x 293.095pt>
+<graficos/analv-eps-converted-to.pdf, id=136, 379.4175pt x 296.10625pt>
 File: graficos/analv-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analv-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analv-eps-converted-to.pdf  used on input lin
-e 56.
-(pdftex.def)             Requested size: 227.62204pt x 177.24475pt.
-[9
+e 114.
+(pdftex.def)             Requested size: 227.62204pt x 177.64252pt.
+[12] [13 <./graficos/anald-eps-converted-to.pdf> <./graficos/analomega-eps-conv
+erted-to.pdf>] [14 <./graficos/analb-eps-converted-to.pdf> <./graficos/analbtr-
+eps-converted-to.pdf>] [15 <./graficos/analaut-eps-converted-to.pdf> <./grafico
+s/analtecho-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <graficos/3d3d.eps>
+(epstopdf)                    date: 2019-05-22 10:42:52
+(epstopdf)                    size: 102099 bytes
+(epstopdf)             Output file: <graficos/3d3d-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-07-21 10:08:08
+(epstopdf)                    size: 70213 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/3d3d-eps-converted
+-to.pdf graficos/3d3d.eps>
+(epstopdf)             \includegraphics on input line 140.
+Package epstopdf Info: Output file is already uptodate.
 
-] [10 <./graficos/anald-eps-converted-to.pdf> <./graficos/analomega-eps-convert
-ed-to.pdf>] [11 <./graficos/analb-eps-converted-to.pdf> <./graficos/analbtr-eps
--converted-to.pdf>] [12 <./graficos/analaut-eps-converted-to.pdf> <./graficos/a
-naltecho-eps-converted-to.pdf>]) [13 <./graficos/analv-eps-converted-to.pdf>] (
-document.bbl [14
+
+pdfTeX warning: pdflatex.exe (file ./graficos/3d3d-eps-converted-to.pdf): PDF i
+nclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<graficos/3d3d-eps-converted-to.pdf, id=190, 422.57875pt x 317.185pt>
+File: graficos/3d3d-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/3d3d-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/3d3d-eps-converted-to.pdf  used on input line
+ 140.
+(pdftex.def)             Requested size: 227.62204pt x 170.85626pt.
+Package epstopdf Info: Source file: <graficos/3d2d.eps>
+(epstopdf)                    date: 2019-05-22 05:25:01
+(epstopdf)                    size: 41817 bytes
+(epstopdf)             Output file: <graficos/3d2d-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-05-22 05:28:29
+(epstopdf)                    size: 34829 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/3d2d-eps-converted
+-to.pdf graficos/3d2d.eps>
+(epstopdf)             \includegraphics on input line 146.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/3d2d-eps-converted-to.pdf): PDF i
+nclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<graficos/3d2d-eps-converted-to.pdf, id=191, 421.575pt x 316.18124pt>
+File: graficos/3d2d-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/3d2d-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/3d2d-eps-converted-to.pdf  used on input line
+ 146.
+(pdftex.def)             Requested size: 227.62204pt x 170.72084pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 147.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 147.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 147.
+
+LaTeX Warning: Reference `fig:ORP' on page 16 undefined on input line 152.
+
+) [16 <./graficos/analv-eps-converted-to.pdf>] [17 <./graficos/3d3d-eps-convert
+ed-to.pdf> <./graficos/3d2d-eps-converted-to.pdf>] (document.bbl [18
 
 ]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 7.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 12.
 
-("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cmtt.fd"
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 1521) in paragraph at lines 4--8
-[]\T1/cmss/m/n/10.95 AUVSI.  The eco-no-mic im-pact of un-man-ned air-craft sys
--tems in-te-
+Underfull \hbox (badness 10000) in paragraph at lines 20--25
+\T1/lmtt/m/n/10.95 www . saffm . hq . af . mil / shared / media / document / AF
+D-[]100128-[]072 . pdf$[][]\T1/lmss/m/n/10.95 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--27
-[]\T1/cmss/m/n/10.95 Shea O'Donnell.  A short his-tory of un-man-ned ae-rial
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--27
-\T1/cmss/m/n/10.95 vehi-cles.  [][]$\T1/cmtt/m/n/10.95 https : / / consortiq . 
-com / media-[]centre / blog /
+Underfull \hbox (badness 10000) in paragraph at lines 34--39
+\T1/lmtt/m/n/10.95 dtic . mil / descriptivesum / Y2012 / Other / stamped / 0305
+219BB _ 7 _ PB _
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
- [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
+ [19]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
  (document.aux
-LaTeX Info: Redefining \. on input line 23.
-LaTeX Info: Redefining \% on input line 23.
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: A24BA1F6C41C6A9F4100869DF3E985B8;525.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
+(rerunfilecheck)             Checksum: 92D5960C12741E43418EEC342998614C;680.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  ) 
 Here is how much of TeX's memory you used:
- 9748 strings out of 492946
- 146917 string characters out of 3126389
- 253742 words of memory out of 3000000
- 13400 multiletter control sequences out of 15000+200000
- 45397 words of font info for 56 fonts, out of 3000000 for 9000
+ 10024 strings out of 492946
+ 149309 string characters out of 3126389
+ 280823 words of memory out of 3000000
+ 13655 multiletter control sequences out of 15000+200000
+ 99616 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,11n,43p,675b,419s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Jaime\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
-ectt1095.pk> <C:\Users\Jaime\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecsi1000.pk> <C:\Users\Jaime\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecso1000.pk> <C:\Users\Jaime\AppData\Local\MiKTeX\2.9\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecsi1095.pk> <C:\Users\Jaime\AppData\Local\MiKTeX
-\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecso1095.pk> <C:\Users\Jaime\AppData\Lo
-cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440.pk>{E:/Users/Jaime/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc} <C:\Users\Jaime\A
-ppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Use
-rs\Jaime\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1095.p
-k> <C:\Users\Jaime\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
-ecsx2488.pk> <C:\Users\Jaime\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
-ec/dpi600\eccc1095.pk> <C:\Users\Jaime\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
-/jknappen/ec/dpi600\eccc1440.pk><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/adobe/utopia/putr8a.pfb><E:/Users/Jaime/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><E:/Users/Jaime/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on document.pdf (15 pages, 384515 bytes).
+ 36i,12n,43p,720b,431s stack positions out of 5000i,500n,10000p,200000b,50000s
+{E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.en
+c}{E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathi
+t.enc}{E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-m
+athsy.enc}{E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
+lm-mathex.enc}{E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
+/lm/lm-rm.enc}{E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
+/base/8r.enc}<E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmcsc10.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/lm/lmex10.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmmi10.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/lm/lmmi7.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/lm/lmmi8.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/lm/lmmib10.pfb><E:/Users/Jaime/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/lm/lmr10.pfb><E:/Users/Jaime/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><E:/Users/Jaime/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><E:/Users/Jaime/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/lm/lmssbo10.pfb><E:/Users/Jaime/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><E:/Users/Jaime/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><E:/Users/Jaime
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><E:/Users/J
+aime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><E:/Use
+rs/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
+<E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.
+pfb>
+Output written on document.pdf (19 pages, 782740 bytes).
 PDF statistics:
- 536 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
- 102 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 310 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 

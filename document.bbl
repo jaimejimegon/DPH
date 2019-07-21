@@ -1,40 +1,40 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem{AUVSI}
+\bibitem[AUVSI(2013)]{AUVSI}
 AUVSI.
 \newblock The economic impact of unmanned aircraft systems integration in the
   united states.
-\newblock \url{https://www.auvsi.org/our-impact/economic-report}.
+\newblock \url{https://www.auvsi.org/our-impact/economic-report}, 2013.
 
-\bibitem{Predatorprogrambudget}
-United States Special~Operations Command.
-\newblock Exhibit r-2, rdt\&e budget item justification.
-\newblock
-  \url{https://apps.dtic.mil/descriptivesum/Y2012/Other/stamped/0305219BB_7_PB_2012.pdf}.
+\bibitem[Cuerva et~al.(2013)]{Cuerva}
+Álvaro Cuerva et~al.
+\newblock \emph{Teoría de los Helicópteros}.
+\newblock Garceta, 2013.
 
-\bibitem{UAVusage}
-Divya Joshi.
-\newblock Explioring the latest drone technology for commercial, industrial and
-  military drone uses.
-\newblock
-  \url{https://www.businessinsider.com/drone-technology-uses-2017-7?IR=T}.
-
-\bibitem{UAVhistory}
-Shea O'Donnell.
-\newblock A short history of unmanned aerial vehicles.
-\newblock
-  \url{https://consortiq.com/media-centre/blog/short-history-unmanned-aerial-vehicles-uavs}.
-
-\bibitem{Predatorunitbudget}
-United States~Department of~the Air~Force.
+\bibitem[DAF(2011)]{Predatorunitbudget}
+DAF.
 \newblock Department of the air force fiscal year 2011 budget estimates.
 \newblock
-  \url{http://www.saffm.hq.af.mil/shared/media/document/AFD-100128-072.pdf}.
+  \url{http://www.saffm.hq.af.mil/shared/media/document/AFD-100128-072.pdf},
+  2011.
 
-\bibitem{Goldman}
+\bibitem[Sachs(2016)]{Goldman}
 Goldman Sachs.
 \newblock Drones, reporting for work.
 \newblock
-  \url{https://www.goldmansachs.com/insights/technology-driving-innovation/drones/}.
+  \url{https://www.goldmansachs.com/insights/technology-driving-innovation/drones/},
+  2016.
+
+\bibitem[USSOCOM(2011)]{Predatorprogrambudget}
+USSOCOM.
+\newblock Exhibit r-2, rdt\&e budget item justification.
+\newblock
+  \url{https://apps.dtic.mil/descriptivesum/Y2012/Other/stamped/0305219BB_7_PB_2012.pdf},
+  2011.
 
 \end{thebibliography}
