@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.9)  21 JUL 2019 14:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.9)  25 JUL 2019 12:18
 entering extended mode
 **./document.tex
 (document.tex
@@ -581,7 +581,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (Portadas/PortadaVirgen.tex
 \centeroffset=\skip70
-<imagenes/logo_UPM.png, id=39, 398.4486pt x 185.0112pt>
+<imagenes/logo_UPM.png, id=47, 398.4486pt x 185.0112pt>
 File: imagenes/logo_UPM.png Graphic file (type png)
 <use imagenes/logo_UPM.png>
 Package pdftex.def Info: imagenes/logo_UPM.png  used on input line 10.
@@ -631,7 +631,7 @@ Overfull \hbox (24.0pt too wide) in paragraph at lines 7--19
 | $[]$ 
  []
 
-<imagenes/logo_ETSIAE.jpg, id=41, 559.3698pt x 256.7994pt>
+<imagenes/logo_ETSIAE.jpg, id=49, 559.3698pt x 256.7994pt>
 File: imagenes/logo_ETSIAE.jpg Graphic file (type jpg)
 <use imagenes/logo_ETSIAE.jpg>
 Package pdftex.def Info: imagenes/logo_ETSIAE.jpg  used on input line 27.
@@ -707,60 +707,68 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 49--51
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--68
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-
- []
-
-<imagenes/AEuler.png, id=100, 1927.2pt x 872.25874pt>
+<imagenes/AEuler.png, id=108, 1927.2pt x 872.25874pt>
 File: imagenes/AEuler.png Graphic file (type png)
 <use imagenes/AEuler.png>
-Package pdftex.def Info: imagenes/AEuler.png  used on input line 81.
+Package pdftex.def Info: imagenes/AEuler.png  used on input line 73.
 (pdftex.def)             Requested size: 227.62204pt x 103.01614pt.
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 82.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 74.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 82.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 74.
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 70--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-[8 <./imagenes/AEuler.png>] [9]) (Capitulos/02_Analisis-Semejantes.tex [10]
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+
+ []
+
+[8 <./imagenes/AEuler.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
+
+ []
+
+[9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
+ []
+
+[11] [12]) (Capitulos/02_Analisis-Semejantes.tex [13] [14
+
+]
 Cap\'{\i }tulo 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
@@ -772,9 +780,7 @@ Overfull \hbox (39.70717pt too wide) in paragraph at lines 13--35
  [][] 
  []
 
-[11
-
-]
+[15]
 Package epstopdf Info: Source file: <graficos/anald.eps>
 (epstopdf)                    date: 2019-05-21 22:08:56
 (epstopdf)                    size: 20588 bytes
@@ -789,7 +795,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/anald-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/anald-eps-converted-to.pdf, id=130, 362.35374pt x 296.10625pt>
+<graficos/anald-eps-converted-to.pdf, id=189, 362.35374pt x 296.10625pt>
 File: graficos/anald-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/anald-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/anald-eps-converted-to.pdf  used on input lin
@@ -809,7 +815,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analomega-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analomega-eps-converted-to.pdf, id=131, 371.3875pt x 296.10625pt>
+<graficos/analomega-eps-converted-to.pdf, id=190, 371.3875pt x 296.10625pt>
 File: graficos/analomega-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analomega-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analomega-eps-converted-to.pdf  used on input
@@ -829,7 +835,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analb-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analb-eps-converted-to.pdf, id=132, 362.35374pt x 296.10625pt>
+<graficos/analb-eps-converted-to.pdf, id=191, 362.35374pt x 296.10625pt>
 File: graficos/analb-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analb-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analb-eps-converted-to.pdf  used on input lin
@@ -849,7 +855,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analbtr-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analbtr-eps-converted-to.pdf, id=133, 368.37625pt x 296.10625pt>
+<graficos/analbtr-eps-converted-to.pdf, id=192, 368.37625pt x 296.10625pt>
 File: graficos/analbtr-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analbtr-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analbtr-eps-converted-to.pdf  used on input l
@@ -869,7 +875,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analaut-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analaut-eps-converted-to.pdf, id=134, 368.37625pt x 296.10625pt>
+<graficos/analaut-eps-converted-to.pdf, id=193, 368.37625pt x 296.10625pt>
 File: graficos/analaut-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analaut-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analaut-eps-converted-to.pdf  used on input l
@@ -889,7 +895,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analtecho-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analtecho-eps-converted-to.pdf, id=135, 384.43625pt x 296.10625pt>
+<graficos/analtecho-eps-converted-to.pdf, id=194, 384.43625pt x 296.10625pt>
 File: graficos/analtecho-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analtecho-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analtecho-eps-converted-to.pdf  used on input
@@ -909,15 +915,15 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analv-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analv-eps-converted-to.pdf, id=136, 379.4175pt x 296.10625pt>
+<graficos/analv-eps-converted-to.pdf, id=195, 379.4175pt x 296.10625pt>
 File: graficos/analv-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analv-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analv-eps-converted-to.pdf  used on input lin
 e 114.
 (pdftex.def)             Requested size: 227.62204pt x 177.64252pt.
-[12] [13 <./graficos/anald-eps-converted-to.pdf> <./graficos/analomega-eps-conv
-erted-to.pdf>] [14 <./graficos/analb-eps-converted-to.pdf> <./graficos/analbtr-
-eps-converted-to.pdf>] [15 <./graficos/analaut-eps-converted-to.pdf> <./grafico
+[16] [17 <./graficos/anald-eps-converted-to.pdf> <./graficos/analomega-eps-conv
+erted-to.pdf>] [18 <./graficos/analb-eps-converted-to.pdf> <./graficos/analbtr-
+eps-converted-to.pdf>] [19 <./graficos/analaut-eps-converted-to.pdf> <./grafico
 s/analtecho-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <graficos/3d3d.eps>
 (epstopdf)                    date: 2019-05-22 10:42:52
@@ -933,7 +939,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/3d3d-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/3d3d-eps-converted-to.pdf, id=190, 422.57875pt x 317.185pt>
+<graficos/3d3d-eps-converted-to.pdf, id=249, 422.57875pt x 317.185pt>
 File: graficos/3d3d-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/3d3d-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/3d3d-eps-converted-to.pdf  used on input line
@@ -953,7 +959,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/3d2d-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/3d2d-eps-converted-to.pdf, id=191, 421.575pt x 316.18124pt>
+<graficos/3d2d-eps-converted-to.pdf, id=250, 421.575pt x 316.18124pt>
 File: graficos/3d2d-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/3d2d-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/3d2d-eps-converted-to.pdf  used on input line
@@ -966,10 +972,10 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 147.
 
-LaTeX Warning: Reference `fig:ORP' on page 16 undefined on input line 152.
+LaTeX Warning: Reference `fig:ORP' on page 20 undefined on input line 152.
 
-) [16 <./graficos/analv-eps-converted-to.pdf>] [17 <./graficos/3d3d-eps-convert
-ed-to.pdf> <./graficos/3d2d-eps-converted-to.pdf>] (document.bbl [18
+) [20 <./graficos/analv-eps-converted-to.pdf>] [21 <./graficos/3d3d-eps-convert
+ed-to.pdf> <./graficos/3d2d-eps-converted-to.pdf>] (document.bbl [22
 
 ]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 12.
@@ -990,7 +996,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--39
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
- [19]
+ [23]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
  (document.aux
 LaTeX Info: Redefining \. on input line 24.
@@ -998,49 +1004,58 @@ LaTeX Info: Redefining \% on input line 24.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
-Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 92D5960C12741E43418EEC342998614C;680.
 
+
+Package rerunfilecheck Warning: File `document.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `document.out':
+(rerunfilecheck)             Before: 92F77275B217A5CFCCEDFD5C34542D08;842
+(rerunfilecheck)             After:  CD142B04FDAE35CC8DE9B92757BBE46D;913.
 
 LaTeX Warning: There were undefined references.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  ) 
 Here is how much of TeX's memory you used:
- 10024 strings out of 492946
- 149309 string characters out of 3126389
- 280823 words of memory out of 3000000
- 13655 multiletter control sequences out of 15000+200000
+ 10062 strings out of 492946
+ 149770 string characters out of 3126389
+ 281405 words of memory out of 3000000
+ 13668 multiletter control sequences out of 15000+200000
  99616 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,12n,43p,720b,431s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,18n,43p,865b,431s stack positions out of 5000i,500n,10000p,200000b,50000s
 {E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.en
 c}{E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathi
 t.enc}{E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-m
 athsy.enc}{E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
+lm-rm.enc}{E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
 lm-mathex.enc}{E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
-/lm/lm-rm.enc}{E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
 /base/8r.enc}<E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmcsc10.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/lm/lmex10.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmmi10.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/lm/lmmi7.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/lm/lmmi8.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/lm/lmmib10.pfb><E:/Users/Jaime/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/lm/lmr10.pfb><E:/Users/Jaime/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><E:/Users/Jaime/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><E:/Users/Jaime/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/lm/lmssbo10.pfb><E:/Users/Jaime/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><E:/Users/Jaime/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><E:/Users/Jaime
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><E:/Users/J
-aime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><E:/Use
-rs/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb>
-<E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.
-pfb>
-Output written on document.pdf (19 pages, 782740 bytes).
+ic/lm/lmbx10.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/lm/lmcsc10.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmex10.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/lm/lmmi10.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/lm/lmmi7.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/lm/lmmi8.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/lm/lmmib10.pfb><E:/Users/Jaime/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><E:/Users/Jaime/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><E:/Users/Jaime/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><E:/Users/Jaime/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><E:/Users/Jaime/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbo10.pfb><E:/Users/Jaime/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><E:/Users/Jaim
+e/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><E:/Users
+/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><E:/U
+sers/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><E
+:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pf
+b><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uh
+vr8a.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/time
+s/utmr8a.pfb>
+Output written on document.pdf (23 pages, 850671 bytes).
 PDF statistics:
- 310 PDF objects out of 1000 (max. 8388607)
- 48 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 383 PDF objects out of 1000 (max. 8388607)
+ 73 named destinations out of 1000 (max. 500000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
 
