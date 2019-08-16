@@ -1,8 +1,12 @@
 \thispagestyle{empty}
-\chapter{Análisis de Semejantes}
+\definecolor{Gray}{rgb}{ .949,  .949,  .949}
+\newcolumntype{g} {>{\columncolor{Gray}}c}
+\chapter{Análisis de Semejantes. Helicóptero Semilla}
 
 Tal y como se ha reflejado en la introducción, el proceso a seguir para optener un diseño preliminar, será el análisis de semejantes.
 Este análisis consiste en crear una base de datos de aeronaves ya existentes, cuyas características sean similares a las que podría tener la nuestra, de manera que mediante un análisis estadístico se pueda obtener una primera aproximación de algunas características de nuestra aeronave.\\
+
+\subsection{Estudio de Aeronaves de Referencia}
 
 Dado que el objetivo es el diseño de un helicóptero no tripulado de 450 Kg de \emph{MTOW}, los vehículos a analizar serán helicópteros de una masa similar, en torno a 400-500 kg, pero al no existir una cantidad suficiente dentro de este margen, se ha decidido ampliar este.
 En las tablas \ref{ASomega} y \ref{AS} se encuentran los helicópteros seleccionados para el análisis
@@ -130,10 +134,36 @@ Como se puede observar, muchos helicópteros comparten características aunque s
 
 Queda patente que en algunos casos, se han aproximado los valores omitiendo las líneas de tendencia, usando en su lugar los valores de los helicópteros cuyos MTOW son más próximos al de la aeronave a diseñar.
 
+\subsection{Descripción Helicóptero Base}
+
+Para poder realizar una simulación en \emph{HEROES} se empleará un helicóptero base que nos ayudará a obtener un modelo preliminar de forma mucho más rápida. Los requisitos de esta aeronave serán que resulte semejante al diseño que se busca, de manera que pueda reescalarse según las necesidades. Para este proyecto se ha escogido el Bölkow Bo 105, un helicóptero utilitario monorrotor, cuyas características se exponen a continuación.
+
+\subsubsection{Rotor Principal del Bo 105}
+
+Los parámetros necesarios para definir el rotor principal de un helicóptero incluyen datos geométricos, aerodinámicos y de inercia. Los correspondientes al Bo 105 se encuentran recogidos en la tabla \ref{RPBo}
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{|>{\columncolor{Gray}}c|c|}
+		\hline
+		\cellcolor{Gray}Radio de las palas (R) & \cellcolor[rgb]{ 1,  1,  1}4.91 m \\ \hline
+		\cellcolor{Gray}Excentricidad (e)& \cellcolor[rgb]{ 1,  1,  1}0 m \\ \hline
+		\cellcolor{Gray}Número de palas (b) & \cellcolor[rgb]{ 1,  1,  1}4 \\ \hline
+		\cellcolor{Gray}Torsión lineal de los perfiles ($\theta_1$) & \cellcolor[rgb]{ 1,  1,  1}-0.14 \\ \hline
+		\cellcolor{Gray}Pendiente de la curva de sustentación ($\alpha$) & \cellcolor[rgb]{ 1,  1,  1}6.113 \\ \hline
+		\cellcolor{Gray} & \cellcolor[rgb]{ 1,  1,  1}314 \\ \hhline{|>{\arrayrulecolor{Gray}}->{\arrayrulecolor[rgb]{0,0,0}}|-|}
+		\cellcolor{Gray} & \cellcolor[rgb]{ 1,  1,  1}312 \\ \hhline{>{\arrayrulecolor{Gray}}->{\arrayrulecolor{black}}-}
+		\multirow{-3}{*}{\cellcolor{Gray}Parámetros de la polar} & \cellcolor[rgb]{ 1,  1,  1}310 \\ \hline
+	\end{tabular}%
+	\caption{Valores de diferentes parámetros de las aeronaves empleadas para el análisis de semejantes cuyos valores de velocidad de giro del rotor principal han sido publicados}
+	\label{ASomega}
+\end{table}%
+
 Como se puede observar, al existir muy pocos datos respecto a las velocidades de giro del rotor principal de los helicópteros elegidos, la obtención de una $\Omega$ inicial ha de obtenerse de algún otro modo. Uno de ellos es la limitación del $M_{crit}$ en la punta de las palas del rotor principal, que es la que se desarrollará a continuación.
 
-La limitación en la velocidad de giro del rotor viene dada por la aparicion de efectos supersónicos en las puntas de las palas del mismo. Estos efectos, como puedan ser ondas de choque, empeoran el comportamiento de las palas, pueden hacerlas entrar en pérdida e incluso provocar daños estructurales debido a cargas elevadas.
+La limitación en la velocidad de giro del rotor viene dada por la aparición de efectos supersónicos en las puntas de las palas del mismo. Estos efectos, como puedan ser ondas de choque, empeoran el comportamiento de las palas, pueden hacerlas entrar en pérdida e incluso provocar daños estructurales debido a cargas elevadas.
 Por esto es común establecer un límite conocido como $M_{crit}$ basado en la velocidad $\Omega$*R, es decir, la velocidad de avance de las puntas de las palas. Este límite suele ser del orden de 0,4 para vuelo estacionario y 0,8 para vuelo en avance. 
+
 
 \begin{figure}
 	\centering
@@ -143,10 +173,15 @@ Por esto es común establecer un límite conocido como $M_{crit}$ basado en la v
 \end{figure}
 \begin{figure}
 	\centering
-	\includegraphics[width=80mm]{graficos/3d2d}
+	\includegraphics[width=80mm]{graficos/3d2d2}
 	\caption{Consumo de Potencia de la aeronave en función de la velocidad de giro del rotor y el radio del mismo junto a la limitación de $\Omega$ a causa del $M_{crit}$ (0,4)}
 	\label{ORPM}
 \end{figure}
 
 La gráfica \ref{ORP} representa la superficie que da un valor de potencia de la aeronave para cada $\Omega$ y R del rotor. Con esto es posible observar los valores mínimos de potencia, lo que nos permite elegir unos valores de $\Omega$ y R que optimicen la potencia necesaria.
 Sin embargo, al añadir la limitación del $M_{crit}$ las opciones de configuración disponibles se ven reducidas a aquellas que la cumplan. La gráfica \ref{ORPM} representa la superficie de la gráfica \ref{fig:ORP} sobre el plano $\Omega$R y encima la anterior limitación.
+Se observa claramente que los valores de potencia necesaria se reducen con la potencia y con el aumento de radio, por lo que en primera instancia el menor valor dado, 60 rad/s es el valor óptimo para un primer diseño, por lo que el radio del rotor ha de ser 2,26 m.
+
+
+
+Con este helicoptero semilla se pueden realizar unas primeras simulaciones de vuelo para comprobar si es válido y, en caso contrario, modificar el diseño para alcanzar unos resultados mejores.

@@ -20,9 +20,11 @@
 \usepackage{float}
 \usepackage{natbib}%bibliografia tipo "et al"
 \bibliographystyle{plainnat}
+\usepackage{multirow} %fusionar celdas en columnas en tablas
+\usepackage{colortbl}
+\usepackage{hhline}
 
 \usepackage{amsmath}%Letras griegas en negrita
-\usepackage[table,xcdraw]{xcolor}
 \hypersetup{
 	colorlinks=true,	% false: boxed links; true: colored links
 	linkcolor=black,	% color of internal links
@@ -60,6 +62,8 @@
 \input{Capitulos/01_Introduccion}
 
 \input{Capitulos/02_Analisis-Semejantes}
+
+\input{Capitulos/03_Vuelo-Horizontal}
 
 \newpage
 \bibliography{bibliografia}
