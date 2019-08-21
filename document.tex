@@ -1,7 +1,5 @@
 % \documentclass[paper=a4, fontsize=11pt]{scrartcl} % A4 paper and 11pt font size
 \documentclass[11pt, a4paper]{book}
-\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
-\usepackage[utf8]{inputenc}
 \usepackage{lmodern}
 \usepackage[spanish, es-tabla]{babel} % Selecciona el español para palabras introducidas automáticamente, p.ej. "septiembre" en la fecha y especifica que se use la palabra Tabla en vez de Cuadro
 \usepackage{url} % ,href} %para incluir URLs e hipervínculos dentro del texto (aunque hay que instalar href)
@@ -17,12 +15,14 @@
 \usepackage{caption}
 \captionsetup[figure]{labelfont={bf,it},textfont={it},font=small,indention=0.5cm}
 \captionsetup[table]{labelfont={bf,it},textfont={it},font=small,indention=0.5cm}
-\usepackage{float}
 \usepackage{natbib}%bibliografia tipo "et al"
 \bibliographystyle{plainnat}
 \usepackage{multirow} %fusionar celdas en columnas en tablas
 \usepackage{colortbl}
 \usepackage{hhline}
+\usepackage{pdfpages} %insertar pdf en el documento, para la portada
+\usepackage{subfigure} % subfiguras
+
 
 \usepackage{amsmath}%Letras griegas en negrita
 \hypersetup{
@@ -53,10 +53,10 @@
 
 \begin{document}
 % Portada UPM
-\input{Portadas/PortadaVirgen}
+\includepdf[pages=-]{Portadas/Portadadefinitiva}
 
 %Agradecimientos
-\input{Agradecimientos/Agradecimientos}
+%\input{Agradecimientos/Agradecimientos}
  
 %Desarrollo de Capítulos
 \input{Capitulos/01_Introduccion}

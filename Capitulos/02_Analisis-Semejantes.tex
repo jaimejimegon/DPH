@@ -121,18 +121,21 @@ En este capítulo se pueden observar las gráficas que se obtienen del análisis
 \end{figure}
 
 Como se puede observar, muchos helicópteros comparten características aunque sus pesos sean muy distintos, y algunas líneas de tendencia se alejan considerablemente de los valores promedio para la zona que corresponde a 450 kg. Esto se debe principalmente a la falta de datos de referencia, los pocos desarrollos que se han dado de aeronaves de ala rotatoria en el entorno de pesos dado dificultan en gran medida la verificación de nuestro modelo al no existir una norma de diseño en la que basarnos. Los desarrollos han sido dispersos, así que los parámetros iniciales de diseño no se basarán únicamente en los valores de tendencia obtenidos.
- 
+Algunos valores de referencia serán los siguientes:
+
 \begin{itemize}
 	\item $d$: 5,5 m
-	\item $\Omega$: 120 rad/s
+%	\item $\Omega$: 120 rad/s
 	\item $b$: 2
-	\item $b_{a}$ antipar: 2
-	\item $t_{e}$: 3 horas
+	\item $b_{a}$: 2
+	\item $t_{e}$: 4.5 horas
 	\item $h_{max}$: 3200 m
 	\item $V_{max}$: 190 m/s
 \end{itemize}
 
 Queda patente que en algunos casos, se han aproximado los valores omitiendo las líneas de tendencia, usando en su lugar los valores de los helicópteros cuyos MTOW son más próximos al de la aeronave a diseñar.
+La autonomía, techo y velocidad máxima no son parámetros de diseño, sino que podrán usarse como referencia para comparar con los valores de la aeronave a diseñar para comprobar si se aproxima a los diseños actuales o no.
+La velocidad de giro del rotor principal si sería un parámetro de diseño, pero debido a la falta de datos para hacer un cálculo estadístico, más adelante planteará un método para calcularla.
 
 \section{Descripción Helicóptero Base}
 
@@ -154,30 +157,30 @@ I_\beta & 0 & 0\\
 \right]
 \end{equation}
 
-\begin{table}[htbp]
+\begin{table}[]
 	\centering
 	\begin{tabular}{|>{\columncolor{Gray}}c|c|}
 		\hline
-		\cellcolor{Gray}Radio de las palas ($R$) & \cellcolor[rgb]{ 1,  1,  1}4.91 $m$ \\ \hline
-		\cellcolor{Gray}Excentricidad ($e$)& \cellcolor[rgb]{ 1,  1,  1}0 $m$ \\ \hline
-		\cellcolor{Gray}Número de palas ($b$) & \cellcolor[rgb]{ 1,  1,  1}4 \\ \hline
-		\cellcolor{Gray}Torsión lineal de los perfiles ($\theta_1$) & \cellcolor[rgb]{ 1,  1,  1}-0.14 \\ \hline
-		\cellcolor{Gray}Pendiente de la curva de sustentación ($\alpha$) & \cellcolor[rgb]{ 1,  1,  1}6.113 $rad^{-1}$ \\ \hline
-		\cellcolor{Gray} & \cellcolor[rgb]{ 1,  1,  1}0.0074 \\ \hhline{|~|-|}
-		\cellcolor{Gray} & \cellcolor[rgb]{ 1,  1,  1}0.00961 $rad^{-1}$ \\ \hhline{|~|-|}
-		\multirow{-3}{*}{\cellcolor{Gray}Parámetros de la polar ($\delta_0$, $\delta_1$, $\delta_2$)} & \cellcolor[rgb]{ 1,  1,  1}0.29395 $rad^{-2}$ \\ \hline
-		\cellcolor{Gray}Velocidad de giro del rotor ($\Omega$) & \cellcolor[rgb]{ 1,  1,  1}44.4 $rad/s$ \\ \hline
-		\cellcolor{Gray}Cuerda del perfil ($c$) & \cellcolor[rgb]{ 1,  1,  1}6.113 \\ \hline
-		\cellcolor{Gray}Momento de inercia de la pala en batimiento ($I_\beta$) & \cellcolor[rgb]{ 1,  1,  1}231.7 $kgm^2$ \\ \hline
-		\cellcolor{Gray}Momento de inercia de la pala en paso ($I_\theta$) & \cellcolor[rgb]{ 1,  1,  1}7 $kgm^2$ \\ \hline
-		\cellcolor{Gray}Momento de inercia de la pala en arrastre ($I_\zeta$) & \cellcolor[rgb]{ 1,  1,  1}238.7 $kgm^2$ \\ \hline
-		\cellcolor{Gray}Posición del centro de gravedad de la pala ($X_{GB}$) & \cellcolor[rgb]{ 1,  1,  1}2.445 $m$ \\ \hline
-		\cellcolor{Gray}Masa de la pala ($m_b$) & \cellcolor[rgb]{ 1,  1,  1}40.2 $kg$ \\ \hline
-		\cellcolor{Gray}Rigidez en batimiento ($I_\beta$) & \cellcolor[rgb]{ 1,  1,  1}113330 $Nm/rad$ \\ \hline
-	\end{tabular}%
+		Radio de las palas ($R$) & 4.91 m \\ \hline
+		Excentricidad ($e$) & 0 m \\ \hline
+		Número de palas ($b$) & 4 \\ \hline
+		Torsión lineal de los perfiles ($\theta_1$) & -0.14 \\ \hline
+		Pendiente de la curva de sustentación ($\alpha$) & 6.113 rad$^{-1}$ \\ \hline
+		\cellcolor{Gray} & 0.0074 \\ \cline{2-2} 
+		\cellcolor{Gray} & 0.00961 rad$^{-1}$ \\ \cline{2-2} 
+		\multirow{-3}{*}{\cellcolor{Gray}Parámetros de la polar ($\delta_0$, $\delta_1$, $\delta_2$)} & 0.29395 rad$^{-2}$ \\ \hline
+		Velocidad de giro del rotor ($\Omega$) & 44.4 rad/s \\ \hline
+		Cuerda del perfil ($c$) & 6.113 m \\ \hline
+		Momento de inercia de la pala en batimiento ($I_\beta$) & 231.7 kgm$^2$ \\ \hline
+		Momento de inercia de la pala en paso ($I_\theta$) & 7 kgm$^2$ \\ \hline
+		Momento de inercia de la pala en arrastre ($I_\zeta$) & 238.7 kgm$^2$ \\ \hline
+		Posición del centro de gravedad de la pala ($x_{GB}$) & 2.445 m \\ \hline
+		Masa de la pala ($m_b$) & 40.2 kg \\ \hline
+		Rigidez en batimiento ($k_\beta$) & 113330 Nm/rad \\ \hline
+	\end{tabular}
 	\caption{Valores de diferentes parámetros del rotor principal de la aeronave Bölkow Bo 105.}
 	\label{RPBo}
-\end{table}%
+\end{table}
 
 \subsection{Rotor Antipar del Bo 105}
 
@@ -187,22 +190,22 @@ Las mismas consideraciones aplicadas al rotor principal a la hora de modelizarlo
 	\centering
 	\begin{tabular}{|>{\columncolor{Gray}}c|c|}
 		\hline
-		\cellcolor{Gray}Radio de las palas ($R$) & \cellcolor[rgb]{ 1,  1,  1}0.95 $m$ \\ \hline
-		\cellcolor{Gray}Excentricidad ($e$)& \cellcolor[rgb]{ 1,  1,  1}0 $m$ \\ \hline
-		\cellcolor{Gray}Número de palas ($b$) & \cellcolor[rgb]{ 1,  1,  1}2 \\ \hline
-		\cellcolor{Gray}Torsión lineal de los perfiles ($\theta_1$) & \cellcolor[rgb]{ 1,  1,  1}0 \\ \hline
-		\cellcolor{Gray}Pendiente de la curva de sustentación ($\alpha$) & \cellcolor[rgb]{ 1,  1,  1}5.7 $rad^{-1}$ \\ \hline
-		\cellcolor{Gray} & \cellcolor[rgb]{ 1,  1,  1}0.008 \\ \hhline{|~|-|}
-		\cellcolor{Gray} & \cellcolor[rgb]{ 1,  1,  1}0.0096 $rad^{-1}$ \\ \hhline{|~|-|}
-		\multirow{-3}{*}{\cellcolor{Gray}Parámetros de la polar ($\delta_0$, $\delta_1$, $\delta_2$)} & \cellcolor[rgb]{ 1,  1,  1}0.294 $rad^{-2}$ \\ \hline
-		\cellcolor{Gray}Velocidad de giro del rotor ($\Omega$) & \cellcolor[rgb]{ 1,  1,  1}232.4779 $rad/s$ \\ \hline
-		\cellcolor{Gray}Cuerda del perfil ($c$) & \cellcolor[rgb]{ 1,  1,  1}0.18 $m$ \\ \hline
-		\cellcolor{Gray}Momento de inercia de la pala en batimiento ($I_\beta$) & \cellcolor[rgb]{ 1,  1,  1}1.805 $kgm^2$ \\ \hline
-		\cellcolor{Gray}Momento de inercia de la pala en paso ($I_\theta$) & \cellcolor[rgb]{ 1,  1,  1}0.0648 $kgm^2$ \\ \hline
-		\cellcolor{Gray}Momento de inercia de la pala en arrastre ($I_\zeta$) & \cellcolor[rgb]{ 1,  1,  1}1.8698 $kgm^2$ \\ \hline
-		\cellcolor{Gray}Posición del centro de gravedad de la pala ($X_{GB}$) & \cellcolor[rgb]{ 1,  1,  1}0.475 $m$ \\ \hline
-		\cellcolor{Gray}Masa de la pala ($m_b$) & \cellcolor[rgb]{ 1,  1,  1}6 $kg$ \\ \hline
-		\cellcolor{Gray}Rigidez en batimiento ($I_\beta$) & \cellcolor[rgb]{ 1,  1,  1}$10^{100}$ $Nm/rad$ \\ \hline
+		Radio de las palas ($R$) & 0.95 m \\ \hline
+		Excentricidad ($e$) & 0 m \\ \hline
+		Número de palas ($b$) & 2 \\ \hline
+		Torsión lineal de los perfiles ($\theta_1$) & \cellcolor[rgb]{ 1,  1,  1}0 \\ \hline
+		Pendiente de la curva de sustentación ($\alpha$) & 5.7 rad$^{-1}$ \\ \hline
+		\cellcolor{Gray} & 0.008 \\ \cline{2-2}
+		\cellcolor{Gray} & 0.0096 rad$^{-1}$ \\ \cline{2-2}
+		\multirow{-3}{*}{\cellcolor{Gray}Parámetros de la polar ($\delta_0$, $\delta_1$, $\delta_2$)} & 0.294 rad$^{-2}$ \\ \hline
+		Velocidad de giro del rotor ($\Omega$) & \cellcolor[rgb]{ 1,  1,  1}232.4779 rad/s \\ \hline
+		Cuerda del perfil ($c$) & \cellcolor[rgb]{ 1,  1,  1}0.18 m \\ \hline
+		Momento de inercia de la pala en batimiento ($I_\beta$) & 1.805 kgm$^2$ \\ \hline
+		Momento de inercia de la pala en paso ($I_\theta$) & 0.0648 kgm$^2$ \\ \hline
+		Momento de inercia de la pala en arrastre ($I_\zeta$) & 1.8698 kgm$^2$ \\ \hline
+		Posición del centro de gravedad de la pala ($X_{GB}$) & 0.475 m \\ \hline
+		Masa de la pala ($m_b$) & 6 $kg$ \\ \hline
+		\cellcolor{Gray}Rigidez en batimiento ($I_\beta$) & $10^{100}$ Nm/rad \\ \hline
 	\end{tabular}%
 	\caption{Valores de diferentes parámetros del rotor antipar de la aeronave Bölkow Bo 105.}
 	\label{RaBo}
@@ -216,9 +219,9 @@ Los parámetros mas relevantes del fuselaje serán aquellos necesarios para la a
 	\centering
 	\begin{tabular}{|>{\columncolor{Gray}}c|c|}
 		\hline
-		\cellcolor{Gray}Longitud del fuselaje ($l_f$) & \cellcolor[rgb]{ 1,  1,  1}8.56 $m$ \\ \hline
-		\cellcolor{Gray}Superficie en planta del fuselaje ($S_p$)& \cellcolor[rgb]{ 1,  1,  1}7.5 $m^2$ \\ \hline
-		\cellcolor{Gray}Superficie lateral del fuselaje ($S_l$) & \cellcolor[rgb]{ 1,  1,  1}8.3 \\ \hline
+		\cellcolor{Gray}Longitud del fuselaje ($l_f$) & \cellcolor[rgb]{ 1,  1,  1}8.56 m \\ \hline
+		\cellcolor{Gray}Superficie en planta del fuselaje ($S_p$)& \cellcolor[rgb]{ 1,  1,  1}7.5 m$^2$ \\ \hline
+		\cellcolor{Gray}Superficie lateral del fuselaje ($S_l$) & \cellcolor[rgb]{ 1,  1,  1}8.3 m$^2$ \\ \hline
 		\cellcolor{Gray}Factor de interferencia del rotor principal sobre el fuselaje ($k_f$) & \cellcolor[rgb]{ 1,  1,  1}1 \\ \hline
 		\end{tabular}%
 	\caption{Valores de los parámetros del fuselaje de la aeronave Bölkow Bo 105.}
@@ -235,12 +238,12 @@ En el caso del estabilizador horizontal, este se divide en dos partes, por lo qu
 	\centering
 	\begin{tabular}{|>{\columncolor{Gray}}c|c|}
 		\hline
-		\cellcolor{Gray}Cuerda del estabilizador vertical ($c_{ev}$) & \cellcolor[rgb]{ 1,  1,  1}0.3 $m$ \\ \hline
-		\cellcolor{Gray}Superficie del estabilizador vertical ($S_{ev}$)& \cellcolor[rgb]{ 1,  1,  1}0.805 $m^2$ \\ \hline
-		\cellcolor{Gray}Ángulo de calado del estabilizador vertical ($\theta_{ev}$) & \cellcolor[rgb]{ 1,  1,  1}0.0812 $rad$ \\ \hline
-		\cellcolor{Gray}Cuerda del estabilizador horizontal ($c_{ev}$) & \cellcolor[rgb]{ 1,  1,  1}0.4 $m$ \\ \hline
-		\cellcolor{Gray}Superficie del estabilizador horizontal/2 ($S_{ev}$)& \cellcolor[rgb]{ 1,  1,  1}0.4015 $m^2$ \\ \hline
-		\cellcolor{Gray}Ángulo de calado del estabilizador horizontal ($\theta_{ev}$) & \cellcolor[rgb]{ 1,  1,  1}0.0698 $rad$ \\ \hline
+		\cellcolor{Gray}Cuerda del estabilizador vertical ($c_{ev}$) & \cellcolor[rgb]{ 1,  1,  1}0.3 m \\ \hline
+		\cellcolor{Gray}Superficie del estabilizador vertical ($S_{ev}$)& \cellcolor[rgb]{ 1,  1,  1}0.805 m$^2$ \\ \hline
+		\cellcolor{Gray}Ángulo de calado del estabilizador vertical ($\theta_{ev}$) & \cellcolor[rgb]{ 1,  1,  1}0.0812 rad \\ \hline
+		\cellcolor{Gray}Cuerda del estabilizador horizontal ($c_{ev}$) & \cellcolor[rgb]{ 1,  1,  1}0.4 m \\ \hline
+		\cellcolor{Gray}Superficie del estabilizador horizontal/2 ($S_{ev}$)& \cellcolor[rgb]{ 1,  1,  1}0.4015 m$^2$ \\ \hline
+		\cellcolor{Gray}Ángulo de calado del estabilizador horizontal ($\theta_{ev}$) & \cellcolor[rgb]{ 1,  1,  1}0.0698 rad \\ \hline
 	\end{tabular}%
 	\caption{Valores de diferentes parámetros de los estabilizadores vertical y horizontal de la aeronave Bölkow Bo 105. La superficie del estabilizador horizontal corresponde a la mitad ya que el mismo esta dividido en 2 partes.}
 	\label{EBo}
@@ -248,30 +251,33 @@ En el caso del estabilizador horizontal, este se divide en dos partes, por lo qu
 
 \subsection{Inercia del Bo 105}
 
-Para finalizar con la descripción del helicóptero, la tabla \ref{InBo} refleja los datos acerca de la inercia del mismo.
+Para finalizar con la descripción del modelo del helicóptero, la tabla \ref{InBo} refleja los datos acerca de la inercia del mismo.
 
 \begin{table}[htbp]
 	\centering
 	\begin{tabular}{|>{\columncolor{Gray}}c|c|}
 		\hline
-		\cellcolor{Gray}Peso del helicóptero ($W$) & \cellcolor[rgb]{ 1,  1,  1}21560 $N$ \\ \hline
-		\cellcolor{Gray}Momento de inercia del eje $x$ ($I_{x}$) & \cellcolor[rgb]{ 1,  1,  1}1433 $kg\cdot m^2$ \\ \hline
-		\cellcolor{Gray}Momento de inercia del eje $y$ ($I_{y}$) & \cellcolor[rgb]{ 1,  1,  1}4973 $kg\cdot m^2$ \\ \hline
-		\cellcolor{Gray}Momento de inercia del eje $z$ ($I_{z}$) & \cellcolor[rgb]{ 1,  1,  1}4099 $kg\cdot m^2$ \\ \hline
-		\cellcolor{Gray}Producto de inercia $xy$ ($I_{xy}$)& \cellcolor[rgb]{ 1,  1,  1}0 $kg\cdot m^2$ \\ \hline
-		\cellcolor{Gray}Producto de inercia $xz$ ($I_{xz}$)& \cellcolor[rgb]{ 1,  1,  1}660 $kg\cdot m^2$ \\ \hline
-		\cellcolor{Gray}Producto de inercia $yz$ ($I_{yz}$)& \cellcolor[rgb]{ 1,  1,  1}0 $kg\cdot m^2$ \\ \hline
+		\cellcolor{Gray}Peso del helicóptero ($W$) & \cellcolor[rgb]{ 1,  1,  1}21560 N \\ \hline
+		\cellcolor{Gray}Momento de inercia del eje $x$ ($I_{x}$) & \cellcolor[rgb]{ 1,  1,  1}1433 kg$\cdot$m$^2$ \\ \hline
+		\cellcolor{Gray}Momento de inercia del eje $y$ ($I_{y}$) & \cellcolor[rgb]{ 1,  1,  1}4973 kg$\cdot$m$^2$ \\ \hline
+		\cellcolor{Gray}Momento de inercia del eje $z$ ($I_{z}$) & \cellcolor[rgb]{ 1,  1,  1}4099 kg$\cdot$m$^2$ \\ \hline
+		\cellcolor{Gray}Producto de inercia $xy$ ($I_{xy}$)& \cellcolor[rgb]{ 1,  1,  1}0 kg$\cdot$m$^2$ \\ \hline
+		\cellcolor{Gray}Producto de inercia $xz$ ($I_{xz}$)& \cellcolor[rgb]{ 1,  1,  1}660 kg$\cdot$m$^2$ \\ \hline
+		\cellcolor{Gray}Producto de inercia $yz$ ($I_{yz}$)& \cellcolor[rgb]{ 1,  1,  1}0 kg$\cdot$m$^2$ \\ \hline
 	\end{tabular}%
 	\caption{Valores de inercia de la aeronave Bölkow Bo 105.}
 	\label{InBo}
 \end{table}%
 
+Con este modelo y los parámetros iniciales se generará un modelo inicial que se denominará "Helicóptero semilla" y que se empleará en las simulaciones para comprobar su desempeño y optimizarlo según las necesidades.
+
 \section{Limitaciones a la Velocidad de Giro del Rotor}
 
-Como se puede observar, al existir muy pocos datos respecto a las velocidades de giro del rotor principal de los helicópteros elegidos, la obtención de una $\Omega$ inicial ha de obtenerse de algún otro modo. Uno de ellos es la limitación del $M_{crit}$ en la punta de las palas del rotor principal, que es la que se desarrollará a continuación.
+Aunque se han calculado estadísticamente los parámetros que definen en una primera aproximación el vehículo a diseñar, debido a la falta de datos reales y a la dispersión de los existentes, es probable que el modelo no resulte realista y no pueda llegar a funcionar correctamente en una situación real fuera de la simulación. El parámetro del que menos información se dispone es de la velocidad de giro de los rotores de los modelos de las base de datos, por lo que conviene encontrar un valor que pueda resultar mejor. Para ello se ha empleado un concepto físico importante como es el Mach crítico $M_{crit}$ en la punta de pala.
 
 La limitación en la velocidad de giro del rotor viene dada por la aparición de efectos supersónicos en las puntas de las palas del mismo. Estos efectos, como puedan ser ondas de choque, empeoran el comportamiento de las palas, pueden hacerlas entrar en pérdida e incluso provocar daños estructurales debido a cargas elevadas.
-Por esto es común establecer un límite conocido como $M_{crit}$ basado en la velocidad $\Omega$*R, es decir, la velocidad de avance de las puntas de las palas. Este límite suele ser del orden de 0,4 para vuelo estacionario y 0,8 para vuelo en avance. 
+Por esto es común establecer un límite conocido como $M_{crit}$ basado en la velocidad $\Omega R$, es decir, la velocidad de avance de las puntas de las palas. Este límite suele ser del orden de 0,4 para vuelo estacionario y 0,8 para vuelo en avance. 
+para poder dar un valor lo más óptimo posible, se ha realizado una simulación de vuelo estacionario de un vehículo con las características obtenidas estadísticamente, a excepción de la velocidad de giro del rotor principal y del radio del mismo, que se han variado en la simulación para poder obtener el mejor valor posiblede estos parámetros.
 
 
 \begin{figure}
@@ -282,19 +288,118 @@ Por esto es común establecer un límite conocido como $M_{crit}$ basado en la v
 \end{figure}
 \begin{figure}
 	\centering
-	\includegraphics[width=80mm]{graficos/3d2d2}
-	\caption{Consumo de Potencia de la aeronave en función de la velocidad de giro del rotor y el radio del mismo junto a la limitación de $\Omega$ a causa del $M_{crit}$ (0,4).}
+	\includegraphics[width=80mm]{graficos/3d2d}
+	\caption{Consumo de Potencia de la aeronave en función de la velocidad de giro del rotor y el radio del mismo junto a la línea de las potencias mínimas para cada configuración concreta de $\Omega$ y la limitación de $\Omega$ a causa del $M_{crit}$ (0,4).}
 	\label{ORPM}
 \end{figure}
 
-La gráfica \ref{ORP} representa la superficie que da un valor de potencia de la aeronave para cada $\Omega$ y R del rotor. Con esto es posible observar los valores mínimos de potencia, lo que nos permite elegir unos valores de $\Omega$ y R que optimicen la potencia necesaria.
-Sin embargo, al añadir la limitación del $M_{crit}$ las opciones de configuración disponibles se ven reducidas a aquellas que la cumplan. La gráfica \ref{ORPM} representa la superficie de la gráfica \ref{ORP} sobre el plano $\Omega$R y encima la anterior limitación.
-Se observa claramente que los valores de potencia necesaria se reducen con la potencia y con el aumento de radio, por lo que en primera instancia el menor valor dado, quedando automáticamente definido el radio del rotor.
+La gráfica \ref{ORP} representa la superficie que da un valor de potencia de la aeronave para cada $\Omega$ y $R$ del rotor. Con esto es posible observar los valores mínimos de potencia, lo que nos permite elegir unos valores de $\Omega$ y $R$ que optimicen la potencia necesaria.
+Sin embargo, al añadir la limitación del $M_{crit}$ las opciones de configuración disponibles se ven reducidas a aquellas que la cumplan. La gráfica \ref{ORPM} representa la superficie de la gráfica \ref{ORP} sobre el plano $\Omega R$ y encima la anterior limitación junto con una línea que representa las potencias mínimas absolutas para cada configuración de $\Omega$. Aunque estas líneas no se crucen, para los valores más bajos de $\Omega$ se encuentran suficientemente cerca como para pensar que las potencias necesarias son lo suficientemente bajas.
+Se observa claramente que los valores de potencia necesaria se reducen con $\Omega$ y con el aumento de radio, por lo que en primera instancia el menor valor dado, quedando automáticamente definido el radio del rotor.
+
 \begin{itemize}
-	\item Velocidad de giro del rotor principal $\Omega$ = 60 $rad/s$
-	\item Radio del rotor principal $R$ = 2.26 $m$
+	\item Velocidad de giro del rotor principal $\Omega$ = 45 $rad/s$
+	\item Radio del rotor principal $R$ = 3.0248 $m$
 \end{itemize}
 
 \section{Helicóptero Semilla}
 
-Con este helicoptero semilla se pueden realizar unas primeras simulaciones de vuelo para comprobar si es válido y, en caso contrario, modificar el diseño para alcanzar unos resultados mejores.
+Con este helicoptero semilla se pueden realizar unas primeras simulaciones de vuelo para comprobar si es válido y, en caso contrario, modificar el diseño para alcanzar unos resultados mejores. Su obtención se consigue empleando la herramienta \emph{HEROES}, que primero adimensionalizará el helicóptero base ya definido en el capítulo, para despues dimensionar un nuevo modelo usando para ello los parámetros que hemos obtenido. Los resultados se recogen en las tablas \ref{RPHS}, \ref{RaHS}, \ref{FHS}, \ref{EHS} y \ref{InHS}.
+Cabe indicar que se exponen los mismos datos que del Bölkow Bo 105 para poder realizar una comparación rápida de ambos modelos. Además se han conservado todas las consideraciones hechas a la hora de modelizar el helicóptero base.
+
+\begin{table}[]
+	\centering
+	\begin{tabular}{|>{\columncolor{Gray}}c|c|}
+		\hline
+		Radio de las palas ($R$) & 3.0248 $m$ \\ \hline
+		Excentricidad ($e$) & 0 $m$ \\ \hline
+		Número de palas ($b$) & 2 \\ \hline
+		Torsión lineal de los perfiles ($\theta_1$) & -0.14 \\ \hline
+		Pendiente de la curva de sustentación ($\alpha$) & 6.113 $rad^{-1}$ \\ \hline
+		\cellcolor{Gray} & 0.0074 \\ \cline{2-2} 
+		\cellcolor{Gray} & 0.0096 $rad^{-1}$ \\ \cline{2-2} 
+		\multirow{-3}{*}{\cellcolor{Gray}Parámetros de la polar ($\delta_0$, $\delta_1$, $\delta_2$)} & 0.294 $rad^{-2}$ \\ \hline
+		Velocidad de giro del rotor ($\Omega$) & 45 $rad/s$ \\ \hline
+		Cuerda del perfil ($c$) & 0.3327 $m$ \\ \hline
+		Momento de inercia de la pala en batimiento ($I_\beta$) & 41.1204 $kgm^2$ \\ \hline
+		Momento de inercia de la pala en paso ($I_\theta$) & 01.2423 $kgm^2$ \\ \hline
+		Momento de inercia de la pala en arrastre ($I_\zeta$) & 42.3627 $kgm^2$ \\ \hline
+		Posición del centro de gravedad de la pala ($x_{GB}$) & 1.5063 $m$ \\ \hline
+		Masa de la pala ($m_b$) & 18.7982 $kg$ \\ \hline
+		Rigidez en batimiento ($k_\beta$) & 10330 $Nm/rad$ \\ \hline
+	\end{tabular}
+	\caption{Valores de diferentes parámetros del rotor principal del helicóptero semilla.}
+	\label{RPHS}
+\end{table}
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{|>{\columncolor{Gray}}c|c|}
+		\hline
+		Radio de las palas ($R$) & 0.5853 $m$ \\ \hline
+		Excentricidad ($e$) & 0 $m$ \\ \hline
+		Número de palas ($b$) & 2 \\ \hline
+		Torsión lineal de los perfiles ($\theta_1$) & \cellcolor[rgb]{ 1,  1,  1}0 \\ \hline
+		Pendiente de la curva de sustentación ($\alpha$) & 5.7 $rad^{-1}$ \\ \hline
+		\cellcolor{Gray} & 0.008 \\ \cline{2-2}
+		\cellcolor{Gray} & 0.0096 $rad^{-1}$ \\ \cline{2-2}
+		\multirow{-3}{*}{\cellcolor{Gray}Parámetros de la polar ($\delta_0$, $\delta_1$, $\delta_2$)} & 0.294 $rad^{-2}$ \\ \hline
+		Velocidad de giro del rotor ($\Omega$) & \cellcolor[rgb]{ 1,  1,  1}235.6194 $rad/s$ \\ \hline
+		Cuerda del perfil ($c$) & \cellcolor[rgb]{ 1,  1,  1}0.1109 $m$ \\ \hline
+		Momento de inercia de la pala en batimiento ($I_\beta$) & 0.1602 $kgm^2$ \\ \hline
+		Momento de inercia de la pala en paso ($I_\theta$) & 0.0058 $kgm^2$ \\ \hline
+		Momento de inercia de la pala en arrastre ($I_\zeta$) & 0.1659 $kgm^2$ \\ \hline
+		Posición del centro de gravedad de la pala ($X_{GB}$) & 0.2926 $m$ \\ \hline
+		Masa de la pala ($m_b$) & 1.4029 $kg$ \\ \hline
+		\cellcolor{Gray}Rigidez en batimiento ($I_\beta$) & $9.1151^{98}$ $Nm/rad$ \\ \hline
+	\end{tabular}%
+	\caption{Valores de diferentes parámetros del rotor antipar del helicóptero semilla.}
+	\label{RaHS}
+\end{table}%
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{|>{\columncolor{Gray}}c|c|}
+		\hline
+		\cellcolor{Gray}Longitud del fuselaje ($l_f$) & \cellcolor[rgb]{ 1,  1,  1}5.2734 $m$ \\ \hline
+		\cellcolor{Gray}Superficie en planta del fuselaje ($S_p$)& \cellcolor[rgb]{ 1,  1,  1}2.8464 $m^2$ \\ \hline
+		\cellcolor{Gray}Superficie lateral del fuselaje ($S_l$) & \cellcolor[rgb]{ 1,  1,  1}3.1501 \\ \hline
+		\cellcolor{Gray}Factor de interferencia del rotor principal sobre el fuselaje ($k_f$) & \cellcolor[rgb]{ 1,  1,  1}1 \\ \hline
+	\end{tabular}%
+	\caption{Valores de los parámetros del fuselaje dehelicóptero semilla.}
+	\label{FHS}
+\end{table}%
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{|>{\columncolor{Gray}}c|c|}
+		\hline
+		\cellcolor{Gray}Cuerda del estabilizador vertical ($c_{ev}$) & \cellcolor[rgb]{ 1,  1,  1}0.1848 $m$ \\ \hline
+		\cellcolor{Gray}Superficie del estabilizador vertical ($S_{ev}$)& \cellcolor[rgb]{ 1,  1,  1}0.3055 $m^2$ \\ \hline
+		\cellcolor{Gray}Ángulo de calado del estabilizador vertical ($\theta_{ev}$) & \cellcolor[rgb]{ 1,  1,  1}0.0812 $rad$ \\ \hline
+		\cellcolor{Gray}Cuerda del estabilizador horizontal ($c_{ev}$) & \cellcolor[rgb]{ 1,  1,  1}0.2464 $m$ \\ \hline
+		\cellcolor{Gray}Superficie del estabilizador horizontal/2 ($S_{ev}$)& \cellcolor[rgb]{ 1,  1,  1}0.1524 $m^2$ \\ \hline
+		\cellcolor{Gray}Ángulo de calado del estabilizador horizontal ($\theta_{ev}$) & \cellcolor[rgb]{ 1,  1,  1}0.0698 $rad$ \\ \hline
+	\end{tabular}%
+	\caption{Valores de diferentes parámetros de los estabilizadores vertical y horizontal del helicóptero semilla. La superficie del estabilizador horizontal corresponde a la mitad ya que el mismo esta dividido en 2 partes al haber usado como base el Bölkow Bo 105.}
+	\label{EHS}
+\end{table}%
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{|>{\columncolor{Gray}}c|c|}
+		\hline
+		\cellcolor{Gray}Peso del helicóptero ($W$) & \cellcolor[rgb]{ 1,  1,  1}4413 $N$ \\ \hline
+		\cellcolor{Gray}Momento de inercia del eje $x$ ($I_{x}$) & \cellcolor[rgb]{ 1,  1,  1}127.1591 $kg\cdot m^2$ \\ \hline
+		\cellcolor{Gray}Momento de inercia del eje $y$ ($I_{y}$) & \cellcolor[rgb]{ 1,  1,  1}441.2856 $kg\cdot m^2$ \\ \hline
+		\cellcolor{Gray}Momento de inercia del eje $z$ ($I_{z}$) & \cellcolor[rgb]{ 1,  1,  1}363.7301 $kg\cdot m^2$ \\ \hline
+		\cellcolor{Gray}Producto de inercia $xy$ ($I_{xy}$)& \cellcolor[rgb]{ 1,  1,  1}0 $kg\cdot m^2$ \\ \hline
+		\cellcolor{Gray}Producto de inercia $xz$ ($I_{xz}$)& \cellcolor[rgb]{ 1,  1,  1}58.566 $kg\cdot m^2$ \\ \hline
+		\cellcolor{Gray}Producto de inercia $yz$ ($I_{yz}$)& \cellcolor[rgb]{ 1,  1,  1}0 $kg\cdot m^2$ \\ \hline
+	\end{tabular}%
+	\caption{Valores de inercia dehelicóptero semilla.}
+	\label{InHS}
+\end{table}%
+
+Se observa claramente en los resultados que el proceso de generación del modelo del helicóptero semilla ha sido correcto, estando todas sus magnitudes dimensionalizadas acorde a los requisitos de diseño, especialmente la masa y el tamaño, que son significativamente diferentes al helicóptero base.
+También se observa que hay parámetros que se han mantenido iguales en ambos diseños. Estos parámetros son, por ejemplo, los ángulos de calado de las palas o la pendiente de la curva de sustentación de las palas. Esto se debe a que se ha supuesto en la generación del nuevo modelo que el diseño y la distribución de los componentes del helicóptero base se han trasladado al nuevo modelo, y se conservan los perfiles de las palas y el diseño de doble estabilizador horizontal entre otras características.
