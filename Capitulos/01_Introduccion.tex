@@ -1,6 +1,8 @@
 \thispagestyle{empty}
 \chapter{Introducción}
 
+\spacing{1.5}
+
 Como bien es sabido, el desarrollo de una nueva aeronave partiendo de 0 es un trabajo tremendamente complejo que supondría en la industria unos costes desmesurados. Por ello, en este Trabajo de Fin de Grado se plasmará el desarrollo de un diseño preliminar empleando para ello un análisis de vehículos semejantes ya existentes.\\
 
 La aeronave a desarrollar será un UAV de un MTOW de 450kg de peso, por lo que será fundamental desarrollar una pequeña base de datos de aeronaves similares para poder obtener un primer diseño.
@@ -74,6 +76,7 @@ Estos ángulos se pueden definir como el giro del sistema de ejes cuerpo respect
 	\caption{Representación de los ángulos de Euler, Guiñada, Cabeceo y Balanceo}
 	\label{AEuler}
 \end{figure}
+
 El sistema de ejes árbol tiene su centro $A$ en la intersección del eje del rotor con el plano del rotor y sus ejes forman un triedro a derechas orientándose $z_{A}$ hacia el lado opuesto al fuselaje y $x$ hacia la parte trasera del helicóptero, perteneciendo al plano del rotor.\\
 
 Por último, el sistema de ejes pala tiene su origen $E$ en la articulación de la pala. La dirección de $x_{b}$ es radial hacia la punta de la pala y la de $y_{b}$ es normal a ella, siendo $z_{b}$ tal que el triedro [$x_{b},y_{b},z_{b}$] sea a derechas.\\
@@ -224,8 +227,10 @@ donde $\mathrm{\textbf{x}}_e^*$ es el vector de estado sin incluir la velocidad 
 
 %Por aquí explicar que no se harán cálculos directamente, sino que se usará la herramienta. Descripción, sistema de "cajas", incógnitas de los problemas, soluciones...
 Para el cálculo de las actuaciones de la aeronave se empleará \emph{HEROES}.
-\emph{HEROES} es una herramienta de MATLAB desarrollada en conjunto por profesores y alumnos de la Escuela Técnica Superior de Ingeniería Aeronáutica y del Espacio de la Universidad Politécnica de Madrid, principalmente del departamento de Aeronaves y Vehículos Espaciales.\\
-Esta herramienta permite un cálculo rápido del equilibrado de un helicóptero (entre otras muchas funciones). Es muy importante saber distinguir en esta herramienta cuáles son las variables de entrada del problema y las de salida. Esto que en primera instancia puede parecer sencillo, requiere un nivel de comprensión alto de la mecánica del vuelo de un helicóptero.\\
+\emph{HEROES} es una herramienta de MATLAB desarrollada en conjunto por profesores y alumnos de la Escuela Técnica Superior de Ingeniería Aeronáutica y del Espacio de la Universidad Politécnica de Madrid, principalmente del departamento de Aeronaves y Vehículos Espaciales.
+
+Esta herramienta permite un cálculo rápido del equilibrado de un helicóptero (entre otras muchas funciones). Es muy importante saber distinguir en esta herramienta cuáles son las variables de entrada del problema y las de salida. Esto que en primera instancia puede parecer sencillo, requiere un nivel de comprensión alto de la mecánica del vuelo de un helicóptero.
+
 Para el caso del equilibrado, las variables de entrada principales serán el modelo de atmósfera y la altura, el modelo del vehículo y las condiciones de vuelo del mismo. \emph{HEROES}, con los datos aportados, generará un modelo adimensional y resolverá las ecuaciones del equilibrado para después dimensionalizar los resultados. Estos resultados son las variables de salida, y entre muchas otras se encuentran las potencias de los rotores, las fuerzas y momentos aerodinámicos y los controles del helicóptero.
 
 
@@ -242,3 +247,4 @@ Esto deja claro las características necesarias para la aeronave;
 \end{itemize}
 Como se observa, apenas se han definido numéricamente estas características, ya que en una primera aproximación no se conoce con exactitud la misión, por lo que todos estos parámetros se intentarán maximizar durante el diseño para obtener unas actuaciones lo mejores posible y que la aeronave pueda ser útil en un rango más amplio de situaciones.
 
+\singlespace

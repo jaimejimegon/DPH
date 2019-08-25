@@ -2,29 +2,31 @@
 \definecolor{Gray2}{rgb}{ .851,  .851,  .851}
 \chapter{Vuelo Horizontal}
 
+\spacing{1.5}
+
 Las condiciones para el vuelo rectilíneo son sencillas, la velocidad vertical ha de ser nula mientras que la horizontal no. Con estas condiciones y a nivel del mar se pueden obtener las gráficas \ref{PMVH}, \ref{ControlVH}, \ref{EulerVH} y \ref{PVH}, que ofrecen una primera aproximación del rendimiento de la aeronave. De ellas se puede obtener que el valor de potencia total mínimo es de 27,307 kW, y se da para una velocidad de vuelo de 28.73 m/s. Este valor resulta de especial interés ya que nos ofrece el vuelo de máxima autonomía,muy interesante en misiones de vigilancia.
 
 \begin{figure}
 	\centering
-	\includegraphics[width=80mm]{graficos/PMVH}
+	\includegraphics[width=90mm]{graficos/PMVH}
 	\caption{Consumo de Potencia de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo horizontal y limitación por potencia máxima continua disponible.}
 	\label{PMVH}
 \end{figure}
 \begin{figure}
 	\centering
-	\includegraphics[width=80mm]{graficos/ControlVH}
+	\includegraphics[width=90mm]{graficos/ControlVH}
 	\caption{Ángulos de control de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo horizontal}
 	\label{ControlVH}
 \end{figure}
 \begin{figure}
 	\centering
-	\includegraphics[width=80mm]{graficos/EulerVH}
+	\includegraphics[width=90mm]{graficos/EulerVH}
 	\caption{Ángulos de Euler de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo horizontal}
 	\label{EulerVH}
 \end{figure}
 \begin{figure}
 	\centering
-	\includegraphics[width=80mm]{graficos/PVH}
+	\includegraphics[width=90mm]{graficos/PVH}
 	\caption{Consumo de Potencia de los rotores principal y antipar en función de la velocidad de vuelo a nivel del mar para vuelo horizontal}
 	\label{PVH}
 \end{figure}
@@ -77,10 +79,10 @@ La tabla \ref{auttabla} recoge los datos necesarios para el cálculo de la auton
 	\begin{tabular}{|>{\columncolor{Gray}}c|c|}
 		\hline
 		\cellcolor{Gray2}Variable & \cellcolor{Gray2}Valor \\ \hline \hline
-		\cellcolor{Gray}Potencia para máxima autonomía ($P_{min,t_{e,max}}$)  & 27,307 kW \\ \hline
+		\cellcolor{Gray}Potencia para máxima autonomía ($P_{min,t_{e,max}}$)  & 27.307 kW \\ \hline
 		\cellcolor{Gray}Velocidad en régimen de máxima autonomía ($V$) & 28.73 m/s \\ \hline
-		\cellcolor{Gray}Consumo específico en régimen de máxima autonomía ($c_{e,t_{e,max}}$) & 8.98$\cdot$10$^-08$ \\ \hline
-		\cellcolor{Gray}Máxima autonomía ($t_{e,max}$) & 4.588 s \\ \hline
+		\cellcolor{Gray}Consumo específico en régimen de máxima autonomía ($c_{e,t_{e,max}}$) & 8.98$\cdot$10$^-08$ kg/W$\cdot$s \\ \hline
+		\cellcolor{Gray}Máxima autonomía ($t_{e,max}$) & 4.588 h \\ \hline
 	\end{tabular}%
 	\caption{Valores de inercia del helicóptero semilla.}
 	\label{auttabla}
@@ -90,7 +92,7 @@ A modo de comprobación, se han calculado las autonomías correspondientes a dis
 
 \begin{figure}
 	\centering
-	\includegraphics[width=80mm]{graficos/teVH}
+	\includegraphics[width=90mm]{graficos/teVH}
 	\caption{Autonomía de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo horizontal.}
 	\label{teVH}
 \end{figure}
@@ -106,11 +108,11 @@ En futuras fases de diseño será necesario definir el diseño estructural y los
 
 De entre estas cargas, las que aparecen en los elementos de la cola son muy importantes, ya que los momentos flectores inducidos por estas cargas en la propia cola pueden ser grandes debido a la longitud de esta, y habrá que diseñarla de tal manera que las posibles deformaciones que aparezcan en funcionamiento no interfieran en el mismo.
 
-Las figuras \ref{FAP} y \ref{FE} representan los valores de las fuerzas que aparecen en el rotor antipar y estabilizadors verticaly horizontal para cada velocidad de vuelo considerada. Solo se representas las cargas que tienen algún valor de interés, por ejemplo, las cargas en el eje y que se den en el estabilizador horizontal serán despreciables y no serán relevantes a la hora de calcular las cargas sobre la cola.
+Las figuras \ref{FAP} y \ref{FE} representan los valores de las fuerzas que aparecen en el rotor antipar y estabilizadores vertical y horizontal para cada velocidad de vuelo considerada. Solo se representas las cargas que tienen algún valor de interés, por ejemplo, las cargas en el eje y que se den en el estabilizador horizontal serán despreciables y no serán relevantes a la hora de calcular las cargas sobre la cola.
 
 \begin{figure}
 	\centering
-	\includegraphics[width=80mm]{graficos/FAP}
+	\includegraphics[width=90mm]{graficos/FAP}
 	\caption{Fuerzas sobre el rotor antipar a distintas velocidades de vuelo a nivel del mar según los ejes y y z.}
 	\label{FAP}
 \end{figure}
@@ -131,13 +133,53 @@ En lo que respecta al estabilizador horizontal, a bajas velocidades genera una c
 Queda por tanto claro que a mayor velocidad de vuelo las cargas serán mayores, llegando hasta cargas de 300 N que la cola tendrá que soportar en vuelo a punto fijo (debidas al rotor antipar), pero mayores para vuelos a altas velocidades (400 N para vuelos a 60 m/s).
 
 
-Estas simulaciones se han realizado suponiendo ángulos de ataque del fuselaje nulos, por lo que puede resultar interesante ver como evolucionan las cargas sobre los estabilizadores con el ángulo de ataque $\alpha_0$.
+Estas simulaciones se han realizado suponiendo ángulos de ataque del fuselaje nulos, por lo que puede resultar interesante ver como evolucionan las cargas sobre los estabilizadores con el ángulo de ataque $\alpha_0$ y el ángulo de resbalamiento $\beta_f$. La gráfica \ref{FEa} representa la variación más significativa de las cargas en los estabilizadores, las cargas sobre el estabilizador horizontal. Se aprecia que su comportamiento es el de un perfil aerodinámico, incluso se aprecia un comportamiento prácticamente lineal con el ángulo de ataque. Todo esto implica que si se desean reducir las cargas en la cola, conviene volar a pequeños ángulos de ataque negativos, lo que, como se representa en la figura \ref{PMVHa}, conlleva un aumento de la potencia necesaria y por tanto del consumo a la par que una reducción de la autonomía de vuelo.
 
 \begin{figure}
 	\centering
-	\subfigure[Estabilizador vertical]{\includegraphics[width=60mm]{graficos/FEVa}}
-	\subfigure[Estabilizador horizontal]{\includegraphics[width=60mm]{graficos/FEHa}}
-	\caption{Fuerzas sobre los estabilizadores (a) vertical y (b) horizontal a distintos ángulos de ataque a nivel del mar. Las fuerzas que se representan son horizontales (eje y) para el estabilizador vertical y verticales (eje z) para el estabilizador vertical.}
+	\includegraphics[width=90mm]{graficos/FEHa}
+	\caption{Fuerzas sobre el estabilizador horizontal a distintos ángulos de ataque a nivel del mar para una velocidad de vuelo de 28 m/s.}
 	\label{FEa}
 \end{figure}
 
+\begin{figure}
+	\centering
+	\includegraphics[width=90mm]{graficos/PMVHa}
+	\caption{Potencia necesaria para un vuelo horizontal a distintos ángulos de ataque a nivel del mar para una velocidad de vuelo de 28 m/s.}
+	\label{PMVHa}
+\end{figure}
+
+En estas circunstancias reducir el ángulo de ataque no resulta interesante, apenas variamos las cargas a costa de reducir la autonomía, pero si consideramos un vuelo con un ángulo de ataque $\alpha_f=0.025$ rad la autonomía se incrementa hasta las 5 horas y 20 minutos. Los resultados de estos cálculos se pueden encontrar en la tabla \ref{auttab2}.
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{|>{\columncolor{Gray}}c|c|}
+		\hline
+		\cellcolor{Gray2}Variable & \cellcolor{Gray2}Valor \\ \hline \hline
+		\cellcolor{Gray}Ángulo de ataque del fuselaje ($\alpha_f$)  & 0.025 rad \\ \hline
+		\cellcolor{Gray}Velocidad de vuelo ($V$) & 28.73 m/s \\ \hline
+		\cellcolor{Gray}Potencia necesaria ($PM$)  & 22.155 kW \\ \hline
+		\cellcolor{Gray}Consumo específico ($c_{e}$) & 9.54$\cdot$10$^-08$ kg/W$\cdot$s \\ \hline
+		\cellcolor{Gray}Autonomía ($t_{e,max}$) & 5.3231 h \\ \hline
+	\end{tabular}%
+	\caption{Valores de inercia del helicóptero semilla.}
+	\label{auttab2}
+\end{table}%
+
+\begin{figure}
+	\centering
+	\includegraphics[width=90mm]{graficos/FAPb}
+	\caption{Fuerzas sobre el rotor antipar a distintos ángulos de resbalamiento a nivel del mar para un vuelo horizontal a 28 m/s.}
+	\label{FAPb}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=90mm]{graficos/FEVb}
+	\caption{Fuerzas sobre el estabilizador vertical a ángulos de resbalamiento a nivel del mar para un vuelo horizontal a 28 m/s.}
+	\label{FEb}
+\end{figure}
+
+
+
+\singlespacing

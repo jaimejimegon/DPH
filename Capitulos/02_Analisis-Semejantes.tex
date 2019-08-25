@@ -3,6 +3,8 @@
 \newcolumntype{g} {>{\columncolor{Gray}}c}
 \chapter{Análisis de Semejantes. Helicóptero Semilla}
 
+\spacing{1.5}
+
 Tal y como se ha reflejado en la introducción, el proceso a seguir para optener un diseño preliminar, será el análisis de semejantes.
 Este análisis consiste en crear una base de datos de aeronaves ya existentes, cuyas características sean similares a las que podría tener la nuestra, de manera que mediante un análisis estadístico se pueda obtener una primera aproximación de algunas características de nuestra aeronave.\\
 
@@ -79,43 +81,43 @@ En este capítulo se pueden observar las gráficas que se obtienen del análisis
 
 \begin{figure}
 	\centering
-	\includegraphics[width=80mm]{graficos/anald}
+	\includegraphics[width=90mm]{graficos/anald}
 	\caption{Relación entre los diámetros de las palas de los helicópteros y sus MTOW junto a su línea de tendencia.}
 	\label{diamAS}
 \end{figure}
 \begin{figure}
 	\centering
-	\includegraphics[width=80mm]{graficos/analomega}
+	\includegraphics[width=90mm]{graficos/analomega}
 	\caption{Relación entre las velocidades de giro del rotor de los helicópteros y sus MTOW junto a su línea de tendencia.}
 	\label{omegaAS}
 \end{figure}
 \begin{figure}
 	\centering
-	\includegraphics[width=80mm]{graficos/analb}
+	\includegraphics[width=90mm]{graficos/analb}
 	\caption{Relación entre el número de palas del rotor principal de los helicópteros y sus MTOW junto a su línea de tendencia.}
 	\label{bAS}
 \end{figure}
 \begin{figure}
 	\centering
-	\includegraphics[width=80mm]{graficos/analbtr}
+	\includegraphics[width=90mm]{graficos/analbtr}
 	\caption{Relación entre el número de palas del rotor antipar de los helicópteros y sus MTOW junto a su línea de tendencia.}
 	\label{baAS}
 \end{figure}
 \begin{figure}
 	\centering
-	\includegraphics[width=80mm]{graficos/analaut}
+	\includegraphics[width=90mm]{graficos/analaut}
 	\caption{Relación entre las autonomías de los helicópteros y sus MTOW junto a su línea de tendencia.}
 	\label{autAS}
 \end{figure}
 \begin{figure}
 	\centering
-	\includegraphics[width=80mm]{graficos/analtecho}
+	\includegraphics[width=90mm]{graficos/analtecho}
 	\caption{Relación entre los techos de vuelo de los helicópteros y sus MTOW junto a su línea de tendencia.}
 	\label{techoAS}
 \end{figure}
 \begin{figure}
 	\centering
-	\includegraphics[width=80mm]{graficos/analv}
+	\includegraphics[width=90mm]{graficos/analv}
 	\caption{Relación entre las velocidades máximas de avance de los helicópteros y sus MTOW junto a su línea de tendencia.}
 	\label{vAS}
 \end{figure}
@@ -282,13 +284,13 @@ para poder dar un valor lo más óptimo posible, se ha realizado una simulación
 
 \begin{figure}
 	\centering
-	\includegraphics[width=80mm]{graficos/3d3d}
+	\includegraphics[width=90mm]{graficos/3d3d}
 	\caption{Consumo de Potencia de la aeronave en función de la velocidad de giro del rotor y el radio del mismo.}
 	\label{ORP}
 \end{figure}
 \begin{figure}
 	\centering
-	\includegraphics[width=80mm]{graficos/3d2d}
+	\includegraphics[width=90mm]{graficos/3d2d}
 	\caption{Consumo de Potencia de la aeronave en función de la velocidad de giro del rotor y el radio del mismo junto a la línea de las potencias mínimas para cada configuración concreta de $\Omega$ y la limitación de $\Omega$ a causa del $M_{crit}$ (0,4).}
 	\label{ORPM}
 \end{figure}
@@ -403,3 +405,5 @@ Cabe indicar que se exponen los mismos datos que del Bölkow Bo 105 para poder r
 
 Se observa claramente en los resultados que el proceso de generación del modelo del helicóptero semilla ha sido correcto, estando todas sus magnitudes dimensionalizadas acorde a los requisitos de diseño, especialmente la masa y el tamaño, que son significativamente diferentes al helicóptero base.
 También se observa que hay parámetros que se han mantenido iguales en ambos diseños. Estos parámetros son, por ejemplo, los ángulos de calado de las palas o la pendiente de la curva de sustentación de las palas. Esto se debe a que se ha supuesto en la generación del nuevo modelo que el diseño y la distribución de los componentes del helicóptero base se han trasladado al nuevo modelo, y se conservan los perfiles de las palas y el diseño de doble estabilizador horizontal entre otras características.
+
+\singlespacing
