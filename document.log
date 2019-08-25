@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.9)  25 AUG 2019 13:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.9)  25 AUG 2019 22:52
 entering extended mode
 **./document.tex
 (document.tex
@@ -646,7 +646,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-<Portadas/Portadadefinitiva.pdf, id=99, 597.79335pt x 845.19763pt>
+<Portadas/Portadadefinitiva.pdf, id=107, 597.79335pt x 845.19763pt>
 File: Portadas/Portadadefinitiva.pdf Graphic file (type pdf)
 <use Portadas/Portadadefinitiva.pdf>
 Package pdftex.def Info: Portadas/Portadadefinitiva.pdf  used on input line 59.
@@ -657,7 +657,7 @@ File: Portadas/Portadadefinitiva.pdf Graphic file (type pdf)
 Package pdftex.def Info: Portadas/Portadadefinitiva.pdf  used on input line 59.
 
 (pdftex.def)             Requested size: 597.79189pt x 845.19557pt.
-<Portadas/Portadadefinitiva.pdf, id=102, page=1, 597.79335pt x 845.19763pt>
+<Portadas/Portadadefinitiva.pdf, id=110, page=1, 597.79335pt x 845.19763pt>
 File: Portadas/Portadadefinitiva.pdf Graphic file (type pdf)
 <use Portadas/Portadadefinitiva.pdf, page 1>
 Package pdftex.def Info: Portadas/Portadadefinitiva.pdf , page1 used on input l
@@ -788,7 +788,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
  []
 
 [7]
-<imagenes/AEuler.png, id=177, 1927.2pt x 872.25874pt>
+<imagenes/AEuler.png, id=185, 1927.2pt x 872.25874pt>
 File: imagenes/AEuler.png Graphic file (type png)
 <use imagenes/AEuler.png>
 Package pdftex.def Info: imagenes/AEuler.png  used on input line 75.
@@ -866,7 +866,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/anald-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/anald-eps-converted-to.pdf, id=280, 362.35374pt x 296.10625pt>
+<graficos/anald-eps-converted-to.pdf, id=288, 362.35374pt x 296.10625pt>
 File: graficos/anald-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/anald-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/anald-eps-converted-to.pdf  used on input lin
@@ -886,7 +886,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analomega-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analomega-eps-converted-to.pdf, id=281, 371.3875pt x 296.10625pt>
+<graficos/analomega-eps-converted-to.pdf, id=289, 371.3875pt x 296.10625pt>
 File: graficos/analomega-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analomega-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analomega-eps-converted-to.pdf  used on input
@@ -906,7 +906,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analb-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analb-eps-converted-to.pdf, id=282, 362.35374pt x 296.10625pt>
+<graficos/analb-eps-converted-to.pdf, id=290, 362.35374pt x 296.10625pt>
 File: graficos/analb-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analb-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analb-eps-converted-to.pdf  used on input lin
@@ -926,7 +926,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analbtr-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analbtr-eps-converted-to.pdf, id=283, 368.37625pt x 296.10625pt>
+<graficos/analbtr-eps-converted-to.pdf, id=291, 368.37625pt x 296.10625pt>
 File: graficos/analbtr-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analbtr-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analbtr-eps-converted-to.pdf  used on input l
@@ -946,7 +946,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analaut-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analaut-eps-converted-to.pdf, id=284, 368.37625pt x 296.10625pt>
+<graficos/analaut-eps-converted-to.pdf, id=292, 368.37625pt x 296.10625pt>
 File: graficos/analaut-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analaut-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analaut-eps-converted-to.pdf  used on input l
@@ -966,7 +966,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analtecho-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analtecho-eps-converted-to.pdf, id=285, 384.43625pt x 296.10625pt>
+<graficos/analtecho-eps-converted-to.pdf, id=293, 384.43625pt x 296.10625pt>
 File: graficos/analtecho-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analtecho-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analtecho-eps-converted-to.pdf  used on input
@@ -986,7 +986,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analv-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analv-eps-converted-to.pdf, id=286, 379.4175pt x 296.10625pt>
+<graficos/analv-eps-converted-to.pdf, id=294, 379.4175pt x 296.10625pt>
 File: graficos/analv-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analv-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analv-eps-converted-to.pdf  used on input lin
@@ -1029,7 +1029,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/3d3d-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/3d3d-eps-converted-to.pdf, id=377, 422.57875pt x 317.185pt>
+<graficos/3d3d-eps-converted-to.pdf, id=385, 422.57875pt x 317.185pt>
 File: graficos/3d3d-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/3d3d-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/3d3d-eps-converted-to.pdf  used on input line
@@ -1049,7 +1049,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/3d2d-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/3d2d-eps-converted-to.pdf, id=378, 433.62pt x 369.38pt>
+<graficos/3d2d-eps-converted-to.pdf, id=386, 433.62pt x 369.38pt>
 File: graficos/3d2d-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/3d2d-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/3d2d-eps-converted-to.pdf  used on input line
@@ -1068,10 +1068,10 @@ LaTeX Warning: No positions in optional float specifier.
 ]
 Cap\'{\i }tulo 3.
 Package epstopdf Info: Source file: <graficos/PMVH.eps>
-(epstopdf)                    date: 2019-08-23 14:45:48
+(epstopdf)                    date: 2019-08-25 13:31:33
 (epstopdf)                    size: 25538 bytes
 (epstopdf)             Output file: <graficos/PMVH-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-25 11:12:21
+(epstopdf)                    date: 2019-08-25 20:51:57
 (epstopdf)                    size: 9395 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/PMVH-eps-converted
 -to.pdf graficos/PMVH.eps>
@@ -1081,17 +1081,17 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVH-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVH-eps-converted-to.pdf, id=441, 379.4175pt x 310.15875pt>
+<graficos/PMVH-eps-converted-to.pdf, id=449, 379.4175pt x 310.15875pt>
 File: graficos/PMVH-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVH-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PMVH-eps-converted-to.pdf  used on input line
  11.
 (pdftex.def)             Requested size: 256.0748pt x 209.33392pt.
 Package epstopdf Info: Source file: <graficos/ControlVH.eps>
-(epstopdf)                    date: 2019-08-23 14:45:50
+(epstopdf)                    date: 2019-08-25 13:31:35
 (epstopdf)                    size: 34085 bytes
 (epstopdf)             Output file: <graficos/ControlVH-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-25 11:12:22
+(epstopdf)                    date: 2019-08-25 20:51:58
 (epstopdf)                    size: 14133 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/ControlVH-eps-conv
 erted-to.pdf graficos/ControlVH.eps>
@@ -1101,17 +1101,17 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/ControlVH-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/ControlVH-eps-converted-to.pdf, id=442, 388.45125pt x 297.11pt>
+<graficos/ControlVH-eps-converted-to.pdf, id=450, 388.45125pt x 297.11pt>
 File: graficos/ControlVH-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/ControlVH-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/ControlVH-eps-converted-to.pdf  used on input
  line 17.
 (pdftex.def)             Requested size: 256.0748pt x 195.86652pt.
 Package epstopdf Info: Source file: <graficos/EulerVH.eps>
-(epstopdf)                    date: 2019-08-23 14:45:51
+(epstopdf)                    date: 2019-08-25 13:31:36
 (epstopdf)                    size: 37944 bytes
 (epstopdf)             Output file: <graficos/EulerVH-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-25 11:12:22
+(epstopdf)                    date: 2019-08-25 20:51:58
 (epstopdf)                    size: 15503 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/EulerVH-eps-conver
 ted-to.pdf graficos/EulerVH.eps>
@@ -1121,17 +1121,17 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/EulerVH-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/EulerVH-eps-converted-to.pdf, id=443, 387.4475pt x 297.11pt>
+<graficos/EulerVH-eps-converted-to.pdf, id=451, 387.4475pt x 297.11pt>
 File: graficos/EulerVH-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/EulerVH-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/EulerVH-eps-converted-to.pdf  used on input l
 ine 23.
 (pdftex.def)             Requested size: 256.0748pt x 196.36974pt.
 Package epstopdf Info: Source file: <graficos/PVH.eps>
-(epstopdf)                    date: 2019-08-23 14:45:52
+(epstopdf)                    date: 2019-08-25 13:31:37
 (epstopdf)                    size: 24425 bytes
 (epstopdf)             Output file: <graficos/PVH-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-25 11:12:23
+(epstopdf)                    date: 2019-08-25 20:51:59
 (epstopdf)                    size: 8926 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/PVH-eps-converted-
 to.pdf graficos/PVH.eps>
@@ -1141,7 +1141,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PVH-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PVH-eps-converted-to.pdf, id=444, 377.41pt x 310.15875pt>
+<graficos/PVH-eps-converted-to.pdf, id=452, 377.41pt x 310.15875pt>
 File: graficos/PVH-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PVH-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PVH-eps-converted-to.pdf  used on input line 
@@ -1150,11 +1150,6 @@ Package pdftex.def Info: graficos/PVH-eps-converted-to.pdf  used on input line
 [37] [38 <./graficos/PMVH-eps-converted-to.pdf> <./graficos/ControlVH-eps-conve
 rted-to.pdf>] [39 <./graficos/EulerVH-eps-converted-to.pdf> <./graficos/PVH-eps
 -converted-to.pdf>]
-
-Package natbib Warning: Citation `Filippone' on page 40 undefined on input line
- 49.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [40]
@@ -1167,10 +1162,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [41]
 Package epstopdf Info: Source file: <graficos/teVH.eps>
-(epstopdf)                    date: 2019-08-23 14:45:52
+(epstopdf)                    date: 2019-08-25 13:31:38
 (epstopdf)                    size: 23273 bytes
 (epstopdf)             Output file: <graficos/teVH-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-25 11:12:24
+(epstopdf)                    date: 2019-08-25 20:52:00
 (epstopdf)                    size: 8653 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/teVH-eps-converted
 -to.pdf graficos/teVH.eps>
@@ -1180,7 +1175,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/teVH-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/teVH-eps-converted-to.pdf, id=509, 379.4175pt x 297.11pt>
+<graficos/teVH-eps-converted-to.pdf, id=520, 379.4175pt x 297.11pt>
 File: graficos/teVH-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/teVH-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/teVH-eps-converted-to.pdf  used on input line
@@ -1204,7 +1199,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/FAP-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/FAP-eps-converted-to.pdf, id=521, 388.45125pt x 297.11pt>
+<graficos/FAP-eps-converted-to.pdf, id=532, 388.45125pt x 297.11pt>
 File: graficos/FAP-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/FAP-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/FAP-eps-converted-to.pdf  used on input line 
@@ -1224,7 +1219,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/FEV-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/FEV-eps-converted-to.pdf, id=522, 381.425pt x 299.1175pt>
+<graficos/FEV-eps-converted-to.pdf, id=533, 381.425pt x 299.1175pt>
 File: graficos/FEV-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/FEV-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/FEV-eps-converted-to.pdf  used on input line 
@@ -1244,7 +1239,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/FEH-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/FEH-eps-converted-to.pdf, id=523, 381.425pt x 299.1175pt>
+<graficos/FEH-eps-converted-to.pdf, id=534, 381.425pt x 299.1175pt>
 File: graficos/FEH-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/FEH-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/FEH-eps-converted-to.pdf  used on input line 
@@ -1256,93 +1251,708 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [43]
 [44 <./graficos/FAP-eps-converted-to.pdf> <./graficos/FEV-eps-converted-to.pdf>
  <./graficos/FEH-eps-converted-to.pdf>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 135.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 135.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@nomath' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\setbox' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\thinmuskip' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\medmuskip' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\m@ne' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\thickmuskip' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ne' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\setbox' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tw@' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@tempa' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathchoice' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\displaystyle' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\textstyle' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\scriptstyle' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\scriptscriptstyle' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endgroup' on input line 135.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 135.
+
+[45]
 Package epstopdf Info: Source file: <graficos/FEHa.eps>
-(epstopdf)                    date: 2019-08-25 11:31:21
+(epstopdf)                    date: 2019-08-25 21:02:43
 (epstopdf)                    size: 27848 bytes
 (epstopdf)             Output file: <graficos/FEHa-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-25 11:33:51
-(epstopdf)                    size: 12174 bytes
+(epstopdf)                    date: 2019-08-25 21:05:10
+(epstopdf)                    size: 12169 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/FEHa-eps-converted
 -to.pdf graficos/FEHa.eps>
-(epstopdf)             \includegraphics on input line 140.
+(epstopdf)             \includegraphics on input line 141.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./graficos/FEHa-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/FEHa-eps-converted-to.pdf, id=557, 394.47375pt x 297.11pt>
+<graficos/FEHa-eps-converted-to.pdf, id=573, 394.47375pt x 297.11pt>
 File: graficos/FEHa-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/FEHa-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/FEHa-eps-converted-to.pdf  used on input line
- 140.
+ 141.
 (pdftex.def)             Requested size: 256.0748pt x 192.86986pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [45]
 Package epstopdf Info: Source file: <graficos/PMVHa.eps>
-(epstopdf)                    date: 2019-08-25 11:31:21
+(epstopdf)                    date: 2019-08-25 21:02:43
 (epstopdf)                    size: 25305 bytes
 (epstopdf)             Output file: <graficos/PMVHa-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-25 11:33:52
+(epstopdf)                    date: 2019-08-25 21:05:10
 (epstopdf)                    size: 10640 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/PMVHa-eps-converte
 d-to.pdf graficos/PMVHa.eps>
-(epstopdf)             \includegraphics on input line 147.
+(epstopdf)             \includegraphics on input line 148.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVHa-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVHa-eps-converted-to.pdf, id=564, 386.44376pt x 310.15875pt>
+<graficos/PMVHa-eps-converted-to.pdf, id=574, 386.44376pt x 310.15875pt>
 File: graficos/PMVHa-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVHa-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PMVHa-eps-converted-to.pdf  used on input lin
-e 147.
+e 148.
 (pdftex.def)             Requested size: 256.0748pt x 205.52415pt.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@nomath' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\setbox' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\thinmuskip' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\medmuskip' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\m@ne' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\thickmuskip' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ne' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\setbox' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tw@' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beta' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beta' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@tempa' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathchoice' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\displaystyle' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beta' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\textstyle' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beta' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\scriptstyle' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beta' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\scriptscriptstyle' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beta' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endgroup' on input line 170.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 170.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46 <./graficos/FEHa-eps-converted-to.pdf>] [47 <./graficos/PMVHa-eps-converte
+d-to.pdf>]
 Package epstopdf Info: Source file: <graficos/FAPb.eps>
-(epstopdf)                    date: 2019-08-23 14:10:02
-(epstopdf)                    size: 26691 bytes
+(epstopdf)                    date: 2019-08-25 22:23:43
+(epstopdf)                    size: 26845 bytes
 (epstopdf)             Output file: <graficos/FAPb-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-23 14:11:27
-(epstopdf)                    size: 11647 bytes
+(epstopdf)                    date: 2019-08-25 22:19:33
+(epstopdf)                    size: 11727 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/FAPb-eps-converted
 -to.pdf graficos/FAPb.eps>
-(epstopdf)             \includegraphics on input line 171.
-Package epstopdf Info: Output file is already uptodate.
+(epstopdf)             \includegraphics on input line 178.
+runsystem(epstopdf --outfile=graficos/FAPb-eps-converted-to.pdf graficos/FAPb.e
+ps)...executed (allowed).
+
+Package epstopdf Info: Result file: <graficos/FAPb-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-08-25 22:52:49
+(epstopdf)                    size: 11727 bytes.
 
 
 pdfTeX warning: pdflatex.exe (file ./graficos/FAPb-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/FAPb-eps-converted-to.pdf, id=566, 389.455pt x 297.11pt>
+<graficos/FAPb-eps-converted-to.pdf, id=599, 389.455pt x 297.11pt>
 File: graficos/FAPb-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/FAPb-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/FAPb-eps-converted-to.pdf  used on input line
- 171.
+ 178.
 (pdftex.def)             Requested size: 256.0748pt x 195.3633pt.
 Package epstopdf Info: Source file: <graficos/FEVb.eps>
-(epstopdf)                    date: 2019-08-23 14:10:02
-(epstopdf)                    size: 27789 bytes
+(epstopdf)                    date: 2019-08-25 22:23:43
+(epstopdf)                    size: 28248 bytes
 (epstopdf)             Output file: <graficos/FEVb-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-23 14:12:08
-(epstopdf)                    size: 12373 bytes
+(epstopdf)                    date: 2019-08-25 22:19:34
+(epstopdf)                    size: 12314 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/FEVb-eps-converted
 -to.pdf graficos/FEVb.eps>
-(epstopdf)             \includegraphics on input line 178.
-Package epstopdf Info: Output file is already uptodate.
+(epstopdf)             \includegraphics on input line 185.
+runsystem(epstopdf --outfile=graficos/FEVb-eps-converted-to.pdf graficos/FEVb.e
+ps)...executed (allowed).
+
+Package epstopdf Info: Result file: <graficos/FEVb-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-08-25 22:52:49
+(epstopdf)                    size: 12314 bytes.
 
 
 pdfTeX warning: pdflatex.exe (file ./graficos/FEVb-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/FEVb-eps-converted-to.pdf, id=567, 401.5pt x 297.11pt>
+<graficos/FEVb-eps-converted-to.pdf, id=600, 389.455pt x 297.11pt>
 File: graficos/FEVb-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/FEVb-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/FEVb-eps-converted-to.pdf  used on input line
- 178.
-(pdftex.def)             Requested size: 256.0748pt x 189.50598pt.
-) [46 <./graficos/FEHa-eps-converted-to.pdf>] [47 <./graficos/PMVHa-eps-convert
-ed-to.pdf> <./graficos/FAPb-eps-converted-to.pdf>] (document.bbl [48 <./grafico
-s/FEVb-eps-converted-to.pdf>]
+ 185.
+(pdftex.def)             Requested size: 256.0748pt x 195.3633pt.
+Package epstopdf Info: Source file: <graficos/deltafyb.eps>
+(epstopdf)                    date: 2019-08-25 22:23:44
+(epstopdf)                    size: 25702 bytes
+(epstopdf)             Output file: <graficos/deltafyb-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-08-25 22:19:35
+(epstopdf)                    size: 10778 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/deltafyb-eps-conve
+rted-to.pdf graficos/deltafyb.eps>
+(epstopdf)             \includegraphics on input line 192.
+runsystem(epstopdf --outfile=graficos/deltafyb-eps-converted-to.pdf graficos/de
+ltafyb.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <graficos/deltafyb-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-08-25 22:52:50
+(epstopdf)                    size: 10778 bytes.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/deltafyb-eps-converted-to.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<graficos/deltafyb-eps-converted-to.pdf, id=601, 380.42125pt x 297.11pt>
+File: graficos/deltafyb-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/deltafyb-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/deltafyb-eps-converted-to.pdf  used on input 
+line 192.
+(pdftex.def)             Requested size: 256.0748pt x 200.0011pt.
+Package epstopdf Info: Source file: <graficos/Potb.eps>
+(epstopdf)                    date: 2019-08-25 22:12:02
+(epstopdf)                    size: 32695 bytes
+(epstopdf)             Output file: <graficos/Potb-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-08-25 22:19:35
+(epstopdf)                    size: 14489 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/Potb-eps-converted
+-to.pdf graficos/Potb.eps>
+(epstopdf)             \includegraphics on input line 199.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/Potb-eps-converted-to.pdf): PDF i
+nclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<graficos/Potb-eps-converted-to.pdf, id=602, 379.4175pt x 310.15875pt>
+File: graficos/Potb-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/Potb-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/Potb-eps-converted-to.pdf  used on input line
+ 199.
+(pdftex.def)             Requested size: 256.0748pt x 209.33392pt.
+Package epstopdf Info: Source file: <graficos/FEHb.eps>
+(epstopdf)                    date: 2019-08-25 22:23:44
+(epstopdf)                    size: 29168 bytes
+(epstopdf)             Output file: <graficos/FEHb-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-08-25 22:19:36
+(epstopdf)                    size: 12560 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/FEHb-eps-converted
+-to.pdf graficos/FEHb.eps>
+(epstopdf)             \includegraphics on input line 211.
+runsystem(epstopdf --outfile=graficos/FEHb-eps-converted-to.pdf graficos/FEHb.e
+ps)...executed (allowed).
+
+Package epstopdf Info: Result file: <graficos/FEHb-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-08-25 22:52:51
+(epstopdf)                    size: 12560 bytes.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/FEHb-eps-converted-to.pdf): PDF i
+nclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<graficos/FEHb-eps-converted-to.pdf, id=604, 396.48125pt x 297.11pt>
+File: graficos/FEHb-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/FEHb-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/FEHb-eps-converted-to.pdf  used on input line
+ 211.
+(pdftex.def)             Requested size: 256.0748pt x 191.89516pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48]
+[49 <./graficos/FAPb-eps-converted-to.pdf> <./graficos/FEVb-eps-converted-to.pd
+f>] [50 <./graficos/deltafyb-eps-converted-to.pdf> <./graficos/Potb-eps-convert
+ed-to.pdf>]) [51 <./graficos/FEHb-eps-converted-to.pdf>] (document.bbl [52
+
+]
 LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 12.
 
 
@@ -1355,37 +1965,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--25
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 27--32
+Underfull \hbox (badness 1178) in paragraph at lines 32--37
 []\OT1/lmss/m/n/12 ROTAX.  Ma-nual del usua-rio de los mo-to-res ro-tax ti-po 9
 12.  [][]$\OT1/lmtt/m/n/12 http :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--32
+Underfull \hbox (badness 10000) in paragraph at lines 32--37
 \OT1/lmtt/m/n/12 / / www . aviasport . com / rotax / Documentacion _ 4T / Manua
 les / Spanish /
  []
 
 
-Underfull \hbox (badness 3333) in paragraph at lines 41--46
+Underfull \hbox (badness 3333) in paragraph at lines 46--51
 []\OT1/lmss/m/n/12 USSOCOM.  Ex-hi-bit r-2, rdt&e bud-get item jus-ti-fi-ca-tio
 n.  [][]$\OT1/lmtt/m/n/12 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--46
+Underfull \hbox (badness 10000) in paragraph at lines 46--51
 \OT1/lmtt/m/n/12 / / apps . dtic . mil / descriptivesum / Y2012 / Other / stamp
 ed / 0305219BB _
  []
 
 )
-
-Package natbib Warning: There were undefined citations.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 75.
-[49
-
-]
+ [53]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 75.
  (document.aux
 LaTeX Info: Redefining \. on input line 24.
@@ -1393,8 +1998,15 @@ LaTeX Info: Redefining \% on input line 24.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 75.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 75.
-Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 1E57764FC6CF0F5E380021D3BCD3C4EA;1877.
+
+
+Package rerunfilecheck Warning: File `document.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `document.out':
+(rerunfilecheck)             Before: 82F2ACD89B61F7DF63E08386B0CEB231;2168
+(rerunfilecheck)             After:  0DAEA91199E703301F868B4AEF21D8D4;2272.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
  )
 (\end occurred inside a group at level 3)
@@ -1404,11 +2016,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
 ### semi simple group (level 1) entered at line 4 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 10556 strings out of 492946
- 161756 string characters out of 3126389
- 291248 words of memory out of 3000000
- 14063 multiletter control sequences out of 15000+200000
- 87832 words of font info for 62 fonts, out of 3000000 for 9000
+ 10616 strings out of 492946
+ 162936 string characters out of 3126389
+ 292051 words of memory out of 3000000
+ 14104 multiletter control sequences out of 15000+200000
+ 109454 words of font info for 80 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,18n,43p,959b,770s stack positions out of 5000i,500n,10000p,200000b,50000s
 {E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvi
@@ -1441,9 +2053,9 @@ ype1/public/lm/lmsy8.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/font
 s/type1/public/lm/lmtt12.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/
 fonts/type1/urw/helvetic/uhvr8a.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on document.pdf (49 pages, 1167554 bytes).
+Output written on document.pdf (53 pages, 1210919 bytes).
 PDF statistics:
- 727 PDF objects out of 1000 (max. 8388607)
- 144 named destinations out of 1000 (max. 500000)
- 323 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 783 PDF objects out of 1000 (max. 8388607)
+ 155 named destinations out of 1000 (max. 500000)
+ 354 words of extra memory for PDF output out of 10000 (max. 10000000)
 

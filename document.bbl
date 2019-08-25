@@ -1,4 +1,4 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{7}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -22,6 +22,11 @@ DAF.
 \newblock
   \url{http://www.saffm.hq.af.mil/shared/media/document/AFD-100128-072.pdf},
   2011.
+
+\bibitem[Filippone(2006)]{Filippone}
+Antonio Filippone.
+\newblock \emph{Flight Performance of Fixed and Rtary Wing Aircraft}.
+\newblock Elsevier, 2006.
 
 \bibitem[ROTAX(2007)]{ROTAX}
 ROTAX.

@@ -102,7 +102,7 @@ A modo de comprobación, se han calculado las autonomías correspondientes a dis
 %consumo especifico al 100% 285g/kWh
 %Con el la potencia de máxima autonomía a 31,5kW, una regla de 3 nos dice que el consumo es un 51.9069026% del de maxima potencia,regla de 3, no 100% seguro.
 
-\section{Fuerzas y Momentos Sobre los Elementos de la Estructura}
+\section{Fuerzas y Momentos Sobre los Elementos de la Cola}
 
 En futuras fases de diseño será necesario definir el diseño estructural y los materiales con los que se construirá la aeronave, por lo que puede ser interesante realizar un análisis de las fuerzas que deberán soportar algunos elementos para tener una idea aproximada de las cargas que pueden aparecer en servicio.
 
@@ -132,13 +132,14 @@ En lo que respecta al estabilizador horizontal, a bajas velocidades genera una c
 
 Queda por tanto claro que a mayor velocidad de vuelo las cargas serán mayores, llegando hasta cargas de 300 N que la cola tendrá que soportar en vuelo a punto fijo (debidas al rotor antipar), pero mayores para vuelos a altas velocidades (400 N para vuelos a 60 m/s).
 
+\subsection{Variación de las Cargas en la Cola con el Ángulo de Ataque $\boldsymbol{\alpha_f}$}
 
 Estas simulaciones se han realizado suponiendo ángulos de ataque del fuselaje nulos, por lo que puede resultar interesante ver como evolucionan las cargas sobre los estabilizadores con el ángulo de ataque $\alpha_0$ y el ángulo de resbalamiento $\beta_f$. La gráfica \ref{FEa} representa la variación más significativa de las cargas en los estabilizadores, las cargas sobre el estabilizador horizontal. Se aprecia que su comportamiento es el de un perfil aerodinámico, incluso se aprecia un comportamiento prácticamente lineal con el ángulo de ataque. Todo esto implica que si se desean reducir las cargas en la cola, conviene volar a pequeños ángulos de ataque negativos, lo que, como se representa en la figura \ref{PMVHa}, conlleva un aumento de la potencia necesaria y por tanto del consumo a la par que una reducción de la autonomía de vuelo.
 
 \begin{figure}
 	\centering
 	\includegraphics[width=90mm]{graficos/FEHa}
-	\caption{Fuerzas sobre el estabilizador horizontal a distintos ángulos de ataque a nivel del mar para una velocidad de vuelo de 28 m/s.}
+	\caption{Fuerzas verticales (eje z) sobre el estabilizador horizontal a distintos ángulos de ataque a nivel del mar para una velocidad de vuelo de 28 m/s.}
 	\label{FEa}
 \end{figure}
 
@@ -149,7 +150,7 @@ Estas simulaciones se han realizado suponiendo ángulos de ataque del fuselaje n
 	\label{PMVHa}
 \end{figure}
 
-En estas circunstancias reducir el ángulo de ataque no resulta interesante, apenas variamos las cargas a costa de reducir la autonomía, pero si consideramos un vuelo con un ángulo de ataque $\alpha_f=0.025$ rad la autonomía se incrementa hasta las 5 horas y 20 minutos. Los resultados de estos cálculos se pueden encontrar en la tabla \ref{auttab2}.
+En estas circunstancias reducir el ángulo de ataque no resulta interesante, apenas variamos las cargas a costa de reducir la autonomía, pero si consideramos un vuelo con un ángulo de ataque $\alpha_f=$0.025 rad la autonomía se incrementa hasta las 5 horas y 20 minutos. Los resultados de estos cálculos se pueden encontrar en la tabla \ref{auttab2}.
 
 \begin{table}[htbp]
 	\centering
@@ -162,24 +163,58 @@ En estas circunstancias reducir el ángulo de ataque no resulta interesante, ape
 		\cellcolor{Gray}Consumo específico ($c_{e}$) & 9.54$\cdot$10$^-08$ kg/W$\cdot$s \\ \hline
 		\cellcolor{Gray}Autonomía ($t_{e,max}$) & 5.3231 h \\ \hline
 	\end{tabular}%
-	\caption{Valores de inercia del helicóptero semilla.}
+	\caption{Parámetros relacionados con el cálculo de la autonomía del helicóptero en las condiciones de vuelo horizontal a 28.73 m/s con ángulo de ataque de 0.025 rad.}
 	\label{auttab2}
 \end{table}%
+
+\subsection{Variación de las Cargas en la Cola con el Ángulo de Resbalamiento $\boldsymbol{\beta_f}$}
+
+De manera análoga a lo hecho con el ángulo de ataque, se han calculado las variaciones de las cargas en los elementos de la cola con el ángulo de resbalamiento $\beta_f$.
+El caso del estabilizador vertical recuerda al del estabilizador horizontal del apartado anterior pero de forma inversa, la carga varía de forma casi lineal con el ángulo de resbalamiento, a mayor ángulo, menor carga (figura \ref{FEVb}). Como se ha dicho anteriormente, el estabilizador vertical ayuda a reducir la potencia necesaria para el rotor antipar, por lo que esta reducción hace necesario un nuevo cálculo de las cargas sobre el mismo. Dicho cálculo se refleja en la gráfica \ref{FAPb} y en ella se observa la tendencia esperada, las cargas aumentan con $\beta_f$, pero para comprobar si las cargas totales son menores o mayores, se ha representado en la gráfica \ref{deltafyb} que indica la variación total de las cargas horizontales debidas a estos elementos respecto a las cargas para ángulo de resbalamiento nulo.
+Esta gráfica deja claro que en lo que respecta a las cargas sobre la cola lo mas favorable es volar a ángulo de resbalamiento ligeramente positivo.  
 
 \begin{figure}
 	\centering
 	\includegraphics[width=90mm]{graficos/FAPb}
-	\caption{Fuerzas sobre el rotor antipar a distintos ángulos de resbalamiento a nivel del mar para un vuelo horizontal a 28 m/s.}
+	\caption{Fuerzas horizontales (eje y) sobre el rotor antipar a distintos ángulos de resbalamiento a nivel del mar para un vuelo horizontal a 28 m/s.}
 	\label{FAPb}
 \end{figure}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=90mm]{graficos/FEVb}
-	\caption{Fuerzas sobre el estabilizador vertical a ángulos de resbalamiento a nivel del mar para un vuelo horizontal a 28 m/s.}
-	\label{FEb}
+	\caption{Fuerzas horizontales (eje y) sobre el estabilizador vertical a ángulos de resbalamiento a nivel del mar para un vuelo horizontal a 28 m/s.}
+	\label{FEVb}
 \end{figure}
 
+\begin{figure}
+	\centering
+	\includegraphics[width=90mm]{graficos/deltafyb}
+	\caption{Variación de la fuerza horizontal (eje y) sobre la cola debida al estabilizador vertical y el rotor antipar a distintos ángulos de resbalamiento respecto a ángulo nulo a nivel del mar para un vuelo horizontal a 28 m/s.}
+	\label{deltafyb}
+\end{figure}
 
+\begin{figure}
+	\centering
+	\includegraphics[width=90mm]{graficos/Potb}
+	\caption{Variación de la potencia necesaria para el vuelo horizontal a nivel del mar a distintas velocidades y ángulos de resbalamiento.}
+	\label{Potb}
+\end{figure}
+
+Para comprobar si puede resultar más eficiente volar con ángulo de resbalamiento no nulo, se ha vuelto a simular el mismo vuelo que al principio del capítulo para varios valores del ángulo de resbalamiento y los resultados de las potencias necesarias se han plasmado en la gráfica \ref{Potb} donde se observa que la potencia necesaria para el vuelo disminuye según aumenta el ángulo de resbalamiento.
+
+Todo esto indica en un primer momento que resulta mas favorable, tanto para reducir cargas como potencia necesaria, volar a pequeños ángulos de resbalamiento.
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=90mm]{graficos/FEHb}
+	\caption{Fuerzas verticales (eje z) sobre el estabilizador horizontal a ángulos de resbalamiento a nivel del mar para un vuelo horizontal a 28 m/s.}
+	\label{FEHb}
+\end{figure}
+
+\section{Vuelo a Pequeños Ángulos de Ataque y Resbalamiento}
+
+Después de los resultados obtenidos, resulta conveniente realizar una simulación aplicando las condiciones que se ha calculado son más favorables para el vuelo, y los resultados se recogen en este apartado.
 
 \singlespacing
