@@ -2,6 +2,7 @@
 \documentclass[12pt, a4paper]{book}
 \usepackage{lmodern}
 \usepackage[spanish, es-tabla]{babel} % Selecciona el español para palabras introducidas automáticamente, p.ej. "septiembre" en la fecha y especifica que se use la palabra Tabla en vez de Cuadro
+\decimalpoint
 \usepackage{url} % ,href} %para incluir URLs e hipervínculos dentro del texto (aunque hay que instalar href)
 \usepackage{graphics,graphicx, float} %para incluir imágenes y colocarlas
 \usepackage[gen]{eurosym} %para incluir el símbolo del euro
@@ -23,14 +24,15 @@
 \usepackage{pdfpages} %insertar pdf en el documento, para la portada
 \usepackage{subfigure} % subfiguras
 \usepackage{setspace} %espaciado e interlineado
+\usepackage{multicol} %varias columnas en una numeracion, capitulo 3
 
 
 \usepackage{amsmath}%Letras griegas en negrita
-\hypersetup{
-	colorlinks=true,	% false: boxed links; true: colored links
-	linkcolor=black,	% color of internal links
-	urlcolor=cyan		% color of external links
-}
+%\hypersetup{
+%	colorlinks=true,	% false: boxed links; true: colored links
+%	linkcolor=black,	% color of internal links
+%	urlcolor=cyan		% color of external links
+%}
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage{fancyhdr} % Custom headers and footers
 \pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
@@ -66,7 +68,11 @@
 
 \input{Capitulos/02_Analisis-Semejantes}
 
-\input{Capitulos/03_Vuelo-Horizontal}
+\input{Capitulos/03_Desarrollo-Drone}
+
+\input{Capitulos/04_Vuelo-Horizontal}
+
+\input{Capitulos/05_Vuelo-Espiral}
 
 \newpage
 \bibliography{bibliografia}

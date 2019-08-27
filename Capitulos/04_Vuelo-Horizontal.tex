@@ -4,7 +4,7 @@
 
 \spacing{1.5}
 
-Las condiciones para el vuelo rectilíneo son sencillas, la velocidad vertical ha de ser nula mientras que la horizontal no. Con estas condiciones y a nivel del mar se pueden obtener las gráficas \ref{PMVH}, \ref{ControlVH}, \ref{EulerVH} y \ref{PVH}, que ofrecen una primera aproximación del rendimiento de la aeronave. De ellas se puede obtener que el valor de potencia total mínimo es de 27,307 kW, y se da para una velocidad de vuelo de 28.73 m/s. Este valor resulta de especial interés ya que nos ofrece el vuelo de máxima autonomía,muy interesante en misiones de vigilancia.
+Las condiciones para el vuelo rectilíneo son sencillas, la velocidad vertical ha de ser nula mientras que la horizontal no. Con estas condiciones y a nivel del mar se pueden obtener las gráficas \ref{PMVH}, \ref{ControlVH}, \ref{EulerVH} y \ref{PVH}, que ofrecen una primera aproximación del rendimiento de la aeronave. De ellas se puede obtener que el valor de potencia total mínimo es de 27,307 kW, y se da para una velocidad de vuelo de 28.73 m/s. Para calcular la velocidad máxima de avance es necesario obtener características del motor, el cual no se ha decidido, por lo que, para tener unos valores orientativos, se ha optado por emplear los datos del motor que monta el Cicaré 7B, un helicóptero de peso similar al vehículo a diseñar. El motor en cuestión es el ROTAX 912 ULS, un motor de 4 tiempos y 4 cilindros, con un consumo especifico de 285 g/kW$\cdot$ h a una potencia máxima continua de 58 kW a 5500 rpm \citep{ROTAX}. Con esta limitación reflejada en la gráfica \ref{PMVH} se puede observar que el motor, cuya potencia máxima continua disponible es de 58 kW, permite volar a velocidades de hasta casi 70 m/s en estas condiciones.
 
 \begin{figure}
 	\centering
@@ -15,25 +15,25 @@ Las condiciones para el vuelo rectilíneo son sencillas, la velocidad vertical h
 \begin{figure}
 	\centering
 	\includegraphics[width=90mm]{graficos/ControlVH}
-	\caption{Ángulos de control de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo horizontal}
+	\caption{Ángulos de control de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo horizontal.}
 	\label{ControlVH}
 \end{figure}
 \begin{figure}
 	\centering
 	\includegraphics[width=90mm]{graficos/EulerVH}
-	\caption{Ángulos de Euler de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo horizontal}
+	\caption{Ángulos de Euler de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo horizontal.}
 	\label{EulerVH}
 \end{figure}
 \begin{figure}
 	\centering
 	\includegraphics[width=90mm]{graficos/PVH}
-	\caption{Consumo de Potencia de los rotores principal y antipar en función de la velocidad de vuelo a nivel del mar para vuelo horizontal}
+	\caption{Consumo de Potencia de los rotores principal y antipar en función de la velocidad de vuelo a nivel del mar para vuelo horizontal.}
 	\label{PVH}
 \end{figure}
 
 \section{Autonomía de Vuelo}
 
-Con estos datos se puede hacer una estimación de la autonomía del vehículo. Para ello es necesario obtener características del motor, el cual no se ha decidido, por lo que, para tener unos valores orientativos, se ha optado por emplear los datos del motor que monta el Cicaré 7B, un helicóptero de peso similar al vehículo a diseñar. El motor en cuestión es el ROTAX 912 ULS, un motor de 4 tiempos y 4 cilindros, con un consumo especifico de 285 g/kW$\cdot$ h a una potencia máxima continua de 58 kW a 5500 rpm \citep{ROTAX}.
+Con estos datos se puede hacer una estimación de la autonomía del vehículo. 
 Para poder obtener el consumo específico del motor en las condiciones de vuelo de máxima autonomía,se emplea el modelo recogido en \citet{Cuerva}, que modeliza el consumo en función de la potencia necesaria para el vuelo.
 \begin{equation}
 	c_e(P)=\frac{c_{e,P_{max}}}{1+\frac{K_m}{c_{e,P_{max}}}(1-\frac{P_{max}}{P(t)})}
@@ -113,7 +113,7 @@ Las figuras \ref{FAP} y \ref{FE} representan los valores de las fuerzas que apar
 \begin{figure}
 	\centering
 	\includegraphics[width=90mm]{graficos/FAP}
-	\caption{Fuerzas sobre el rotor antipar a distintas velocidades de vuelo a nivel del mar según los ejes y y z.}
+	\caption{Fuerzas sobre el rotor antipar a distintas velocidades de vuelo a nivel del mar según los ejes cuerpo y y z.}
 	\label{FAP}
 \end{figure}
 
@@ -121,7 +121,7 @@ Las figuras \ref{FAP} y \ref{FE} representan los valores de las fuerzas que apar
 	\centering
 	\subfigure[Estabilizador vertical]{\includegraphics[width=60mm]{graficos/FEV}}
 	\subfigure[Estabilizador horizontal]{\includegraphics[width=60mm]{graficos/FEH}}
-	\caption{Fuerzas sobre los estabilizadores (a) vertical y (b) horizontal a distintas velocidades de vuelo a nivel del mar. Las fuerzas que se representan son horizontales (eje y) para el estabilizador vertical y verticales (eje z) para el estabilizador vertical.}
+	\caption{Fuerzas sobre los estabilizadores (a) vertical y (b) horizontal a distintas velocidades de vuelo a nivel del mar. Las fuerzas que se representan son horizontales (eje y cuerpo) para el estabilizador vertical y verticales (eje z cuerpo) para el estabilizador vertical.}
 	\label{FE}
 \end{figure}
 
@@ -139,7 +139,7 @@ Estas simulaciones se han realizado suponiendo ángulos de ataque del fuselaje n
 \begin{figure}
 	\centering
 	\includegraphics[width=90mm]{graficos/FEHa}
-	\caption{Fuerzas verticales (eje z) sobre el estabilizador horizontal a distintos ángulos de ataque a nivel del mar para una velocidad de vuelo de 28 m/s.}
+	\caption{Fuerzas verticales (eje z cuerpo) sobre el estabilizador horizontal a distintos ángulos de ataque a nivel del mar para una velocidad de vuelo de 28 m/s.}
 	\label{FEa}
 \end{figure}
 
@@ -176,7 +176,7 @@ Esta gráfica deja claro que en lo que respecta a las cargas sobre la cola lo ma
 \begin{figure}
 	\centering
 	\includegraphics[width=90mm]{graficos/FAPb}
-	\caption{Fuerzas horizontales (eje y) sobre el rotor antipar a distintos ángulos de resbalamiento a nivel del mar para un vuelo horizontal a 28 m/s.}
+	\caption{Fuerzas horizontales (eje y cuerpo) sobre el rotor antipar a distintos ángulos de resbalamiento a nivel del mar para un vuelo horizontal a 28 m/s.}
 	\label{FAPb}
 \end{figure}
 
@@ -190,7 +190,7 @@ Esta gráfica deja claro que en lo que respecta a las cargas sobre la cola lo ma
 \begin{figure}
 	\centering
 	\includegraphics[width=90mm]{graficos/deltafyb}
-	\caption{Variación de la fuerza horizontal (eje y) sobre la cola debida al estabilizador vertical y el rotor antipar a distintos ángulos de resbalamiento respecto a ángulo nulo a nivel del mar para un vuelo horizontal a 28 m/s.}
+	\caption{Variación de la fuerza horizontal (eje y cuerpo) sobre la cola debida al estabilizador vertical y el rotor antipar a distintos ángulos de resbalamiento respecto a ángulo nulo a nivel del mar para un vuelo horizontal a 28 m/s.}
 	\label{deltafyb}
 \end{figure}
 
@@ -205,16 +205,90 @@ Para comprobar si puede resultar más eficiente volar con ángulo de resbalamien
 
 Todo esto indica en un primer momento que resulta mas favorable, tanto para reducir cargas como potencia necesaria, volar a pequeños ángulos de resbalamiento.
 
+Respecto al estabilizador horizontal, la gráfica \ref{FEHb} muestra que las variaciones de las cargas verticales son de 1 N como máximo, por lo que queda claro que resulta indiferente a la hora de decidir si conviene volar a un ángulo de resbalamiento u otro.
+
 
 \begin{figure}
 	\centering
 	\includegraphics[width=90mm]{graficos/FEHb}
-	\caption{Fuerzas verticales (eje z) sobre el estabilizador horizontal a ángulos de resbalamiento a nivel del mar para un vuelo horizontal a 28 m/s.}
+	\caption{Fuerzas verticales (eje z cuerpo) sobre el estabilizador horizontal a ángulos de resbalamiento a nivel del mar para un vuelo horizontal a 28 m/s.}
 	\label{FEHb}
 \end{figure}
 
-\section{Vuelo a Pequeños Ángulos de Ataque y Resbalamiento}
+\section{Posibles Cambios en el Diseño}
 
-Después de los resultados obtenidos, resulta conveniente realizar una simulación aplicando las condiciones que se ha calculado son más favorables para el vuelo, y los resultados se recogen en este apartado.
+Hecho un análisis de los parámetros de vuelo en distintas condiciones para el vuelo horizontal, es hora de comprobar el efecto de algunos parámetros de diseño en el vuelo. Para ello se mostrarán gráficas similares a las anteriores del mismo capítulo para diferentes valores de diferentes características de la aeronave.
+
+\subsection{Rigidez en Batimiento $\boldsymbol{k_{\beta}}$}
+
+Un parámetro que puede ser interesante cambiar es la rigidez de las palas en batimiento. \emph{HEROES} calcula un valor suponiendo que se quiere mantener una rigidez similar a la del rotor del helicóptero base, es decir, el Bölkow Bo 105.
+Para comprobar su efecto, se ha decidido variar su valor base (denominado como $k_{\beta0}$ en las gráficas) entre el 70\% y el 130\% (tabla \ref{kbetatab}) de su valor. Los resultados de esta simulación se han reflejado en las gráficas \ref{PMVHkbeta}, \ref{EulerVHkbeta} y \ref{FRPkbeta}.
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{|>{\columncolor{Gray}}c|c|}
+		\hline
+		\cellcolor{Gray} & 7231.08 \\ \cline{2-2}
+		\cellcolor{Gray} & 8780.6 \\ \cline{2-2}
+		\cellcolor{Gray} & 10330.12 \\ \cline{2-2}
+		\cellcolor{Gray} & 11879.64 \\ \cline{2-2}
+		\multirow{-5}{*}{\cellcolor{Gray}$k_\beta$ (Nm/rad)} & 13429.15 \\ \hline
+	\end{tabular}%
+	\caption{Valores de la rigidez en batimiento de las palas usados en la simulación, en orden ascendente de valor. El valor central es el valor que \emph{HEROES} ha otorgado al modelo de forma automática.}
+	\label{kbetatab}
+\end{table}%
+
+\begin{figure}
+	\centering
+	\includegraphics[width=90mm]{graficos/PMVHkbeta}
+	\caption{Consumo de Potencia de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo horizontal y limitación por potencia máxima continua disponible.}
+	\label{PMVHkbeta}
+\end{figure}
+\begin{figure}
+	\centering
+	\subfigure[Paso cíclico longitudinal]{\includegraphics[width=60mm]{graficos/theta1CVHkbeta}}
+	\subfigure[Paso cíclico lateral]{\includegraphics[width=60mm]{graficos/theta1SVHkbeta}}
+	\subfigure[Paso colectivo]{\includegraphics[width=90mm]{graficos/theta0VHkbeta}}
+	\caption{Ángulos de control de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo horizontal y diferentes valores de k$_\beta$.}
+	\label{ControlVHkbeta}
+\end{figure}
+\begin{figure}
+	\centering
+	\subfigure[Fuerzas longitudinales (eje x)]{\includegraphics[width=60mm]{graficos/FRPxkbeta}}
+	\subfigure[Fuerzas laterales (eje y)]{\includegraphics[width=60mm]{graficos/FRPykbeta}}
+	\subfigure[Fuerzas verticales (eje z)]{\includegraphics[width=90mm]{graficos/FRPzkbeta}}
+	\caption{Fuerzas (en ejes cuerpo) sobre el rotor principal en función de la velocidad de vuelo a nivel del mar para vuelo horizontal y diferentes valores de k$_\beta$.}
+	\label{FRPkbeta}
+\end{figure}
+
+Lo primero que se observa es que los cambios no son excesivamente llamativos, pero existen. En el caso de la potencia necesaria para el vuelo se observa en \ref{PMVHkbeta} que a bajas velocidades de vuelo los resultados no dependen de $k_\beta$, pero según aumenta la velocidad también lo hacen las diferencias en los resultados. Independientemente del valor de la velocidad, los resultados para una rigidez de batimiento mayor son mas favorables, es decir, la potencia necesaria para el vuelo es menor. Sin embargo, este resultado no tiene en cuenta que como consecuencia de llevar a cabo este cambio en un modelo real, las cargas sobre las palas aumentan y por tanto se han de realizar cambios también en el rotor y las palas, lo cual puede suponer aumentos de masa y de coste. En la gráfica \ref{kbetapala} se han representado el caso de máxima rigidez en batimiento anterior junto a un caso con un aumento de masa de pala de un 20\% (tabla \ref{bmtab}), lo que equivaldría a cambiar el material de fabricación de las palas para dotarlas de mayor rigidez (sin tener en cuenta posibles cambios de masa en el propio rotor). De estos resultados se observa que el aumento de masa contrarresta el efecto del aumento de rigidez, por lo que será necesario un análisis mas exhaustivo de los materiales disponibles, costes y necesidades de la aeronave para poder tomar una decisión acerca de aumentar la rigidez del rotor.
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{|>{\columncolor{Gray}}c|c|}
+		\hline
+		\cellcolor{Gray}Masa de pala original & 18.798 kg \\ \hline
+		\cellcolor{Gray}Masa de pala 20\% mayor & 22.558 kg \\ \hline
+	\end{tabular}%
+	\caption{Valores de las masas de las palas original y aumentado un 20\% suponiendo un cambio de material en su fabricación.}
+	\label{bmtab}
+\end{table}%
+
+\begin{figure}
+	\centering
+	\includegraphics[width=90mm]{graficos/PMbm20}
+	\caption{Potencia necesaria para un vuelo horizontal a nivel del mar a distintas velocidades de vuelo para un helicóptero de rigidez en batimiento $k_\beta$=13429.15 Nm/rad y masas de pala original y un 20\% mayor.}
+	\label{kbetapala}
+\end{figure}
+
+En cuanto al resto de resultados, se puede observar en \ref{ControlVHkbeta} que el paso colectivo se mantiene prácticamente constante con $k_\beta$, por lo que los únicos cambios que se observan son en los ángulos de paso cíclico lateral y longitudinal. En ambos casos el aumento de la rigidez lleva acompañado una disminución de los ángulos de paso cíclico que en el caso del longitudinal se observa que la diferencia entre los valores máximo y mínimo de $k_\beta$ de la simulación supone alrededor de 0.005 rad, mientras que en el lateral las diferencias alcanzan valores de entre 0.01 y 0.012 rad. Estos cambios de menos de un grado son asumibles por lo que no supondría ningún problema a la hora de variar la rigidez en batimiento del rotor principal.
+
+Donde se observan cambios mayores es en las cargas que aparecen en el rotor principal (gráfica \ref{FRPkbeta}). Lo primero que se observa es que las cargas verticales y laterales no solo no aumentan, sino que disminuyen. Las cargas verticales sufren una variación pequeña, que aumenta con la velocidad, pero esta variación llega a valores de unos 50 N a velocidades de alrededor de 40 m/s, lo que comparado con los valores de alrededor de 4475 N a los que están sometidos lo diferentes modelos a esas velocidades resulta despreciable.
+
+En el caso de las fuerzas laterales las variaciones máximas se dan para bajas velocidades de vuelo, llegando a valores de 30 N, que a 40 m/s se ven reducidas a apenas 10 N de diferencia. Pese a que estas variaciones sean menores a las que aparecen las fuerzas verticales, su valor relativo es mucho mayor ya que los valores de las cargas son de alrededor de 100 N a velocidades muy bajas y de 35 N a 40 m/s. Esto supone una disminución importante de las cargas, al menos en el eje lateral.
+
+Sin embargo, las cargas más críticas serían las que aparecen en el eje longitudinal del helicóptero, cuyas variaciones máximas entre las distintas configuraciones son de hasta 60 N, llegando a cargas máximas un 25\% mayores que las esperadas en el modelo original. Además el modelo más rígido sufre cargas del orden de 70 N para velocidades de vuelo en las que el modelo menos rígido no sufre ninguna carga. Estos cambios por tanto harían necesario un análisis de la estructura del rotor para comprobar si pudiese soportar las nuevas cargas o si por el contrario, conviene reducir la rigidez y con ello las cargas para reducir costes o peso.
+
+
 
 \singlespacing
