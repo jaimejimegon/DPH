@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.9)  28 AUG 2019 01:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.9)  29 AUG 2019 14:02
 entering extended mode
 **./document.tex
 (document.tex
@@ -694,7 +694,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-<Portadas/Portadadefinitiva.pdf, id=155, 597.79335pt x 845.19763pt>
+<Portadas/Portadadefinitiva.pdf, id=147, 597.79335pt x 845.19763pt>
 File: Portadas/Portadadefinitiva.pdf Graphic file (type pdf)
 <use Portadas/Portadadefinitiva.pdf>
 Package pdftex.def Info: Portadas/Portadadefinitiva.pdf  used on input line 61.
@@ -705,7 +705,7 @@ File: Portadas/Portadadefinitiva.pdf Graphic file (type pdf)
 Package pdftex.def Info: Portadas/Portadadefinitiva.pdf  used on input line 61.
 
 (pdftex.def)             Requested size: 597.79189pt x 845.19557pt.
-<Portadas/Portadadefinitiva.pdf, id=158, page=1, 597.79335pt x 845.19763pt>
+<Portadas/Portadadefinitiva.pdf, id=150, page=1, 597.79335pt x 845.19763pt>
 File: Portadas/Portadadefinitiva.pdf Graphic file (type pdf)
 <use Portadas/Portadadefinitiva.pdf, page 1>
 Package pdftex.def Info: Portadas/Portadadefinitiva.pdf , page1 used on input l
@@ -750,15 +750,8 @@ LaTeX Font Info:    Try loading font information for OT1+lmr on input line 2.
 ("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--15
-
- []
-
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <12> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 12.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -770,133 +763,78 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [3{C:/Users/Jaime/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <12> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 22.
 LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <12> not available
-(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 22.
+(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 25.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--24
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-
- []
-
+ [4]
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
-
- []
-
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 48.
-("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omllmm.fd"
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 51.
+ ("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 48.
-
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 51.
 
 ("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 48.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 51.
 
 
 ("E:\Users\Jaime\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 48.
+(Font)              <12> on input line 51.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 48.
+(Font)              <8> on input line 51.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 48.
+(Font)              <6> on input line 51.
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6]
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
-
- []
-
-[7]
-<imagenes/AEuler.png, id=233, 1927.2pt x 872.25874pt>
+[6] [7]
+<imagenes/AEuler.png, id=224, 1927.2pt x 872.25874pt>
 File: imagenes/AEuler.png Graphic file (type png)
 <use imagenes/AEuler.png>
-Package pdftex.def Info: imagenes/AEuler.png  used on input line 75.
+Package pdftex.def Info: imagenes/AEuler.png  used on input line 78.
 (pdftex.def)             Requested size: 227.62204pt x 103.01614pt.
 LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <10.95> not available
-(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 76.
+(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 79.
 
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 76.
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-
- []
-
-[8 <./imagenes/AEuler.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 79.
+ [8 <./imagenes/AEuler.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 100--102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+Underfull \vbox (badness 1701) has occurred while \output is active []
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--99
-
- []
-
-[9]
+ [9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
-[11] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 199--201
-
- []
-
-[13]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[11] [12] [13] [14]
+Underfull \vbox (badness 1975) has occurred while \output is active []
 
  [15]
-[16]) (Capitulos/02_Analisis-Semejantes.tex [17] [18
+[16]
+LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <17.28> not available
+(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 260
+.
+) (Capitulos/02_Analisis-Semejantes.tex [17] [18
 
 ]
 Cap\'{\i }tulo 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
-
- []
-
 
 Overfull \hbox (28.01389pt too wide) in paragraph at lines 19--41
  [][] 
  []
 
-[19] [20]
+
+Underfull \vbox (badness 5345) has occurred while \output is active []
+
+ [19]
+[20]
 Package epstopdf Info: Source file: <graficos/anald.eps>
 (epstopdf)                    date: 2019-05-21 22:08:56
 (epstopdf)                    size: 20588 bytes
@@ -905,17 +843,17 @@ Package epstopdf Info: Source file: <graficos/anald.eps>
 (epstopdf)                    size: 7304 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/anald-eps-converte
 d-to.pdf graficos/anald.eps>
-(epstopdf)             \includegraphics on input line 84.
+(epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./graficos/anald-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/anald-eps-converted-to.pdf, id=336, 362.35374pt x 296.10625pt>
+<graficos/anald-eps-converted-to.pdf, id=329, 362.35374pt x 296.10625pt>
 File: graficos/anald-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/anald-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/anald-eps-converted-to.pdf  used on input lin
-e 84.
+e 85.
 (pdftex.def)             Requested size: 256.0748pt x 209.26096pt.
 Package epstopdf Info: Source file: <graficos/analomega.eps>
 (epstopdf)                    date: 2019-05-21 22:08:57
@@ -925,17 +863,17 @@ Package epstopdf Info: Source file: <graficos/analomega.eps>
 (epstopdf)                    size: 7536 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/analomega-eps-conv
 erted-to.pdf graficos/analomega.eps>
-(epstopdf)             \includegraphics on input line 90.
+(epstopdf)             \includegraphics on input line 91.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analomega-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analomega-eps-converted-to.pdf, id=337, 371.3875pt x 296.10625pt>
+<graficos/analomega-eps-converted-to.pdf, id=330, 371.3875pt x 296.10625pt>
 File: graficos/analomega-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analomega-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analomega-eps-converted-to.pdf  used on input
- line 90.
+ line 91.
 (pdftex.def)             Requested size: 256.0748pt x 204.17346pt.
 Package epstopdf Info: Source file: <graficos/analb.eps>
 (epstopdf)                    date: 2019-05-21 22:08:58
@@ -945,17 +883,17 @@ Package epstopdf Info: Source file: <graficos/analb.eps>
 (epstopdf)                    size: 7256 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/analb-eps-converte
 d-to.pdf graficos/analb.eps>
-(epstopdf)             \includegraphics on input line 96.
+(epstopdf)             \includegraphics on input line 97.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analb-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analb-eps-converted-to.pdf, id=338, 362.35374pt x 296.10625pt>
+<graficos/analb-eps-converted-to.pdf, id=331, 362.35374pt x 296.10625pt>
 File: graficos/analb-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analb-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analb-eps-converted-to.pdf  used on input lin
-e 96.
+e 97.
 (pdftex.def)             Requested size: 256.0748pt x 209.26096pt.
 Package epstopdf Info: Source file: <graficos/analbtr.eps>
 (epstopdf)                    date: 2019-05-21 22:08:59
@@ -965,17 +903,17 @@ Package epstopdf Info: Source file: <graficos/analbtr.eps>
 (epstopdf)                    size: 7274 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/analbtr-eps-conver
 ted-to.pdf graficos/analbtr.eps>
-(epstopdf)             \includegraphics on input line 102.
+(epstopdf)             \includegraphics on input line 103.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analbtr-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analbtr-eps-converted-to.pdf, id=339, 368.37625pt x 296.10625pt>
+<graficos/analbtr-eps-converted-to.pdf, id=332, 368.37625pt x 296.10625pt>
 File: graficos/analbtr-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analbtr-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analbtr-eps-converted-to.pdf  used on input l
-ine 102.
+ine 103.
 (pdftex.def)             Requested size: 256.0748pt x 205.83615pt.
 Package epstopdf Info: Source file: <graficos/analaut.eps>
 (epstopdf)                    date: 2019-05-21 22:08:59
@@ -985,17 +923,17 @@ Package epstopdf Info: Source file: <graficos/analaut.eps>
 (epstopdf)                    size: 7250 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/analaut-eps-conver
 ted-to.pdf graficos/analaut.eps>
-(epstopdf)             \includegraphics on input line 108.
+(epstopdf)             \includegraphics on input line 109.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analaut-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analaut-eps-converted-to.pdf, id=340, 368.37625pt x 296.10625pt>
+<graficos/analaut-eps-converted-to.pdf, id=333, 368.37625pt x 296.10625pt>
 File: graficos/analaut-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analaut-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analaut-eps-converted-to.pdf  used on input l
-ine 108.
+ine 109.
 (pdftex.def)             Requested size: 256.0748pt x 205.83615pt.
 Package epstopdf Info: Source file: <graficos/analv.eps>
 (epstopdf)                    date: 2019-05-21 22:09:00
@@ -1005,25 +943,23 @@ Package epstopdf Info: Source file: <graficos/analv.eps>
 (epstopdf)                    size: 7497 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/analv-eps-converte
 d-to.pdf graficos/analv.eps>
-(epstopdf)             \includegraphics on input line 120.
+(epstopdf)             \includegraphics on input line 121.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analv-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analv-eps-converted-to.pdf, id=341, 379.4175pt x 296.10625pt>
+<graficos/analv-eps-converted-to.pdf, id=334, 379.4175pt x 296.10625pt>
 File: graficos/analv-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analv-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analv-eps-converted-to.pdf  used on input lin
-e 120.
+e 121.
 (pdftex.def)             Requested size: 256.0748pt x 199.84953pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21 <./graficos/anald-eps-converted-to.pdf>] [22 <./graficos/analomega-eps-con
-verted-to.pdf> <./graficos/analb-eps-converted-to.pdf>] [23 <./graficos/analbtr
--eps-converted-to.pdf> <./graficos/analaut-eps-converted-to.pdf>] [24 <./grafic
-os/analv-eps-converted-to.pdf>]) (Capitulos/03_Desarrollo-Drone.tex [25] [26
+[21 <./graficos/anald-eps-converted-to.pdf>] [22 <./graficos/analomega-eps-conv
+erted-to.pdf> <./graficos/analb-eps-converted-to.pdf>] [23 <./graficos/analbtr-
+eps-converted-to.pdf> <./graficos/analaut-eps-converted-to.pdf>] [24 <./grafico
+s/analv-eps-converted-to.pdf>]) (Capitulos/03_Desarrollo-Drone.tex [25]
+[26
 
 ]
 Cap\'{\i }tulo 3.
@@ -1040,29 +976,42 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
 [29] [30]
-
-LaTeX Warning: Reference `GeBodraw' on page 31 undefined on input line 148.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2126) has occurred while \output is active []
 
  [31]
-Overfull \hbox (1.71387pt too wide) in paragraph at lines 152--179
+Package epstopdf Info: Source file: <imagenes/geometria.eps>
+(epstopdf)                    date: 2019-08-28 15:13:08
+(epstopdf)                    size: 3244858 bytes
+(epstopdf)             Output file: <imagenes/geometria-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-08-28 15:14:01
+(epstopdf)                    size: 504144 bytes
+(epstopdf)             Command: <epstopdf --outfile=imagenes/geometria-eps-conv
+erted-to.pdf imagenes/geometria.eps>
+(epstopdf)             \includegraphics on input line 159.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./imagenes/geometria-eps-converted-to.pdf): 
+PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<imagenes/geometria-eps-converted-to.pdf, id=435, 750.805pt x 609.27625pt>
+File: imagenes/geometria-eps-converted-to.pdf Graphic file (type pdf)
+<use imagenes/geometria-eps-converted-to.pdf>
+Package pdftex.def Info: imagenes/geometria-eps-converted-to.pdf  used on input
+ line 159.
+(pdftex.def)             Requested size: 341.43306pt x 277.07237pt.
+
+Overfull \hbox (1.71387pt too wide) in paragraph at lines 166--193
  [][] 
  []
 
+[32] [33 <./imagenes/geometria-eps-converted-to.pdf>] [34] [35]
+Overfull \vbox (13.41249pt too high) has occurred while \output is active []
 
+
+[36] [37]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
-[33] [34]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [35]
-[36]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [37]
+ [38]
 Package epstopdf Info: Source file: <graficos/3d3d.eps>
 (epstopdf)                    date: 2019-08-19 10:00:17
 (epstopdf)                    size: 118858 bytes
@@ -1071,17 +1020,17 @@ Package epstopdf Info: Source file: <graficos/3d3d.eps>
 (epstopdf)                    size: 96612 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/3d3d-eps-converted
 -to.pdf graficos/3d3d.eps>
-(epstopdf)             \includegraphics on input line 336.
+(epstopdf)             \includegraphics on input line 350.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./graficos/3d3d-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/3d3d-eps-converted-to.pdf, id=472, 422.57875pt x 317.185pt>
+<graficos/3d3d-eps-converted-to.pdf, id=502, 422.57875pt x 317.185pt>
 File: graficos/3d3d-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/3d3d-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/3d3d-eps-converted-to.pdf  used on input line
- 336.
+ 350.
 (pdftex.def)             Requested size: 256.0748pt x 192.21451pt.
 Package epstopdf Info: Source file: <graficos/3d2d.eps>
 (epstopdf)                    date: 2019-08-19 10:13:52
@@ -1091,64 +1040,70 @@ Package epstopdf Info: Source file: <graficos/3d2d.eps>
 (epstopdf)                    size: 124779 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/3d2d-eps-converted
 -to.pdf graficos/3d2d.eps>
-(epstopdf)             \includegraphics on input line 342.
+(epstopdf)             \includegraphics on input line 356.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./graficos/3d2d-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/3d2d-eps-converted-to.pdf, id=473, 433.62pt x 369.38pt>
+<graficos/3d2d-eps-converted-to.pdf, id=503, 433.62pt x 369.38pt>
 File: graficos/3d2d-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/3d2d-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/3d2d-eps-converted-to.pdf  used on input line
- 342.
+ 356.
 (pdftex.def)             Requested size: 256.0748pt x 218.14648pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 343.
-[38] [39 <./graficos/3d3d-eps-converted-to.pdf> <./graficos/3d2d-eps-converted-
-to.pdf>] [40]
+(Font)              <10.95> on input line 357.
+[39] [40 <./graficos/3d3d-eps-converted-to.pdf> <./graficos/3d2d-eps-converted-
+to.pdf>] [41]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 361.
+               Default added (so using `tbp') on input line 380.
 
 
-Overfull \hbox (1.71387pt too wide) in paragraph at lines 441--468
+Overfull \hbox (1.71387pt too wide) in paragraph at lines 460--487
  [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [41]
-[42] [43]
-<imagenes/200-LE.jpg, id=530, 505.89pt x 383.4325pt>
+[42] [43] [44]
+<imagenes/200-LE.jpg, id=561, 505.89pt x 383.4325pt>
 File: imagenes/200-LE.jpg Graphic file (type jpg)
 <use imagenes/200-LE.jpg>
-Package pdftex.def Info: imagenes/200-LE.jpg  used on input line 502.
-(pdftex.def)             Requested size: 117.00119pt x 88.67908pt.
-<imagenes/TC-300.jpg, id=531, 505.89pt x 383.4325pt>
-File: imagenes/TC-300.jpg Graphic file (type jpg)
-<use imagenes/TC-300.jpg>
-Package pdftex.def Info: imagenes/TC-300.jpg  used on input line 517.
+Package pdftex.def Info: imagenes/200-LE.jpg  used on input line 521.
 (pdftex.def)             Requested size: 117.00119pt x 88.67908pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44 <./imagenes/200-LE.jpg>]
-<imagenes/cm202a.png, id=536, 61.94571pt x 79.497pt>
-File: imagenes/cm202a.png Graphic file (type png)
-<use imagenes/cm202a.png>
-Package pdftex.def Info: imagenes/cm202a.png  used on input line 532.
-(pdftex.def)             Requested size: 85.35826pt x 109.54341pt.
- [45 <./imagenes/TC-300.jpg> <./imagenes/cm202a.png>])
-(Capitulos/04_Vuelo-Horizontal.tex [46]
+ [45]
+<imagenes/TC-300.jpg, id=566, 505.89pt x 383.4325pt>
+File: imagenes/TC-300.jpg Graphic file (type jpg)
+<use imagenes/TC-300.jpg>
+Package pdftex.def Info: imagenes/TC-300.jpg  used on input line 536.
+(pdftex.def)             Requested size: 117.00119pt x 88.67908pt.
+<imagenes/400-le.jpg, id=567, 505.89pt x 383.4325pt>
+File: imagenes/400-le.jpg Graphic file (type jpg)
+<use imagenes/400-le.jpg>
+Package pdftex.def Info: imagenes/400-le.jpg  used on input line 551.
+(pdftex.def)             Requested size: 117.00119pt x 88.67908pt.
+
+[46 <./imagenes/200-LE.jpg> <./imagenes/TC-300.jpg> <./imagenes/400-le.jpg>]
+[47]
+Overfull \hbox (53.13858pt too wide) in paragraph at lines 599--605
+ [][] 
+ []
+
+[48]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49])
+(Capitulos/04_Vuelo-Horizontal.tex [50]
 Cap\'{\i }tulo 4.
 Package epstopdf Info: Source file: <graficos/PMVH.eps>
-(epstopdf)                    date: 2019-08-28 00:38:42
-(epstopdf)                    size: 26010 bytes
+(epstopdf)                    date: 2019-08-28 11:47:41
+(epstopdf)                    size: 26009 bytes
 (epstopdf)             Output file: <graficos/PMVH-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-28 00:59:30
-(epstopdf)                    size: 9412 bytes
+(epstopdf)                    date: 2019-08-28 12:10:18
+(epstopdf)                    size: 9410 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/PMVH-eps-converted
 -to.pdf graficos/PMVH.eps>
 (epstopdf)             \includegraphics on input line 11.
@@ -1157,18 +1112,18 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVH-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVH-eps-converted-to.pdf, id=557, 379.4175pt x 310.15875pt>
+<graficos/PMVH-eps-converted-to.pdf, id=615, 379.4175pt x 310.15875pt>
 File: graficos/PMVH-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVH-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PMVH-eps-converted-to.pdf  used on input line
  11.
 (pdftex.def)             Requested size: 256.0748pt x 209.33392pt.
 Package epstopdf Info: Source file: <graficos/ControlVH.eps>
-(epstopdf)                    date: 2019-08-28 00:38:44
-(epstopdf)                    size: 34091 bytes
+(epstopdf)                    date: 2019-08-28 11:47:42
+(epstopdf)                    size: 34085 bytes
 (epstopdf)             Output file: <graficos/ControlVH-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-28 00:59:31
-(epstopdf)                    size: 14135 bytes
+(epstopdf)                    date: 2019-08-28 12:10:18
+(epstopdf)                    size: 14133 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/ControlVH-eps-conv
 erted-to.pdf graficos/ControlVH.eps>
 (epstopdf)             \includegraphics on input line 17.
@@ -1177,18 +1132,18 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/ControlVH-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/ControlVH-eps-converted-to.pdf, id=558, 388.45125pt x 297.11pt>
+<graficos/ControlVH-eps-converted-to.pdf, id=616, 388.45125pt x 297.11pt>
 File: graficos/ControlVH-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/ControlVH-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/ControlVH-eps-converted-to.pdf  used on input
  line 17.
 (pdftex.def)             Requested size: 256.0748pt x 195.86652pt.
 Package epstopdf Info: Source file: <graficos/EulerVH.eps>
-(epstopdf)                    date: 2019-08-28 00:38:45
-(epstopdf)                    size: 37950 bytes
+(epstopdf)                    date: 2019-08-28 11:47:43
+(epstopdf)                    size: 37944 bytes
 (epstopdf)             Output file: <graficos/EulerVH-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-28 00:59:31
-(epstopdf)                    size: 15501 bytes
+(epstopdf)                    date: 2019-08-28 12:10:19
+(epstopdf)                    size: 15503 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/EulerVH-eps-conver
 ted-to.pdf graficos/EulerVH.eps>
 (epstopdf)             \includegraphics on input line 23.
@@ -1197,18 +1152,18 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/EulerVH-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/EulerVH-eps-converted-to.pdf, id=559, 387.4475pt x 297.11pt>
+<graficos/EulerVH-eps-converted-to.pdf, id=617, 387.4475pt x 297.11pt>
 File: graficos/EulerVH-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/EulerVH-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/EulerVH-eps-converted-to.pdf  used on input l
 ine 23.
 (pdftex.def)             Requested size: 256.0748pt x 196.36974pt.
 Package epstopdf Info: Source file: <graficos/PVH.eps>
-(epstopdf)                    date: 2019-08-28 00:38:46
-(epstopdf)                    size: 24427 bytes
+(epstopdf)                    date: 2019-08-28 11:47:44
+(epstopdf)                    size: 24425 bytes
 (epstopdf)             Output file: <graficos/PVH-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-28 00:59:32
-(epstopdf)                    size: 8924 bytes
+(epstopdf)                    date: 2019-08-28 12:10:20
+(epstopdf)                    size: 8926 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/PVH-eps-converted-
 to.pdf graficos/PVH.eps>
 (epstopdf)             \includegraphics on input line 29.
@@ -1217,7 +1172,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PVH-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PVH-eps-converted-to.pdf, id=560, 377.41pt x 310.15875pt>
+<graficos/PVH-eps-converted-to.pdf, id=618, 377.41pt x 310.15875pt>
 File: graficos/PVH-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PVH-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PVH-eps-converted-to.pdf  used on input line 
@@ -1226,15 +1181,15 @@ Package pdftex.def Info: graficos/PVH-eps-converted-to.pdf  used on input line
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47
+ [51
 
 ]
-[48 <./graficos/PMVH-eps-converted-to.pdf> <./graficos/ControlVH-eps-converted-
-to.pdf>] [49 <./graficos/EulerVH-eps-converted-to.pdf> <./graficos/PVH-eps-conv
+[52 <./graficos/PMVH-eps-converted-to.pdf> <./graficos/ControlVH-eps-converted-
+to.pdf>] [53 <./graficos/EulerVH-eps-converted-to.pdf> <./graficos/PVH-eps-conv
 erted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50]
+ [54]
 Overfull \hbox (44.86014pt too wide) in paragraph at lines 79--87
  [][] 
  []
@@ -1242,13 +1197,13 @@ Overfull \hbox (44.86014pt too wide) in paragraph at lines 79--87
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51]
+ [55]
 Package epstopdf Info: Source file: <graficos/teVH.eps>
-(epstopdf)                    date: 2019-08-28 00:38:46
-(epstopdf)                    size: 23272 bytes
+(epstopdf)                    date: 2019-08-28 11:47:44
+(epstopdf)                    size: 23273 bytes
 (epstopdf)             Output file: <graficos/teVH-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-28 00:59:33
-(epstopdf)                    size: 8660 bytes
+(epstopdf)                    date: 2019-08-28 12:10:20
+(epstopdf)                    size: 8653 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/teVH-eps-converted
 -to.pdf graficos/teVH.eps>
 (epstopdf)             \includegraphics on input line 95.
@@ -1257,7 +1212,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/teVH-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/teVH-eps-converted-to.pdf, id=624, 379.4175pt x 297.11pt>
+<graficos/teVH-eps-converted-to.pdf, id=682, 379.4175pt x 297.11pt>
 File: graficos/teVH-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/teVH-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/teVH-eps-converted-to.pdf  used on input line
@@ -1266,753 +1221,14 @@ Package pdftex.def Info: graficos/teVH-eps-converted-to.pdf  used on input line
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52 <./graficos/teVH-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <graficos/FAP.eps>
-(epstopdf)                    date: 2019-08-28 00:38:47
-(epstopdf)                    size: 23675 bytes
-(epstopdf)             Output file: <graficos/FAP-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-28 00:59:33
-(epstopdf)                    size: 9052 bytes
-(epstopdf)             Command: <epstopdf --outfile=graficos/FAP-eps-converted-
-to.pdf graficos/FAP.eps>
-(epstopdf)             \includegraphics on input line 115.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex.exe (file ./graficos/FAP-eps-converted-to.pdf): PDF in
-clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/FAP-eps-converted-to.pdf, id=637, 388.45125pt x 297.11pt>
-File: graficos/FAP-eps-converted-to.pdf Graphic file (type pdf)
-<use graficos/FAP-eps-converted-to.pdf>
-Package pdftex.def Info: graficos/FAP-eps-converted-to.pdf  used on input line 
-115.
-(pdftex.def)             Requested size: 256.0748pt x 195.86652pt.
-Package epstopdf Info: Source file: <graficos/FEV.eps>
-(epstopdf)                    date: 2019-08-28 00:38:48
-(epstopdf)                    size: 25782 bytes
-(epstopdf)             Output file: <graficos/FEV-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-28 00:59:34
-(epstopdf)                    size: 10630 bytes
-(epstopdf)             Command: <epstopdf --outfile=graficos/FEV-eps-converted-
-to.pdf graficos/FEV.eps>
-(epstopdf)             \includegraphics on input line 122.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex.exe (file ./graficos/FEV-eps-converted-to.pdf): PDF in
-clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/FEV-eps-converted-to.pdf, id=638, 381.425pt x 299.1175pt>
-File: graficos/FEV-eps-converted-to.pdf Graphic file (type pdf)
-<use graficos/FEV-eps-converted-to.pdf>
-Package pdftex.def Info: graficos/FEV-eps-converted-to.pdf  used on input line 
-122.
-(pdftex.def)             Requested size: 170.71652pt x 133.87592pt.
-Package epstopdf Info: Source file: <graficos/FEH.eps>
-(epstopdf)                    date: 2019-08-28 00:38:48
-(epstopdf)                    size: 25723 bytes
-(epstopdf)             Output file: <graficos/FEH-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-28 00:59:35
-(epstopdf)                    size: 10636 bytes
-(epstopdf)             Command: <epstopdf --outfile=graficos/FEH-eps-converted-
-to.pdf graficos/FEH.eps>
-(epstopdf)             \includegraphics on input line 123.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex.exe (file ./graficos/FEH-eps-converted-to.pdf): PDF in
-clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/FEH-eps-converted-to.pdf, id=639, 381.425pt x 299.1175pt>
-File: graficos/FEH-eps-converted-to.pdf Graphic file (type pdf)
-<use graficos/FEH-eps-converted-to.pdf>
-Package pdftex.def Info: graficos/FEH-eps-converted-to.pdf  used on input line 
-123.
-(pdftex.def)             Requested size: 170.71652pt x 133.87592pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [53]
-[54 <./graficos/FAP-eps-converted-to.pdf> <./graficos/FEV-eps-converted-to.pdf>
- <./graficos/FEH-eps-converted-to.pdf>]
+ [56 <./graficos/teVH-eps-converted-to.pdf>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 135.
+(Font)              <14.4> on input line 222.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 135.
+(Font)              <10> on input line 222.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 135.
+(Font)              <7> on input line 222.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\begingroup' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@nomath' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\begingroup' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\setbox' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\thinmuskip' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\medmuskip' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\m@ne' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\thickmuskip' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ne' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\setbox' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tw@' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@tempa' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathchoice' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\displaystyle' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\textstyle' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scriptstyle' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scriptscriptstyle' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\endgroup' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 135.
-
-[55]
-Package epstopdf Info: Source file: <graficos/FEHa.eps>
-(epstopdf)                    date: 2019-08-25 21:02:43
-(epstopdf)                    size: 27848 bytes
-(epstopdf)             Output file: <graficos/FEHa-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-25 21:05:10
-(epstopdf)                    size: 12169 bytes
-(epstopdf)             Command: <epstopdf --outfile=graficos/FEHa-eps-converted
--to.pdf graficos/FEHa.eps>
-(epstopdf)             \includegraphics on input line 141.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex.exe (file ./graficos/FEHa-eps-converted-to.pdf): PDF i
-nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/FEHa-eps-converted-to.pdf, id=678, 394.47375pt x 297.11pt>
-File: graficos/FEHa-eps-converted-to.pdf Graphic file (type pdf)
-<use graficos/FEHa-eps-converted-to.pdf>
-Package pdftex.def Info: graficos/FEHa-eps-converted-to.pdf  used on input line
- 141.
-(pdftex.def)             Requested size: 256.0748pt x 192.86986pt.
-Package epstopdf Info: Source file: <graficos/PMVHa.eps>
-(epstopdf)                    date: 2019-08-25 21:02:43
-(epstopdf)                    size: 25305 bytes
-(epstopdf)             Output file: <graficos/PMVHa-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-25 21:05:10
-(epstopdf)                    size: 10640 bytes
-(epstopdf)             Command: <epstopdf --outfile=graficos/PMVHa-eps-converte
-d-to.pdf graficos/PMVHa.eps>
-(epstopdf)             \includegraphics on input line 148.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex.exe (file ./graficos/PMVHa-eps-converted-to.pdf): PDF 
-inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVHa-eps-converted-to.pdf, id=679, 386.44376pt x 310.15875pt>
-File: graficos/PMVHa-eps-converted-to.pdf Graphic file (type pdf)
-<use graficos/PMVHa-eps-converted-to.pdf>
-Package pdftex.def Info: graficos/PMVHa-eps-converted-to.pdf  used on input lin
-e 148.
-(pdftex.def)             Requested size: 256.0748pt x 205.52415pt.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\begingroup' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@nomath' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\begingroup' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\setbox' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\thinmuskip' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\medmuskip' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\m@ne' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\thickmuskip' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ne' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\setbox' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tw@' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\beta' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\beta' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@tempa' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathchoice' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\displaystyle' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\beta' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\textstyle' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\beta' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scriptstyle' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\beta' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scriptscriptstyle' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\beta' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\endgroup' on input line 170.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 170.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [56 <./graficos/FEHa-eps-converted-to.pdf>] [57 <./graficos/PMVHa-eps-converte
-d-to.pdf>]
-Package epstopdf Info: Source file: <graficos/FAPb.eps>
-(epstopdf)                    date: 2019-08-25 22:23:43
-(epstopdf)                    size: 26845 bytes
-(epstopdf)             Output file: <graficos/FAPb-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-25 22:52:49
-(epstopdf)                    size: 11727 bytes
-(epstopdf)             Command: <epstopdf --outfile=graficos/FAPb-eps-converted
--to.pdf graficos/FAPb.eps>
-(epstopdf)             \includegraphics on input line 178.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex.exe (file ./graficos/FAPb-eps-converted-to.pdf): PDF i
-nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/FAPb-eps-converted-to.pdf, id=704, 389.455pt x 297.11pt>
-File: graficos/FAPb-eps-converted-to.pdf Graphic file (type pdf)
-<use graficos/FAPb-eps-converted-to.pdf>
-Package pdftex.def Info: graficos/FAPb-eps-converted-to.pdf  used on input line
- 178.
-(pdftex.def)             Requested size: 256.0748pt x 195.3633pt.
-Package epstopdf Info: Source file: <graficos/FEVb.eps>
-(epstopdf)                    date: 2019-08-25 22:23:43
-(epstopdf)                    size: 28248 bytes
-(epstopdf)             Output file: <graficos/FEVb-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-25 22:52:49
-(epstopdf)                    size: 12314 bytes
-(epstopdf)             Command: <epstopdf --outfile=graficos/FEVb-eps-converted
--to.pdf graficos/FEVb.eps>
-(epstopdf)             \includegraphics on input line 185.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex.exe (file ./graficos/FEVb-eps-converted-to.pdf): PDF i
-nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/FEVb-eps-converted-to.pdf, id=705, 389.455pt x 297.11pt>
-File: graficos/FEVb-eps-converted-to.pdf Graphic file (type pdf)
-<use graficos/FEVb-eps-converted-to.pdf>
-Package pdftex.def Info: graficos/FEVb-eps-converted-to.pdf  used on input line
- 185.
-(pdftex.def)             Requested size: 256.0748pt x 195.3633pt.
-Package epstopdf Info: Source file: <graficos/deltafyb.eps>
-(epstopdf)                    date: 2019-08-25 22:23:44
-(epstopdf)                    size: 25702 bytes
-(epstopdf)             Output file: <graficos/deltafyb-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-25 22:52:50
-(epstopdf)                    size: 10778 bytes
-(epstopdf)             Command: <epstopdf --outfile=graficos/deltafyb-eps-conve
-rted-to.pdf graficos/deltafyb.eps>
-(epstopdf)             \includegraphics on input line 192.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex.exe (file ./graficos/deltafyb-eps-converted-to.pdf): P
-DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/deltafyb-eps-converted-to.pdf, id=706, 380.42125pt x 297.11pt>
-File: graficos/deltafyb-eps-converted-to.pdf Graphic file (type pdf)
-<use graficos/deltafyb-eps-converted-to.pdf>
-Package pdftex.def Info: graficos/deltafyb-eps-converted-to.pdf  used on input 
-line 192.
-(pdftex.def)             Requested size: 256.0748pt x 200.0011pt.
-Package epstopdf Info: Source file: <graficos/Potb.eps>
-(epstopdf)                    date: 2019-08-25 22:12:02
-(epstopdf)                    size: 32695 bytes
-(epstopdf)             Output file: <graficos/Potb-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-25 22:19:35
-(epstopdf)                    size: 14489 bytes
-(epstopdf)             Command: <epstopdf --outfile=graficos/Potb-eps-converted
--to.pdf graficos/Potb.eps>
-(epstopdf)             \includegraphics on input line 199.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex.exe (file ./graficos/Potb-eps-converted-to.pdf): PDF i
-nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/Potb-eps-converted-to.pdf, id=707, 379.4175pt x 310.15875pt>
-File: graficos/Potb-eps-converted-to.pdf Graphic file (type pdf)
-<use graficos/Potb-eps-converted-to.pdf>
-Package pdftex.def Info: graficos/Potb-eps-converted-to.pdf  used on input line
- 199.
-(pdftex.def)             Requested size: 256.0748pt x 209.33392pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [58]
-[59 <./graficos/FAPb-eps-converted-to.pdf> <./graficos/FEVb-eps-converted-to.pd
-f>] [60 <./graficos/deltafyb-eps-converted-to.pdf> <./graficos/Potb-eps-convert
-ed-to.pdf>]
-Package epstopdf Info: Source file: <graficos/FEHb.eps>
-(epstopdf)                    date: 2019-08-25 22:23:44
-(epstopdf)                    size: 29168 bytes
-(epstopdf)             Output file: <graficos/FEHb-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-25 22:52:51
-(epstopdf)                    size: 12560 bytes
-(epstopdf)             Command: <epstopdf --outfile=graficos/FEHb-eps-converted
--to.pdf graficos/FEHb.eps>
-(epstopdf)             \includegraphics on input line 213.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex.exe (file ./graficos/FEHb-eps-converted-to.pdf): PDF i
-nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/FEHb-eps-converted-to.pdf, id=746, 396.48125pt x 297.11pt>
-File: graficos/FEHb-eps-converted-to.pdf Graphic file (type pdf)
-<use graficos/FEHb-eps-converted-to.pdf>
-Package pdftex.def Info: graficos/FEHb-eps-converted-to.pdf  used on input line
- 213.
-(pdftex.def)             Requested size: 256.0748pt x 191.89516pt.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 222.
@@ -2274,13 +1490,9 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 222.
 
 
-LaTeX Warning: Reference `EulerVHkbeta' on page 61 undefined on input line 225.
+LaTeX Warning: Reference `EulerVHkbeta' on page 57 undefined on input line 225.
 
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [61 <./graficos/FEHb-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <graficos/PMVHkbeta.eps>
 (epstopdf)                    date: 2019-08-27 14:38:09
 (epstopdf)                    size: 35400 bytes
@@ -2295,7 +1507,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVHkbeta-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVHkbeta-eps-converted-to.pdf, id=761, 379.4175pt x 310.15875pt>
+<graficos/PMVHkbeta-eps-converted-to.pdf, id=696, 379.4175pt x 310.15875pt>
 File: graficos/PMVHkbeta-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVHkbeta-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PMVHkbeta-eps-converted-to.pdf  used on input
@@ -2316,7 +1528,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1CVHkbeta-eps-converted-to.p
 df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/theta1CVHkbeta-eps-converted-to.pdf, id=762, 381.425pt x 292.09125pt>
+<graficos/theta1CVHkbeta-eps-converted-to.pdf, id=697, 381.425pt x 292.09125pt>
 
 File: graficos/theta1CVHkbeta-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1CVHkbeta-eps-converted-to.pdf>
@@ -2338,7 +1550,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1SVHkbeta-eps-converted-to.p
 df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/theta1SVHkbeta-eps-converted-to.pdf, id=763, 381.425pt x 299.1175pt>
+<graficos/theta1SVHkbeta-eps-converted-to.pdf, id=698, 381.425pt x 299.1175pt>
 File: graficos/theta1SVHkbeta-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1SVHkbeta-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/theta1SVHkbeta-eps-converted-to.pdf  used on 
@@ -2359,7 +1571,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0VHkbeta-eps-converted-to.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/theta0VHkbeta-eps-converted-to.pdf, id=764, 386.44376pt x 297.11pt>
+<graficos/theta0VHkbeta-eps-converted-to.pdf, id=699, 386.44376pt x 297.11pt>
 File: graficos/theta0VHkbeta-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0VHkbeta-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/theta0VHkbeta-eps-converted-to.pdf  used on i
@@ -2379,7 +1591,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/FRPxkbeta-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/FRPxkbeta-eps-converted-to.pdf, id=765, 381.425pt x 299.1175pt>
+<graficos/FRPxkbeta-eps-converted-to.pdf, id=700, 381.425pt x 299.1175pt>
 File: graficos/FRPxkbeta-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/FRPxkbeta-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/FRPxkbeta-eps-converted-to.pdf  used on input
@@ -2399,7 +1611,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/FRPykbeta-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/FRPykbeta-eps-converted-to.pdf, id=766, 381.425pt x 299.1175pt>
+<graficos/FRPykbeta-eps-converted-to.pdf, id=701, 381.425pt x 299.1175pt>
 File: graficos/FRPykbeta-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/FRPykbeta-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/FRPykbeta-eps-converted-to.pdf  used on input
@@ -2419,17 +1631,13 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/FRPzkbeta-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/FRPzkbeta-eps-converted-to.pdf, id=767, 389.455pt x 293.095pt>
+<graficos/FRPzkbeta-eps-converted-to.pdf, id=702, 389.455pt x 293.095pt>
 File: graficos/FRPzkbeta-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/FRPzkbeta-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/FRPzkbeta-eps-converted-to.pdf  used on input
  line 259.
 (pdftex.def)             Requested size: 256.0748pt x 192.72325pt.
-[62 <./graficos/PMVHkbeta-eps-converted-to.pdf>] [63 <./graficos/theta1CVHkbeta
--eps-converted-to.pdf> <./graficos/theta1SVHkbeta-eps-converted-to.pdf> <./graf
-icos/theta0VHkbeta-eps-converted-to.pdf>] [64 <./graficos/FRPxkbeta-eps-convert
-ed-to.pdf> <./graficos/FRPykbeta-eps-converted-to.pdf> <./graficos/FRPzkbeta-ep
-s-converted-to.pdf>]
+[57]
 Package epstopdf Info: Source file: <graficos/PMbm20.eps>
 (epstopdf)                    date: 2019-08-27 12:46:49
 (epstopdf)                    size: 27545 bytes
@@ -2444,27 +1652,1022 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMbm20-eps-converted-to.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMbm20-eps-converted-to.pdf, id=828, 379.4175pt x 310.15875pt>
+<graficos/PMbm20-eps-converted-to.pdf, id=713, 379.4175pt x 310.15875pt>
 File: graficos/PMbm20-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMbm20-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PMbm20-eps-converted-to.pdf  used on input li
 ne 279.
 (pdftex.def)             Requested size: 256.0748pt x 209.33392pt.
-[65]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66 <./graficos/PMbm20-eps-converted-to.pdf>]) (Capitulos/05_Vuelo-Espiral.tex
- [67]
-[68
+ [58 <./graficos/PMVHkbeta-eps-converted-to.pdf>] [59 <./graficos/theta1CVHkbet
+a-eps-converted-to.pdf> <./graficos/theta1SVHkbeta-eps-converted-to.pdf> <./gra
+ficos/theta0VHkbeta-eps-converted-to.pdf>] [60 <./graficos/FRPxkbeta-eps-conver
+ted-to.pdf> <./graficos/FRPykbeta-eps-converted-to.pdf> <./graficos/FRPzkbeta-e
+ps-converted-to.pdf>] [61 <./graficos/PMbm20-eps-converted-to.pdf>]
+Underfull \vbox (badness 1077) has occurred while \output is active []
 
-]
+ [62]
+Package epstopdf Info: Source file: <graficos/PMVHMPLcdg.eps>
+(epstopdf)                    date: 2019-08-29 01:53:24
+(epstopdf)                    size: 29288 bytes
+(epstopdf)             Output file: <graficos/PMVHMPLcdg-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-08-29 02:45:37
+(epstopdf)                    size: 11363 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/PMVHMPLcdg-eps-con
+verted-to.pdf graficos/PMVHMPLcdg.eps>
+(epstopdf)             \includegraphics on input line 299.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/PMVHMPLcdg-eps-converted-to.pdf):
+ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<graficos/PMVHMPLcdg-eps-converted-to.pdf, id=786, 379.4175pt x 310.15875pt>
+File: graficos/PMVHMPLcdg-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/PMVHMPLcdg-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/PMVHMPLcdg-eps-converted-to.pdf  used on inpu
+t line 299.
+(pdftex.def)             Requested size: 170.71652pt x 139.55594pt.
+Package epstopdf Info: Source file: <graficos/PMVHMPLnocdg.eps>
+(epstopdf)                    date: 2019-08-29 01:50:14
+(epstopdf)                    size: 29592 bytes
+(epstopdf)             Output file: <graficos/PMVHMPLnocdg-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-08-29 02:45:38
+(epstopdf)                    size: 11525 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/PMVHMPLnocdg-eps-c
+onverted-to.pdf graficos/PMVHMPLnocdg.eps>
+(epstopdf)             \includegraphics on input line 300.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/PMVHMPLnocdg-eps-converted-to.pdf
+): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<graficos/PMVHMPLnocdg-eps-converted-to.pdf, id=787, 379.4175pt x 310.15875pt>
+File: graficos/PMVHMPLnocdg-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/PMVHMPLnocdg-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/PMVHMPLnocdg-eps-converted-to.pdf  used on in
+put line 300.
+(pdftex.def)             Requested size: 170.71652pt x 139.55594pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 300.
+Package epstopdf Info: Source file: <graficos/theta0VHMPLcdg.eps>
+(epstopdf)                    date: 2019-08-29 01:53:25
+(epstopdf)                    size: 30497 bytes
+(epstopdf)             Output file: <graficos/theta0VHMPLcdg-eps-converted-to.p
+df>
+(epstopdf)                    date: 2019-08-29 02:45:39
+(epstopdf)                    size: 12597 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/theta0VHMPLcdg-eps
+-converted-to.pdf graficos/theta0VHMPLcdg.eps>
+(epstopdf)             \includegraphics on input line 306.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/theta0VHMPLcdg-eps-converted-to.p
+df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<graficos/theta0VHMPLcdg-eps-converted-to.pdf, id=788, 386.44376pt x 297.11pt>
+File: graficos/theta0VHMPLcdg-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/theta0VHMPLcdg-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/theta0VHMPLcdg-eps-converted-to.pdf  used on 
+input line 306.
+(pdftex.def)             Requested size: 170.71652pt x 131.25015pt.
+Package epstopdf Info: Source file: <graficos/theta0VHMPLnocdg.eps>
+(epstopdf)                    date: 2019-08-29 01:50:15
+(epstopdf)                    size: 30804 bytes
+(epstopdf)             Output file: <graficos/theta0VHMPLnocdg-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2019-08-29 02:45:39
+(epstopdf)                    size: 12703 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/theta0VHMPLnocdg-e
+ps-converted-to.pdf graficos/theta0VHMPLnocdg.eps>
+(epstopdf)             \includegraphics on input line 307.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/theta0VHMPLnocdg-eps-converted-to
+.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
+d
+<graficos/theta0VHMPLnocdg-eps-converted-to.pdf, id=789, 386.44376pt x 297.11pt
+>
+File: graficos/theta0VHMPLnocdg-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/theta0VHMPLnocdg-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/theta0VHMPLnocdg-eps-converted-to.pdf  used o
+n input line 307.
+(pdftex.def)             Requested size: 170.71652pt x 131.25015pt.
+Package epstopdf Info: Source file: <graficos/theta1CVHMPLcdg.eps>
+(epstopdf)                    date: 2019-08-29 01:53:26
+(epstopdf)                    size: 30770 bytes
+(epstopdf)             Output file: <graficos/theta1CVHMPLcdg-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2019-08-29 02:45:40
+(epstopdf)                    size: 12965 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/theta1CVHMPLcdg-ep
+s-converted-to.pdf graficos/theta1CVHMPLcdg.eps>
+(epstopdf)             \includegraphics on input line 313.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/theta1CVHMPLcdg-eps-converted-to.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<graficos/theta1CVHMPLcdg-eps-converted-to.pdf, id=790, 389.455pt x 297.11pt>
+File: graficos/theta1CVHMPLcdg-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/theta1CVHMPLcdg-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/theta1CVHMPLcdg-eps-converted-to.pdf  used on
+ input line 313.
+(pdftex.def)             Requested size: 170.71652pt x 130.23463pt.
+Package epstopdf Info: Source file: <graficos/theta1CVHMPLnocdg.eps>
+(epstopdf)                    date: 2019-08-29 01:50:15
+(epstopdf)                    size: 31106 bytes
+(epstopdf)             Output file: <graficos/theta1CVHMPLnocdg-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2019-08-29 02:45:41
+(epstopdf)                    size: 13039 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/theta1CVHMPLnocdg-
+eps-converted-to.pdf graficos/theta1CVHMPLnocdg.eps>
+(epstopdf)             \includegraphics on input line 314.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/theta1CVHMPLnocdg-eps-converted-t
+o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
+ed
+<graficos/theta1CVHMPLnocdg-eps-converted-to.pdf, id=791, 389.455pt x 297.11pt>
+
+File: graficos/theta1CVHMPLnocdg-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/theta1CVHMPLnocdg-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/theta1CVHMPLnocdg-eps-converted-to.pdf  used 
+on input line 314.
+(pdftex.def)             Requested size: 170.71652pt x 130.23463pt.
+Package epstopdf Info: Source file: <graficos/theta1SVHMPLcdg.eps>
+(epstopdf)                    date: 2019-08-29 01:53:26
+(epstopdf)                    size: 31102 bytes
+(epstopdf)             Output file: <graficos/theta1SVHMPLcdg-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2019-08-29 02:45:41
+(epstopdf)                    size: 13104 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/theta1SVHMPLcdg-ep
+s-converted-to.pdf graficos/theta1SVHMPLcdg.eps>
+(epstopdf)             \includegraphics on input line 320.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/theta1SVHMPLcdg-eps-converted-to.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<graficos/theta1SVHMPLcdg-eps-converted-to.pdf, id=792, 389.455pt x 297.11pt>
+File: graficos/theta1SVHMPLcdg-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/theta1SVHMPLcdg-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/theta1SVHMPLcdg-eps-converted-to.pdf  used on
+ input line 320.
+(pdftex.def)             Requested size: 170.71652pt x 130.23463pt.
+Package epstopdf Info: Source file: <graficos/theta1SVHMPLnocdg.eps>
+(epstopdf)                    date: 2019-08-29 01:50:15
+(epstopdf)                    size: 31461 bytes
+(epstopdf)             Output file: <graficos/theta1SVHMPLnocdg-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2019-08-29 02:45:42
+(epstopdf)                    size: 13267 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/theta1SVHMPLnocdg-
+eps-converted-to.pdf graficos/theta1SVHMPLnocdg.eps>
+(epstopdf)             \includegraphics on input line 321.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/theta1SVHMPLnocdg-eps-converted-t
+o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
+ed
+<graficos/theta1SVHMPLnocdg-eps-converted-to.pdf, id=793, 389.455pt x 297.11pt>
+
+File: graficos/theta1SVHMPLnocdg-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/theta1SVHMPLnocdg-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/theta1SVHMPLnocdg-eps-converted-to.pdf  used 
+on input line 321.
+(pdftex.def)             Requested size: 170.71652pt x 130.23463pt.
+Package epstopdf Info: Source file: <graficos/CabVHMPLcdg.eps>
+(epstopdf)                    date: 2019-08-29 01:53:27
+(epstopdf)                    size: 29982 bytes
+(epstopdf)             Output file: <graficos/CabVHMPLcdg-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2019-08-29 02:45:42
+(epstopdf)                    size: 12187 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/CabVHMPLcdg-eps-co
+nverted-to.pdf graficos/CabVHMPLcdg.eps>
+(epstopdf)             \includegraphics on input line 327.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/CabVHMPLcdg-eps-converted-to.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<graficos/CabVHMPLcdg-eps-converted-to.pdf, id=794, 389.455pt x 297.11pt>
+File: graficos/CabVHMPLcdg-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/CabVHMPLcdg-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/CabVHMPLcdg-eps-converted-to.pdf  used on inp
+ut line 327.
+(pdftex.def)             Requested size: 170.71652pt x 130.23463pt.
+Package epstopdf Info: Source file: <graficos/CabVHMPLnocdg.eps>
+(epstopdf)                    date: 2019-08-29 01:50:16
+(epstopdf)                    size: 28683 bytes
+(epstopdf)             Output file: <graficos/CabVHMPLnocdg-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2019-08-29 02:45:43
+(epstopdf)                    size: 12088 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/CabVHMPLnocdg-eps-
+converted-to.pdf graficos/CabVHMPLnocdg.eps>
+(epstopdf)             \includegraphics on input line 328.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/CabVHMPLnocdg-eps-converted-to.pd
+f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<graficos/CabVHMPLnocdg-eps-converted-to.pdf, id=795, 389.455pt x 297.11pt>
+File: graficos/CabVHMPLnocdg-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/CabVHMPLnocdg-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/CabVHMPLnocdg-eps-converted-to.pdf  used on i
+nput line 328.
+(pdftex.def)             Requested size: 170.71652pt x 130.23463pt.
+Package epstopdf Info: Source file: <graficos/BalanVHMPLcdg.eps>
+(epstopdf)                    date: 2019-08-29 01:53:27
+(epstopdf)                    size: 29534 bytes
+(epstopdf)             Output file: <graficos/BalanVHMPLcdg-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2019-08-29 02:45:44
+(epstopdf)                    size: 11872 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/BalanVHMPLcdg-eps-
+converted-to.pdf graficos/BalanVHMPLcdg.eps>
+(epstopdf)             \includegraphics on input line 334.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/BalanVHMPLcdg-eps-converted-to.pd
+f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<graficos/BalanVHMPLcdg-eps-converted-to.pdf, id=796, 389.455pt x 297.11pt>
+File: graficos/BalanVHMPLcdg-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/BalanVHMPLcdg-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/BalanVHMPLcdg-eps-converted-to.pdf  used on i
+nput line 334.
+(pdftex.def)             Requested size: 170.71652pt x 130.23463pt.
+Package epstopdf Info: Source file: <graficos/BalanVHMPLnocdg.eps>
+(epstopdf)                    date: 2019-08-29 01:50:16
+(epstopdf)                    size: 29480 bytes
+(epstopdf)             Output file: <graficos/BalanVHMPLnocdg-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2019-08-29 02:45:44
+(epstopdf)                    size: 11895 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/BalanVHMPLnocdg-ep
+s-converted-to.pdf graficos/BalanVHMPLnocdg.eps>
+(epstopdf)             \includegraphics on input line 335.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/BalanVHMPLnocdg-eps-converted-to.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<graficos/BalanVHMPLnocdg-eps-converted-to.pdf, id=797, 389.455pt x 297.11pt>
+File: graficos/BalanVHMPLnocdg-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/BalanVHMPLnocdg-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/BalanVHMPLnocdg-eps-converted-to.pdf  used on
+ input line 335.
+(pdftex.def)             Requested size: 170.71652pt x 130.23463pt.
+Package epstopdf Info: Source file: <graficos/theta0VHraMPLcdg.eps>
+(epstopdf)                    date: 2019-08-29 01:53:28
+(epstopdf)                    size: 33321 bytes
+(epstopdf)             Output file: <graficos/theta0VHraMPLcdg-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2019-08-29 02:45:45
+(epstopdf)                    size: 14062 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/theta0VHraMPLcdg-e
+ps-converted-to.pdf graficos/theta0VHraMPLcdg.eps>
+(epstopdf)             \includegraphics on input line 341.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/theta0VHraMPLcdg-eps-converted-to
+.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
+d
+<graficos/theta0VHraMPLcdg-eps-converted-to.pdf, id=798, 389.455pt x 297.11pt>
+File: graficos/theta0VHraMPLcdg-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/theta0VHraMPLcdg-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/theta0VHraMPLcdg-eps-converted-to.pdf  used o
+n input line 341.
+(pdftex.def)             Requested size: 170.71652pt x 130.23463pt.
+Package epstopdf Info: Source file: <graficos/theta0VHraMPLnocdg.eps>
+(epstopdf)                    date: 2019-08-29 01:50:17
+(epstopdf)                    size: 33323 bytes
+(epstopdf)             Output file: <graficos/theta0VHraMPLnocdg-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2019-08-29 02:45:46
+(epstopdf)                    size: 14161 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/theta0VHraMPLnocdg
+-eps-converted-to.pdf graficos/theta0VHraMPLnocdg.eps>
+(epstopdf)             \includegraphics on input line 342.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/theta0VHraMPLnocdg-eps-converted-
+to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
+wed
+<graficos/theta0VHraMPLnocdg-eps-converted-to.pdf, id=799, 389.455pt x 297.11pt
+>
+File: graficos/theta0VHraMPLnocdg-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/theta0VHraMPLnocdg-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/theta0VHraMPLnocdg-eps-converted-to.pdf  used
+ on input line 342.
+(pdftex.def)             Requested size: 170.71652pt x 130.23463pt.
+
+LaTeX Warning: Reference `Theta1CVHraMPL' on page 63 undefined on input line 34
+7.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63 <./graficos/PMVHMPLcdg-eps-converted-to.pdf> <./graficos/PMVHMPLnocdg-eps-
+converted-to.pdf>] [64 <./graficos/theta0VHMPLcdg-eps-converted-to.pdf> <./graf
+icos/theta0VHMPLnocdg-eps-converted-to.pdf> <./graficos/theta1CVHMPLcdg-eps-con
+verted-to.pdf> <./graficos/theta1CVHMPLnocdg-eps-converted-to.pdf>] [65 <./graf
+icos/theta1SVHMPLcdg-eps-converted-to.pdf> <./graficos/theta1SVHMPLnocdg-eps-co
+nverted-to.pdf> <./graficos/CabVHMPLcdg-eps-converted-to.pdf> <./graficos/CabVH
+MPLnocdg-eps-converted-to.pdf>] [66 <./graficos/BalanVHMPLcdg-eps-converted-to.
+pdf> <./graficos/BalanVHMPLnocdg-eps-converted-to.pdf> <./graficos/theta0VHraMP
+Lcdg-eps-converted-to.pdf> <./graficos/theta0VHraMPLnocdg-eps-converted-to.pdf>
+] [67]
+Package epstopdf Info: Source file: <graficos/PMVH2lxy10ms.eps>
+(epstopdf)                    date: 2019-08-29 02:42:22
+(epstopdf)                    size: 46685 bytes
+(epstopdf)             Output file: <graficos/PMVH2lxy10ms-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-08-29 02:45:47
+(epstopdf)                    size: 27211 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/PMVH2lxy10ms-eps-c
+onverted-to.pdf graficos/PMVH2lxy10ms.eps>
+(epstopdf)             \includegraphics on input line 367.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/PMVH2lxy10ms-eps-converted-to.pdf
+): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<graficos/PMVH2lxy10ms-eps-converted-to.pdf, id=925, 393.47pt x 312.16624pt>
+File: graficos/PMVH2lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/PMVH2lxy10ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/PMVH2lxy10ms-eps-converted-to.pdf  used on in
+put line 367.
+(pdftex.def)             Requested size: 170.71652pt x 135.43874pt.
+Package epstopdf Info: Source file: <graficos/PMVH2lxy50ms.eps>
+(epstopdf)                    date: 2019-08-29 03:18:51
+(epstopdf)                    size: 46272 bytes
+(epstopdf)             Output file: <graficos/PMVH2lxy50ms-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-08-29 10:42:38
+(epstopdf)                    size: 29074 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/PMVH2lxy50ms-eps-c
+onverted-to.pdf graficos/PMVH2lxy50ms.eps>
+(epstopdf)             \includegraphics on input line 368.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/PMVH2lxy50ms-eps-converted-to.pdf
+): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<graficos/PMVH2lxy50ms-eps-converted-to.pdf, id=926, 383.4325pt x 312.16624pt>
+File: graficos/PMVH2lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/PMVH2lxy50ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/PMVH2lxy50ms-eps-converted-to.pdf  used on in
+put line 368.
+(pdftex.def)             Requested size: 170.71652pt x 138.98737pt.
+Package epstopdf Info: Source file: <graficos/PMVH3lxy10ms.eps>
+(epstopdf)                    date: 2019-08-29 03:46:31
+(epstopdf)                    size: 46399 bytes
+(epstopdf)             Output file: <graficos/PMVH3lxy10ms-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-08-29 10:42:43
+(epstopdf)                    size: 28148 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/PMVH3lxy10ms-eps-c
+onverted-to.pdf graficos/PMVH3lxy10ms.eps>
+(epstopdf)             \includegraphics on input line 374.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/PMVH3lxy10ms-eps-converted-to.pdf
+): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<graficos/PMVH3lxy10ms-eps-converted-to.pdf, id=927, 393.47pt x 312.16624pt>
+File: graficos/PMVH3lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/PMVH3lxy10ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/PMVH3lxy10ms-eps-converted-to.pdf  used on in
+put line 374.
+(pdftex.def)             Requested size: 170.71652pt x 135.43874pt.
+Package epstopdf Info: Source file: <graficos/PMVH3lxy50ms.eps>
+(epstopdf)                    date: 2019-08-29 04:16:17
+(epstopdf)                    size: 47616 bytes
+(epstopdf)             Output file: <graficos/PMVH3lxy50ms-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2019-08-29 10:42:43
+(epstopdf)                    size: 28249 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/PMVH3lxy50ms-eps-c
+onverted-to.pdf graficos/PMVH3lxy50ms.eps>
+(epstopdf)             \includegraphics on input line 375.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/PMVH3lxy50ms-eps-converted-to.pdf
+): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<graficos/PMVH3lxy50ms-eps-converted-to.pdf, id=928, 383.4325pt x 312.16624pt>
+File: graficos/PMVH3lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/PMVH3lxy50ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/PMVH3lxy50ms-eps-converted-to.pdf  used on in
+put line 375.
+(pdftex.def)             Requested size: 170.71652pt x 138.98737pt.
+
+Underfull \vbox (badness 1622) has occurred while \output is active []
+
+ [68]
+[69 <./graficos/PMVH2lxy10ms-eps-converted-to.pdf> <./graficos/PMVH2lxy50ms-eps
+-converted-to.pdf> <./graficos/PMVH3lxy10ms-eps-converted-to.pdf> <./graficos/P
+MVH3lxy50ms-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <graficos/theta0VH2lxy10ms.eps>
+(epstopdf)                    date: 2019-08-29 02:42:22
+(epstopdf)                    size: 47982 bytes
+(epstopdf)             Output file: <graficos/theta0VH2lxy10ms-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2019-08-29 02:45:47
+(epstopdf)                    size: 26559 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/theta0VH2lxy10ms-e
+ps-converted-to.pdf graficos/theta0VH2lxy10ms.eps>
+(epstopdf)             \includegraphics on input line 386.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/theta0VH2lxy10ms-eps-converted-to
+.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
+d
+<graficos/theta0VH2lxy10ms-eps-converted-to.pdf, id=973, 407.5225pt x 312.16624
+pt>
+File: graficos/theta0VH2lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/theta0VH2lxy10ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/theta0VH2lxy10ms-eps-converted-to.pdf  used o
+n input line 386.
+(pdftex.def)             Requested size: 170.71652pt x 130.77074pt.
+Package epstopdf Info: Source file: <graficos/theta0VH2lxy50ms.eps>
+(epstopdf)                    date: 2019-08-29 03:18:52
+(epstopdf)                    size: 48153 bytes
+(epstopdf)             Output file: <graficos/theta0VH2lxy50ms-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2019-08-29 10:42:39
+(epstopdf)                    size: 30189 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/theta0VH2lxy50ms-e
+ps-converted-to.pdf graficos/theta0VH2lxy50ms.eps>
+(epstopdf)             \includegraphics on input line 387.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/theta0VH2lxy50ms-eps-converted-to
+.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
+d
+<graficos/theta0VH2lxy50ms-eps-converted-to.pdf, id=974, 400.49625pt x 312.1662
+4pt>
+File: graficos/theta0VH2lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/theta0VH2lxy50ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/theta0VH2lxy50ms-eps-converted-to.pdf  used o
+n input line 387.
+(pdftex.def)             Requested size: 170.71652pt x 133.06662pt.
+Package epstopdf Info: Source file: <graficos/theta0VH3lxy10ms.eps>
+(epstopdf)                    date: 2019-08-29 03:46:32
+(epstopdf)                    size: 47365 bytes
+(epstopdf)             Output file: <graficos/theta0VH3lxy10ms-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2019-08-29 10:42:44
+(epstopdf)                    size: 26352 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/theta0VH3lxy10ms-e
+ps-converted-to.pdf graficos/theta0VH3lxy10ms.eps>
+(epstopdf)             \includegraphics on input line 393.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/theta0VH3lxy10ms-eps-converted-to
+.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
+d
+<graficos/theta0VH3lxy10ms-eps-converted-to.pdf, id=975, 407.5225pt x 312.16624
+pt>
+File: graficos/theta0VH3lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/theta0VH3lxy10ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/theta0VH3lxy10ms-eps-converted-to.pdf  used o
+n input line 393.
+(pdftex.def)             Requested size: 170.71652pt x 130.77074pt.
+Package epstopdf Info: Source file: <graficos/theta0VH3lxy50ms.eps>
+(epstopdf)                    date: 2019-08-29 04:16:17
+(epstopdf)                    size: 49979 bytes
+(epstopdf)             Output file: <graficos/theta0VH3lxy50ms-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2019-08-29 10:42:45
+(epstopdf)                    size: 31249 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/theta0VH3lxy50ms-e
+ps-converted-to.pdf graficos/theta0VH3lxy50ms.eps>
+(epstopdf)             \includegraphics on input line 394.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/theta0VH3lxy50ms-eps-converted-to
+.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
+d
+<graficos/theta0VH3lxy50ms-eps-converted-to.pdf, id=976, 400.49625pt x 312.1662
+4pt>
+File: graficos/theta0VH3lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/theta0VH3lxy50ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/theta0VH3lxy50ms-eps-converted-to.pdf  used o
+n input line 394.
+(pdftex.def)             Requested size: 170.71652pt x 133.06662pt.
+Package epstopdf Info: Source file: <graficos/theta1CVH2lxy10ms.eps>
+(epstopdf)                    date: 2019-08-29 02:42:23
+(epstopdf)                    size: 51392 bytes
+(epstopdf)             Output file: <graficos/theta1CVH2lxy10ms-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2019-08-29 02:45:48
+(epstopdf)                    size: 27392 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/theta1CVH2lxy10ms-
+eps-converted-to.pdf graficos/theta1CVH2lxy10ms.eps>
+(epstopdf)             \includegraphics on input line 403.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/theta1CVH2lxy10ms-eps-converted-t
+o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
+ed
+<graficos/theta1CVH2lxy10ms-eps-converted-to.pdf, id=979, 398.48875pt x 312.166
+24pt>
+File: graficos/theta1CVH2lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/theta1CVH2lxy10ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/theta1CVH2lxy10ms-eps-converted-to.pdf  used 
+on input line 403.
+(pdftex.def)             Requested size: 170.71652pt x 133.73349pt.
+Package epstopdf Info: Source file: <graficos/theta1CVH2lxy50ms.eps>
+(epstopdf)                    date: 2019-08-29 03:18:53
+(epstopdf)                    size: 53379 bytes
+(epstopdf)             Output file: <graficos/theta1CVH2lxy50ms-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2019-08-29 10:42:39
+(epstopdf)                    size: 25852 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/theta1CVH2lxy50ms-
+eps-converted-to.pdf graficos/theta1CVH2lxy50ms.eps>
+(epstopdf)             \includegraphics on input line 404.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/theta1CVH2lxy50ms-eps-converted-t
+o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
+ed
+<graficos/theta1CVH2lxy50ms-eps-converted-to.pdf, id=980, 398.48875pt x 312.166
+24pt>
+File: graficos/theta1CVH2lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/theta1CVH2lxy50ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/theta1CVH2lxy50ms-eps-converted-to.pdf  used 
+on input line 404.
+(pdftex.def)             Requested size: 170.71652pt x 133.73349pt.
+Package epstopdf Info: Source file: <graficos/theta1CVH3lxy10ms.eps>
+(epstopdf)                    date: 2019-08-29 03:46:32
+(epstopdf)                    size: 50921 bytes
+(epstopdf)             Output file: <graficos/theta1CVH3lxy10ms-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2019-08-29 10:42:46
+(epstopdf)                    size: 28483 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/theta1CVH3lxy10ms-
+eps-converted-to.pdf graficos/theta1CVH3lxy10ms.eps>
+(epstopdf)             \includegraphics on input line 410.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/theta1CVH3lxy10ms-eps-converted-t
+o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
+ed
+<graficos/theta1CVH3lxy10ms-eps-converted-to.pdf, id=981, 398.48875pt x 312.166
+24pt>
+File: graficos/theta1CVH3lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/theta1CVH3lxy10ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/theta1CVH3lxy10ms-eps-converted-to.pdf  used 
+on input line 410.
+(pdftex.def)             Requested size: 170.71652pt x 133.73349pt.
+Package epstopdf Info: Source file: <graficos/theta1CVH3lxy50ms.eps>
+(epstopdf)                    date: 2019-08-29 04:16:18
+(epstopdf)                    size: 52426 bytes
+(epstopdf)             Output file: <graficos/theta1CVH3lxy50ms-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2019-08-29 10:42:46
+(epstopdf)                    size: 26699 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/theta1CVH3lxy50ms-
+eps-converted-to.pdf graficos/theta1CVH3lxy50ms.eps>
+(epstopdf)             \includegraphics on input line 411.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/theta1CVH3lxy50ms-eps-converted-t
+o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
+ed
+<graficos/theta1CVH3lxy50ms-eps-converted-to.pdf, id=982, 398.48875pt x 312.166
+24pt>
+File: graficos/theta1CVH3lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/theta1CVH3lxy50ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/theta1CVH3lxy50ms-eps-converted-to.pdf  used 
+on input line 411.
+(pdftex.def)             Requested size: 170.71652pt x 133.73349pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [70]
+[71 <./graficos/theta0VH2lxy10ms-eps-converted-to.pdf> <./graficos/theta0VH2lxy
+50ms-eps-converted-to.pdf> <./graficos/theta0VH3lxy10ms-eps-converted-to.pdf> <
+./graficos/theta0VH3lxy50ms-eps-converted-to.pdf>] [72 <./graficos/theta1CVH2lx
+y10ms-eps-converted-to.pdf> <./graficos/theta1CVH2lxy50ms-eps-converted-to.pdf>
+ <./graficos/theta1CVH3lxy10ms-eps-converted-to.pdf> <./graficos/theta1CVH3lxy5
+0ms-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <graficos/theta1SVH2lxy10ms.eps>
+(epstopdf)                    date: 2019-08-29 02:42:23
+(epstopdf)                    size: 48382 bytes
+(epstopdf)             Output file: <graficos/theta1SVH2lxy10ms-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2019-08-29 02:45:49
+(epstopdf)                    size: 29648 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/theta1SVH2lxy10ms-
+eps-converted-to.pdf graficos/theta1SVH2lxy10ms.eps>
+(epstopdf)             \includegraphics on input line 420.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/theta1SVH2lxy10ms-eps-converted-t
+o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
+ed
+<graficos/theta1SVH2lxy10ms-eps-converted-to.pdf, id=1065, 398.48875pt x 312.16
+624pt>
+File: graficos/theta1SVH2lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/theta1SVH2lxy10ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/theta1SVH2lxy10ms-eps-converted-to.pdf  used 
+on input line 420.
+(pdftex.def)             Requested size: 170.71652pt x 133.73349pt.
+Package epstopdf Info: Source file: <graficos/theta1SVH2lxy50ms.eps>
+(epstopdf)                    date: 2019-08-29 03:18:54
+(epstopdf)                    size: 49999 bytes
+(epstopdf)             Output file: <graficos/theta1SVH2lxy50ms-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2019-08-29 10:42:40
+(epstopdf)                    size: 31229 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/theta1SVH2lxy50ms-
+eps-converted-to.pdf graficos/theta1SVH2lxy50ms.eps>
+(epstopdf)             \includegraphics on input line 421.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/theta1SVH2lxy50ms-eps-converted-t
+o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
+ed
+<graficos/theta1SVH2lxy50ms-eps-converted-to.pdf, id=1066, 398.48875pt x 312.16
+624pt>
+File: graficos/theta1SVH2lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/theta1SVH2lxy50ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/theta1SVH2lxy50ms-eps-converted-to.pdf  used 
+on input line 421.
+(pdftex.def)             Requested size: 170.71652pt x 133.73349pt.
+Package epstopdf Info: Source file: <graficos/theta1SVH3lxy10ms.eps>
+(epstopdf)                    date: 2019-08-29 03:46:33
+(epstopdf)                    size: 48061 bytes
+(epstopdf)             Output file: <graficos/theta1SVH3lxy10ms-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2019-08-29 10:42:47
+(epstopdf)                    size: 29195 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/theta1SVH3lxy10ms-
+eps-converted-to.pdf graficos/theta1SVH3lxy10ms.eps>
+(epstopdf)             \includegraphics on input line 427.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/theta1SVH3lxy10ms-eps-converted-t
+o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
+ed
+<graficos/theta1SVH3lxy10ms-eps-converted-to.pdf, id=1067, 398.48875pt x 312.16
+624pt>
+File: graficos/theta1SVH3lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/theta1SVH3lxy10ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/theta1SVH3lxy10ms-eps-converted-to.pdf  used 
+on input line 427.
+(pdftex.def)             Requested size: 170.71652pt x 133.73349pt.
+Package epstopdf Info: Source file: <graficos/theta1SVH3lxy50ms.eps>
+(epstopdf)                    date: 2019-08-29 04:16:18
+(epstopdf)                    size: 49916 bytes
+(epstopdf)             Output file: <graficos/theta1SVH3lxy50ms-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2019-08-29 10:42:48
+(epstopdf)                    size: 30688 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/theta1SVH3lxy50ms-
+eps-converted-to.pdf graficos/theta1SVH3lxy50ms.eps>
+(epstopdf)             \includegraphics on input line 428.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/theta1SVH3lxy50ms-eps-converted-t
+o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
+ed
+<graficos/theta1SVH3lxy50ms-eps-converted-to.pdf, id=1068, 398.48875pt x 312.16
+624pt>
+File: graficos/theta1SVH3lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/theta1SVH3lxy50ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/theta1SVH3lxy50ms-eps-converted-to.pdf  used 
+on input line 428.
+(pdftex.def)             Requested size: 170.71652pt x 133.73349pt.
+Package epstopdf Info: Source file: <graficos/CabVH2lxy10ms.eps>
+(epstopdf)                    date: 2019-08-29 02:42:24
+(epstopdf)                    size: 45602 bytes
+(epstopdf)             Output file: <graficos/CabVH2lxy10ms-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2019-08-29 02:45:50
+(epstopdf)                    size: 26159 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/CabVH2lxy10ms-eps-
+converted-to.pdf graficos/CabVH2lxy10ms.eps>
+(epstopdf)             \includegraphics on input line 439.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/CabVH2lxy10ms-eps-converted-to.pd
+f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<graficos/CabVH2lxy10ms-eps-converted-to.pdf, id=1069, 398.48875pt x 312.16624p
+t>
+File: graficos/CabVH2lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/CabVH2lxy10ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/CabVH2lxy10ms-eps-converted-to.pdf  used on i
+nput line 439.
+(pdftex.def)             Requested size: 170.71652pt x 133.73349pt.
+Package epstopdf Info: Source file: <graficos/CabVH2lxy50ms.eps>
+(epstopdf)                    date: 2019-08-29 03:18:55
+(epstopdf)                    size: 44906 bytes
+(epstopdf)             Output file: <graficos/CabVH2lxy50ms-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2019-08-29 10:42:41
+(epstopdf)                    size: 26547 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/CabVH2lxy50ms-eps-
+converted-to.pdf graficos/CabVH2lxy50ms.eps>
+(epstopdf)             \includegraphics on input line 440.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/CabVH2lxy50ms-eps-converted-to.pd
+f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<graficos/CabVH2lxy50ms-eps-converted-to.pdf, id=1070, 398.48875pt x 312.16624p
+t>
+File: graficos/CabVH2lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/CabVH2lxy50ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/CabVH2lxy50ms-eps-converted-to.pdf  used on i
+nput line 440.
+(pdftex.def)             Requested size: 170.71652pt x 133.73349pt.
+Package epstopdf Info: Source file: <graficos/CabVH3lxy10ms.eps>
+(epstopdf)                    date: 2019-08-29 03:46:34
+(epstopdf)                    size: 44152 bytes
+(epstopdf)             Output file: <graficos/CabVH3lxy10ms-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2019-08-29 10:42:48
+(epstopdf)                    size: 25824 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/CabVH3lxy10ms-eps-
+converted-to.pdf graficos/CabVH3lxy10ms.eps>
+(epstopdf)             \includegraphics on input line 446.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/CabVH3lxy10ms-eps-converted-to.pd
+f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<graficos/CabVH3lxy10ms-eps-converted-to.pdf, id=1071, 398.48875pt x 312.16624p
+t>
+File: graficos/CabVH3lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/CabVH3lxy10ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/CabVH3lxy10ms-eps-converted-to.pdf  used on i
+nput line 446.
+(pdftex.def)             Requested size: 170.71652pt x 133.73349pt.
+Package epstopdf Info: Source file: <graficos/CabVH3lxy50ms.eps>
+(epstopdf)                    date: 2019-08-29 04:16:19
+(epstopdf)                    size: 45398 bytes
+(epstopdf)             Output file: <graficos/CabVH3lxy50ms-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2019-08-29 10:42:49
+(epstopdf)                    size: 26088 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/CabVH3lxy50ms-eps-
+converted-to.pdf graficos/CabVH3lxy50ms.eps>
+(epstopdf)             \includegraphics on input line 447.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/CabVH3lxy50ms-eps-converted-to.pd
+f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<graficos/CabVH3lxy50ms-eps-converted-to.pdf, id=1072, 398.48875pt x 312.16624p
+t>
+File: graficos/CabVH3lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/CabVH3lxy50ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/CabVH3lxy50ms-eps-converted-to.pdf  used on i
+nput line 447.
+(pdftex.def)             Requested size: 170.71652pt x 133.73349pt.
+Package epstopdf Info: Source file: <graficos/BalanVH2lxy10ms.eps>
+(epstopdf)                    date: 2019-08-29 02:42:25
+(epstopdf)                    size: 42400 bytes
+(epstopdf)             Output file: <graficos/BalanVH2lxy10ms-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2019-08-29 02:45:50
+(epstopdf)                    size: 19318 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/BalanVH2lxy10ms-ep
+s-converted-to.pdf graficos/BalanVH2lxy10ms.eps>
+(epstopdf)             \includegraphics on input line 454.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/BalanVH2lxy10ms-eps-converted-to.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<graficos/BalanVH2lxy10ms-eps-converted-to.pdf, id=1073, 398.48875pt x 312.1662
+4pt>
+File: graficos/BalanVH2lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/BalanVH2lxy10ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/BalanVH2lxy10ms-eps-converted-to.pdf  used on
+ input line 454.
+(pdftex.def)             Requested size: 170.71652pt x 133.73349pt.
+Package epstopdf Info: Source file: <graficos/BalanVH2lxy50ms.eps>
+(epstopdf)                    date: 2019-08-29 03:18:55
+(epstopdf)                    size: 44206 bytes
+(epstopdf)             Output file: <graficos/BalanVH2lxy50ms-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2019-08-29 10:42:42
+(epstopdf)                    size: 20601 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/BalanVH2lxy50ms-ep
+s-converted-to.pdf graficos/BalanVH2lxy50ms.eps>
+(epstopdf)             \includegraphics on input line 455.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/BalanVH2lxy50ms-eps-converted-to.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<graficos/BalanVH2lxy50ms-eps-converted-to.pdf, id=1074, 398.48875pt x 312.1662
+4pt>
+File: graficos/BalanVH2lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/BalanVH2lxy50ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/BalanVH2lxy50ms-eps-converted-to.pdf  used on
+ input line 455.
+(pdftex.def)             Requested size: 170.71652pt x 133.73349pt.
+Package epstopdf Info: Source file: <graficos/BalanVH3lxy10ms.eps>
+(epstopdf)                    date: 2019-08-29 03:46:34
+(epstopdf)                    size: 42624 bytes
+(epstopdf)             Output file: <graficos/BalanVH3lxy10ms-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2019-08-29 10:42:50
+(epstopdf)                    size: 19306 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/BalanVH3lxy10ms-ep
+s-converted-to.pdf graficos/BalanVH3lxy10ms.eps>
+(epstopdf)             \includegraphics on input line 461.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/BalanVH3lxy10ms-eps-converted-to.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<graficos/BalanVH3lxy10ms-eps-converted-to.pdf, id=1075, 398.48875pt x 312.1662
+4pt>
+File: graficos/BalanVH3lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/BalanVH3lxy10ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/BalanVH3lxy10ms-eps-converted-to.pdf  used on
+ input line 461.
+(pdftex.def)             Requested size: 170.71652pt x 133.73349pt.
+Package epstopdf Info: Source file: <graficos/BalanVH3lxy50ms.eps>
+(epstopdf)                    date: 2019-08-29 04:16:19
+(epstopdf)                    size: 45533 bytes
+(epstopdf)             Output file: <graficos/BalanVH3lxy50ms-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2019-08-29 10:42:50
+(epstopdf)                    size: 21385 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/BalanVH3lxy50ms-ep
+s-converted-to.pdf graficos/BalanVH3lxy50ms.eps>
+(epstopdf)             \includegraphics on input line 462.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/BalanVH3lxy50ms-eps-converted-to.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<graficos/BalanVH3lxy50ms-eps-converted-to.pdf, id=1076, 398.48875pt x 312.1662
+4pt>
+File: graficos/BalanVH3lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/BalanVH3lxy50ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/BalanVH3lxy50ms-eps-converted-to.pdf  used on
+ input line 462.
+(pdftex.def)             Requested size: 170.71652pt x 133.73349pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73 <./graficos/theta1SVH2lxy10ms-eps-converted-to.pdf> <./graficos/theta1SVH2
+lxy50ms-eps-converted-to.pdf>] [74 <./graficos/theta1SVH3lxy10ms-eps-converted-
+to.pdf> <./graficos/theta1SVH3lxy50ms-eps-converted-to.pdf> <./graficos/CabVH2l
+xy10ms-eps-converted-to.pdf> <./graficos/CabVH2lxy50ms-eps-converted-to.pdf>] [
+75 <./graficos/CabVH3lxy10ms-eps-converted-to.pdf> <./graficos/CabVH3lxy50ms-ep
+s-converted-to.pdf> <./graficos/BalanVH2lxy10ms-eps-converted-to.pdf> <./grafic
+os/BalanVH2lxy50ms-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <graficos/theta0raVH2lxy10ms.eps>
+(epstopdf)                    date: 2019-08-29 02:42:25
+(epstopdf)                    size: 51397 bytes
+(epstopdf)             Output file: <graficos/theta0raVH2lxy10ms-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2019-08-29 10:46:52
+(epstopdf)                    size: 31192 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/theta0raVH2lxy10ms
+-eps-converted-to.pdf graficos/theta0raVH2lxy10ms.eps>
+(epstopdf)             \includegraphics on input line 473.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/theta0raVH2lxy10ms-eps-converted-
+to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
+wed
+<graficos/theta0raVH2lxy10ms-eps-converted-to.pdf, id=1179, 400.49625pt x 312.1
+6624pt>
+File: graficos/theta0raVH2lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/theta0raVH2lxy10ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/theta0raVH2lxy10ms-eps-converted-to.pdf  used
+ on input line 473.
+(pdftex.def)             Requested size: 170.71652pt x 133.06662pt.
+Package epstopdf Info: Source file: <graficos/theta0raVH2lxy50ms.eps>
+(epstopdf)                    date: 2019-08-29 03:18:56
+(epstopdf)                    size: 52399 bytes
+(epstopdf)             Output file: <graficos/theta0raVH2lxy50ms-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2019-08-29 10:46:52
+(epstopdf)                    size: 31181 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/theta0raVH2lxy50ms
+-eps-converted-to.pdf graficos/theta0raVH2lxy50ms.eps>
+(epstopdf)             \includegraphics on input line 474.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/theta0raVH2lxy50ms-eps-converted-
+to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
+wed
+<graficos/theta0raVH2lxy50ms-eps-converted-to.pdf, id=1180, 405.515pt x 312.166
+24pt>
+File: graficos/theta0raVH2lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/theta0raVH2lxy50ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/theta0raVH2lxy50ms-eps-converted-to.pdf  used
+ on input line 474.
+(pdftex.def)             Requested size: 170.71652pt x 131.41853pt.
+Package epstopdf Info: Source file: <graficos/theta0raVH3lxy10ms.eps>
+(epstopdf)                    date: 2019-08-29 03:46:35
+(epstopdf)                    size: 51396 bytes
+(epstopdf)             Output file: <graficos/theta0raVH3lxy10ms-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2019-08-29 10:46:54
+(epstopdf)                    size: 30783 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/theta0raVH3lxy10ms
+-eps-converted-to.pdf graficos/theta0raVH3lxy10ms.eps>
+(epstopdf)             \includegraphics on input line 480.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/theta0raVH3lxy10ms-eps-converted-
+to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
+wed
+<graficos/theta0raVH3lxy10ms-eps-converted-to.pdf, id=1181, 400.49625pt x 312.1
+6624pt>
+File: graficos/theta0raVH3lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/theta0raVH3lxy10ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/theta0raVH3lxy10ms-eps-converted-to.pdf  used
+ on input line 480.
+(pdftex.def)             Requested size: 170.71652pt x 133.06662pt.
+Package epstopdf Info: Source file: <graficos/theta0raVH3lxy50ms.eps>
+(epstopdf)                    date: 2019-08-29 04:16:20
+(epstopdf)                    size: 53344 bytes
+(epstopdf)             Output file: <graficos/theta0raVH3lxy50ms-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2019-08-29 10:46:55
+(epstopdf)                    size: 31241 bytes
+(epstopdf)             Command: <epstopdf --outfile=graficos/theta0raVH3lxy50ms
+-eps-converted-to.pdf graficos/theta0raVH3lxy50ms.eps>
+(epstopdf)             \includegraphics on input line 481.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex.exe (file ./graficos/theta0raVH3lxy50ms-eps-converted-
+to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
+wed
+<graficos/theta0raVH3lxy50ms-eps-converted-to.pdf, id=1182, 405.515pt x 312.166
+24pt>
+File: graficos/theta0raVH3lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
+<use graficos/theta0raVH3lxy50ms-eps-converted-to.pdf>
+Package pdftex.def Info: graficos/theta0raVH3lxy50ms-eps-converted-to.pdf  used
+ on input line 481.
+(pdftex.def)             Requested size: 170.71652pt x 131.41853pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [76 <./graficos/BalanVH3lxy10ms-eps-converted-to.pdf> <./graficos/BalanVH3lxy5
+0ms-eps-converted-to.pdf>] [77 <./graficos/theta0raVH2lxy10ms-eps-converted-to.
+pdf> <./graficos/theta0raVH2lxy50ms-eps-converted-to.pdf> <./graficos/theta0raV
+H3lxy10ms-eps-converted-to.pdf> <./graficos/theta0raVH3lxy50ms-eps-converted-to
+.pdf>])
+(Capitulos/05_Vuelo-Espiral.tex [78]
 Cap\'{\i }tulo 5.
 Package epstopdf Info: Source file: <graficos/PMVE.eps>
-(epstopdf)                    date: 2019-08-26 17:52:13
-(epstopdf)                    size: 26918 bytes
+(epstopdf)                    date: 2019-08-29 13:14:51
+(epstopdf)                    size: 27730 bytes
 (epstopdf)             Output file: <graficos/PMVE-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-26 17:56:05
-(epstopdf)                    size: 10477 bytes
+(epstopdf)                    date: 2019-08-29 13:17:16
+(epstopdf)                    size: 10689 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/PMVE-eps-converted
 -to.pdf graficos/PMVE.eps>
 (epstopdf)             \includegraphics on input line 11.
@@ -2473,18 +2676,18 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVE-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVE-eps-converted-to.pdf, id=857, 379.4175pt x 310.15875pt>
+<graficos/PMVE-eps-converted-to.pdf, id=1250, 379.4175pt x 310.15875pt>
 File: graficos/PMVE-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVE-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PMVE-eps-converted-to.pdf  used on input line
  11.
 (pdftex.def)             Requested size: 256.0748pt x 209.33392pt.
 Package epstopdf Info: Source file: <graficos/PVE.eps>
-(epstopdf)                    date: 2019-08-26 17:52:16
-(epstopdf)                    size: 25594 bytes
+(epstopdf)                    date: 2019-08-29 13:14:54
+(epstopdf)                    size: 26434 bytes
 (epstopdf)             Output file: <graficos/PVE-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-26 17:56:05
-(epstopdf)                    size: 9925 bytes
+(epstopdf)                    date: 2019-08-29 13:17:17
+(epstopdf)                    size: 10268 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/PVE-eps-converted-
 to.pdf graficos/PVE.eps>
 (epstopdf)             \includegraphics on input line 17.
@@ -2493,18 +2696,18 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PVE-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PVE-eps-converted-to.pdf, id=858, 377.41pt x 310.15875pt>
+<graficos/PVE-eps-converted-to.pdf, id=1251, 377.41pt x 310.15875pt>
 File: graficos/PVE-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PVE-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PVE-eps-converted-to.pdf  used on input line 
 17.
 (pdftex.def)             Requested size: 256.0748pt x 210.44136pt.
 Package epstopdf Info: Source file: <graficos/VzVE.eps>
-(epstopdf)                    date: 2019-08-26 17:52:13
-(epstopdf)                    size: 27008 bytes
+(epstopdf)                    date: 2019-08-29 13:14:51
+(epstopdf)                    size: 27435 bytes
 (epstopdf)             Output file: <graficos/VzVE-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-26 17:56:06
-(epstopdf)                    size: 10901 bytes
+(epstopdf)                    date: 2019-08-29 13:17:18
+(epstopdf)                    size: 11115 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/VzVE-eps-converted
 -to.pdf graficos/VzVE.eps>
 (epstopdf)             \includegraphics on input line 23.
@@ -2513,18 +2716,18 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/VzVE-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/VzVE-eps-converted-to.pdf, id=859, 368.37625pt x 297.11pt>
+<graficos/VzVE-eps-converted-to.pdf, id=1252, 368.37625pt x 297.11pt>
 File: graficos/VzVE-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/VzVE-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/VzVE-eps-converted-to.pdf  used on input line
  23.
 (pdftex.def)             Requested size: 256.0748pt x 206.5339pt.
 Package epstopdf Info: Source file: <graficos/ControlVE.eps>
-(epstopdf)                    date: 2019-08-26 17:52:14
-(epstopdf)                    size: 41761 bytes
+(epstopdf)                    date: 2019-08-29 13:14:53
+(epstopdf)                    size: 43023 bytes
 (epstopdf)             Output file: <graficos/ControlVE-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-26 17:56:07
-(epstopdf)                    size: 18212 bytes
+(epstopdf)                    date: 2019-08-29 13:17:19
+(epstopdf)                    size: 18693 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/ControlVE-eps-conv
 erted-to.pdf graficos/ControlVE.eps>
 (epstopdf)             \includegraphics on input line 29.
@@ -2533,7 +2736,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/ControlVE-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/ControlVE-eps-converted-to.pdf, id=860, 388.45125pt x 297.11pt>
+<graficos/ControlVE-eps-converted-to.pdf, id=1253, 388.45125pt x 297.11pt>
 File: graficos/ControlVE-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/ControlVE-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/ControlVE-eps-converted-to.pdf  used on input
@@ -2542,16 +2745,18 @@ Package pdftex.def Info: graficos/ControlVE-eps-converted-to.pdf  used on input
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69]
-[70 <./graficos/PMVE-eps-converted-to.pdf> <./graficos/PVE-eps-converted-to.pdf
->] [71 <./graficos/VzVE-eps-converted-to.pdf> <./graficos/ControlVE-eps-convert
+ [79
+
+]
+[80 <./graficos/PMVE-eps-converted-to.pdf> <./graficos/PVE-eps-converted-to.pdf
+>] [81 <./graficos/VzVE-eps-converted-to.pdf> <./graficos/ControlVE-eps-convert
 ed-to.pdf>]
 Package epstopdf Info: Source file: <graficos/EulerVE.eps>
-(epstopdf)                    date: 2019-08-26 17:52:15
-(epstopdf)                    size: 38421 bytes
+(epstopdf)                    date: 2019-08-29 13:14:54
+(epstopdf)                    size: 39277 bytes
 (epstopdf)             Output file: <graficos/EulerVE-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-08-26 17:56:07
-(epstopdf)                    size: 16257 bytes
+(epstopdf)                    date: 2019-08-29 13:17:19
+(epstopdf)                    size: 16606 bytes
 (epstopdf)             Command: <epstopdf --outfile=graficos/EulerVE-eps-conver
 ted-to.pdf graficos/EulerVE.eps>
 (epstopdf)             \includegraphics on input line 38.
@@ -2560,13 +2765,18 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/EulerVE-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/EulerVE-eps-converted-to.pdf, id=899, 387.4475pt x 297.11pt>
+<graficos/EulerVE-eps-converted-to.pdf, id=1293, 387.4475pt x 297.11pt>
 File: graficos/EulerVE-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/EulerVE-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/EulerVE-eps-converted-to.pdf  used on input l
 ine 38.
 (pdftex.def)             Requested size: 256.0748pt x 196.36974pt.
-) [72 <./graficos/EulerVE-eps-converted-to.pdf>] (document.bbl
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [82 <./graficos/EulerVE-eps-converted-to.pdf>] [83] (document.bbl [84
+
+]
 LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 12.
 
 
@@ -2602,11 +2812,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--51
 ed / 0305219BB _
  []
 
-[73
-
-])
+[85])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
- [74]
+ [86]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
  (document.aux
 LaTeX Info: Redefining \. on input line 24.
@@ -2614,9 +2822,15 @@ LaTeX Info: Redefining \% on input line 24.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
-Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 625444613D04B50542EE72E40EE30521;3157.
 
+
+Package rerunfilecheck Warning: File `document.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `document.out':
+(rerunfilecheck)             Before: 2609E33347BFFE6DE7F2F74F38C1CC36;2887
+(rerunfilecheck)             After:  E63A4E7B472B19BD3B366B34CEC64AA0;2965.
 
 LaTeX Warning: There were undefined references.
 
@@ -2626,27 +2840,27 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 81.
 
 ### semi simple group (level 10) entered at line 4 (\begingroup)
 ### semi simple group (level 9) entered at line 5 (\begingroup)
-### semi simple group (level 8) entered at line 321 (\begingroup)
-### semi simple group (level 7) entered at line 299 (\begingroup)
-### semi simple group (level 6) entered at line 280 (\begingroup)
-### semi simple group (level 5) entered at line 267 (\begingroup)
-### semi simple group (level 4) entered at line 256 (\begingroup)
+### semi simple group (level 8) entered at line 335 (\begingroup)
+### semi simple group (level 7) entered at line 313 (\begingroup)
+### semi simple group (level 6) entered at line 294 (\begingroup)
+### semi simple group (level 5) entered at line 281 (\begingroup)
+### semi simple group (level 4) entered at line 270 (\begingroup)
 ### semi simple group (level 3) entered at line 5 (\begingroup)
 ### semi simple group (level 2) entered at line 6 (\begingroup)
 ### semi simple group (level 1) entered at line 4 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 10902 strings out of 492946
- 168875 string characters out of 3126389
- 307326 words of memory out of 3000000
- 14308 multiletter control sequences out of 15000+200000
- 109454 words of font info for 80 fonts, out of 3000000 for 9000
+ 11163 strings out of 492946
+ 178816 string characters out of 3126389
+ 308999 words of memory out of 3000000
+ 14455 multiletter control sequences out of 15000+200000
+ 115786 words of font info for 84 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,18n,43p,1500b,1356s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,18n,43p,1500b,1368s stack positions out of 5000i,500n,10000p,200000b,50000s
 {E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvi
 ps/lm/lm-rmtt.enc}{E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/d
-vips/lm/lm-rm.enc}{E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/d
 vips/lm/lm-mathit.enc}{E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/e
+nc/dvips/lm/lm-rm.enc}{E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/e
 nc/dvips/lm/lm-mathsy.enc}{E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/enc/dvips/lm/lm-mathex.enc}{E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9
 /fonts/enc/dvips/base/8r.enc}<E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/
@@ -2655,28 +2869,29 @@ fonts/type1/public/lm/lmbx12.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX
 TeX 2.9/fonts/type1/public/lm/lmmi10.pfb><E:/Users/Jaime/AppData/Local/Programs
 /MiKTeX 2.9/fonts/type1/public/lm/lmmi12.pfb><E:/Users/Jaime/AppData/Local/Prog
 rams/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><E:/Users/Jaime/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><E:/Users/Jaime/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmib10.pfb><E:/Users/Jaime/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><E:/Users/Jaime/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><E:/Users/Jaime/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><E:/Users/Jaim
-e/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><E:/Users/Ja
-ime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><E:/Users/
-Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><E:/Us
-ers/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><E
-:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbo10.
-pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lms
-sbx10.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-lm/lmsso10.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmsso12.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/lm/lmsy10.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/lm/lmsy8.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/lm/lmtt12.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/urw/helvetic/uhvr8a.pfb><E:/Users/Jaime/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on document.pdf (74 pages, 1738512 bytes).
+rograms/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><E:/Users/Jaime/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><E:/Users/Jaime/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmib10.pfb><E:/Users/Jaime/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><E:/Users/Jaime/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><E:/Users/Jaim
+e/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><E:/Users/J
+aime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><E:/Users
+/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><E:/Use
+rs/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><E:
+/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb
+><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbo
+10.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/
+lmssbx10.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmsso10.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/lm/lmsso12.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/lm/lmsy10.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/lm/lmsy8.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/lm/lmtt12.pfb><E:/Users/Jaime/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><E:/Users/Jaime/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
+Output written on document.pdf (86 pages, 3028535 bytes).
 PDF statistics:
- 1062 PDF objects out of 1200 (max. 8388607)
- 213 named destinations out of 1000 (max. 500000)
- 525 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1486 PDF objects out of 1728 (max. 8388607)
+ 291 named destinations out of 1000 (max. 500000)
+ 674 words of extra memory for PDF output out of 10000 (max. 10000000)
 

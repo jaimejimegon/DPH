@@ -3,26 +3,29 @@
 
 \spacing{1.5}
 
-Como bien es sabido, el desarrollo de una nueva aeronave partiendo de 0 es un trabajo tremendamente complejo que supondría en la industria unos costes desmesurados. Por ello, en este Trabajo de Fin de Grado se plasmará el desarrollo de un diseño preliminar empleando para ello un análisis de vehículos semejantes ya existentes.\\
+Como bien es sabido, el desarrollo de una nueva aeronave partiendo de cero es un trabajo tremendamente complejo que supondría en la industria unos costes desmesurados. Por ello, en este Trabajo de Fin de Grado se plasmará el desarrollo de un diseño preliminar empleando, para ello, un análisis de vehículos semejantes ya existentes.
 
-La aeronave a desarrollar será un UAV de un MTOW de 450kg de peso, por lo que será fundamental desarrollar una pequeña base de datos de aeronaves similares para poder obtener un primer diseño.
 En este capítulo se tratarán, además de los objetivos del trabajo, las bases de la mecánica de vuelo de las aeronaves de ala rotatoria de forma sencilla.
 
 \section{Objetivos del Trabajo}
 
-El objetivo principal de este trabajo es generar un diseño preliminar de una aeronave no tripulada de ala rotatoria de un peso máximo al despegue de 450kg. Este diseño, realizado mediante un estudio de aeronaves similares, será después validado por un análisis de sus actuaciones a partir del equilibrado de la misma.
-Es justo aquí donde se verá reflejada la originalidad del trabajo, a la hora de elegir las actuaciones a analizar.\\
+El objetivo principal de este trabajo será el diseño preliminar de un helicóptero no tripulado de peso máximo al despegue de 450 kg al que se denominará \emph{DroneHE}.
 
-La validación se llevará a cabo además de forma paralela a una optimización de características de la aeronave, como pueda ser el alcance o la autonomía, en función de otros parámetros de la misma.
+Para ello, se desarrollará un modelo computacional basado en el de una aeronave tripulada ya existente. Dicho modelo requerirá seleccionar diversos parámetros de diseño que se decidirán en base a un análisis de las características de aeronaves similares ya existentes. La escasez de datos hará necesario no limitar el análisis a helicópteros no tripulados tripulados y trabajar con un rango más amplio de modelos. Esto también es la causa de que se requiera basar el modelo computacional del \emph{DroneHE} en el de un helicóptero considerablemente más pesado.
 
-Es importante también definir la misión de la aeronave a diseñar, ya que en función de esta optimizaremos unos parámetros u otros y exigiremos unos mínimos a las actuaciones de la misma.
-
+Una vez se disponga del modelo, se precederá a resolver el problema del equilibrado del mismo, de manera que pueda obtenerse información acerca de sus actuaciones y comprobar la influencia de diversos parámetros de diseño en las mismas. Esto permitirá una óptimización del diseño en etapas posteriores. El eqilibrado se resolverá para:
+\begin{itemize}
+	\item Vuelo horizontal
+	\item Vuelo ascendente en espiral
+	\item Vuelo de vigilancia siguiendo una circunferencia
+\end{itemize}
+En cada uno de los casos se resolverá el problema para distintas cargas de pago.
 
 \section{Uso de las Aeronaves no Tripuladas}
 Las aeronaves no tripuladas (\emph{\textbf{UAV} \textbf{U}nmanned \textbf{A}erial \textbf{V}ehicle}) están fuertemente ligadas a la aviación militar, siendo esta industria la responsable principal de su desarrollo a lo largo de su historia.
-Aunque anteriormente se dieron casos de \emph{UAVs}, como son los globos con los que el ejercito austriaco bombardeó Venecia en 1849, las primeras aeronaves no tripuladas como las conocemos hoy se desarrollaron durante la Primera Guerra Mundial por parte de los Estados Unidos.\\
+Aunque anteriormente se dieron casos de \emph{UAVs}, como los globos con los que el ejército austriaco bombardeó Venecia en 1849, las primeras aeronaves no tripuladas como las conocemos hoy se desarrollaron durante la Primera Guerra Mundial por parte de Estados Unidos.
 
-A día de hoy, y aunque el desarrollo de la tecnología ha sido gracias a la industria militar, más concretamente a la industria militar de Estados Unidos, su uso se ha extendido más allá de esta. Ya no se trata de instrumentos de guerra ni de un artículo de lujo, sino que existen una gran variedad de aeronaves que cumplen distintas funciones fuera de la aviación militar, sino como parte de la aviación comercial civil (como puedan ser las aeronaves radio control cuyo mando puede ser un \emph{smartphone} personal).\\
+A día de hoy, y aunque el desarrollo de la tecnología ha sido gracias a la industria militar, más concretamente a la industria militar de Estados Unidos, su uso se ha extendido más allá de esta. Ya no se trata de instrumentos de guerra ni de un artículo de lujo, sino que existe una gran variedad de aeronaves que cumplen distintas funciones fuera de la aviación militar, cuyo máximo exponente es la aviación comercial civil (algunos ejemplos son las aeronaves radio control cuyo mando puede ser un \emph{smartphone} personal).
 
 Algunos de estos usos son los siguientes:
 \begin{itemize}
@@ -31,7 +34,7 @@ Algunos de estos usos son los siguientes:
 	\item Transporte de mercancías.
 	\item Seguimiento y predicción de fenómenos atmosféricos (tornados, tormentas, etc.)
 	\item Control y patrulla de fronteras
-	\item Inspecciones en zonas de difícil acceso (o imposible).
+	\item Inspecciones en zonas de difícil o imposible acceso.
 	\item Entretenimiento
 \end{itemize}
 
@@ -41,19 +44,19 @@ Por otro lado siguen creciendo los usos militares;
 	\item Supervisión y control
 	\item Balizas de objetivos
 \end{itemize}
-Estos son solo algunos de los usos de los \emph{UAVs}, pero la lista crece continuamente.\\
+Estos son solo algunos de los usos de los \emph{UAVs}, pero la lista crece continuamente.
 
-Pese al fuerte desarrollo civil, el principal gasto mundial en aeronaves no tripuladas viene del sector militar, motivado también por el gasto que conllevan los programas militares y los costes de las aeronaves (en 2011, el coste del programa MQ-1 \emph{Predator} era de 2,38 mil millones de dólares \citep{Predatorunitbudget}, mientras que el coste de una unidad del mismo se sitúa en 4,03 millones de dólares \citep{Predatorprogrambudget}). Se espera un gasto global de 70 mil millones de dólares en aeronaves no tripuladas para 2020 \citep{Goldman}\\
+Pese al fuerte desarrollo civil, el principal gasto mundial en aeronaves no tripuladas proviene del sector militar, motivado también por el gasto que conllevan los programas militares y los costes de las aeronaves (en 2011, el coste del programa MQ-1 \emph{Predator} era de 2,38 mil millones de dólares \citep{Predatorunitbudget}, mientras que el coste de una unidad del mismo se sitúa en 4,03 millones de dólares \citep{Predatorprogrambudget}). Se espera un gasto global de 70 mil millones de dólares en aeronaves no tripuladas para 2020 \citep{Goldman}.
 
-Sin embargo, el sector cuyo crecimiento se espera sea mayor es el civil. Según datos de BI Intelligence, se espera un crecimiento del 19\% en el mercado civil frente a un 5\% en el militar para el período 20015-2020.
-Esto se debe principalmente al incremento en la variedad de operaciones que los \emph{UAVs} son capaces de realizar y a su implementación en las empresas. Debido a este crecimiento, se espera también la creación de 100.000 puestos de trabajo solo en Estados Unidos para 2025 \citep{AUVSI}.\\
+Sin embargo, el sector cuyo crecimiento se prevé sea mayor es el civil. Según datos de BI Intelligence, se estima un crecimiento del 19\% en el mercado civil frente a un 5\% en el militar para el período 2015-2020.
+Esto se debe principalmente al incremento en la variedad de operaciones que los \emph{UAVs} son capaces de realizar y a su implementación en las empresas. Debido a este crecimiento, se espera también la creación de 100.000 puestos de trabajo solo en Estados Unidos para 2025 \citep{AUVSI}.
 
 \section{Mecánica del Vuelo de un Helicóptero}
 %A completar posteriormente junto a lo anterior, de vez en cuando escribe algo mamon.
-A modo de introducción para el lector, se hará un resumen breve de la mecánica del vuelo de un helicóptero. Si se desea profundizar en el tema o resolver cualquier duda que pudiese surgir durante la lectura, se recomienda acudir a \citet{Cuerva} donde se desarrolla de forma mas exhaustiva y completa.\\
+A modo de introducción, se hará un resumen breve de la mecánica del vuelo de un helicóptero. Si se desea profundizar en el tema o resolver cualquier duda que pudiese surgir durante la lectura, se recomienda acudir a \citet{Cuerva}, donde se desarrolla de forma más exhaustiva y completa.
 
 \subsection{Sistemas de referencia}
-En la física es muy importante definir correctamente los sistemas de referencia que se emplean en la resolución de cada problema ya que las variables tendrán una forma u otra en función de en cual se definan.
+En la física es muy importante definir correctamente los sistemas de referencia que se emplean en la resolución de cada problema, ya que las variables tendrán una forma u otra en función de en cual se definan.
 En el caso de un helicóptero, los sistemas de referencia principales son 4, a saber:
 \begin{itemize}
 	\item Ejes tierra $[O_{T};x_{T},y_{T},z_{T}]$
@@ -61,7 +64,7 @@ En el caso de un helicóptero, los sistemas de referencia principales son 4, a s
 	\item Ejes árbol $[A;x_{A},y_{A},z_{A}]$
 	\item Ejes pala $[E;x_{b},y_{b},z_{b}]$
 \end{itemize}
-El sistema de ejes tierra es aquel con origen $[O_{T}]$ en la superficie terrestre, $z_{T}$ apuntando en la dirección de la gravedad y $x_{T}$ e $y_{T}$ pertenecientes al plano tangente a la superficie terrestre y formando un triedro a derechas. En este sistema, la posición del helicóptero queda definida por $\textbf{r}^{O}$ , siendo este el vector posición del centro de masas del helicóptero respecto al punto de referencia $O_{T}$.\\
+El sistema de ejes tierra es aquel con origen $[O_{T}]$ en la superficie terrestre, $z_{T}$ apuntando en la dirección de la gravedad y $x_{T}$ e $y_{T}$ pertenecientes al plano tangente a la superficie terrestre y formando un triedro a derechas. En este sistema, la posición del helicóptero queda definida por $\textbf{r}^{O}$ , siendo este el vector posición del centro de masas del helicóptero respecto al punto de referencia $O_{T}$.
 
 El sistema de ejes cuerpo se define como el triedro a derechas con origen $O$ en el centro de masas de la aeronave y $x$ y $z$ en el plano central, con $x$ dirigido hacia hacia adelante y $z$ hacia abajo en una condición de vuelo normal. La importancia de este sistema radica en los ángulos de Euler, que son los ángulos que forman sus ejes con los ejes tierra, siendo estos:
 \begin{itemize}
@@ -69,7 +72,7 @@ El sistema de ejes cuerpo se define como el triedro a derechas con origen $O$ en
 	\item Cabeceo $\Theta$
 	\item Balanceo $\Phi$
 \end{itemize}
-Estos ángulos se pueden definir como el giro del sistema de ejes cuerpo respecto al de ejes tierra, partiendo de una condición de paralelismo entre ambos, respecto a los ejes $z$, $y$ y $x$ respectivamente. Para facilitar la comprensión del lector se ha añadido el esquema \ref{AEuler} que representan dichos ángulos.\\
+Estos ángulos se pueden definir como el giro del sistema de ejes cuerpo respecto al de ejes tierra, partiendo de una condición de paralelismo entre ambos, respecto a los ejes $z$, $y$ y $x$ respectivamente. Para facilitar su comprensión, se ha añadido el esquema \ref{AEuler} que representan dichos ángulos.
 \begin{figure}
 	\centering
 	\includegraphics[width=80mm]{imagenes/AEuler}
@@ -77,11 +80,11 @@ Estos ángulos se pueden definir como el giro del sistema de ejes cuerpo respect
 	\label{AEuler}
 \end{figure}
 
-El sistema de ejes árbol tiene su centro $A$ en la intersección del eje del rotor con el plano del rotor y sus ejes forman un triedro a derechas orientándose $z_{A}$ hacia el lado opuesto al fuselaje y $x$ hacia la parte trasera del helicóptero, perteneciendo al plano del rotor.\\
+El sistema de ejes árbol tiene su centro $A$ en la intersección del eje del rotor con el plano del rotor y sus ejes forman un triedro a derechas orientándose $z_{A}$ hacia el lado opuesto al fuselaje y $x$ hacia la parte trasera del helicóptero, perteneciendo al plano del rotor.
 
-Por último, el sistema de ejes pala tiene su origen $E$ en la articulación de la pala. La dirección de $x_{b}$ es radial hacia la punta de la pala y la de $y_{b}$ es normal a ella, siendo $z_{b}$ tal que el triedro [$x_{b},y_{b},z_{b}$] sea a derechas.\\
+Por último, el sistema de ejes pala tiene su origen $E$ en la articulación de la pala. La dirección de $x_{b}$ es radial hacia la punta de la pala y la de $y_{b}$ es normal a ella, siendo $z_{b}$ tal que el triedro [$x_{b},y_{b},z_{b}$] sea a derechas.
 
-Se puede apreciar que de estos 4 sistemas, los mas relevantes para el estudio serán los de ejes tierra y cuerpo, que sirven para describir la mecánica del vuelo de la aeronave, mientras que los ejes árbol y pala se reservan para el estudio aislado de la física del rotor y de las palas.\\
+Se puede apreciar que de estos 4 sistemas, los más relevantes para el estudio serán los de ejes tierra y cuerpo, que sirven para describir la mecánica del vuelo de la aeronave, mientras que los ejes árbol y pala se reservan para el estudio aislado de la física del rotor y de las palas.\
 
 Una vez definidos los sistemas de referencias se pueden empezar a plantear las ecuaciones.
 
@@ -99,7 +102,7 @@ Donde $\mathrm{\textbf{V}}(t)$ es una velocidad de vuelo cualquiera y $\boldsymb
 
 Tal y como se aprecia en (\ref{EqF}) y en (\ref{EqM}), el vector de estado $\mathrm{\textbf{x}}(t)$ del sistema incluye las componentes de $\mathrm{\textbf{V}}(t)$ y $\boldsymbol{\omega}(t)$
 en ejes cuerpo así como los ángulos de Euler $\Theta$, $\Psi$ y $\Phi$. Por otro lado, las magnitudes $\mathrm{\textbf{F}}^{ex}$ y $\mathrm{\textbf{M}}^{ex}$ pueden expresarse como funciones de las componentes del vector estado $\mathrm{\textbf{x}}(t)$ y sus derivadas $\mathrm{d\textbf{x}}(t)/\mathrm{d}t$, aunque también dependen de las magnitudes de control, agrupadas en el vector de control $\mathrm{\textbf{u}}(t)$ cuyas componentes son los ángulos de paso colectivo del rotor principal, paso cíclico longitudinal, paso cíclico lateral y paso colectivo del rotor antipar $\theta_0(t)$, $\theta_{1S}(t)$, $\theta_{1C}(t)$ y $\theta_T(t)$.
-Cabe indicar que $\boldsymbol{\omega}(t)$ y los ángulos de Euler no son independientes, sino que están ligados por la relación cinemática
+Cabe destacar que $\boldsymbol{\omega}(t)$ y los ángulos de Euler no son independientes, sino que están ligados por la relación cinemática
 \begin{equation}
 	\boldsymbol{\omega}(t)=\omega_x\textbf{i}+\omega_y\textbf{j}+\omega_z\textbf{k}=\frac{\mathrm{d}\Psi}{\mathrm{d}t}\textbf{k}_T+\frac{\mathrm{d}\Theta}{\mathrm{d}t}\textbf{j}_{T1}+\frac{\mathrm{d}\Phi}{\mathrm{d}t}\textbf{i}_T
 	\label{CinEuleromega}
@@ -162,14 +165,14 @@ y los momentos externos como
 	&+\textbf{OA} \times \mathrm{\textbf{F}}^{rp}+\textbf{O}\textbf{O}_f \times \mathrm{\textbf{F}}^{f}+\textbf{OA}_a \times \mathrm{\textbf{F}}^{ra}+\\
 	&+\textbf{OE}_h \times \mathrm{\textbf{F}}^{eh}+\textbf{OE}_v \times \mathrm{\textbf{F}}^{ev}
 \end{split}
-\end{equation}.
+\end{equation}
 
 Se puede observar que tanto las componentes de $\mathrm{\textbf{F}}^{ex}$ como de $\mathrm{\textbf{M}}^{ex}$ son de carácter aerodinámico, generadas por el rotor principal, el antipar, el fuselaje y las superficies estabilizadoras. Por tanto, será necesario modelizar estos elementos para poder realizar las simulaciones necesarias para el proyecto.
 
 \subsection{Vuelo Equilibrado}
 
-Debido a la enorme complejidad de los cálculos anteriores y lo innecesario de su implementación para cumplir los objetivos de este proyecto que son el cálculo de las actuaciones de un vehículo, se trabajará con un modelo simplificado, el del vuelo equilibrado. Esto supone asumir que la resultante de las fuerzas externas que actúan sobre la aeronave es nula, lo que simplifica los cálculos sin afectar de forma relevante los resultados de las actuaciones prescindiendo de los cálculos para la estabilidad dinámica del sistema.
-Esto supone además que:
+Debido a la enorme complejidad de los cálculos anteriores y lo innecesario de su implementación para cumplir los objetivos de este proyecto, que son el cálculo de las actuaciones de un vehículo, se trabajará con un modelo simplificado: el del vuelo equilibrado. Esto supone asumir que la resultante de las fuerzas externas que actúan sobre la aeronave es nula, lo que simplifica los cálculos sin afectar de forma relevante a los resultados de las actuaciones, prescindiendo de los cálculos para la estabilidad dinámica del sistema.
+Esto supone, además, que:
 \begin{itemize}
 	\item La aceleración es nula, por lo que la velocidad de desplazamiento de la aeronave $\mathrm{\textbf{V}}(t)$ es constante.
 	\item La aeronave no sufre cambios de actitud por lo que $\boldsymbol{\omega}(t)=0$
@@ -197,9 +200,9 @@ Al resolver el problema aeromecánico (fuera del alcance de este documento), apa
 \beta_{1S}=\beta_0(\theta_0,\theta_{1S},\theta_{1C},\mu_{xA},\mu_{yA},\mu_{zA})
 \label{beta1s}
 \end{equation}
-donde se ha denominado $\mu_{xA}$,$\mu_{yA}$ y $\mu_{zA}$ a las componentes de la velocidad adimensionalizada con $\boldsymbol{\Omega}R$, lo que deja un total de 9 ecuaciones con 13 incógnitas.\\
+donde se ha denominado $\mu_{xA}$,$\mu_{yA}$ y $\mu_{zA}$ a las componentes de la velocidad adimensionalizada con $\boldsymbol{\Omega}R$, lo que deja un total de 9 ecuaciones con 13 incógnitas.
 
-Su resolución requeriría conocer de antemano 4 parámetros, pero si se le presta la debida atención al sistema (\ref{EqFe})-(\ref{beta1s}), en todo el mismo no aparece el ángulo de guiñada $\Psi_e$, por lo que la resolución no depende de el, y solo restaría conocer 3 variables del vector de estado o control para resolver el sistema, quedando el sistema reducido a
+Su resolución requeriría conocer de antemano 4 parámetros, pero si se le presta la debida atención al sistema (\ref{EqFe})-(\ref{beta1s}), en todo el mismo no aparece el ángulo de guiñada $\Psi_e$, por lo que la resolución no depende de él, y solo restaría conocer 3 variables del vector de estado o control para resolver el sistema, quedando el sistema reducido a
 \begin{equation}
 	F_x(\mathrm{\textbf{x}}_e^*,\mathrm{\textbf{u}}_e)-Mg\sin\Theta_e=0
 \end{equation}
@@ -222,6 +225,13 @@ donde $\mathrm{\textbf{x}}_e^*$ es el vector de estado sin incluir la velocidad 
 
 \section{Cálculo de Potencias}
 
+Para el cálculo de la potencia necesaria para el vuelo se puede optar por dos métodos, el método de la energía y el método del equilibrado. El método de la energía resulta más simple en los cálculos, pues el método del equilibrado requiere de la solución del propio equilibrado del helicóptero primero. Estos cálculos resultan bastante más complejos, pero como para realizar los cálculos del vuelo se resolverán igualmente, resulta más conveniente usar este método.
+
+Una vez resuelto el equilibrado del vehículo, el cálculo de potencias resulta sencillo al haber calculado las fuerzas sobre los elementos de la aeronave, pues ese mismo cálculo permite conocer el par que se ha de aplicar al árbol de los rotores. Para el caso del rotor principal este par se denomina $Q_{rp}$, y a través del régimen de giro del rotor se puede obtener la potencia necesaria $P_{rp}=\Omega Q_{rp}$. De forma análoga se procede al cálculo en el rotor antipar para obtener $P_{ra}$.
+
+Por último es necesario modelizar de alguna forma las pérdidas en las trasmisiones, que se hará mediante la definición de los factores $\eta_{Trp}$ y $\eta_{Tra}$, que se definen como la relación entre la potencia disipada en la trasmisión del rotor (principal o antipar) y la potencia suministrada al mismo.
+
+Aunque no se expondrá en este trabajo, una explicación del método de la energía puede encontrarse en \citet{Cuerva}.
 
 \section[\textbf{HE}licopter and \textbf{RO}tor \textbf{E}quilibrium and \textbf{S}tability toolbox]{HEROES}
 
@@ -229,22 +239,27 @@ donde $\mathrm{\textbf{x}}_e^*$ es el vector de estado sin incluir la velocidad 
 Para el cálculo de las actuaciones de la aeronave se empleará \emph{HEROES}.
 \emph{HEROES} es una herramienta de MATLAB desarrollada en conjunto por profesores y alumnos de la Escuela Técnica Superior de Ingeniería Aeronáutica y del Espacio de la Universidad Politécnica de Madrid, principalmente del departamento de Aeronaves y Vehículos Espaciales.
 
-Esta herramienta permite un cálculo rápido del equilibrado de un helicóptero (entre otras muchas funciones). Es muy importante saber distinguir en esta herramienta cuáles son las variables de entrada del problema y las de salida. Esto que en primera instancia puede parecer sencillo, requiere un nivel de comprensión alto de la mecánica del vuelo de un helicóptero.
+Esta herramienta permite un cálculo rápido del equilibrado de un helicóptero (entre otras muchas funciones). Es muy importante saber distinguir en esta herramienta cuáles son las variables de entrada del problema y las de salida. Esto, que en primera instancia puede parecer sencillo, requiere un nivel de comprensión alto de la mecánica del vuelo de un helicóptero.
 
 Para el caso del equilibrado, las variables de entrada principales serán el modelo de atmósfera y la altura, el modelo del vehículo y las condiciones de vuelo del mismo. \emph{HEROES}, con los datos aportados, generará un modelo adimensional y resolverá las ecuaciones del equilibrado para después dimensionalizar los resultados. Estos resultados son las variables de salida, y entre muchas otras se encuentran las potencias de los rotores, las fuerzas y momentos aerodinámicos y los controles del helicóptero.
 
+Además, esta herramienta permite generar modelos para helicópteros a partir de un modelo ya existente y los siguientes datos de diseño del nuevo helicóptero:
 
-\section{Descripción del Proyecto}
-
-
-
-Esto deja claro las características necesarias para la aeronave; 
 \begin{itemize}
-	\item Una carga de pago máxima lo más alta posible, de manera que resulte eficiente y no sean necesarios múltiples vuelos diarios para un mismo despliegue salvo casos excepcionales.
-	\item Una velocidad de crucero buena, de manera que el tiempo que la aeronave esta en vuelo sea el mínimo posible, para evitar así la intercepción. Además también servirá para transportar suministros médicos en caso de emergencia.
-	\item Un alcance de unos 400 Km, se manera que pueda abastecer a distancias de alrededor de 200 Km. Es importante que la aeronave pueda realizar el trayecto de ida y vuelta sin repostar, ya que ello obligaría a disponer de combustible en las zonas a abastecer, lo que no es conveniente para la misión. También hay que tener en cuenta que la mitad del trayecto se realizará con la máxima carga de pago la mayoría de las ocasiones, pero la otra mitad la aeronave no tendrá en la mayoría de los casos carga alguna (será posible enviar de vuelta a las bases principales pequeñas cargas en caso de necesidad).
-	\item Un techo de vuelo suficiente para dificultar su intercepción, ya que la aeronave no contará con un blindaje militar para priorizar otras características.
+	\item Número de palas del rotor principal
+	\item Radio del rotor principal
+	\item Velocidad de giro del rotor principal
+	\item Peso de la aeronave
+	\item Número de palas del rotor antipar
 \end{itemize}
-Como se observa, apenas se han definido numéricamente estas características, ya que en una primera aproximación no se conoce con exactitud la misión, por lo que todos estos parámetros se intentarán maximizar durante el diseño para obtener unas actuaciones lo mejores posible y que la aeronave pueda ser útil en un rango más amplio de situaciones.
+
+Junto a estos datos son necesarios datos atmosféricos como la densidad atmosférica que la herramienta obtiene a través de un modelo atmosférico y una altitud dada.
+
+El proceso que sigue la herramienta es una adimensionalización del modelo existente para posteriormente dimensionalizarlo de nuevo usando para ello las características de la nueva aeronave. Todo este proceso se explicará con más detalle más adelante.
+
+\section{Misión del \emph{DroneHE}}
+
+Para finalizar con la introducción, es necesario definir una misión para la aeronave que permita optimizar el diseño a la misma.
+Este \emph{DroneHE} será un vehículo de vigilancia y búsqueda, por lo que será necesario embarcar un sistema de cámaras electro-óptico según los requisitos concretos del usuario, además de contar con una buena autonomía que permita mantener el helicóptero en servicio todo el tiempo posible.
 
 \singlespace

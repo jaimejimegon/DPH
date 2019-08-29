@@ -5,13 +5,13 @@
 
 \spacing{1.5}
 
-Tal y como se ha reflejado en la introducción, el proceso a seguir para optener un diseño preliminar, será el análisis de semejantes.
-Este análisis consiste en crear una base de datos de aeronaves ya existentes, cuyas características sean similares a las que podría tener la nuestra, de manera que mediante un análisis estadístico se pueda obtener una primera aproximación de algunas características de nuestra aeronave.\\
+Tal y como se ha reflejado en la introducción, el proceso a seguir para obtener un diseño preliminar será el análisis de semejantes.
+Este análisis consiste en crear una base de datos de aeronaves ya existentes, cuyas características sean similares a las que podría tener la nuestra, de manera que mediante un análisis estadístico se pueda obtener una primera aproximación de algunas características de nuestra aeronave.
 
 \section{Estudio de Aeronaves de Referencia}
 
-Dado que el objetivo es el diseño de un helicóptero no tripulado de 450 Kg de \emph{MTOW}, los vehículos a analizar serán helicópteros de una masa similar, en torno a 400-500 kg, pero al no existir una cantidad suficiente dentro de este margen, se ha decidido ampliar este.
-En las tablas \ref{ASomega} y \ref{AS} se encuentran los helicópteros seleccionados para el análisis
+Dado que el objetivo es el diseño de un helicóptero no tripulado de 450 kg de \emph{MTOW}, los vehículos a analizar serán helicópteros de una masa similar, en torno a 400-500 kg, pero al no existir una cantidad suficiente dentro de este margen, se ha decidido ampliar este.
+En las tablas \ref{ASomega} y \ref{AS} se encuentran los helicópteros seleccionados para el análisis.
 
 %PROBLEMAS CON LAS TABLAS, BUSCAR COMO ARREGLAR EL DESASTRE DE TABLA QUE NO ENTRA, TAL VEZ DIVIDIRLO EN 2 SEA SUFICIENTE
 \begin{table}[htbp]
@@ -76,7 +76,8 @@ En las tablas \ref{ASomega} y \ref{AS} se encuentran los helicópteros seleccion
 
 
 Una vez se ha obtenido la selección de aeronaves semejantes, se procede a realizar un análisis estadístico de las distintas características de los mismos para obtener unos primeros valores de diseño. Al ser la característica más definitoria de la aeronave el peso máximo al despegue, se observará la evolución de los distintos parámetros con el MTOW.
-En este capítulo se pueden observar las gráficas que se obtienen del análisis anterior para cada parámetro, incluyendo una línea de tendencia que nos permita obtener una primera aproximación en el diseño. Cabe indicar que se han omitido, en las gráficas correspondientes, aquellos vehículos cuyas características no eran conocidas, sin eliminarlos del resto de ellas. Las líneas de tendencia se han generado usando una aproximación lineal, lo cual puede llevar a una mala aproximación dependiendo de los datos.
+
+En este capítulo se pueden observar las gráficas que se obtienen del análisis anterior para cada parámetro, incluyendo una línea de tendencia que nos permita obtener una primera aproximación en el diseño. Cabe destacar que se han omitido, en las gráficas correspondientes, aquellos vehículos cuyas características no eran conocidas, sin eliminarlos del resto de ellas. Las líneas de tendencia se han generado usando una aproximación lineal, lo cual puede llevar a una mala aproximación dependiendo de los datos.
 
 
 \begin{figure}
@@ -122,7 +123,7 @@ En este capítulo se pueden observar las gráficas que se obtienen del análisis
 	\label{vAS}
 \end{figure}
 
-Como se puede observar, muchos helicópteros comparten características aunque sus pesos sean muy distintos, y algunas líneas de tendencia se alejan considerablemente de los valores promedio para la zona que corresponde a 450 kg. Esto se debe principalmente a la falta de datos de referencia, los pocos desarrollos que se han dado de aeronaves de ala rotatoria en el entorno de pesos dado dificultan en gran medida la verificación de nuestro modelo al no existir una norma de diseño en la que basarnos. Los desarrollos han sido dispersos, así que los parámetros iniciales de diseño no se basarán únicamente en los valores de tendencia obtenidos.
+Como se puede observar, muchos helicópteros comparten características aunque sus pesos sean muy distintos, y algunas líneas de tendencia se alejan considerablemente de los valores promedio para la zona que corresponde a 450 kg. Esto se debe, principalmente, a la falta de datos de referencia; los pocos desarrollos que se han dado de aeronaves de ala rotatoria en el entorno de pesos dado dificultan en gran medida la verificación de nuestro modelo al no existir una norma de diseño en la que basarnos. Los desarrollos han sido dispersos, así que los parámetros iniciales de diseño no se basarán únicamente en los valores de tendencia obtenidos estadísticamente, sino que más adelante se definirán los más problemáticos siguiendo otros criterios.
 Algunos valores de referencia serán los siguientes:
 
 \begin{itemize}
