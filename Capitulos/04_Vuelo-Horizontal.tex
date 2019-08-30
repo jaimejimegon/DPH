@@ -1,4 +1,3 @@
-\thispagestyle{empty}
 \definecolor{Gray2}{rgb}{ .851,  .851,  .851}
 \chapter{Vuelo Horizontal}
 
@@ -220,7 +219,7 @@ Hecho un análisis de los parámetros de vuelo en distintas condiciones para el 
 \subsection{Rigidez en Batimiento $\boldsymbol{k_{\beta}}$}
 
 Un parámetro que puede ser interesante cambiar es la rigidez de las palas en batimiento. \emph{HEROES} calcula un valor suponiendo que se quiere mantener una rigidez similar a la del rotor del helicóptero base, es decir, el Bölkow Bo 105.
-Para comprobar su efecto, se ha decidido variar su valor base (denominado como $k_{\beta0}$ en las gráficas) entre el 70\% y el 130\% (tabla \ref{kbetatab}) de su valor. Los resultados de esta simulación se han reflejado en las gráficas \ref{PMVHkbeta}, \ref{EulerVHkbeta} y \ref{FRPkbeta}.
+Para comprobar su efecto, se ha decidido variar su valor base (denominado como $k_{\beta0}$ en las gráficas) entre el 70\% y el 130\% (tabla \ref{kbetatab}) de su valor. Los resultados de esta simulación se han reflejado en las gráficas \ref{PMVHkbeta}, \ref{ControlVHkbeta}, \ref{EulerVHkbeta} y \ref{FRPkbeta}.
 
 \begin{table}[htbp]
 	\centering
@@ -249,6 +248,13 @@ Para comprobar su efecto, se ha decidido variar su valor base (denominado como $
 	\subfigure[Paso colectivo]{\includegraphics[width=90mm]{graficos/theta0VHkbeta}}
 	\caption{Ángulos de control de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo horizontal y diferentes valores de k$_\beta$.}
 	\label{ControlVHkbeta}
+\end{figure}
+\begin{figure}
+	\centering
+	\subfigure[Cabeceo]{\includegraphics[width=60mm]{graficos/CabVHkbeta}}
+	\subfigure[Balanceo]{\includegraphics[width=60mm]{graficos/BalanVHkbeta}}
+	\caption{Ángulos de Euler de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo horizontal y diferentes valores de k$_\beta$.}
+	\label{EulerVHkbeta}
 \end{figure}
 \begin{figure}
 	\centering

@@ -33,25 +33,26 @@
 %	linkcolor=black,	% color of internal links
 %	urlcolor=cyan		% color of external links
 %}
-\renewcommand{\familydefault}{\sfdefault}
-\usepackage{fancyhdr} % Custom headers and footers
-\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
-\fancyhead[L]{} % Empty left header
-\fancyhead[C]{} % Empty center header
-\fancyhead[R]{Jaime Jiménez González} % My name
-\fancyfoot[L]{} % Empty left footer
-\fancyfoot[C]{} % Empty center footer
-\fancyfoot[R]{\thepage} % Page numbering for right footer
+%\renewcommand{\familydefault}{\sfdefault}
+%\usepackage{fancyhdr} % Custom headers and footers
+%\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
+%\fancyhead[L]{} % Empty left header
+%\fancyhead[C]{} % Empty center header
+%\fancyhead[R]{Jaime Jiménez González} % My name
+%\fancyfoot[L]{} % Empty left footer
+%\fancyfoot[C]{} % Empty center footer
+%\fancyfoot[R]{\thepage} % Page numbering for right footer
 %\renewcommand{\headrulewidth}{0pt} % Remove header underlines
-\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
-\setlength{\headheight}{13.6pt} % Customize the height of the header
+%\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+%\setlength{\headheight}{13.6pt} % Customize the height of the header
+
 
 \usepackage{titlesec, blindtext, color}
 \definecolor{gray75}{gray}{0.75}
 \newcommand{\hsp}{\hspace{20pt}}
-\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+%\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
 \setcounter{secnumdepth}{4}
-\usepackage[Lenny]{fncychap}
+%\usepackage[Lenny]{fncychap}
 
 
 \begin{document}
@@ -62,7 +63,9 @@
 
 %Agradecimientos
 %\input{Agradecimientos/Agradecimientos}
- 
+
+\tableofcontents
+
 %Desarrollo de Capítulos
 \input{Capitulos/01_Introduccion}
 
@@ -75,6 +78,8 @@
 \input{Capitulos/05_Vuelo-Espiral}
 
 \input{Capitulos/06_Vuelo-Circular}
+
+\input{Capitulos/07_Conclusiones}
 
 \newpage
 \bibliography{bibliografia}

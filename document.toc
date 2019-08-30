@@ -1,0 +1,44 @@
+\babel@toc {spanish}{}
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{7}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Objetivos del trabajo}{7}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Uso de las aeronaves no tripuladas}{8}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}Mec\IeC {\'a}nica del vuelo de un helic\IeC {\'o}ptero}{10}{section.1.3}% 
+\contentsline {subsection}{\numberline {1.3.1}Sistemas de referencia}{10}{subsection.1.3.1}% 
+\contentsline {subsection}{\numberline {1.3.2}Ecuaciones del equilibrio}{12}{subsection.1.3.2}% 
+\contentsline {subsection}{\numberline {1.3.3}Acciones externas sobre el fuselaje}{13}{subsection.1.3.3}% 
+\contentsline {subsection}{\numberline {1.3.4}Vuelo equilibrado}{14}{subsection.1.3.4}% 
+\contentsline {section}{\numberline {1.4}C\IeC {\'a}lculo de Potencias}{16}{section.1.4}% 
+\contentsline {section}{\numberline {1.5}\textbf {HE}licopter and \textbf {RO}tor \textbf {E}quilibrium and \textbf {S}tability toolbox}{16}{section.1.5}% 
+\contentsline {section}{\numberline {1.6}Misi\IeC {\'o}n del \emph {DroneHE}}{17}{section.1.6}% 
+\contentsline {chapter}{\numberline {2}An\IeC {\'a}lisis de Semejantes}{19}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Estudio de Aeronaves de Referencia}{19}{section.2.1}% 
+\contentsline {chapter}{\numberline {3}Desarrollo de un Helic\IeC {\'o}ptero Semilla a Partir de un Helic\IeC {\'o}ptero Base}{25}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Descripci\IeC {\'o}n Helic\IeC {\'o}ptero Base}{25}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}Rotor Principal del Bo 105}{26}{subsection.3.1.1}% 
+\contentsline {subsection}{\numberline {3.1.2}Rotor Antipar del Bo 105}{26}{subsection.3.1.2}% 
+\contentsline {subsection}{\numberline {3.1.3}Fuselaje del Bo 105}{28}{subsection.3.1.3}% 
+\contentsline {subsection}{\numberline {3.1.4}Estabilizadores del Bo 105}{28}{subsection.3.1.4}% 
+\contentsline {subsection}{\numberline {3.1.5}Geometr\IeC {\'\i }a del Bo 105}{29}{subsection.3.1.5}% 
+\contentsline {subsection}{\numberline {3.1.6}Inercia del Bo 105}{29}{subsection.3.1.6}% 
+\contentsline {section}{\numberline {3.2}Adimensionalizaci\IeC {\'o}n del Modelo}{32}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}Rotores Principal y Antipar}{33}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.2}Fuselaje}{34}{subsection.3.2.2}% 
+\contentsline {subsection}{\numberline {3.2.3}Estabilizadores Vertical y Horizontal}{34}{subsection.3.2.3}% 
+\contentsline {subsection}{\numberline {3.2.4}Geometr\IeC {\'\i }a e Inercia del Helic\IeC {\'o}ptero}{34}{subsection.3.2.4}% 
+\contentsline {section}{\numberline {3.3}Limitaciones a la Velocidad de Giro del Rotor Principal}{35}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}Obtenci\IeC {\'o}n del modelo del helic\IeC {\'o}ptero \emph {DroneHE}}{37}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Modelizaci\IeC {\'o}n de la Carga de Pago}{41}{section.3.5}% 
+\contentsline {section}{\numberline {3.6}Integraci\IeC {\'o}n de la Carga de Pago}{43}{section.3.6}% 
+\contentsline {chapter}{\numberline {4}Vuelo Horizontal}{47}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Autonom\IeC {\'\i }a de Vuelo}{47}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Posibles Cambios en el Dise\IeC {\~n}o}{51}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Rigidez en Batimiento $\boldsymbol {k_{\beta }}$}{52}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Integraci\IeC {\'o}n de las Diferentes Cargas de Pago}{57}{subsection.4.2.2}% 
+\contentsline {chapter}{\numberline {5}Vuelo en Espiral}{73}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Velocidad de Ascenso del Vuelo}{76}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Integraci\IeC {\'o}n de las Diferentes Cargas de Pago}{80}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}An\IeC {\'a}lisis de los Par\IeC {\'a}metros de Vuelo con la Posici\IeC {\'o}n de la Carga de Pago}{85}{section.5.3}% 
+\contentsline {chapter}{\numberline {6}Vuelo Circular}{95}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Autonom\IeC {\'\i }a de Vuelo}{98}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}An\IeC {\'a}lisis de Varios Tipos de Misiones}{99}{section.6.2}% 
+\contentsline {chapter}{\numberline {7}Resumen, Conclusiones y V\IeC {\'\i }as de Desarrollo}{115}{chapter.7}% 
