@@ -2,15 +2,19 @@
 \definecolor{Gray2}{rgb}{ .851,  .851,  .851}
 \chapter{Vuelo Horizontal}
 
-\spacing{1.5}
-
-Las condiciones para el vuelo rectilíneo son sencillas: la velocidad vertical ha de ser nula, mientras que la horizontal no. Con estas condiciones y a nivel del mar se pueden obtener las gráficas \ref{PMVH}, \ref{ControlVH}, \ref{EulerVH} y \ref{PVH}, que ofrecen una primera aproximación del rendimiento de la aeronave en configuración sin carga de pago. De ellas se puede deducir que el valor de potencia total mínimo es de 27,307 kW, y se da para una velocidad de vuelo de 28.73 m/s. Para calcular la velocidad máxima de avance es necesario obtener características del motor, el cual no se ha decidido, por lo que, para tener unos valores orientativos, se ha optado por emplear los datos del motor que monta el Cicaré 7B, un helicóptero de peso similar al vehículo a diseñar. El motor en cuestión es el ROTAX 912 ULS, un motor de 4 tiempos y 4 cilindros, con un consumo especifico de 285 g/kW$\cdot$ h a una potencia máxima continua de 58 kW a 5500 rpm \citep{ROTAX}. Con esta limitación reflejada en la gráfica \ref{PMVH} se puede observar que el motor, cuya potencia máxima continua disponible es de 58 kW, permite volar a velocidades de hasta casi 70 m/s en estas condiciones.
+Las condiciones para el vuelo rectilíneo son sencillas: la velocidad vertical ha de ser nula, mientras que la horizontal no. Con estas condiciones y a nivel del mar se pueden obtener las gráficas \ref{PMVH}, \ref{ControlVH}, \ref{EulerVH} y \ref{PVH}, que ofrecen una primera aproximación del rendimiento de la aeronave en configuración sin carga de pago. De ellas se puede deducir que el valor de potencia total mínimo es de 27,307 kW, y se da para una velocidad de vuelo de 28.73 m/s. Para calcular la velocidad máxima de avance es necesario obtener características del motor, el cual no se ha decidido, por lo que, para tener unos valores orientativos, se ha optado por emplear los datos del motor que monta el Cicaré 7B, un helicóptero de peso similar al vehículo a diseñar. El motor en cuestión es el ROTAX 912 ULS, un motor de 4 tiempos y 4 cilindros, con un consumo especifico de 285 g/kW$\cdot$ h a una potencia máxima continua de 58 kW a 5500 rpm \citep{ROTAX}. Con esta limitación reflejada en la gráfica \ref{PMVH} se puede observar que el motor, cuya potencia máxima continua disponible es de 58 kW, permite volar a velocidades de hasta 68.28 m/s en estas condiciones.
 
 \begin{figure}
 	\centering
 	\includegraphics[width=90mm]{graficos/PMVH}
 	\caption{Consumo de Potencia de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo horizontal y limitación por potencia máxima continua disponible.}
 	\label{PMVH}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=90mm]{graficos/PVH}
+	\caption{Consumo de Potencia de los rotores principal y antipar en función de la velocidad de vuelo a nivel del mar para vuelo horizontal.}
+	\label{PVH}
 \end{figure}
 \begin{figure}
 	\centering
@@ -23,12 +27,6 @@ Las condiciones para el vuelo rectilíneo son sencillas: la velocidad vertical h
 	\includegraphics[width=90mm]{graficos/EulerVH}
 	\caption{Ángulos de Euler de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo horizontal.}
 	\label{EulerVH}
-\end{figure}
-\begin{figure}
-	\centering
-	\includegraphics[width=90mm]{graficos/PVH}
-	\caption{Consumo de Potencia de los rotores principal y antipar en función de la velocidad de vuelo a nivel del mar para vuelo horizontal.}
-	\label{PVH}
 \end{figure}
 
 \section{Autonomía de Vuelo}
@@ -82,9 +80,9 @@ La tabla \ref{auttabla} recoge los datos necesarios para el cálculo de la auton
 		\cellcolor{Gray}Potencia para máxima autonomía ($P_{min,t_{e,max}}$)  & 27.307 kW \\ \hline
 		\cellcolor{Gray}Velocidad en régimen de máxima autonomía ($V$) & 28.73 m/s \\ \hline
 		\cellcolor{Gray}Consumo específico en régimen de máxima autonomía ($c_{e,t_{e,max}}$) & 8.98$\cdot$10$^-08$ kg/W$\cdot$s \\ \hline
-		\cellcolor{Gray}Máxima autonomía ($t_{e,max}$) & 4.588 h \\ \hline
+		\cellcolor{Gray}Máxima autonomía ($t_{e,max}$) & 4.5887 h \\ \hline
 	\end{tabular}%
-	\caption{Valores de inercia del helicóptero semilla.}
+	\caption{Parámetros relativos al cálculo de la máxima autonomía y su valor para un vuelo horizontal a nivel del mar.}
 	\label{auttabla}
 \end{table}%
 
@@ -346,7 +344,7 @@ Para poder comprobar como afecta la carga al vuelo, se realizarán las mismas su
 
 Las simulaciones se han realizado para las configuraciones sin carga y para cada una de las cargas en dos posiciones, sobre la proyección del centro de masas del helicóptero sin la carga sobre el suelo y para una posición de la carga en en suelo tal que $l_x$=1.3 m y $l_y$=-0.2 m, es decir, con las cámaras situadas en la parte delantera del helicóptero y desviadas ligeramente hacia un lateral del fuselaje. Los resultados de estas simulaciones se han reflejado en las gráficas \ref{PMVHMPL}, \ref{Theta0VHMPL}, \ref{Theta1CVHraMPL}, \ref{Theta1SVHMPL}, \ref{ThetaVHMPL}, \ref{PhiVHMPL} y \ref{Theta0VHraMPL}.
 
-De los resultados se puede apreciar que en caso de colocar la carga de pago sobre la proyección las condiciones de vuelo apenas varían, por lo que los cálculos realizados para la configuración sin carga en vuelo horizontal se pueden asumir que sirven para cualquier carga siempre y cuando esté situada en ese punto.
+De los resultados se puede apreciar que en caso de colocar la carga de pago sobre la proyección las condiciones de vuelo apenas varían, por lo que los cálculos realizados para la configuración sin carga en vuelo horizontal se pueden asumir que sirven como aproximaciones para cualquier carga de las ensayadas siempre y cuando esté situada en ese punto.
 
 Los resultados mas interesantes se dan cuando la carga se desplaza de dicho punto, siendo los casos más desfavorables los de mayor masa de carga de pago. En la gráfica \ref{PMVHMPL} se observa que a bajas velocidades de vuelo las diferencias son inapreciables, pero al aumentar la misma, lo hacen también las diferencias. Aún así, las diferencias en las potencias necesarias no son excesivas, llegando a valores de cerca de 2000 W para velocidades de 60 m/s.
 
@@ -356,7 +354,7 @@ Con el ángulo de paso cíclico lateral pasa algo similar, el desequilibrio más
 
 Por último se ha representado en la gráfica \ref{Theta0VHraMPL} la variación del ángulo de paso colectivo del rotor antipar necesario para equilibrar cada uno de los casos descritos, pero al igual que pasaba con el del rotor principal, no sufre cambios excesivos.
 
-\subsection*{Variación de los Parámetros de Vuelo con la Posición de la Carga de Pago}
+\subsection*{Análisis de los Parámetros de Vuelo con la Posición de la Carga de Pago}
 
 Visto el efecto de la propia carga sobre los parámetros de vuelo, conviene comprobar el efecto de la posición de una misma carga volando a una velocidad determinada, por lo que en este apartado se reflejarán y comentarán los resultados de simular vuelos horizontales a velocidad constante para las cargas 2 y 3 en función de la posición de la misma dentro de los márgenes establecidos en el capítulo anterior.
 
@@ -484,6 +482,3 @@ En el caso del cabeceo, los máximos valores se alcanzan para cargas centradas, 
 \end{figure}
 
 Por último, el ángulo de paso colectivo del rotor antipar (gráficas \ref{theta0raVH2lxy} y \ref{theta0raVH3lxy}) sigue una evolución similar al del rotor principal, siendo los máximos a velocidades bajas para cargas centradas longitudinalmente y en la parte izquierda del fuselaje, invirtiéndose el efecto de la posición longitudinal para velocidades. El incremento de carga en este caso acusa más las diferencias entre los valores máximos y mínimos del paso, pero sus valores absolutos apenas varían 0.005 rad.
-
-
-\singlespacing

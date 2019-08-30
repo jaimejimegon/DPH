@@ -1,4 +1,4 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{8}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -27,6 +27,11 @@ DAF.
 Antonio Filippone.
 \newblock \emph{Flight Performance of Fixed and Rtary Wing Aircraft}.
 \newblock Elsevier, 2006.
+
+\bibitem[Padfield(2007)]{Padfield}
+Gareth~D. Padfield.
+\newblock \emph{Helicopter Flight Dynamics}.
+\newblock Blackwell Publishing, 2007.
 
 \bibitem[ROTAX(2007)]{ROTAX}
 ROTAX.

@@ -1,0 +1,284 @@
+\thispagestyle{empty}
+\chapter{Vuelo Circular}
+
+El último caso de vuelo a analizar es el del vuelo circular, un vuelo a nivel siguiendo una trayectoria curvilínea de radio constante. Se ha escogido esta trayectoria por ser una que puede ser empleada en misiones de vigilancia de un terreno concreto. 
+Se analizará la influencia de la velocidad y el radio de giro de la trayectoria en el vuelo de la aeronave para después comprobar el efecto de modificaciones sobre los parámetros de diseño de la misma. El caso inicial es de un vuelo a 1000 m de altitud con un radio de giro de 300 m. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=90mm]{graficos/PMVC}
+	\caption{Consumo de Potencia de la aeronave en función de la velocidad de vuelo a una altitud de 1000 m para vuelo circular de radio 300 m y limitación por potencia máxima continua disponible.}
+	\label{PMVC}
+\end{figure}
+
+Como se puede observar en la gráfica \ref{PMVC}, el consumo mínimo de potencia se ha desplazado, dándose para una velocidad de vuelo de 30.0275 m/s, siendo dicha potencia de 27.99 kW. En lo referente a la velocidad máxima, esta se sitúa en 66.2 m/s, un poco por debajo del caso para vuelo horizontal.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=90mm]{graficos/PVC}
+	\caption{Consumo de Potencia de los rotores principal y antipar en función de la velocidad de vuelo a una altitud de 1000 m para vuelo circular de radio 300 m.}
+	\label{PVC}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=90mm]{graficos/ControlVC}
+	\caption{Ángulos de control de la aeronave en función de la velocidad de vuelo a una altitud de 1000 m para vuelo circular de radio 300 m.}
+	\label{ControlVC}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=90mm]{graficos/EulerVC}
+	\caption{Ángulos de Euler de la aeronave en función de la velocidad de vuelo a una altitud de 1000 m para vuelo circular de radio 300 m.}
+	\label{EulerVC}
+\end{figure}
+
+Respecto al resto de parámetros, solo resulta llamativo el ángulo de balanceo que se encuentra en la gráfica \ref{EulerVC}. Dicho ángulo crece con la velocidad debido a la necesidad de mantener una trayectoria circular cuyo radio es constante.
+El resto de resultados no resultan extraños, por lo que nos sirven para comprobar que se han hecho los cálculos correctamente.
+
+
+\section{Autonomía de Vuelo}
+
+En este tipo de vuelo la autonomía vuelve a cobrar relevancia ya que durante una misión de vigilancia esta podría ser la trayectoria que el vehículo mantuviese durante largos períodos de tiempo. Resulta interesante, por tanto, conocer cuanto tiempo puede estar volando antes de tener que sustituirlo.
+
+Los cálculos de para la autonomía ya se expusieron en el capítulo 4, por lo que se omitirán, reflejando únicamente los resultados en la gráfica \ref{autonomiaVC} y la tabla \ref{auttablaVC}.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=90mm]{graficos/teVC}
+	\caption{Autonomía de la aeronave en función de la velocidad de vuelo a una altitud de 100 m para vuelo circular de radio 300 m.}
+	\label{autonomiaVC}
+\end{figure}
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{|>{\columncolor{Gray}}c|c|}
+		\hline
+		\cellcolor{Gray2}Variable & \cellcolor{Gray2}Valor \\ \hline \hline
+		\cellcolor{Gray}Potencia para máxima autonomía ($P_{min,t_{e,max}}$)  & 27.99 kW \\ \hline
+		\cellcolor{Gray}Velocidad en régimen de máxima autonomía ($V$) & 30.0275 m/s \\ \hline
+		\cellcolor{Gray}Consumo específico en régimen de máxima autonomía ($c_{e,t_{e,max}}$) & 8.9234$\cdot$10$^-08$ kg/W$\cdot$s \\ \hline
+		\cellcolor{Gray}Máxima autonomía ($t_{e,max}$) & 4.5043 h \\ \hline
+	\end{tabular}%
+	\caption{Parámetros relativos al cálculo de la máxima autonomía y su valor para un vuelo circular de radio 300 m a una altitud de 1000 m.}
+	\label{auttablaVC}
+\end{table}%
+
+Como se puede ver, la autonomía máxima es de 4.5043 horas. Comparado con el resultado obtenido para vuelo horizontal a nivel del mar, 4.5887 horas, por lo que la disminución de la autonomía debida al cambio de condiciones no resulta muy perjudicial.
+
+\section{Análisis de Varios Tipos de Misiones}
+
+En este apartado se expondrán análisis de diversas misiones que interesan que sea capaz de realizar la aeronave, de manera que se obtengan sus actuaciones para las mismas.
+
+\subsection*{Vuelos con Trayectorias de Diferentes Radios}
+
+Otra condición de vuelo interesante es el radio de la trayectoria circular. Las misiones de vigilancia pueden requerir cubrir terrenos mas o menos grandes, con lo que conviene conocer el efecto de la trayectoria en las actuaciones del vehículo. Cabe destacar que se omitirá el análisis a bajas velocidades, ya que en estas condiciones los resultados no dependen igual del radio de la trayectoria.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=90mm]{graficos/PMVCcs}
+	\caption{Consumo de Potencia de la aeronave en función de la velocidad de vuelo a una altitud de 1000 m para vuelo circular de diferentes radios y limitación por potencia máxima continua disponible.}
+	\label{PMVCcs}
+\end{figure}
+
+En la gráfica de potencias consumidas \ref{PMVCcs} se puede observar que la reducción del radio de giro conlleva un aumento exponencial de la potencia necesaria para llevar a cabo el vuelo independientemente de si el giro es hacia la derecha o la izquierda, lo que implica que para radios de giro de 100 m, las velocidades máximas de vuelo se ven limitadas a valores alrededor de 55.4 m/s (55.31 m/s para el giro a derechas y 55.44 m/s para el giro a izquierdas). A simple vista puede parecer que el sentido de giro es indiferente, pero los consumos de potencia resultan ligeramente mayores para giros a derechas que a izquierdas.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=90mm]{graficos/theta0VCcs}
+	\caption{Ángulo de paso colectivo del rotor principal en función de la velocidad de vuelo a una altitud de 1000 m para vuelo circular de diferentes radios.}
+	\label{theta0VCcs}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=90mm]{graficos/theta1CVCcs}
+	\caption{Ángulo de paso cíclico longitudinal del rotor principal en función de la velocidad de vuelo a una altitud de 1000 m para vuelo circular de diferentes radios.}
+	\label{theta1CVCcs}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=90mm]{graficos/theta1SVCcs}
+	\caption{Ángulo de paso cíclico lateral del rotor principal en función de la velocidad de vuelo a una altitud de 1000 m para vuelo circular de diferentes radios.}
+	\label{theta1SVCcs}
+\end{figure}
+
+Los resultados de los ángulos de control del rotor principal se recogen en las gráficas \ref{theta0VCcs}, \ref{theta1CVCcs} y \ref{theta1SVCcs}. En ellas la evolución es similar al caso de la potencia, los valores absolutos de los ángulos se incrementan según reduce el ángulo de giro, y lo hacen de forma exponencial. De nuevo los datos parecen ir en parejas, pero las diferencias entre los giros a derechas e izquierdas ahora son más apreciables
+
+\begin{figure}
+	\centering
+	\includegraphics[width=90mm]{graficos/CabVCcs}
+	\caption{Ángulo de cabeceo de la aeronave en función de la velocidad de vuelo a una altitud de 1000 m para vuelo circular de diferentes radios.}
+	\label{CabVCcs}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=90mm]{graficos/BalanVCcs}
+	\caption{Ángulo de balanceo de la aeronave en función de la velocidad de vuelo a una altitud de 1000 m para vuelo circular de diferentes radios.}
+	\label{BalanVCcs}
+\end{figure}
+
+En el caso del cabeceo (gráfica \ref{CabVCcs}) la evolución es la misma que vista anteriormente, solo que, en valor absoluto, el ángulo de cabeceo disminuye con el radio de la trayectoria, existiendo eso si en este caso mayores diferencias para los distintos sentidos de giro.
+
+Sin embargo, en la gráfica \ref{BalanVCcs} es en la que los datos para un mismo radio y diferentes sentidos de giro están separados. Este resultado es obvio, ya que la gráfica corresponde al ángulo de balanceo. La aeronave tenderá a un valor de balanceo tal que las fuerzas del rotor tiendan hacia el sentido de giro para poder así efectuar la trayectoria.
+
+De estos resultados se puede obtener una conclusión muy clara, para trayectorias de gran radio no se ha de tener especial cuidado, pero si se quieren recorrer trayectorias de menor radio, se ha de tener en cuenta que las actuaciones se verán mermadas, y que de ser posible conviene siempre diseñar las trayectorias con giros hacia la izquierda.
+
+\subsection*{Vuelo con Diferentes Cargas de Pago de Posición Variable}
+
+En capítulos anteriores se han definido las cargas de pago modelo y se han realizado ensayos numéricos acerca de su efecto en los distintos vuelos expuestos. Este apartado pretende abordar el mismo problema de manera breve, comentando los resultados más llamativos respecto a los anteriores análisis.
+
+\begin{figure}
+	\centering
+	\subfigure[Potencia necesaria para el vuelo en función de la posición relativa a $O_f$ de la carga 2 para una velocidad de vuelo de 10 m/s.]{\includegraphics[width=60mm]{graficos/PMVC2lxy10ms}}
+	\subfigure[Potencia necesaria para el vuelo en función de la posición relativa a $O_f$ de la carga 2 para una velocidad de vuelo de 50 m/s.]{\includegraphics[width=60mm]{graficos/PMVC2lxy50ms}}
+	\caption{Consumo de Potencia de la aeronave en función de la posición relativa a $O_f$ de la carga 2.}
+	\label{PMVC2lxy}
+\end{figure}
+\begin{figure}
+	\centering
+	\subfigure[Potencia necesaria para el vuelo en función de la posición relativa a $O_f$ de la carga 3 para una velocidad de vuelo de 10 m/s.]{\includegraphics[width=60mm]{graficos/PMVC3lxy10ms}}
+	\subfigure[Potencia necesaria para el vuelo en función de la posición relativa a $O_f$ de la carga 3 para una velocidad de vuelo de 50 m/s.]{\includegraphics[width=60mm]{graficos/PMVC3lxy50ms}}
+	\caption{Consumo de Potencia de la aeronave en función de la posición relativa a $O_f$ de la carga 3.}
+	\label{PMVC3lxy}
+\end{figure}
+
+Comenzando por la potencia, los resultado resultan bastante curiosos; las gráficas \ref{PMVH2lxy} y \ref{PMVC3lxy} muestran que a bajas velocidades la potencia necesaria para el vuelo aumenta según disminuye $l_y$, es decir, es mayor cuanto mas a la izquierda del fuselaje esté situada la carga y también aumenta para cargas alejadas longitudinalmente del centro de gravedad de la aeronave sin carga ($x_{CG}=0.0972$). Sin embargo, a altas velocidades este comportamiento se invierte para el eje longitudinal, siendo los puntos de menor consumo aquellos en los que la carga está situada sobre el centro de gravedad de la aeronave. En el eje lateral, vuelve a repetirse el mismo comportamiento, la potencia necesaria disminuye para cargas situadas hacia la derecha del fuselaje, pero en esta ocasión aparece un mínimo alrededor de $l_y=0.2$, por lo que desplazar aún más la carga resulta perjudicial en términos de potencia. Además, a estas velocidades, estos cambios pueden suponer una reducción de hasta 10 kW respecto a valores extremos de posición, a diferencia de a bajas velocidades donde las diferencias apenas alcanzan el valor de 1 kW.
+
+Comparando los efectos de ambas cargas, se observa que a bajas velocidades su comportamiento es prácticamente idéntico, pero a altas velocidades las cargas más pesadas y de mayor tamaño requieren de un consumo ligeramente mayor de potencia en posiciones distintas de la óptima.
+
+\begin{figure}
+	\centering
+	\subfigure[Ángulo de paso colectivo del rotor principal en función de la posición relativa a $O_f$ de la carga 2 para una velocidad de vuelo de 10 m/s.]{\includegraphics[width=60mm]{graficos/theta0VC2lxy10ms}}
+	\subfigure[Ángulo de paso colectivo del rotor principal en función de la posición relativa a $O_f$ de la carga 2 para una velocidad de vuelo de 50 m/s.]{\includegraphics[width=60mm]{graficos/theta0VC2lxy50ms}}
+	\caption{Ángulo de paso colectivo del rotor principal en función de la posición relativa a $O_f$ de la carga 2.}
+	\label{theta0VC2lxy}
+\end{figure}
+\begin{figure}
+	\centering
+	\subfigure[Ángulo de paso colectivo del rotor principal en función de la posición relativa a $O_f$ de la carga 3 para una velocidad de vuelo de 10 m/s.]{\includegraphics[width=60mm]{graficos/theta0VC3lxy10ms}}
+	\subfigure[Ángulo de paso colectivo del rotor principal en función de la posición relativa a $O_f$ de la carga 3 para una velocidad de vuelo de 50 m/s.]{\includegraphics[width=60mm]{graficos/theta0VC3lxy50ms}}
+	\caption{Ángulo de paso colectivo del rotor principal en función de la posición relativa a $O_f$ de la carga 3.}
+	\label{theta0VC3lxy}
+\end{figure}
+
+En lo referente a los ángulos de control del rotor principal, de nuevo se observa en las gráficas \ref{theta0VH2lxy} y \ref{theta0VH3lxy} diferencias para altas y bajas velocidades, al menos en el paso colectivo. A bajas velocidades, el paso colectivo es menor para cargas situadas en los márgenes longitudinales y a la derecha del fuselaje, pero a altas velocidades el efecto de la posición longitudinal vuelve a invertirse, resultando necesarios pasos menores en cargas centradas. En este caso los valores para las diferentes cargas son muy similares, no existe una diferencia apreciable debido al efecto del tamaño o peso de la carga.
+
+\begin{figure}
+	\centering
+	\subfigure[Ángulo de paso cíclico longitudinal en función de la posición relativa a $O_f$ de la carga 2 para una velocidad de vuelo de 10 m/s.]{\includegraphics[width=60mm]{graficos/theta1CVC2lxy10ms}}
+	\subfigure[Ángulo de paso cíclico longitudinal en función de la posición relativa a $O_f$ de la carga 2 para una velocidad de vuelo de 50 m/s.]{\includegraphics[width=60mm]{graficos/theta1CVC2lxy50ms}}
+	\caption{Ángulo de paso cíclico longitudinal en función de la posición relativa a $O_f$ de la carga 2.}
+	\label{theta1CVC2lxy}
+\end{figure}
+\begin{figure}
+	\centering
+	\subfigure[Ángulo de paso cíclico longitudinal en función de la posición relativa a $O_f$ de la carga 3 para una velocidad de vuelo de 10 m/s.]{\includegraphics[width=60mm]{graficos/theta1CVC3lxy10ms}}
+	\subfigure[Ángulo de paso cíclico longitudinal en función de la posición relativa a $O_f$ de la carga 3 para una velocidad de vuelo de 50 m/s.]{\includegraphics[width=60mm]{graficos/theta1CVC3lxy50ms}}
+	\caption{Ángulo de paso cíclico longitudinal en función de la posición relativa a $O_f$ de la carga 3.}
+	\label{theta1CVC3lxy}
+\end{figure}
+
+La variación de los ángulos de paso cíclico con la posición de la carga son más acusados, pero la velocidad de vuelo apenas influye en la misma. Para el paso cíclico longitudinal los máximos valores se dan para cargas centradas longitudinalmente y situadas a la izquierda del fuselaje, independientemente de la velocidad, aunque estos valores crecen ligeramente con esta como se puede observa en las gráficas \ref{theta1CVH2lxy} y \ref{theta1CVH3lxy}.
+
+\begin{figure}
+	\centering
+	\subfigure[Ángulo de paso cíclico lateral en función de la posición relativa a $O_f$ de la carga 2 para una velocidad de vuelo de 10 m/s.]{\includegraphics[width=60mm]{graficos/theta1SVC2lxy10ms}}
+	\subfigure[Ángulo de paso cíclico lateral en función de la posición relativa a $O_f$ de la carga 2 para una velocidad de vuelo de 50 m/s.]{\includegraphics[width=60mm]{graficos/theta1SVC2lxy50ms}}
+	\caption{Ángulo de paso cíclico lateral en función de la posición relativa a $O_f$ de la carga 2.}
+	\label{theta1SVC2lxy}
+\end{figure}
+\begin{figure}
+	\centering
+	\subfigure[Ángulo de paso cíclico lateral en función de la posición relativa a $O_f$ de la carga 3 para una velocidad de vuelo de 10 m/s.]{\includegraphics[width=60mm]{graficos/theta1SVC3lxy10ms}}
+	\subfigure[Ángulo de paso cíclico lateral en función de la posición relativa a $O_f$ de la carga 3 para una velocidad de vuelo de 50 m/s.]{\includegraphics[width=60mm]{graficos/theta1SVC3lxy50ms}}
+	\caption{Ángulo de paso cíclico lateral en función de la posición relativa a $O_f$ de la carga 3.}
+	\label{theta1SVC3lxy}
+\end{figure}
+
+En cambio, la variación de los ángulos de paso cíclico lateral se da de forma totalmente opuesta, alcanzándose los mínimos para cargas centradas longitudinalmente y situadas a la izquierda del fuselaje, y de nuevo esta distribución se repite tanto a altas como bajas velocidades.
+
+Las mayores variaciones observadas para el efecto de la carga se encuentran para el valor del paso cíclico lateral a altas velocidades, los cuales alcanzan valores de hasta 0.02 rad superiores para la carga 3, de mayor tamaño y masa.
+
+\begin{figure}
+	\centering
+	\subfigure[Ángulo de cabeceo de la aeronave en función de la posición relativa a $O_f$ de la carga 2 para una velocidad de vuelo de 10 m/s.]{\includegraphics[width=60mm]{graficos/CabVC2lxy10ms}}
+	\subfigure[Ángulo de cabeceo de la aeronave en función de la posición relativa a $O_f$ de la carga 2 para una velocidad de vuelo de 50 m/s.]{\includegraphics[width=60mm]{graficos/CabVC2lxy50ms}}
+	\caption{Ángulo de cabeceo de la aeronave en función de la posición relativa a $O_f$ de la carga 2.}
+	\label{CabVC2lxy}
+\end{figure}
+\begin{figure}
+	\centering
+	\subfigure[Ángulo de cabeceo de la aeronave en función de la posición relativa a $O_f$ de la carga 3 para una velocidad de vuelo de 10 m/s.]{\includegraphics[width=60mm]{graficos/CabVC3lxy10ms}}
+	\subfigure[Ángulo de cabeceo de la aeronave en función de la posición relativa a $O_f$ de la carga 3 para una velocidad de vuelo de 50 m/s.]{\includegraphics[width=60mm]{graficos/CabVC3lxy50ms}}
+	\caption{Ángulo de cabeceo de la aeronave en función de la posición relativa a $O_f$ de la carga 3.}
+	\label{CabVC3lxy}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\subfigure[Ángulo de balanceo de la aeronave en función de la posición relativa a $O_f$ de la carga 2 para una velocidad de vuelo de 10 m/s.]{\includegraphics[width=60mm]{graficos/BalanVC2lxy10ms}}
+	\subfigure[Ángulo de balanceo de la aeronave en función de la posición relativa a $O_f$ de la carga 2 para una velocidad de vuelo de 50 m/s.]{\includegraphics[width=60mm]{graficos/BalanVC2lxy50ms}}
+	\caption{Ángulo de balanceo de la aeronave en función de la posición relativa a $O_f$ de la carga 2.}
+	\label{BalanVC2lxy}
+\end{figure}
+\begin{figure}
+	\centering
+	\subfigure[Ángulo de balanceo de la aeronave en función de la posición relativa a $O_f$ de la carga 3 para una velocidad de vuelo de 10 m/s.]{\includegraphics[width=60mm]{graficos/BalanVC3lxy10ms}}
+	\subfigure[Ángulo de balanceo de la aeronave en función de la posición relativa a $O_f$ de la carga 3 para una velocidad de vuelo de 50 m/s.]{\includegraphics[width=60mm]{graficos/BalanVC3lxy50ms}}
+	\caption{Ángulo de balanceo de la aeronave en función de la posición relativa a $O_f$ de la carga 3.}
+	\label{BalanVC3lxy}
+\end{figure}
+
+En lo que respecta a los ángulos de Euler, la evolución resulta curiosa aunque no sorprendente; en las gráficas \ref{CabVH2lxy} y \ref{CabVH3lxy} se observa que el valor del ángulo de cabeceo de la aeronave no depende de la posición lateral de la carga, al igual que en las gráficas \ref{BalanVH2lxy} y \ref{BalanVH3lxy} el ángulo de balanceo no varía con la posición longitudinal de las mismas.
+
+En el caso del cabeceo, los máximos valores se alcanzan para cargas centradas, siendo ligeramente mayor el incremento para altas velocidades. Las diferencias entre las cargas también son claras, a mayor carga, mayores son las diferencias entre los valores máximo y mínimo existentes. Para el balanceo, los máximos aparecen para cargas en la parte derecha del vehículo, no influyendo tanto en este caso la velocidad de vuelo o la carga embarcada.
+
+\begin{figure}
+	\centering
+	\subfigure[Ángulo de paso colectivo del rotor antipar en función de la posición relativa a $O_f$ de la carga 2 para una velocidad de vuelo de 10 m/s.]{\includegraphics[width=60mm]{graficos/theta0raVC2lxy10ms}}
+	\subfigure[Ángulo de paso colectivo del rotor antipar en función de la posición relativa a $O_f$ de la carga 2 para una velocidad de vuelo de 50 m/s.]{\includegraphics[width=60mm]{graficos/theta0raVC2lxy50ms}}
+	\caption{Ángulo de paso colectivo del rotor antipar en función de la posición relativa a $O_f$ de la carga 2.}
+	\label{theta0raVC2lxy}
+\end{figure}
+\begin{figure}
+	\centering
+	\subfigure[Ángulo de paso colectivo del rotor antipar en función de la posición relativa a $O_f$ de la carga 3 para una velocidad de vuelo de 10 m/s.]{\includegraphics[width=60mm]{graficos/theta0raVC3lxy10ms}}
+	\subfigure[Ángulo de paso colectivo del rotor antipar en función de la posición relativa a $O_f$ de la carga 3 para una velocidad de vuelo de 50 m/s.]{\includegraphics[width=60mm]{graficos/theta0raVC3lxy50ms}}
+	\caption{Ángulo de paso colectivo del rotor antipar en función de la posición relativa a $O_f$ de la carga 3.}
+	\label{theta0raVC3lxy}
+\end{figure}
+
+\subsection*{Triple Carga de Pago con Restricciones a la Posición}
+
+Como último ensayo, se ha querido representar una situación fuera de lo común para comprobar como respondería la aeronave. Dicha situación consiste en lo siguiente:
+
+\begin{itemize}
+	\item El helicóptero lleva embarcadas dos cargas de pago:
+	\subitem Carga 2 en una posición tal que $l_x=1.3$ m y $l_y=0.3$ m.
+	\subitem Carga 3 en una posición tal que $l_x=1.25$ m y $l_y=-0.25$ m.
+	\item El vuelo a realizar es circular, de radio 300 m a una altitud de 1000 m y una velocidad de 30 m/s.
+\end{itemize}
+El usuario requiere embarcar una última carga de pago especial que se denominará "carga 4" y cuyos datos están recogidos en la tabla \ref{carga4}. Se puede apreciar que no tiene una posición fija, ya que en cualquier posición que cumpla los requisitos de la tabla, la carga podrá llevar a cabo su misión.
+El objetivo de este análisis es comprobar dónde sería más conveniente colocar la carga 4 para mantener o mejorar los parámetros del vuelo.
+Cabe destacar que se considera que la implementación de cada carga permite reducir algún sistema de a bordo del mismo peso que la carga y cuyo centro de masas coincidía con el de la aeronave, de manera que la masa total al despegue siempre es de 450 kg y el centro de gravedad de la aeronave en sin las cargas no se ve alterado.
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{|>{\columncolor{Gray}}c|c|}
+		\hline
+		\cellcolor{Gray}Masa del dispositivo ($M_{pl}$) & 50 kg \\ \hline
+		\cellcolor{Gray}Radio del dispositivo ($R_{pl}$) & 0.2 m \\ \hline
+		\cellcolor{Gray}Momento de inercia del eje $x$ ($I_{x}^{pl0}$) & 0.8 kg$\cdot$m$^2$ \\ \hline
+		\cellcolor{Gray}Momento de inercia del eje $y$ ($I_{y}^{pl0}$) & 0.8 kg$\cdot$m$^2$ \\ \hline
+		\cellcolor{Gray}Momento de inercia del eje $z$ ($I_{z}^{pl0}$) & 0.8 kg$\cdot$m$^2$ \\ \hline
+		\cellcolor{Gray}Producto de inercia $xy$ ($I_{xy}^{pl0}$)& 0 kg$\cdot$m$^2$ \\ \hline
+		\cellcolor{Gray}Producto de inercia $xz$ ($I_{xz}^{pl0}$)& 0 kg$\cdot$m$^2$ \\ \hline
+		\cellcolor{Gray}Producto de inercia $yz$ ($I_{yz}^{pl0}$)& 0 kg$\cdot$m$^2$ \\ \hline
+		\cellcolor{Gray}Peso del dispositivo ($W_{pl}$)& 50$\cdot$9.81 N \\ \hline
+		\cellcolor{Gray}Posición longitudinal de la carga de pago respecto a $O_f$ ($l_x$) & [-0.1 1] m \\ \hline
+		\cellcolor{Gray}Posición transversal de la carga de pago respecto a $O_f$ ($l_y$) & [-0.4 0.4] m \\ \hline
+		\cellcolor{Gray}Posición vertical del suelo del fuselaje ($l_z$) & 0.7678 m \\ \hline
+	\end{tabular}%
+	\caption{Valores másicos, de inercia y de posición de la carga de pago "carga 4".}
+	\label{carga4}
+\end{table}%
+

@@ -2,7 +2,6 @@
 
 \chapter{Desarrollo de un Helicóptero Semilla a Partir de un Helicóptero Base}
 
-\spacing{1.5}
 
 Comenzar el desarrollo del vehículo desde el principio supondría un esfuerzo y trabajo innecesarios, por lo que lo ideal es la obtención de un helicóptero semilla, un modelo que sirva de primera aproximación sobre el que trabajar y hacer modificaciones. Este helicóptero semilla se obtendrá mediante una adimensionalización de las características de un vehículo real y posterior dimensionalización empleando los parámetros que deba poseer el nuevo vehículo.
 
@@ -10,7 +9,7 @@ Todo este proceso se describirá a lo largo de este capítulo de manera que una 
 
 \section{Descripción Helicóptero Base}
 
-El primer paso es elegir un modelo que sirva de base para nuestros cálculos y permita obtener un primer diseño lo mas cercano posible al resultado que se desee. El requisito más importante que debe cumplir esta aeronave será que resulte semejante al diseño que se busca, de manera que pueda reescalarse según las necesidades. Para este proyecto se ha escogido el Bölkow Bo 105, un helicóptero utilitario monorrotor, cuyas características se exponen a continuación. Cabe indicar que todos los parámetros definidos conformarán una estructura en MATLAB que se empleará en los cálculos.
+El primer paso es elegir un modelo que sirva de base para nuestros cálculos y permita obtener un primer diseño lo mas cercano posible al resultado que se desee. El requisito más importante que debe cumplir esta aeronave será que resulte semejante al diseño que se busca, de manera que pueda reescalarse según las necesidades. Para este proyecto se ha escogido el Bölkow Bo 105, un helicóptero utilitario monorrotor, cuyas características recogidas en \citet{Padfield} se exponen a continuación. Cabe indicar que todos los parámetros definidos conformarán una estructura en MATLAB que se empleará en los cálculos.
 
 \subsection{Rotor Principal del Bo 105}
 
@@ -244,7 +243,7 @@ Una vez definida la formulación adimensional a usar, solo resta adimensionaliza
 Adimensionalizar los parámetros correspondientes a ambos rotores requiere el uso de magnitudes características de longitud y velocidad, que serán el radio del rotor y la velocidad en punta de pala, pero además el modelo computacional de \emph{HEROES} requerirá de los parámetros atmosféricos a nivel del mar (H=0) de gravedad, $g$, densidad, $\rho$, viscosidad dinámica del fluido y velocidad del sonido.
 
 Al adimensionalizar la estructura del helicóptero base se obtendrán para cada rotor estructuras con los siguientes parámetros:
-\singlespacing
+
 \begin{multicols}{2}
 	\begin{itemize}
 		\item Número de palas: $b$
@@ -267,7 +266,6 @@ Al adimensionalizar la estructura del helicóptero base se obtendrán para cada 
 		\item Número de Mach: $M=\frac{\Omega R}{v_{sound}}$
 		\end{itemize}
 \end{multicols}
-\spacing{1.5}
 Además de estos parámetros, en la estructura del helicóptero adimensional (la correspondiente al helicóptero completo, no a la de los rotores) aparecerán también los siguientes parámetros:
 \singlespacing
 \begin{multicols}{2}
@@ -278,12 +276,10 @@ Además de estos parámetros, en la estructura del helicóptero adimensional (la
 		\item Relación de momentos $\frac{(\Omega_aR_a)^2R_a^2}{(\Omega R)^2R^3}$
 	\end{itemize}
 \end{multicols}
-\spacing{1.5}
 \subsection{Fuselaje}
 
 Al estar la estructura del fuselaje compuesta únicamente por características físicas y coeficientes aerodinámicos, solo es necesario definir las adimensionalizaciones para los primeros, pues los segundos ya lo están. Dichas adimensionalizaciones quedarían de la siguiente forma:
 
-\singlespacing
 \begin{multicols}{2}
 	\begin{itemize}
 		\item Longitud del fuselaje: $l_f/R$
@@ -291,7 +287,6 @@ Al estar la estructura del fuselaje compuesta únicamente por características f
 		\item Superficie lateral del fuselaje: $\frac{S_l}{\pi R^2}$
 	\end{itemize}
 \end{multicols}
-\spacing{1.5}
 
 Aunque no es un coeficiente aerodinámico, el factor de interferencia del rotor principal con el fuselaje, $k_f$, ya es adimensional por lo que no es necesario trabajarlo.
 
@@ -299,7 +294,6 @@ Aunque no es un coeficiente aerodinámico, el factor de interferencia del rotor 
 
 El caso de los estabilizadores es similar al del fuselaje, únicamente será necesario indicar las adimensionalizaciones de las características físicas ya que el resto son parámetros adimensionales, los cuales quedaría de la siguiente forma:
 
-\singlespacing
 \begin{multicols}{2}
 	\begin{itemize}
 		\item Estabilizador vertical
@@ -310,7 +304,6 @@ El caso de los estabilizadores es similar al del fuselaje, únicamente será nec
 		\subitem Superficie adimensional: $\frac{S_{eh}}{\pi R^2}$
 	\end{itemize}
 \end{multicols}
-\spacing{1.5}
 
 \subsection{Geometría e Inercia del Helicóptero}
 
@@ -318,7 +311,6 @@ En lo que respecta a la geometría, la adimensionalización resulta tan simple c
 
 Por otro lado, al adimensionalizar los parámetros de inercia quedarán como se indica a continuación:
 
-\singlespacing
 \begin{multicols}{2}
 	\begin{itemize}
 		\item Coeficiente de peso: $C_w=\frac{W}{T_u}$
@@ -332,7 +324,6 @@ Por otro lado, al adimensionalizar los parámetros de inercia quedarán como se 
 		\item Relación adimensional $\frac{I_{yz}}{I_y}$
 	\end{itemize}
 \end{multicols}
-\spacing{1.5}
 
 Con todos estos datos y los parámetros de diseño radio del rotor, velocidad de giro de rotor, numero de palas del rotor principal y antipar y peso del nuevo helicóptero, se puede obtener un modelo completo para el nuevo diseño.
 
@@ -664,6 +655,4 @@ I_{xz}^{he}=I_{xx}^{he0}+M_{pl}\cdot(x_{CG}^{he0}-X_{CG}^{he})\cdot(z_{CG}^{he0}
 I_{yz}^{he}=I_{yz}^{he0}+M_{pl}\cdot(y_{CG}^{he0}-Y_{CG}^{he})\cdot(z_{CG}^{he0}-Z_{CG}^{he})
 \end{equation}
 
-Con estos cálculos ya se han definido todos los parámetros necesarios para poder estudiar el problema del equilibrado del helicóptero con y sin carga de pago, lo que permite realizar las simulaciones de vuelo que se encontrarán en capítulos posteriores de este trabajo.
-
-\singlespacing
+Con estos cálculos ya se han definido todos los parámetros necesarios para poder estudiar el problema del equilibrado del helicóptero con y sin carga de pago, lo que permite realizar las simulaciones de vuelo que se encontrarán en capítulos posteriores de este trabajo. Salvo que se indique lo contrario, se empleará el modelo sin cargas de pago para los cálculos.
