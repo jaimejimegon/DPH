@@ -7,11 +7,11 @@
 \contentsline {subsection}{\numberline {1.3.2}Ecuaciones del equilibrio}{12}{subsection.1.3.2}% 
 \contentsline {subsection}{\numberline {1.3.3}Acciones externas sobre el fuselaje}{13}{subsection.1.3.3}% 
 \contentsline {subsection}{\numberline {1.3.4}Vuelo equilibrado}{14}{subsection.1.3.4}% 
-\contentsline {section}{\numberline {1.4}C\IeC {\'a}lculo de Potencias}{16}{section.1.4}% 
+\contentsline {section}{\numberline {1.4}C\IeC {\'a}lculo de potencias}{16}{section.1.4}% 
 \contentsline {section}{\numberline {1.5}\textbf {HE}licopter and \textbf {RO}tor \textbf {E}quilibrium and \textbf {S}tability toolbox}{16}{section.1.5}% 
-\contentsline {section}{\numberline {1.6}Misi\IeC {\'o}n del \emph {DroneHE}}{17}{section.1.6}% 
-\contentsline {chapter}{\numberline {2}An\IeC {\'a}lisis de Semejantes}{19}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}Estudio de Aeronaves de Referencia}{19}{section.2.1}% 
+\contentsline {section}{\numberline {1.6}Misi\IeC {\'o}n del DroneHE}{17}{section.1.6}% 
+\contentsline {chapter}{\numberline {2}An\IeC {\'a}lisis de semejantes}{19}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Estudio de aeronaves de referencia}{19}{section.2.1}% 
 \contentsline {chapter}{\numberline {3}Desarrollo de un Helic\IeC {\'o}ptero Semilla a Partir de un Helic\IeC {\'o}ptero Base}{25}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}Descripci\IeC {\'o}n Helic\IeC {\'o}ptero Base}{25}{section.3.1}% 
 \contentsline {subsection}{\numberline {3.1.1}Rotor Principal del Bo 105}{26}{subsection.3.1.1}% 

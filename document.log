@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.9)  30 AUG 2019 20:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.9)  1 SEP 2019 16:45
 entering extended mode
 **./document.tex
 (document.tex
@@ -786,17 +786,17 @@ LaTeX Info: Redefining \% on input line 137.
 LaTeX Info: Redefining \. on input line 163.
 LaTeX Info: Redefining \% on input line 163.
  [13]
-LaTeX Info: Redefining \. on input line 197.
-LaTeX Info: Redefining \% on input line 197.
+LaTeX Info: Redefining \. on input line 198.
+LaTeX Info: Redefining \% on input line 198.
  [14]
-LaTeX Info: Redefining \. on input line 232.
-LaTeX Info: Redefining \% on input line 232.
+LaTeX Info: Redefining \. on input line 233.
+LaTeX Info: Redefining \% on input line 233.
  [15]
 LaTeX Info: Redefining \. on input line 247.
 LaTeX Info: Redefining \% on input line 247.
  [16]
-LaTeX Info: Redefining \. on input line 267.
-LaTeX Info: Redefining \% on input line 267.
+LaTeX Info: Redefining \. on input line 268.
+LaTeX Info: Redefining \% on input line 268.
  [17]) (Capitulos/02_Analisis-Semejantes.tex
 LaTeX Info: Redefining \. on input line 3.
 LaTeX Info: Redefining \% on input line 3.
@@ -807,12 +807,16 @@ Overfull \hbox (37.84402pt too wide) in paragraph at lines 16--38
  [][] 
  []
 
-[19
+
+Underfull \vbox (badness 5133) has occurred while \output is active []
+
+ [19
 
 ]
 LaTeX Info: Redefining \. on input line 78.
 LaTeX Info: Redefining \% on input line 78.
- [20]
+
+[20]
 Package epstopdf Info: Source file: <graficos/anald.eps>
 (epstopdf)                    date: 2019-05-21 22:08:56
 (epstopdf)                    size: 20588 bytes
@@ -933,15 +937,15 @@ File: graficos/analv-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: graficos/analv-eps-converted-to.pdf  used on input lin
 e 118.
 (pdftex.def)             Requested size: 256.0748pt x 199.84953pt.
-LaTeX Info: Redefining \. on input line 131.
-LaTeX Info: Redefining \% on input line 131.
+LaTeX Info: Redefining \. on input line 130.
+LaTeX Info: Redefining \% on input line 130.
 [21 <./graficos/anald-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 131.
-LaTeX Info: Redefining \% on input line 131.
+LaTeX Info: Redefining \. on input line 130.
+LaTeX Info: Redefining \% on input line 130.
  [22 <./graficos/analomega-eps-converted-to.pdf> <./graficos/analb-eps-converte
 d-to.pdf>]
-LaTeX Info: Redefining \. on input line 131.
-LaTeX Info: Redefining \% on input line 131.
+LaTeX Info: Redefining \. on input line 130.
+LaTeX Info: Redefining \% on input line 130.
  [23 <./graficos/analbtr-eps-converted-to.pdf> <./graficos/analaut-eps-converte
 d-to.pdf>])
 (Capitulos/03_Desarrollo-Drone.tex
@@ -4811,7 +4815,7 @@ LaTeX Info: Redefining \% on input line 24.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 611C97FEBEF0A5012955040ACE9047AE;3477.
+(rerunfilecheck)             Checksum: 739A368F52F95B4A1B1C8FF33DD75051;3477.
 
 
 LaTeX Warning: There were undefined references.
@@ -4852,7 +4856,7 @@ ers/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><E
 :/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb
 ><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12
 .pfb>
-Output written on document.pdf (117 pages, 4302722 bytes).
+Output written on document.pdf (117 pages, 4304657 bytes).
 PDF statistics:
  2378 PDF objects out of 2487 (max. 8388607)
  431 named destinations out of 1000 (max. 500000)

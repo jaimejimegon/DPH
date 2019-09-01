@@ -174,13 +174,14 @@ Se puede observar que tanto las componentes de $\mathrm{\textbf{F}}^{ex}$ como d
 
 \subsection{Vuelo equilibrado}
 
-Debido a la enorme complejidad de los cálculos anteriores y lo innecesario de su implementación para cumplir los objetivos de este proyecto, que son el cálculo de las actuaciones de un vehículo, se trabajará con un modelo simplificado: el del \textbf{vuelo equilibrado}. Esto supone asumir que la resultante de las fuerzas externas que actúan sobre la aeronave es nula, lo que simplifica los cálculos sin afectar de forma relevante a los resultados de las actuaciones, prescindiendo de los cálculos para la estabilidad dinámica del sistema.
-Esto supone, además, que:
+Debido a la enorme complejidad de los cálculos anteriores y lo innecesario de su implementación para cumplir los objetivos de este proyecto, que son el cálculo de las actuaciones de un vehículo, se trabajará con un modelo simplificado: el del \emph{vuelo equilibrado}. Esto supone asumir que la resultante de las fuerzas externas que actúan sobre la aeronave es nula, lo que simplifica los cálculos sin afectar de forma relevante a los resultados de las actuaciones, prescindiendo de los cálculos para la estabilidad dinámica del sistema.
+Esto también implica que:
 \begin{itemize}
 	\item La aceleración es nula, por lo que la velocidad de desplazamiento de la aeronave $\mathrm{\textbf{V}}(t)$ es constante.
-	\item La aeronave no sufre cambios de actitud por lo que $\boldsymbol{\omega}(t)=0$
+	\item La aeronave no sufre cambios de actitud por lo que $\boldsymbol{\omega}(t)=0$.
 \end{itemize}
-Aplicando esto, las ecuaciones (\ref{EqF}) y (\ref{EqM}) se convierten en
+
+Aplicando esto, las ecuaciones (\ref{EqF}) y (\ref{EqM}) se convierten en:
 \begin{equation}
 	\mathrm{\textbf{F}}^{ex}+M\mathrm{\textbf{g}}=0
 	\label{EqFe}
@@ -189,8 +190,8 @@ Aplicando esto, las ecuaciones (\ref{EqF}) y (\ref{EqM}) se convierten en
 	\mathrm{\textbf{M}}^{ex}=0
 	\label{EqMe}
 \end{equation}
-y la ligadura cinemática de la velocidad angular desaparece al volverse esta nula, por lo que el sistema se reduce a 10 incógnitas, el vector de estado de equilibrio $\mathrm{\textbf{x}}_e(u_e, v_e, w_e, \Theta_e, \Phi_e, \Psi_e)$ y las del vector de control de equilibrio $\mathrm{\textbf{u}}_e(\theta_{0e}, \theta_{1Se}, \theta_{1Ce}, \theta_{Te}$) y 6 ecuaciones.
-Al resolver el problema aeromecánico (fuera del alcance de este documento), aparecen otras 3 ecuaciones:
+y la ligadura cinemática de la velocidad angular desaparece al volverse esta nula, por lo que el sistema se reduce a 10 incógnitas, el vector de estado de equilibrio $\mathrm{\textbf{x}}_e(u_e, v_e, w_e, \Theta_e, \Phi_e, \Psi_e)$ y las del vector de control de equilibrio $\mathrm{\textbf{u}}_e(\theta_{0e}, \theta_{1Se}, \theta_{1Ce}, \theta_{Te}$), y 6 ecuaciones.
+Al resolver el problema aeromecánico (fuera del alcance de este documento) aparecen otras 3 ecuaciones:
 \begin{equation}
 \beta_0=\beta_0(\theta_0,\theta_{1S},\theta_{1C},\mu_{xA},\mu_{yA},\mu_{zA})
 \label{beta0}
@@ -205,7 +206,7 @@ Al resolver el problema aeromecánico (fuera del alcance de este documento), apa
 \end{equation}
 donde se ha denominado $\mu_{xA}$,$\mu_{yA}$ y $\mu_{zA}$ a las componentes de la velocidad adimensionalizada con $\boldsymbol{\Omega}R$, lo que deja un total de 9 ecuaciones con 13 incógnitas.
 
-Su resolución requeriría conocer de antemano 4 parámetros, pero si se le presta la debida atención al sistema (\ref{EqFe})-(\ref{beta1s}), en todo el mismo no aparece el ángulo de guiñada $\Psi_e$, por lo que la resolución no depende de él, y solo restaría conocer 3 variables del vector de estado o control para resolver el sistema, quedando el sistema reducido a
+Su resolución requeriría conocer de antemano 4 parámetros, pero si se le presta la debida atención al sistema (\ref{EqFe})-(\ref{beta1s}), en todo el mismo no aparece el ángulo de guiñada $\Psi_e$, por lo que la resolución no depende de él, y solo restaría conocer 3 variables del vector de estado o control para resolver el sistema, quedando este reducido a:
 \begin{equation}
 	F_x(\mathrm{\textbf{x}}_e^*,\mathrm{\textbf{u}}_e)-Mg\sin\Theta_e=0
 \end{equation}
@@ -226,42 +227,42 @@ Su resolución requeriría conocer de antemano 4 parámetros, pero si se le pres
 \end{equation}
 donde $\mathrm{\textbf{x}}_e^*$ es el vector de estado sin incluir la velocidad angular ni el ángulo de guiñada \citep{Cuerva}.
 
-\section{Cálculo de Potencias}
+\section{Cálculo de potencias}
 
-Para el cálculo de la potencia necesaria para el vuelo se puede optar por dos métodos, el método de la energía y el método del equilibrado. El método de la energía resulta más simple en los cálculos, pues el método del equilibrado requiere de la solución del propio equilibrado del helicóptero primero. Estos cálculos resultan bastante más complejos, pero como para realizar los cálculos del vuelo se resolverán igualmente, resulta más conveniente usar este método.
+Para el cálculo de la potencia necesaria para el vuelo se puede optar por dos métodos: el \emph{método de la energía} y el \emph{método del equilibrado}. El \emph{método de la energía} resulta más simple en los cálculos, pues el \emph{método del equilibrado} requiere de la solución del propio equilibrado del helicóptero primero. Estos cálculos resultan bastante más complejos, pero como para realizar los cálculos del vuelo se resolverán igualmente, resulta más conveniente usar este último método.
 
-Una vez resuelto el equilibrado del vehículo, el cálculo de potencias resulta sencillo al haber calculado las fuerzas sobre los elementos de la aeronave, pues ese mismo cálculo permite conocer el par que se ha de aplicar al árbol de los rotores. Para el caso del rotor principal este par se denomina $Q_{rp}$, y a través del régimen de giro del rotor se puede obtener la potencia necesaria $P_{rp}=\Omega Q_{rp}$. De forma análoga se procede al cálculo en el rotor antipar para obtener $P_{ra}$.
+Una vez resuelto el equilibrado del vehículo, el cálculo de potencias resulta sencillo al haber calculado las fuerzas sobre los elementos de la aeronave, pues ese mismo cálculo permite conocer el par que se ha de aplicar al árbol de los rotores. Para el caso del rotor principal este par se denomina $Q_{rp}$, y a través del régimen de giro del rotor se puede obtener la potencia necesaria $P_{rp}=\Omega Q_{rp}$. De forma análoga, se procede al cálculo en el rotor antipar para obtener $P_{ra}$.
 
-Por último es necesario modelizar de alguna forma las pérdidas en las trasmisiones, que se hará mediante la definición de los factores $\eta_{Trp}$ y $\eta_{Tra}$, que se definen como la relación entre la potencia disipada en la trasmisión del rotor (principal o antipar) y la potencia suministrada al mismo.
+Por último, es necesario modelizar de alguna forma las pérdidas en las trasmisiones que se hará mediante la definición de los factores $\eta_{Trp}$ y $\eta_{Tra}$, que se definen como la relación entre la potencia disipada en la trasmisión del rotor (principal o antipar) y la potencia suministrada al mismo.
 
 Aunque no se expondrá en este trabajo, una explicación del método de la energía puede encontrarse en \citet{Cuerva}.
 
 \section[\textbf{HE}licopter and \textbf{RO}tor \textbf{E}quilibrium and \textbf{S}tability toolbox]{HEROES}
 
 %Por aquí explicar que no se harán cálculos directamente, sino que se usará la herramienta. Descripción, sistema de "cajas", incógnitas de los problemas, soluciones...
-Para el cálculo de las actuaciones de la aeronave se empleará \emph{HEROES}.
-\emph{HEROES} es una herramienta de MATLAB desarrollada en conjunto por profesores y alumnos de la Escuela Técnica Superior de Ingeniería Aeronáutica y del Espacio de la Universidad Politécnica de Madrid, principalmente del departamento de Aeronaves y Vehículos Espaciales.
+Para el cálculo de las actuaciones de la aeronave se empleará HEROES.
+HEROES es una herramienta de MATLAB desarrollada en conjunto por profesores y alumnos de la Escuela Técnica Superior de Ingeniería Aeronáutica y del Espacio de la Universidad Politécnica de Madrid, principalmente del departamento de Aeronaves y Vehículos Espaciales.
 
 Esta herramienta permite un cálculo rápido del equilibrado de un helicóptero (entre otras muchas funciones). Es muy importante saber distinguir en esta herramienta cuáles son las variables de entrada del problema y las de salida. Esto, que en primera instancia puede parecer sencillo, requiere un nivel de comprensión alto de la mecánica del vuelo de un helicóptero.
 
-Para el caso del equilibrado, las variables de entrada principales serán el modelo de atmósfera y la altura, el modelo del vehículo y las condiciones de vuelo del mismo. \emph{HEROES}, con los datos aportados, generará un modelo adimensional y resolverá las ecuaciones del equilibrado para después dimensionalizar los resultados. Estos resultados son las variables de salida, y entre muchas otras se encuentran las potencias de los rotores, las fuerzas y momentos aerodinámicos y los controles del helicóptero.
+Para el caso del equilibrado las variables de entrada principales serán el modelo de atmósfera, la altitud, el modelo del vehículo y las condiciones de vuelo del mismo. HEROES, con los datos aportados, generará un modelo adimensional y resolverá las ecuaciones del equilibrado para después dimensionalizar los resultados. Estos resultados son las variables de salida y entre muchas otras se encuentran las potencias de los rotores, las fuerzas y momentos aerodinámicos y los controles del helicóptero.
 
 Además, esta herramienta permite generar modelos para helicópteros a partir de un modelo ya existente y los siguientes datos de diseño del nuevo helicóptero:
 
 \begin{itemize}
-	\item Número de palas del rotor principal
-	\item Radio del rotor principal
-	\item Velocidad de giro del rotor principal
-	\item Peso de la aeronave
-	\item Número de palas del rotor antipar
+	\item Número de palas del rotor principal.
+	\item Radio del rotor principal.
+	\item Velocidad de giro del rotor principal.
+	\item Peso de la aeronave.
+	\item Número de palas del rotor antipar.
 \end{itemize}
 
-Junto a estos datos son necesarios datos atmosféricos como la densidad atmosférica que la herramienta obtiene a través de un modelo atmosférico y una altitud dada.
+Junto a estos datos son necesarios datos atmosféricos, como la densidad atmosférica que la herramienta obtiene a través de un modelo atmosférico y una altitud dada.
 
-El proceso que sigue la herramienta es una adimensionalización del modelo existente para posteriormente dimensionalizarlo de nuevo usando para ello las características de la nueva aeronave. Todo este proceso se explicará con más detalle más adelante.
+El proceso que sigue la herramienta es una adimensionalización del modelo existente para posteriormente dimensionalizarlo de nuevo usando para ello las características de la nueva aeronave. Todo este proceso se explicará con más detalle posteriormente.
 
-\section{Misión del \emph{DroneHE}}
+\section{Misión del DroneHE}
 
 Para finalizar con la introducción, es necesario definir una misión para la aeronave que permita optimizar el diseño a la misma.
-Este \emph{DroneHE} será un vehículo de vigilancia y búsqueda, por lo que será necesario embarcar un sistema de cámaras electro-óptico según los requisitos concretos del usuario, además de contar con una buena autonomía que permita mantener el helicóptero en servicio todo el tiempo posible.
+Este DroneHE será un vehículo de vigilancia y búsqueda, por lo que será necesario embarcar un sistema de cámaras según los requisitos concretos del usuario, además de contar con una autonomía que permita mantener el helicóptero en servicio todo el tiempo posible.
 
