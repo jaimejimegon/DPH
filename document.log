@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.9)  1 SEP 2019 16:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.9)  3 SEP 2019 22:09
 entering extended mode
 **./document.tex
 (document.tex
@@ -765,17 +765,29 @@ LaTeX Info: Redefining \% on input line 55.
 LaTeX Info: Redefining \. on input line 73.
 LaTeX Info: Redefining \% on input line 73.
  [10]
-<imagenes/AEuler.png, id=314, 1927.2pt x 872.25874pt>
-File: imagenes/AEuler.png Graphic file (type png)
-<use imagenes/AEuler.png>
-Package pdftex.def Info: imagenes/AEuler.png  used on input line 78.
-(pdftex.def)             Requested size: 227.62204pt x 103.01614pt.
+Package epstopdf Info: Source file: <imagenes/AEuler.eps>
+(epstopdf)                    date: 2019-09-03 21:55:11
+(epstopdf)                    size: 2714882 bytes
+(epstopdf)             Output file: <imagenes/AEuler-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-09-03 22:07:42
+(epstopdf)                    size: 508093 bytes
+(epstopdf)             Command: <epstopdf --outfile=imagenes/AEuler-eps-convert
+ed-to.pdf imagenes/AEuler.eps>
+(epstopdf)             \includegraphics on input line 78.
+Package epstopdf Info: Output file is already uptodate.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
+pdfTeX warning: pdflatex.exe (file ./imagenes/AEuler-eps-converted-to.pdf): PDF
+ inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<imagenes/AEuler-eps-converted-to.pdf, id=321, 794.97pt x 396.48125pt>
+File: imagenes/AEuler-eps-converted-to.pdf Graphic file (type pdf)
+<use imagenes/AEuler-eps-converted-to.pdf>
+Package pdftex.def Info: imagenes/AEuler-eps-converted-to.pdf  used on input li
+ne 78.
+(pdftex.def)             Requested size: 312.9803pt x 156.09715pt.
 LaTeX Info: Redefining \. on input line 96.
 LaTeX Info: Redefining \% on input line 96.
- [11 <./imagenes/AEuler.png>]
+[11 <./imagenes/AEuler-eps-converted-to.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
@@ -807,16 +819,12 @@ Overfull \hbox (37.84402pt too wide) in paragraph at lines 16--38
  [][] 
  []
 
-
-Underfull \vbox (badness 5133) has occurred while \output is active []
-
- [19
+[19
 
 ]
 LaTeX Info: Redefining \. on input line 78.
 LaTeX Info: Redefining \% on input line 78.
-
-[20]
+ [20]
 Package epstopdf Info: Source file: <graficos/anald.eps>
 (epstopdf)                    date: 2019-05-21 22:08:56
 (epstopdf)                    size: 20588 bytes
@@ -831,7 +839,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/anald-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/anald-eps-converted-to.pdf, id=405, 362.35374pt x 296.10625pt>
+<graficos/anald-eps-converted-to.pdf, id=438, 362.35374pt x 296.10625pt>
 File: graficos/anald-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/anald-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/anald-eps-converted-to.pdf  used on input lin
@@ -851,7 +859,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analomega-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analomega-eps-converted-to.pdf, id=406, 371.3875pt x 296.10625pt>
+<graficos/analomega-eps-converted-to.pdf, id=439, 371.3875pt x 296.10625pt>
 File: graficos/analomega-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analomega-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analomega-eps-converted-to.pdf  used on input
@@ -871,7 +879,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analb-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analb-eps-converted-to.pdf, id=407, 362.35374pt x 296.10625pt>
+<graficos/analb-eps-converted-to.pdf, id=440, 362.35374pt x 296.10625pt>
 File: graficos/analb-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analb-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analb-eps-converted-to.pdf  used on input lin
@@ -891,7 +899,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analbtr-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analbtr-eps-converted-to.pdf, id=408, 368.37625pt x 296.10625pt>
+<graficos/analbtr-eps-converted-to.pdf, id=441, 368.37625pt x 296.10625pt>
 File: graficos/analbtr-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analbtr-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analbtr-eps-converted-to.pdf  used on input l
@@ -911,7 +919,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analaut-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analaut-eps-converted-to.pdf, id=409, 368.37625pt x 296.10625pt>
+<graficos/analaut-eps-converted-to.pdf, id=442, 368.37625pt x 296.10625pt>
 File: graficos/analaut-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analaut-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analaut-eps-converted-to.pdf  used on input l
@@ -931,21 +939,21 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/analv-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/analv-eps-converted-to.pdf, id=410, 379.4175pt x 296.10625pt>
+<graficos/analv-eps-converted-to.pdf, id=443, 379.4175pt x 296.10625pt>
 File: graficos/analv-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/analv-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/analv-eps-converted-to.pdf  used on input lin
 e 118.
 (pdftex.def)             Requested size: 256.0748pt x 199.84953pt.
-LaTeX Info: Redefining \. on input line 130.
-LaTeX Info: Redefining \% on input line 130.
+LaTeX Info: Redefining \. on input line 131.
+LaTeX Info: Redefining \% on input line 131.
 [21 <./graficos/anald-eps-converted-to.pdf>]
-LaTeX Info: Redefining \. on input line 130.
-LaTeX Info: Redefining \% on input line 130.
+LaTeX Info: Redefining \. on input line 131.
+LaTeX Info: Redefining \% on input line 131.
  [22 <./graficos/analomega-eps-converted-to.pdf> <./graficos/analb-eps-converte
 d-to.pdf>]
-LaTeX Info: Redefining \. on input line 130.
-LaTeX Info: Redefining \% on input line 130.
+LaTeX Info: Redefining \. on input line 131.
+LaTeX Info: Redefining \% on input line 131.
  [23 <./graficos/analbtr-eps-converted-to.pdf> <./graficos/analaut-eps-converte
 d-to.pdf>])
 (Capitulos/03_Desarrollo-Drone.tex
@@ -995,7 +1003,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./imagenes/geometria-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<imagenes/geometria-eps-converted-to.pdf, id=501, 750.805pt x 609.27625pt>
+<imagenes/geometria-eps-converted-to.pdf, id=534, 750.805pt x 609.27625pt>
 File: imagenes/geometria-eps-converted-to.pdf Graphic file (type pdf)
 <use imagenes/geometria-eps-converted-to.pdf>
 Package pdftex.def Info: imagenes/geometria-eps-converted-to.pdf  used on input
@@ -1088,7 +1096,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/3d3d-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/3d3d-eps-converted-to.pdf, id=568, 422.57875pt x 317.185pt>
+<graficos/3d3d-eps-converted-to.pdf, id=601, 422.57875pt x 317.185pt>
 File: graficos/3d3d-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/3d3d-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/3d3d-eps-converted-to.pdf  used on input line
@@ -1108,7 +1116,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/3d2d-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/3d2d-eps-converted-to.pdf, id=569, 433.62pt x 369.38pt>
+<graficos/3d2d-eps-converted-to.pdf, id=602, 433.62pt x 369.38pt>
 File: graficos/3d2d-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/3d2d-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/3d2d-eps-converted-to.pdf  used on input line
@@ -1168,17 +1176,17 @@ RO SEMILLA A PARTIR DE UN HELIC[]OPTERO BASE
  []
 
 [40]
-<imagenes/200-LE.jpg, id=622, 505.89pt x 383.4325pt>
+<imagenes/200-LE.jpg, id=655, 505.89pt x 383.4325pt>
 File: imagenes/200-LE.jpg Graphic file (type jpg)
 <use imagenes/200-LE.jpg>
 Package pdftex.def Info: imagenes/200-LE.jpg  used on input line 510.
 (pdftex.def)             Requested size: 117.00119pt x 88.67908pt.
-<imagenes/TC-300.jpg, id=623, 505.89pt x 383.4325pt>
+<imagenes/TC-300.jpg, id=656, 505.89pt x 383.4325pt>
 File: imagenes/TC-300.jpg Graphic file (type jpg)
 <use imagenes/TC-300.jpg>
 Package pdftex.def Info: imagenes/TC-300.jpg  used on input line 525.
 (pdftex.def)             Requested size: 117.00119pt x 88.67908pt.
-<imagenes/400-le.jpg, id=624, 505.89pt x 383.4325pt>
+<imagenes/400-le.jpg, id=657, 505.89pt x 383.4325pt>
 File: imagenes/400-le.jpg Graphic file (type jpg)
 <use imagenes/400-le.jpg>
 Package pdftex.def Info: imagenes/400-le.jpg  used on input line 540.
@@ -1242,7 +1250,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVH-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVH-eps-converted-to.pdf, id=676, 379.4175pt x 310.15875pt>
+<graficos/PMVH-eps-converted-to.pdf, id=709, 379.4175pt x 310.15875pt>
 File: graficos/PMVH-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVH-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PMVH-eps-converted-to.pdf  used on input line
@@ -1262,7 +1270,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PVH-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PVH-eps-converted-to.pdf, id=677, 377.41pt x 310.15875pt>
+<graficos/PVH-eps-converted-to.pdf, id=710, 377.41pt x 310.15875pt>
 File: graficos/PVH-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PVH-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PVH-eps-converted-to.pdf  used on input line 
@@ -1282,7 +1290,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/ControlVH-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/ControlVH-eps-converted-to.pdf, id=678, 388.45125pt x 297.11pt>
+<graficos/ControlVH-eps-converted-to.pdf, id=711, 388.45125pt x 297.11pt>
 File: graficos/ControlVH-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/ControlVH-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/ControlVH-eps-converted-to.pdf  used on input
@@ -1302,7 +1310,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/EulerVH-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/EulerVH-eps-converted-to.pdf, id=679, 387.4475pt x 297.11pt>
+<graficos/EulerVH-eps-converted-to.pdf, id=712, 387.4475pt x 297.11pt>
 File: graficos/EulerVH-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/EulerVH-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/EulerVH-eps-converted-to.pdf  used on input l
@@ -1340,7 +1348,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/teVH-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/teVH-eps-converted-to.pdf, id=737, 379.4175pt x 297.11pt>
+<graficos/teVH-eps-converted-to.pdf, id=770, 379.4175pt x 297.11pt>
 File: graficos/teVH-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/teVH-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/teVH-eps-converted-to.pdf  used on input line
@@ -1629,7 +1637,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVHkbeta-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVHkbeta-eps-converted-to.pdf, id=750, 379.4175pt x 310.15875pt>
+<graficos/PMVHkbeta-eps-converted-to.pdf, id=783, 379.4175pt x 310.15875pt>
 File: graficos/PMVHkbeta-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVHkbeta-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PMVHkbeta-eps-converted-to.pdf  used on input
@@ -1650,7 +1658,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1CVHkbeta-eps-converted-to.p
 df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/theta1CVHkbeta-eps-converted-to.pdf, id=751, 381.425pt x 292.09125pt>
+<graficos/theta1CVHkbeta-eps-converted-to.pdf, id=784, 381.425pt x 292.09125pt>
 
 File: graficos/theta1CVHkbeta-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1CVHkbeta-eps-converted-to.pdf>
@@ -1672,7 +1680,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1SVHkbeta-eps-converted-to.p
 df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/theta1SVHkbeta-eps-converted-to.pdf, id=752, 381.425pt x 299.1175pt>
+<graficos/theta1SVHkbeta-eps-converted-to.pdf, id=785, 381.425pt x 299.1175pt>
 File: graficos/theta1SVHkbeta-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1SVHkbeta-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/theta1SVHkbeta-eps-converted-to.pdf  used on 
@@ -1693,7 +1701,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0VHkbeta-eps-converted-to.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/theta0VHkbeta-eps-converted-to.pdf, id=753, 386.44376pt x 297.11pt>
+<graficos/theta0VHkbeta-eps-converted-to.pdf, id=786, 386.44376pt x 297.11pt>
 File: graficos/theta0VHkbeta-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0VHkbeta-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/theta0VHkbeta-eps-converted-to.pdf  used on i
@@ -1713,7 +1721,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/CabVHkbeta-eps-converted-to.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/CabVHkbeta-eps-converted-to.pdf, id=754, 381.425pt x 299.1175pt>
+<graficos/CabVHkbeta-eps-converted-to.pdf, id=787, 381.425pt x 299.1175pt>
 File: graficos/CabVHkbeta-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/CabVHkbeta-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/CabVHkbeta-eps-converted-to.pdf  used on inpu
@@ -1734,7 +1742,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/BalanVHkbeta-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/BalanVHkbeta-eps-converted-to.pdf, id=755, 380.42125pt x 299.1175pt>
+<graficos/BalanVHkbeta-eps-converted-to.pdf, id=788, 380.42125pt x 299.1175pt>
 File: graficos/BalanVHkbeta-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/BalanVHkbeta-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/BalanVHkbeta-eps-converted-to.pdf  used on in
@@ -1754,7 +1762,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/FRPxkbeta-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/FRPxkbeta-eps-converted-to.pdf, id=756, 381.425pt x 299.1175pt>
+<graficos/FRPxkbeta-eps-converted-to.pdf, id=789, 381.425pt x 299.1175pt>
 File: graficos/FRPxkbeta-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/FRPxkbeta-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/FRPxkbeta-eps-converted-to.pdf  used on input
@@ -1774,7 +1782,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/FRPykbeta-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/FRPykbeta-eps-converted-to.pdf, id=757, 381.425pt x 299.1175pt>
+<graficos/FRPykbeta-eps-converted-to.pdf, id=790, 381.425pt x 299.1175pt>
 File: graficos/FRPykbeta-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/FRPykbeta-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/FRPykbeta-eps-converted-to.pdf  used on input
@@ -1794,7 +1802,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/FRPzkbeta-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/FRPzkbeta-eps-converted-to.pdf, id=758, 389.455pt x 293.095pt>
+<graficos/FRPzkbeta-eps-converted-to.pdf, id=791, 389.455pt x 293.095pt>
 File: graficos/FRPzkbeta-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/FRPzkbeta-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/FRPzkbeta-eps-converted-to.pdf  used on input
@@ -1817,7 +1825,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMbm20-eps-converted-to.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMbm20-eps-converted-to.pdf, id=776, 379.4175pt x 310.15875pt>
+<graficos/PMbm20-eps-converted-to.pdf, id=809, 379.4175pt x 310.15875pt>
 File: graficos/PMbm20-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMbm20-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PMbm20-eps-converted-to.pdf  used on input li
@@ -1857,7 +1865,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVHMPLcdg-eps-converted-to.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVHMPLcdg-eps-converted-to.pdf, id=860, 379.4175pt x 310.15875pt>
+<graficos/PMVHMPLcdg-eps-converted-to.pdf, id=893, 379.4175pt x 310.15875pt>
 File: graficos/PMVHMPLcdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVHMPLcdg-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PMVHMPLcdg-eps-converted-to.pdf  used on inpu
@@ -1878,7 +1886,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVHMPLnocdg-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVHMPLnocdg-eps-converted-to.pdf, id=861, 379.4175pt x 310.15875pt>
+<graficos/PMVHMPLnocdg-eps-converted-to.pdf, id=894, 379.4175pt x 310.15875pt>
 File: graficos/PMVHMPLnocdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVHMPLnocdg-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PMVHMPLnocdg-eps-converted-to.pdf  used on in
@@ -1901,7 +1909,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0VHMPLcdg-eps-converted-to.p
 df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/theta0VHMPLcdg-eps-converted-to.pdf, id=862, 386.44376pt x 297.11pt>
+<graficos/theta0VHMPLcdg-eps-converted-to.pdf, id=895, 386.44376pt x 297.11pt>
 File: graficos/theta0VHMPLcdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0VHMPLcdg-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/theta0VHMPLcdg-eps-converted-to.pdf  used on 
@@ -1923,7 +1931,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0VHMPLnocdg-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<graficos/theta0VHMPLnocdg-eps-converted-to.pdf, id=863, 386.44376pt x 297.11pt
+<graficos/theta0VHMPLnocdg-eps-converted-to.pdf, id=896, 386.44376pt x 297.11pt
 >
 File: graficos/theta0VHMPLnocdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0VHMPLnocdg-eps-converted-to.pdf>
@@ -1946,7 +1954,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1CVHMPLcdg-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<graficos/theta1CVHMPLcdg-eps-converted-to.pdf, id=864, 389.455pt x 297.11pt>
+<graficos/theta1CVHMPLcdg-eps-converted-to.pdf, id=897, 389.455pt x 297.11pt>
 File: graficos/theta1CVHMPLcdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1CVHMPLcdg-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/theta1CVHMPLcdg-eps-converted-to.pdf  used on
@@ -1968,7 +1976,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1CVHMPLnocdg-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<graficos/theta1CVHMPLnocdg-eps-converted-to.pdf, id=865, 389.455pt x 297.11pt>
+<graficos/theta1CVHMPLnocdg-eps-converted-to.pdf, id=898, 389.455pt x 297.11pt>
 
 File: graficos/theta1CVHMPLnocdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1CVHMPLnocdg-eps-converted-to.pdf>
@@ -1991,7 +1999,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1SVHMPLcdg-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<graficos/theta1SVHMPLcdg-eps-converted-to.pdf, id=866, 389.455pt x 297.11pt>
+<graficos/theta1SVHMPLcdg-eps-converted-to.pdf, id=899, 389.455pt x 297.11pt>
 File: graficos/theta1SVHMPLcdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1SVHMPLcdg-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/theta1SVHMPLcdg-eps-converted-to.pdf  used on
@@ -2013,7 +2021,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1SVHMPLnocdg-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<graficos/theta1SVHMPLnocdg-eps-converted-to.pdf, id=867, 389.455pt x 297.11pt>
+<graficos/theta1SVHMPLnocdg-eps-converted-to.pdf, id=900, 389.455pt x 297.11pt>
 
 File: graficos/theta1SVHMPLnocdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1SVHMPLnocdg-eps-converted-to.pdf>
@@ -2035,7 +2043,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/CabVHMPLcdg-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/CabVHMPLcdg-eps-converted-to.pdf, id=868, 389.455pt x 297.11pt>
+<graficos/CabVHMPLcdg-eps-converted-to.pdf, id=901, 389.455pt x 297.11pt>
 File: graficos/CabVHMPLcdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/CabVHMPLcdg-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/CabVHMPLcdg-eps-converted-to.pdf  used on inp
@@ -2056,7 +2064,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/CabVHMPLnocdg-eps-converted-to.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/CabVHMPLnocdg-eps-converted-to.pdf, id=869, 389.455pt x 297.11pt>
+<graficos/CabVHMPLnocdg-eps-converted-to.pdf, id=902, 389.455pt x 297.11pt>
 File: graficos/CabVHMPLnocdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/CabVHMPLnocdg-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/CabVHMPLnocdg-eps-converted-to.pdf  used on i
@@ -2077,7 +2085,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/BalanVHMPLcdg-eps-converted-to.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/BalanVHMPLcdg-eps-converted-to.pdf, id=870, 389.455pt x 297.11pt>
+<graficos/BalanVHMPLcdg-eps-converted-to.pdf, id=903, 389.455pt x 297.11pt>
 File: graficos/BalanVHMPLcdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/BalanVHMPLcdg-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/BalanVHMPLcdg-eps-converted-to.pdf  used on i
@@ -2099,7 +2107,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/BalanVHMPLnocdg-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<graficos/BalanVHMPLnocdg-eps-converted-to.pdf, id=871, 389.455pt x 297.11pt>
+<graficos/BalanVHMPLnocdg-eps-converted-to.pdf, id=904, 389.455pt x 297.11pt>
 File: graficos/BalanVHMPLnocdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/BalanVHMPLnocdg-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/BalanVHMPLnocdg-eps-converted-to.pdf  used on
@@ -2121,7 +2129,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0VHraMPLcdg-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<graficos/theta0VHraMPLcdg-eps-converted-to.pdf, id=872, 389.455pt x 297.11pt>
+<graficos/theta0VHraMPLcdg-eps-converted-to.pdf, id=905, 389.455pt x 297.11pt>
 File: graficos/theta0VHraMPLcdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0VHraMPLcdg-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/theta0VHraMPLcdg-eps-converted-to.pdf  used o
@@ -2143,7 +2151,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0VHraMPLnocdg-eps-converted-
 to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-<graficos/theta0VHraMPLnocdg-eps-converted-to.pdf, id=873, 389.455pt x 297.11pt
+<graficos/theta0VHraMPLnocdg-eps-converted-to.pdf, id=906, 389.455pt x 297.11pt
 >
 File: graficos/theta0VHraMPLnocdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0VHraMPLnocdg-eps-converted-to.pdf>
@@ -2196,7 +2204,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVH2lxy10ms-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVH2lxy10ms-eps-converted-to.pdf, id=999, 393.47pt x 312.16624pt>
+<graficos/PMVH2lxy10ms-eps-converted-to.pdf, id=1032, 393.47pt x 312.16624pt>
 File: graficos/PMVH2lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVH2lxy10ms-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PMVH2lxy10ms-eps-converted-to.pdf  used on in
@@ -2217,7 +2225,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVH2lxy50ms-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVH2lxy50ms-eps-converted-to.pdf, id=1000, 383.4325pt x 312.16624pt>
+<graficos/PMVH2lxy50ms-eps-converted-to.pdf, id=1033, 383.4325pt x 312.16624pt>
 
 File: graficos/PMVH2lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVH2lxy50ms-eps-converted-to.pdf>
@@ -2239,7 +2247,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVH3lxy10ms-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVH3lxy10ms-eps-converted-to.pdf, id=1001, 393.47pt x 312.16624pt>
+<graficos/PMVH3lxy10ms-eps-converted-to.pdf, id=1034, 393.47pt x 312.16624pt>
 File: graficos/PMVH3lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVH3lxy10ms-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PMVH3lxy10ms-eps-converted-to.pdf  used on in
@@ -2260,7 +2268,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVH3lxy50ms-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVH3lxy50ms-eps-converted-to.pdf, id=1002, 383.4325pt x 312.16624pt>
+<graficos/PMVH3lxy50ms-eps-converted-to.pdf, id=1035, 383.4325pt x 312.16624pt>
 
 File: graficos/PMVH3lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVH3lxy50ms-eps-converted-to.pdf>
@@ -2287,7 +2295,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0VH2lxy10ms-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<graficos/theta0VH2lxy10ms-eps-converted-to.pdf, id=1027, 407.5225pt x 312.1662
+<graficos/theta0VH2lxy10ms-eps-converted-to.pdf, id=1060, 407.5225pt x 312.1662
 4pt>
 File: graficos/theta0VH2lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0VH2lxy10ms-eps-converted-to.pdf>
@@ -2310,7 +2318,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0VH2lxy50ms-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<graficos/theta0VH2lxy50ms-eps-converted-to.pdf, id=1028, 400.49625pt x 312.166
+<graficos/theta0VH2lxy50ms-eps-converted-to.pdf, id=1061, 400.49625pt x 312.166
 24pt>
 File: graficos/theta0VH2lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0VH2lxy50ms-eps-converted-to.pdf>
@@ -2333,7 +2341,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0VH3lxy10ms-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<graficos/theta0VH3lxy10ms-eps-converted-to.pdf, id=1029, 407.5225pt x 312.1662
+<graficos/theta0VH3lxy10ms-eps-converted-to.pdf, id=1062, 407.5225pt x 312.1662
 4pt>
 File: graficos/theta0VH3lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0VH3lxy10ms-eps-converted-to.pdf>
@@ -2356,7 +2364,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0VH3lxy50ms-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<graficos/theta0VH3lxy50ms-eps-converted-to.pdf, id=1030, 400.49625pt x 312.166
+<graficos/theta0VH3lxy50ms-eps-converted-to.pdf, id=1063, 400.49625pt x 312.166
 24pt>
 File: graficos/theta0VH3lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0VH3lxy50ms-eps-converted-to.pdf>
@@ -2379,7 +2387,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1CVH2lxy10ms-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<graficos/theta1CVH2lxy10ms-eps-converted-to.pdf, id=1033, 398.48875pt x 312.16
+<graficos/theta1CVH2lxy10ms-eps-converted-to.pdf, id=1066, 398.48875pt x 312.16
 624pt>
 File: graficos/theta1CVH2lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1CVH2lxy10ms-eps-converted-to.pdf>
@@ -2402,7 +2410,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1CVH2lxy50ms-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<graficos/theta1CVH2lxy50ms-eps-converted-to.pdf, id=1034, 398.48875pt x 312.16
+<graficos/theta1CVH2lxy50ms-eps-converted-to.pdf, id=1067, 398.48875pt x 312.16
 624pt>
 File: graficos/theta1CVH2lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1CVH2lxy50ms-eps-converted-to.pdf>
@@ -2425,7 +2433,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1CVH3lxy10ms-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<graficos/theta1CVH3lxy10ms-eps-converted-to.pdf, id=1035, 398.48875pt x 312.16
+<graficos/theta1CVH3lxy10ms-eps-converted-to.pdf, id=1068, 398.48875pt x 312.16
 624pt>
 File: graficos/theta1CVH3lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1CVH3lxy10ms-eps-converted-to.pdf>
@@ -2448,7 +2456,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1CVH3lxy50ms-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<graficos/theta1CVH3lxy50ms-eps-converted-to.pdf, id=1036, 398.48875pt x 312.16
+<graficos/theta1CVH3lxy50ms-eps-converted-to.pdf, id=1069, 398.48875pt x 312.16
 624pt>
 File: graficos/theta1CVH3lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1CVH3lxy50ms-eps-converted-to.pdf>
@@ -2485,7 +2493,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1SVH2lxy10ms-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<graficos/theta1SVH2lxy10ms-eps-converted-to.pdf, id=1135, 398.48875pt x 312.16
+<graficos/theta1SVH2lxy10ms-eps-converted-to.pdf, id=1168, 398.48875pt x 312.16
 624pt>
 File: graficos/theta1SVH2lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1SVH2lxy10ms-eps-converted-to.pdf>
@@ -2508,7 +2516,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1SVH2lxy50ms-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<graficos/theta1SVH2lxy50ms-eps-converted-to.pdf, id=1136, 398.48875pt x 312.16
+<graficos/theta1SVH2lxy50ms-eps-converted-to.pdf, id=1169, 398.48875pt x 312.16
 624pt>
 File: graficos/theta1SVH2lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1SVH2lxy50ms-eps-converted-to.pdf>
@@ -2531,7 +2539,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1SVH3lxy10ms-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<graficos/theta1SVH3lxy10ms-eps-converted-to.pdf, id=1137, 398.48875pt x 312.16
+<graficos/theta1SVH3lxy10ms-eps-converted-to.pdf, id=1170, 398.48875pt x 312.16
 624pt>
 File: graficos/theta1SVH3lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1SVH3lxy10ms-eps-converted-to.pdf>
@@ -2554,7 +2562,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1SVH3lxy50ms-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<graficos/theta1SVH3lxy50ms-eps-converted-to.pdf, id=1138, 398.48875pt x 312.16
+<graficos/theta1SVH3lxy50ms-eps-converted-to.pdf, id=1171, 398.48875pt x 312.16
 624pt>
 File: graficos/theta1SVH3lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1SVH3lxy50ms-eps-converted-to.pdf>
@@ -2576,7 +2584,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/CabVH2lxy10ms-eps-converted-to.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/CabVH2lxy10ms-eps-converted-to.pdf, id=1139, 398.48875pt x 312.16624p
+<graficos/CabVH2lxy10ms-eps-converted-to.pdf, id=1172, 398.48875pt x 312.16624p
 t>
 File: graficos/CabVH2lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/CabVH2lxy10ms-eps-converted-to.pdf>
@@ -2598,7 +2606,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/CabVH2lxy50ms-eps-converted-to.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/CabVH2lxy50ms-eps-converted-to.pdf, id=1140, 398.48875pt x 312.16624p
+<graficos/CabVH2lxy50ms-eps-converted-to.pdf, id=1173, 398.48875pt x 312.16624p
 t>
 File: graficos/CabVH2lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/CabVH2lxy50ms-eps-converted-to.pdf>
@@ -2620,7 +2628,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/CabVH3lxy10ms-eps-converted-to.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/CabVH3lxy10ms-eps-converted-to.pdf, id=1141, 398.48875pt x 312.16624p
+<graficos/CabVH3lxy10ms-eps-converted-to.pdf, id=1174, 398.48875pt x 312.16624p
 t>
 File: graficos/CabVH3lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/CabVH3lxy10ms-eps-converted-to.pdf>
@@ -2642,7 +2650,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/CabVH3lxy50ms-eps-converted-to.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/CabVH3lxy50ms-eps-converted-to.pdf, id=1142, 398.48875pt x 312.16624p
+<graficos/CabVH3lxy50ms-eps-converted-to.pdf, id=1175, 398.48875pt x 312.16624p
 t>
 File: graficos/CabVH3lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/CabVH3lxy50ms-eps-converted-to.pdf>
@@ -2665,7 +2673,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/BalanVH2lxy10ms-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<graficos/BalanVH2lxy10ms-eps-converted-to.pdf, id=1143, 398.48875pt x 312.1662
+<graficos/BalanVH2lxy10ms-eps-converted-to.pdf, id=1176, 398.48875pt x 312.1662
 4pt>
 File: graficos/BalanVH2lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/BalanVH2lxy10ms-eps-converted-to.pdf>
@@ -2688,7 +2696,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/BalanVH2lxy50ms-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<graficos/BalanVH2lxy50ms-eps-converted-to.pdf, id=1144, 398.48875pt x 312.1662
+<graficos/BalanVH2lxy50ms-eps-converted-to.pdf, id=1177, 398.48875pt x 312.1662
 4pt>
 File: graficos/BalanVH2lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/BalanVH2lxy50ms-eps-converted-to.pdf>
@@ -2711,7 +2719,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/BalanVH3lxy10ms-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<graficos/BalanVH3lxy10ms-eps-converted-to.pdf, id=1145, 398.48875pt x 312.1662
+<graficos/BalanVH3lxy10ms-eps-converted-to.pdf, id=1178, 398.48875pt x 312.1662
 4pt>
 File: graficos/BalanVH3lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/BalanVH3lxy10ms-eps-converted-to.pdf>
@@ -2734,7 +2742,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/BalanVH3lxy50ms-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<graficos/BalanVH3lxy50ms-eps-converted-to.pdf, id=1146, 398.48875pt x 312.1662
+<graficos/BalanVH3lxy50ms-eps-converted-to.pdf, id=1179, 398.48875pt x 312.1662
 4pt>
 File: graficos/BalanVH3lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/BalanVH3lxy50ms-eps-converted-to.pdf>
@@ -2774,7 +2782,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0raVH2lxy10ms-eps-converted-
 to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-<graficos/theta0raVH2lxy10ms-eps-converted-to.pdf, id=1250, 400.49625pt x 312.1
+<graficos/theta0raVH2lxy10ms-eps-converted-to.pdf, id=1283, 400.49625pt x 312.1
 6624pt>
 File: graficos/theta0raVH2lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0raVH2lxy10ms-eps-converted-to.pdf>
@@ -2797,7 +2805,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0raVH2lxy50ms-eps-converted-
 to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-<graficos/theta0raVH2lxy50ms-eps-converted-to.pdf, id=1251, 405.515pt x 312.166
+<graficos/theta0raVH2lxy50ms-eps-converted-to.pdf, id=1284, 405.515pt x 312.166
 24pt>
 File: graficos/theta0raVH2lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0raVH2lxy50ms-eps-converted-to.pdf>
@@ -2820,7 +2828,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0raVH3lxy10ms-eps-converted-
 to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-<graficos/theta0raVH3lxy10ms-eps-converted-to.pdf, id=1252, 400.49625pt x 312.1
+<graficos/theta0raVH3lxy10ms-eps-converted-to.pdf, id=1285, 400.49625pt x 312.1
 6624pt>
 File: graficos/theta0raVH3lxy10ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0raVH3lxy10ms-eps-converted-to.pdf>
@@ -2843,7 +2851,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0raVH3lxy50ms-eps-converted-
 to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-<graficos/theta0raVH3lxy50ms-eps-converted-to.pdf, id=1253, 405.515pt x 312.166
+<graficos/theta0raVH3lxy50ms-eps-converted-to.pdf, id=1286, 405.515pt x 312.166
 24pt>
 File: graficos/theta0raVH3lxy50ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0raVH3lxy50ms-eps-converted-to.pdf>
@@ -2880,7 +2888,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVE-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVE-eps-converted-to.pdf, id=1320, 379.4175pt x 310.15875pt>
+<graficos/PMVE-eps-converted-to.pdf, id=1353, 379.4175pt x 310.15875pt>
 File: graficos/PMVE-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVE-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PMVE-eps-converted-to.pdf  used on input line
@@ -2900,7 +2908,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PVE-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PVE-eps-converted-to.pdf, id=1321, 377.41pt x 310.15875pt>
+<graficos/PVE-eps-converted-to.pdf, id=1354, 377.41pt x 310.15875pt>
 File: graficos/PVE-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PVE-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PVE-eps-converted-to.pdf  used on input line 
@@ -2920,7 +2928,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/VzVE-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/VzVE-eps-converted-to.pdf, id=1322, 368.37625pt x 297.11pt>
+<graficos/VzVE-eps-converted-to.pdf, id=1355, 368.37625pt x 297.11pt>
 File: graficos/VzVE-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/VzVE-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/VzVE-eps-converted-to.pdf  used on input line
@@ -2940,7 +2948,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/ControlVE-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/ControlVE-eps-converted-to.pdf, id=1323, 388.45125pt x 297.11pt>
+<graficos/ControlVE-eps-converted-to.pdf, id=1356, 388.45125pt x 297.11pt>
 File: graficos/ControlVE-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/ControlVE-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/ControlVE-eps-converted-to.pdf  used on input
@@ -2960,7 +2968,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/EulerVE-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/EulerVE-eps-converted-to.pdf, id=1326, 387.4475pt x 297.11pt>
+<graficos/EulerVE-eps-converted-to.pdf, id=1359, 387.4475pt x 297.11pt>
 File: graficos/EulerVE-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/EulerVE-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/EulerVE-eps-converted-to.pdf  used on input l
@@ -2990,7 +2998,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVEVz-eps-converted-to.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVEVz-eps-converted-to.pdf, id=1367, 374.39874pt x 310.15875pt>
+<graficos/PMVEVz-eps-converted-to.pdf, id=1400, 374.39874pt x 310.15875pt>
 File: graficos/PMVEVz-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVEVz-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PMVEVz-eps-converted-to.pdf  used on input li
@@ -3013,7 +3021,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVEVz20-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVEVz20-eps-converted-to.pdf, id=1377, 374.39874pt x 310.15875pt>
+<graficos/PMVEVz20-eps-converted-to.pdf, id=1410, 374.39874pt x 310.15875pt>
 File: graficos/PMVEVz20-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVEVz20-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PMVEVz20-eps-converted-to.pdf  used on input 
@@ -3033,7 +3041,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVEVz10-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVEVz10-eps-converted-to.pdf, id=1378, 374.39874pt x 310.15875pt>
+<graficos/PMVEVz10-eps-converted-to.pdf, id=1411, 374.39874pt x 310.15875pt>
 File: graficos/PMVEVz10-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVEVz10-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PMVEVz10-eps-converted-to.pdf  used on input 
@@ -3053,7 +3061,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PVEVz-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PVEVz-eps-converted-to.pdf, id=1379, 377.41pt x 310.15875pt>
+<graficos/PVEVz-eps-converted-to.pdf, id=1412, 377.41pt x 310.15875pt>
 File: graficos/PVEVz-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PVEVz-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PVEVz-eps-converted-to.pdf  used on input lin
@@ -3074,7 +3082,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/ControlVEVz-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/ControlVEVz-eps-converted-to.pdf, id=1380, 388.45125pt x 297.11pt>
+<graficos/ControlVEVz-eps-converted-to.pdf, id=1413, 388.45125pt x 297.11pt>
 File: graficos/ControlVEVz-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/ControlVEVz-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/ControlVEVz-eps-converted-to.pdf  used on inp
@@ -3094,7 +3102,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/EulerVEVz-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/EulerVEVz-eps-converted-to.pdf, id=1381, 387.4475pt x 297.11pt>
+<graficos/EulerVEVz-eps-converted-to.pdf, id=1414, 387.4475pt x 297.11pt>
 File: graficos/EulerVEVz-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/EulerVEVz-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/EulerVEVz-eps-converted-to.pdf  used on input
@@ -3128,7 +3136,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVEMPLcdg-eps-converted-to.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVEMPLcdg-eps-converted-to.pdf, id=1437, 379.4175pt x 310.15875pt>
+<graficos/PMVEMPLcdg-eps-converted-to.pdf, id=1470, 379.4175pt x 310.15875pt>
 File: graficos/PMVEMPLcdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVEMPLcdg-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PMVEMPLcdg-eps-converted-to.pdf  used on inpu
@@ -3149,7 +3157,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVEMPLnocdg-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVEMPLnocdg-eps-converted-to.pdf, id=1438, 379.4175pt x 310.15875pt>
+<graficos/PMVEMPLnocdg-eps-converted-to.pdf, id=1471, 379.4175pt x 310.15875pt>
 
 File: graficos/PMVEMPLnocdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVEMPLnocdg-eps-converted-to.pdf>
@@ -3175,7 +3183,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0VEMPLcdg-eps-converted-to.p
 df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/theta0VEMPLcdg-eps-converted-to.pdf, id=1469, 386.44376pt x 297.11pt>
+<graficos/theta0VEMPLcdg-eps-converted-to.pdf, id=1502, 386.44376pt x 297.11pt>
 
 File: graficos/theta0VEMPLcdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0VEMPLcdg-eps-converted-to.pdf>
@@ -3198,7 +3206,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0VEMPLnocdg-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<graficos/theta0VEMPLnocdg-eps-converted-to.pdf, id=1470, 386.44376pt x 297.11p
+<graficos/theta0VEMPLnocdg-eps-converted-to.pdf, id=1503, 386.44376pt x 297.11p
 t>
 File: graficos/theta0VEMPLnocdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0VEMPLnocdg-eps-converted-to.pdf>
@@ -3221,7 +3229,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1CVEMPLcdg-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<graficos/theta1CVEMPLcdg-eps-converted-to.pdf, id=1472, 389.455pt x 297.11pt>
+<graficos/theta1CVEMPLcdg-eps-converted-to.pdf, id=1505, 389.455pt x 297.11pt>
 File: graficos/theta1CVEMPLcdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1CVEMPLcdg-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/theta1CVEMPLcdg-eps-converted-to.pdf  used on
@@ -3243,7 +3251,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1CVEMPLnocdg-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<graficos/theta1CVEMPLnocdg-eps-converted-to.pdf, id=1473, 389.455pt x 297.11pt
+<graficos/theta1CVEMPLnocdg-eps-converted-to.pdf, id=1506, 389.455pt x 297.11pt
 >
 File: graficos/theta1CVEMPLnocdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1CVEMPLnocdg-eps-converted-to.pdf>
@@ -3266,7 +3274,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1SVEMPLcdg-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<graficos/theta1SVEMPLcdg-eps-converted-to.pdf, id=1476, 389.455pt x 297.11pt>
+<graficos/theta1SVEMPLcdg-eps-converted-to.pdf, id=1509, 389.455pt x 297.11pt>
 File: graficos/theta1SVEMPLcdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1SVEMPLcdg-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/theta1SVEMPLcdg-eps-converted-to.pdf  used on
@@ -3288,7 +3296,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1SVEMPLnocdg-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<graficos/theta1SVEMPLnocdg-eps-converted-to.pdf, id=1477, 389.455pt x 293.095p
+<graficos/theta1SVEMPLnocdg-eps-converted-to.pdf, id=1510, 389.455pt x 293.095p
 t>
 File: graficos/theta1SVEMPLnocdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1SVEMPLnocdg-eps-converted-to.pdf>
@@ -3319,7 +3327,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/CabVEMPLcdg-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/CabVEMPLcdg-eps-converted-to.pdf, id=1522, 389.455pt x 297.11pt>
+<graficos/CabVEMPLcdg-eps-converted-to.pdf, id=1555, 389.455pt x 297.11pt>
 File: graficos/CabVEMPLcdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/CabVEMPLcdg-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/CabVEMPLcdg-eps-converted-to.pdf  used on inp
@@ -3340,7 +3348,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/CabVEMPLnocdg-eps-converted-to.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/CabVEMPLnocdg-eps-converted-to.pdf, id=1523, 389.455pt x 297.11pt>
+<graficos/CabVEMPLnocdg-eps-converted-to.pdf, id=1556, 389.455pt x 297.11pt>
 File: graficos/CabVEMPLnocdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/CabVEMPLnocdg-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/CabVEMPLnocdg-eps-converted-to.pdf  used on i
@@ -3361,7 +3369,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/BalanVEMPLcdg-eps-converted-to.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/BalanVEMPLcdg-eps-converted-to.pdf, id=1525, 383.4325pt x 297.11pt>
+<graficos/BalanVEMPLcdg-eps-converted-to.pdf, id=1558, 383.4325pt x 297.11pt>
 File: graficos/BalanVEMPLcdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/BalanVEMPLcdg-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/BalanVEMPLcdg-eps-converted-to.pdf  used on i
@@ -3383,7 +3391,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/BalanVEMPLnocdg-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<graficos/BalanVEMPLnocdg-eps-converted-to.pdf, id=1526, 383.4325pt x 297.11pt>
+<graficos/BalanVEMPLnocdg-eps-converted-to.pdf, id=1559, 383.4325pt x 297.11pt>
 
 File: graficos/BalanVEMPLnocdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/BalanVEMPLnocdg-eps-converted-to.pdf>
@@ -3406,7 +3414,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0VEraMPLcdg-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<graficos/theta0VEraMPLcdg-eps-converted-to.pdf, id=1528, 386.44376pt x 297.11p
+<graficos/theta0VEraMPLcdg-eps-converted-to.pdf, id=1561, 386.44376pt x 297.11p
 t>
 File: graficos/theta0VEraMPLcdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0VEraMPLcdg-eps-converted-to.pdf>
@@ -3429,7 +3437,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0VEraMPLnocdg-eps-converted-
 to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-<graficos/theta0VEraMPLnocdg-eps-converted-to.pdf, id=1529, 386.44376pt x 297.1
+<graficos/theta0VEraMPLnocdg-eps-converted-to.pdf, id=1562, 386.44376pt x 297.1
 1pt>
 File: graficos/theta0VEraMPLnocdg-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0VEraMPLnocdg-eps-converted-to.pdf>
@@ -3460,7 +3468,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVE2lxy5ms-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVE2lxy5ms-eps-converted-to.pdf, id=1575, 393.47pt x 312.16624pt>
+<graficos/PMVE2lxy5ms-eps-converted-to.pdf, id=1608, 393.47pt x 312.16624pt>
 File: graficos/PMVE2lxy5ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVE2lxy5ms-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PMVE2lxy5ms-eps-converted-to.pdf  used on inp
@@ -3481,7 +3489,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVE2lxy35ms-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVE2lxy35ms-eps-converted-to.pdf, id=1576, 383.4325pt x 312.16624pt>
+<graficos/PMVE2lxy35ms-eps-converted-to.pdf, id=1609, 383.4325pt x 312.16624pt>
 
 File: graficos/PMVE2lxy35ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVE2lxy35ms-eps-converted-to.pdf>
@@ -3503,7 +3511,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVE3lxy5ms-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVE3lxy5ms-eps-converted-to.pdf, id=1577, 393.47pt x 312.16624pt>
+<graficos/PMVE3lxy5ms-eps-converted-to.pdf, id=1610, 393.47pt x 312.16624pt>
 File: graficos/PMVE3lxy5ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVE3lxy5ms-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PMVE3lxy5ms-eps-converted-to.pdf  used on inp
@@ -3524,7 +3532,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVE3lxy35ms-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVE3lxy35ms-eps-converted-to.pdf, id=1578, 383.4325pt x 312.16624pt>
+<graficos/PMVE3lxy35ms-eps-converted-to.pdf, id=1611, 383.4325pt x 312.16624pt>
 
 File: graficos/PMVE3lxy35ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVE3lxy35ms-eps-converted-to.pdf>
@@ -3557,7 +3565,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0VE2lxy5ms-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<graficos/theta0VE2lxy5ms-eps-converted-to.pdf, id=1604, 407.5225pt x 312.16624
+<graficos/theta0VE2lxy5ms-eps-converted-to.pdf, id=1637, 407.5225pt x 312.16624
 pt>
 File: graficos/theta0VE2lxy5ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0VE2lxy5ms-eps-converted-to.pdf>
@@ -3580,7 +3588,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0VE2lxy35ms-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<graficos/theta0VE2lxy35ms-eps-converted-to.pdf, id=1605, 400.49625pt x 312.166
+<graficos/theta0VE2lxy35ms-eps-converted-to.pdf, id=1638, 400.49625pt x 312.166
 24pt>
 File: graficos/theta0VE2lxy35ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0VE2lxy35ms-eps-converted-to.pdf>
@@ -3603,7 +3611,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0VE3lxy5ms-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<graficos/theta0VE3lxy5ms-eps-converted-to.pdf, id=1606, 407.5225pt x 312.16624
+<graficos/theta0VE3lxy5ms-eps-converted-to.pdf, id=1639, 407.5225pt x 312.16624
 pt>
 File: graficos/theta0VE3lxy5ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0VE3lxy5ms-eps-converted-to.pdf>
@@ -3626,7 +3634,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0VE3lxy35ms-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<graficos/theta0VE3lxy35ms-eps-converted-to.pdf, id=1607, 400.49625pt x 312.166
+<graficos/theta0VE3lxy35ms-eps-converted-to.pdf, id=1640, 400.49625pt x 312.166
 24pt>
 File: graficos/theta0VE3lxy35ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0VE3lxy35ms-eps-converted-to.pdf>
@@ -3649,7 +3657,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1CVE2lxy5ms-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<graficos/theta1CVE2lxy5ms-eps-converted-to.pdf, id=1610, 398.48875pt x 312.166
+<graficos/theta1CVE2lxy5ms-eps-converted-to.pdf, id=1643, 398.48875pt x 312.166
 24pt>
 File: graficos/theta1CVE2lxy5ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1CVE2lxy5ms-eps-converted-to.pdf>
@@ -3672,7 +3680,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1CVE2lxy35ms-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<graficos/theta1CVE2lxy35ms-eps-converted-to.pdf, id=1611, 398.48875pt x 312.16
+<graficos/theta1CVE2lxy35ms-eps-converted-to.pdf, id=1644, 398.48875pt x 312.16
 624pt>
 File: graficos/theta1CVE2lxy35ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1CVE2lxy35ms-eps-converted-to.pdf>
@@ -3695,7 +3703,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1CVE3lxy5ms-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<graficos/theta1CVE3lxy5ms-eps-converted-to.pdf, id=1612, 398.48875pt x 312.166
+<graficos/theta1CVE3lxy5ms-eps-converted-to.pdf, id=1645, 398.48875pt x 312.166
 24pt>
 File: graficos/theta1CVE3lxy5ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1CVE3lxy5ms-eps-converted-to.pdf>
@@ -3718,7 +3726,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1CVE3lxy35ms-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<graficos/theta1CVE3lxy35ms-eps-converted-to.pdf, id=1613, 398.48875pt x 312.16
+<graficos/theta1CVE3lxy35ms-eps-converted-to.pdf, id=1646, 398.48875pt x 312.16
 624pt>
 File: graficos/theta1CVE3lxy35ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1CVE3lxy35ms-eps-converted-to.pdf>
@@ -3761,7 +3769,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1SVE2lxy5ms-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<graficos/theta1SVE2lxy5ms-eps-converted-to.pdf, id=1714, 393.47pt x 312.16624p
+<graficos/theta1SVE2lxy5ms-eps-converted-to.pdf, id=1747, 393.47pt x 312.16624p
 t>
 File: graficos/theta1SVE2lxy5ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1SVE2lxy5ms-eps-converted-to.pdf>
@@ -3784,7 +3792,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1SVE2lxy35ms-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<graficos/theta1SVE2lxy35ms-eps-converted-to.pdf, id=1715, 398.48875pt x 312.16
+<graficos/theta1SVE2lxy35ms-eps-converted-to.pdf, id=1748, 398.48875pt x 312.16
 624pt>
 File: graficos/theta1SVE2lxy35ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1SVE2lxy35ms-eps-converted-to.pdf>
@@ -3807,7 +3815,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1SVE3lxy5ms-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<graficos/theta1SVE3lxy5ms-eps-converted-to.pdf, id=1716, 398.48875pt x 312.166
+<graficos/theta1SVE3lxy5ms-eps-converted-to.pdf, id=1749, 398.48875pt x 312.166
 24pt>
 File: graficos/theta1SVE3lxy5ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1SVE3lxy5ms-eps-converted-to.pdf>
@@ -3830,7 +3838,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1SVE3lxy35ms-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<graficos/theta1SVE3lxy35ms-eps-converted-to.pdf, id=1717, 398.48875pt x 312.16
+<graficos/theta1SVE3lxy35ms-eps-converted-to.pdf, id=1750, 398.48875pt x 312.16
 624pt>
 File: graficos/theta1SVE3lxy35ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1SVE3lxy35ms-eps-converted-to.pdf>
@@ -3852,7 +3860,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/CabVE2lxy5ms-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/CabVE2lxy5ms-eps-converted-to.pdf, id=1718, 398.48875pt x 312.16624pt
+<graficos/CabVE2lxy5ms-eps-converted-to.pdf, id=1751, 398.48875pt x 312.16624pt
 >
 File: graficos/CabVE2lxy5ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/CabVE2lxy5ms-eps-converted-to.pdf>
@@ -3874,7 +3882,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/CabVE2lxy35ms-eps-converted-to.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/CabVE2lxy35ms-eps-converted-to.pdf, id=1719, 398.48875pt x 312.16624p
+<graficos/CabVE2lxy35ms-eps-converted-to.pdf, id=1752, 398.48875pt x 312.16624p
 t>
 File: graficos/CabVE2lxy35ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/CabVE2lxy35ms-eps-converted-to.pdf>
@@ -3896,7 +3904,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/CabVE3lxy5ms-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/CabVE3lxy5ms-eps-converted-to.pdf, id=1720, 398.48875pt x 312.16624pt
+<graficos/CabVE3lxy5ms-eps-converted-to.pdf, id=1753, 398.48875pt x 312.16624pt
 >
 File: graficos/CabVE3lxy5ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/CabVE3lxy5ms-eps-converted-to.pdf>
@@ -3918,7 +3926,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/CabVE3lxy35ms-eps-converted-to.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/CabVE3lxy35ms-eps-converted-to.pdf, id=1721, 398.48875pt x 312.16624p
+<graficos/CabVE3lxy35ms-eps-converted-to.pdf, id=1754, 398.48875pt x 312.16624p
 t>
 File: graficos/CabVE3lxy35ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/CabVE3lxy35ms-eps-converted-to.pdf>
@@ -3940,7 +3948,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/BalanVE2lxy5ms-eps-converted-to.p
 df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/BalanVE2lxy5ms-eps-converted-to.pdf, id=1722, 398.48875pt x 312.16624
+<graficos/BalanVE2lxy5ms-eps-converted-to.pdf, id=1755, 398.48875pt x 312.16624
 pt>
 File: graficos/BalanVE2lxy5ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/BalanVE2lxy5ms-eps-converted-to.pdf>
@@ -3963,7 +3971,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/BalanVE2lxy35ms-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<graficos/BalanVE2lxy35ms-eps-converted-to.pdf, id=1723, 393.47pt x 312.16624pt
+<graficos/BalanVE2lxy35ms-eps-converted-to.pdf, id=1756, 393.47pt x 312.16624pt
 >
 File: graficos/BalanVE2lxy35ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/BalanVE2lxy35ms-eps-converted-to.pdf>
@@ -3985,7 +3993,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/BalanVE3lxy5ms-eps-converted-to.p
 df): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/BalanVE3lxy5ms-eps-converted-to.pdf, id=1724, 398.48875pt x 312.16624
+<graficos/BalanVE3lxy5ms-eps-converted-to.pdf, id=1757, 398.48875pt x 312.16624
 pt>
 File: graficos/BalanVE3lxy5ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/BalanVE3lxy5ms-eps-converted-to.pdf>
@@ -4008,7 +4016,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/BalanVE3lxy35ms-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
-<graficos/BalanVE3lxy35ms-eps-converted-to.pdf, id=1725, 393.47pt x 312.16624pt
+<graficos/BalanVE3lxy35ms-eps-converted-to.pdf, id=1758, 393.47pt x 312.16624pt
 >
 File: graficos/BalanVE3lxy35ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/BalanVE3lxy35ms-eps-converted-to.pdf>
@@ -4031,7 +4039,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0raVE2lxy5ms-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<graficos/theta0raVE2lxy5ms-eps-converted-to.pdf, id=1730, 400.49625pt x 312.16
+<graficos/theta0raVE2lxy5ms-eps-converted-to.pdf, id=1763, 400.49625pt x 312.16
 624pt>
 File: graficos/theta0raVE2lxy5ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0raVE2lxy5ms-eps-converted-to.pdf>
@@ -4054,7 +4062,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0raVE2lxy35ms-eps-converted-
 to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-<graficos/theta0raVE2lxy35ms-eps-converted-to.pdf, id=1731, 400.49625pt x 312.1
+<graficos/theta0raVE2lxy35ms-eps-converted-to.pdf, id=1764, 400.49625pt x 312.1
 6624pt>
 File: graficos/theta0raVE2lxy35ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0raVE2lxy35ms-eps-converted-to.pdf>
@@ -4077,7 +4085,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0raVE3lxy5ms-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<graficos/theta0raVE3lxy5ms-eps-converted-to.pdf, id=1732, 400.49625pt x 312.16
+<graficos/theta0raVE3lxy5ms-eps-converted-to.pdf, id=1765, 400.49625pt x 312.16
 624pt>
 File: graficos/theta0raVE3lxy5ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0raVE3lxy5ms-eps-converted-to.pdf>
@@ -4100,7 +4108,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0raVE3lxy35ms-eps-converted-
 to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-<graficos/theta0raVE3lxy35ms-eps-converted-to.pdf, id=1733, 400.49625pt x 312.1
+<graficos/theta0raVE3lxy35ms-eps-converted-to.pdf, id=1766, 400.49625pt x 312.1
 6624pt>
 File: graficos/theta0raVE3lxy35ms-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0raVE3lxy35ms-eps-converted-to.pdf>
@@ -4172,7 +4180,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVC-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVC-eps-converted-to.pdf, id=1897, 379.4175pt x 310.15875pt>
+<graficos/PMVC-eps-converted-to.pdf, id=1930, 379.4175pt x 310.15875pt>
 File: graficos/PMVC-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVC-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PMVC-eps-converted-to.pdf  used on input line
@@ -4192,7 +4200,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PVC-eps-converted-to.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PVC-eps-converted-to.pdf, id=1899, 377.41pt x 310.15875pt>
+<graficos/PVC-eps-converted-to.pdf, id=1932, 377.41pt x 310.15875pt>
 File: graficos/PVC-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PVC-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PVC-eps-converted-to.pdf  used on input line 
@@ -4212,7 +4220,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/ControlVC-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/ControlVC-eps-converted-to.pdf, id=1900, 388.45125pt x 297.11pt>
+<graficos/ControlVC-eps-converted-to.pdf, id=1933, 388.45125pt x 297.11pt>
 File: graficos/ControlVC-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/ControlVC-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/ControlVC-eps-converted-to.pdf  used on input
@@ -4232,7 +4240,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/EulerVC-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/EulerVC-eps-converted-to.pdf, id=1901, 387.4475pt x 297.11pt>
+<graficos/EulerVC-eps-converted-to.pdf, id=1934, 387.4475pt x 297.11pt>
 File: graficos/EulerVC-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/EulerVC-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/EulerVC-eps-converted-to.pdf  used on input l
@@ -4262,7 +4270,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/teVC-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/teVC-eps-converted-to.pdf, id=1942, 379.4175pt x 297.11pt>
+<graficos/teVC-eps-converted-to.pdf, id=1975, 379.4175pt x 297.11pt>
 File: graficos/teVC-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/teVC-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/teVC-eps-converted-to.pdf  used on input line
@@ -4290,7 +4298,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVCcs-eps-converted-to.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVCcs-eps-converted-to.pdf, id=1954, 375.4025pt x 310.15875pt>
+<graficos/PMVCcs-eps-converted-to.pdf, id=1987, 375.4025pt x 310.15875pt>
 File: graficos/PMVCcs-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVCcs-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PMVCcs-eps-converted-to.pdf  used on input li
@@ -4310,7 +4318,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0VCcs-eps-converted-to.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/theta0VCcs-eps-converted-to.pdf, id=1956, 386.44376pt x 297.11pt>
+<graficos/theta0VCcs-eps-converted-to.pdf, id=1989, 386.44376pt x 297.11pt>
 File: graficos/theta0VCcs-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0VCcs-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/theta0VCcs-eps-converted-to.pdf  used on inpu
@@ -4331,7 +4339,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1CVCcs-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/theta1CVCcs-eps-converted-to.pdf, id=1957, 386.44376pt x 297.11pt>
+<graficos/theta1CVCcs-eps-converted-to.pdf, id=1990, 386.44376pt x 297.11pt>
 File: graficos/theta1CVCcs-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1CVCcs-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/theta1CVCcs-eps-converted-to.pdf  used on inp
@@ -4352,7 +4360,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1SVCcs-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/theta1SVCcs-eps-converted-to.pdf, id=1958, 389.455pt x 297.11pt>
+<graficos/theta1SVCcs-eps-converted-to.pdf, id=1991, 389.455pt x 297.11pt>
 File: graficos/theta1SVCcs-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1SVCcs-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/theta1SVCcs-eps-converted-to.pdf  used on inp
@@ -4372,7 +4380,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/CabVCcs-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/CabVCcs-eps-converted-to.pdf, id=1962, 389.455pt x 297.11pt>
+<graficos/CabVCcs-eps-converted-to.pdf, id=1995, 389.455pt x 297.11pt>
 File: graficos/CabVCcs-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/CabVCcs-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/CabVCcs-eps-converted-to.pdf  used on input l
@@ -4392,7 +4400,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/BalanVCcs-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/BalanVCcs-eps-converted-to.pdf, id=1963, 383.4325pt x 297.11pt>
+<graficos/BalanVCcs-eps-converted-to.pdf, id=1996, 383.4325pt x 297.11pt>
 File: graficos/BalanVCcs-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/BalanVCcs-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/BalanVCcs-eps-converted-to.pdf  used on input
@@ -4434,7 +4442,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMVCSP-eps-converted-to.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMVCSP-eps-converted-to.pdf, id=2025, 368.37625pt x 310.15875pt>
+<graficos/PMVCSP-eps-converted-to.pdf, id=2058, 368.37625pt x 310.15875pt>
 File: graficos/PMVCSP-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMVCSP-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PMVCSP-eps-converted-to.pdf  used on input li
@@ -4454,7 +4462,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0VCSP-eps-converted-to.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/theta0VCSP-eps-converted-to.pdf, id=2028, 386.44376pt x 297.11pt>
+<graficos/theta0VCSP-eps-converted-to.pdf, id=2061, 386.44376pt x 297.11pt>
 File: graficos/theta0VCSP-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0VCSP-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/theta0VCSP-eps-converted-to.pdf  used on inpu
@@ -4475,7 +4483,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1CVCSP-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/theta1CVCSP-eps-converted-to.pdf, id=2029, 389.455pt x 295.1025pt>
+<graficos/theta1CVCSP-eps-converted-to.pdf, id=2062, 389.455pt x 295.1025pt>
 File: graficos/theta1CVCSP-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1CVCSP-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/theta1CVCSP-eps-converted-to.pdf  used on inp
@@ -4496,7 +4504,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1SVCSP-eps-converted-to.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/theta1SVCSP-eps-converted-to.pdf, id=2032, 389.455pt x 297.11pt>
+<graficos/theta1SVCSP-eps-converted-to.pdf, id=2065, 389.455pt x 297.11pt>
 File: graficos/theta1SVCSP-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1SVCSP-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/theta1SVCSP-eps-converted-to.pdf  used on inp
@@ -4516,7 +4524,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/CabVCSP-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/CabVCSP-eps-converted-to.pdf, id=2033, 389.455pt x 297.11pt>
+<graficos/CabVCSP-eps-converted-to.pdf, id=2066, 389.455pt x 297.11pt>
 File: graficos/CabVCSP-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/CabVCSP-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/CabVCSP-eps-converted-to.pdf  used on input l
@@ -4543,7 +4551,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/BalanVCSP-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/BalanVCSP-eps-converted-to.pdf, id=2058, 383.4325pt x 297.11pt>
+<graficos/BalanVCSP-eps-converted-to.pdf, id=2091, 383.4325pt x 297.11pt>
 File: graficos/BalanVCSP-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/BalanVCSP-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/BalanVCSP-eps-converted-to.pdf  used on input
@@ -4564,7 +4572,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0raVCSP-eps-converted-to.pdf
 ): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/theta0raVCSP-eps-converted-to.pdf, id=2059, 389.455pt x 297.11pt>
+<graficos/theta0raVCSP-eps-converted-to.pdf, id=2092, 389.455pt x 297.11pt>
 File: graficos/theta0raVCSP-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0raVCSP-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/theta0raVCSP-eps-converted-to.pdf  used on in
@@ -4584,7 +4592,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/PMSP-eps-converted-to.pdf): PDF i
 nclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/PMSP-eps-converted-to.pdf, id=2060, 384.43625pt x 312.16624pt>
+<graficos/PMSP-eps-converted-to.pdf, id=2093, 384.43625pt x 312.16624pt>
 File: graficos/PMSP-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/PMSP-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/PMSP-eps-converted-to.pdf  used on input line
@@ -4615,7 +4623,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0SP-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/theta0SP-eps-converted-to.pdf, id=2103, 401.5pt x 312.16624pt>
+<graficos/theta0SP-eps-converted-to.pdf, id=2136, 401.5pt x 312.16624pt>
 File: graficos/theta0SP-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0SP-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/theta0SP-eps-converted-to.pdf  used on input 
@@ -4635,7 +4643,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1CSP-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/theta1CSP-eps-converted-to.pdf, id=2105, 399.4925pt x 312.16624pt>
+<graficos/theta1CSP-eps-converted-to.pdf, id=2138, 399.4925pt x 312.16624pt>
 File: graficos/theta1CSP-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1CSP-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/theta1CSP-eps-converted-to.pdf  used on input
@@ -4655,7 +4663,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/theta1SSP-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/theta1SSP-eps-converted-to.pdf, id=2106, 394.47375pt x 312.16624pt>
+<graficos/theta1SSP-eps-converted-to.pdf, id=2139, 394.47375pt x 312.16624pt>
 File: graficos/theta1SSP-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta1SSP-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/theta1SSP-eps-converted-to.pdf  used on input
@@ -4685,7 +4693,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/CabSP-eps-converted-to.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/CabSP-eps-converted-to.pdf, id=2142, 399.4925pt x 312.16624pt>
+<graficos/CabSP-eps-converted-to.pdf, id=2175, 399.4925pt x 312.16624pt>
 File: graficos/CabSP-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/CabSP-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/CabSP-eps-converted-to.pdf  used on input lin
@@ -4705,7 +4713,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/BalanSP-eps-converted-to.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/BalanSP-eps-converted-to.pdf, id=2144, 394.47375pt x 312.16624pt>
+<graficos/BalanSP-eps-converted-to.pdf, id=2177, 394.47375pt x 312.16624pt>
 File: graficos/BalanSP-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/BalanSP-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/BalanSP-eps-converted-to.pdf  used on input l
@@ -4725,7 +4733,7 @@ Package epstopdf Info: Output file is already uptodate.
 
 pdfTeX warning: pdflatex.exe (file ./graficos/theta0raSP-eps-converted-to.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<graficos/theta0raSP-eps-converted-to.pdf, id=2146, 401.5pt x 312.16624pt>
+<graficos/theta0raSP-eps-converted-to.pdf, id=2179, 401.5pt x 312.16624pt>
 File: graficos/theta0raSP-eps-converted-to.pdf Graphic file (type pdf)
 <use graficos/theta0raSP-eps-converted-to.pdf>
 Package pdftex.def Info: graficos/theta0raSP-eps-converted-to.pdf  used on inpu
@@ -4823,11 +4831,11 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
  ) 
 Here is how much of TeX's memory you used:
- 11417 strings out of 492946
- 194221 string characters out of 3126389
+ 11416 strings out of 492946
+ 194297 string characters out of 3126389
  319269 words of memory out of 3000000
- 14511 multiletter control sequences out of 15000+200000
- 93742 words of font info for 70 fonts, out of 3000000 for 9000
+ 14510 multiletter control sequences out of 15000+200000
+ 89516 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,18n,43p,1500b,701s stack positions out of 5000i,500n,10000p,200000b,50000s
 {E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rmtt.
@@ -4856,9 +4864,9 @@ ers/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><E
 :/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb
 ><E:/Users/Jaime/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12
 .pfb>
-Output written on document.pdf (117 pages, 4304657 bytes).
+Output written on document.pdf (117 pages, 4696155 bytes).
 PDF statistics:
- 2378 PDF objects out of 2487 (max. 8388607)
+ 2411 PDF objects out of 2487 (max. 8388607)
  431 named destinations out of 1000 (max. 500000)
  1105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
