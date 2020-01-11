@@ -1,4 +1,4 @@
-\chapter{Vuelo en Espiral}
+\chapter{Vuelo en espiral}
 
 Igual que se ha hecho en el capítulo anterior con el vuelo horizontal, este capítulo pretende abordar el estado del helicóptero durante un vuelo en espiral ascendente con ángulo de asiento de la velocidad $\gamma_T$=5$^\circ$, giro a la derecha y un radio de giro de la trayectoria de 150 m.
 Lo primero que salta a la vista en la gráfica \ref{PMVE} es la reducción de la velocidad de avance máxima a la que se puede volar, siendo esta 42.37 m/s, lo que supone una reducción de casi 30 m/s respecto al vuelo horizontal, lo que se debe a la necesidad de invertir una parte importante de la potencia en conseguir una velocidad vertical. Dicha velocidad vertical se ha representado en la gráfica \ref{VzVE}. Al ser el ángulo de asiento de la velocidad constante, la velocidad de ascenso varía de forma casi lineal con la velocidad de avance.
@@ -40,7 +40,7 @@ Los ángulos de control se han reflejado en gráfica \ref{ControlVE}, y si la co
 En lo que respecta a los ángulos de Euler, el cambio también resulta lógico. En la gráfica \ref{EulerVH} del capítulo anterior se observa que con la velocidad, apenas cambia el balanceo, mientras que el cabeceo disminuye, pero en la gráfica \ref{EulerVE} par el vuelo en espiral ocurre algo muy distinto.
 El ángulo de cabeceo apenas apenas cambia mientras que el ángulo de balanceo aumenta con la velocidad. Si se mantiene constante la curvatura de la espiral, según aumenta la velocidad de avance la aceleración normal necesaria para mantener la trayectoria aumenta, de ahí el origen de ese incremento en el ángulo de balanceo.
 
-\section{Velocidad de Ascenso del Vuelo}
+\section{Velocidad de ascenso del vuelo}
 
 A diferencia del caso del vuelo horizontal, donde interesaba conocer la autonomía del helicóptero, este tipo de vuelo no será el principal de la aeronave, por lo que en ningún caso el vehículo volará en estas circunstancias durante una fracción relevante de su tiempo de vuelo. Otro parámetro típico que podría calcularse en este tipo de vuelos es el techo de la aeronave, pero como UAV de vigilancia, no interesará que realice vuelos a altitudes muy elevadas pues podría interferir en su misión por no ser las cámaras equipadas capaces de captar imágenes nítidas en esas condiciones.
 Sin embargo, si podría resultar interesante observar como varía el vuelo con la velocidad vertical. Para ello se asume que el vehículo vuela con una velocidad absoluta constante de 30 m/s, de esta manera podemos comprobar cual es la velocidad máxima de ascenso que puede alcanzar el helicóptero en el vuelo en espiral.
@@ -78,7 +78,7 @@ Sin embargo, si podría resultar interesante observar como varía el vuelo con l
 \end{figure}
 
 De la gráfica \ref{PMVEVz} se obtiene rápidamente el valor de la velocidad máxima de ascenso disponible en las condiciones de vuelo dadas, 4.71 m/s. Este valor puede ser interesante para calcular el tiempo de recuperación de la trayectoria del vehículo en caso de perder altitud por cualquier motivo.
-También existe la posibilidad de volar a menores velocidades; en la gráfica \ref{PMVEVz2} se han representado los mismos resultados para velocidades de vuelo de 20 y 10 m/s. Estos vuelos limitan aún más la velocidad de ascenso máxima, quedando en 4,19 y 2.45 m/s respectivamente. Esto deja claro que una mayor velocidad de vuelo en avance permite también una mayor velocidad de ascenso, pero el cambio en su valor entre las condiciones de vuelo a 20 y 30 m/s, es mucho menor que salto entre las de 10 y 20 m/s, lo que también demuestra que seguir incrementando la velocidad de vuelo no permitirá incrementar la velocidad ascensional de la misma manera.
+También existe la posibilidad de volar a menores velocidades; en la gráfica \ref{PMVEVz2} se han representado los mismos resultados para velocidades de vuelo de 20 y 10 m/s. Estos vuelos limitan aún más la velocidad de ascenso máxima, quedando en 4.19 y 2.45 m/s respectivamente. Esto deja claro que una mayor velocidad de vuelo en avance permite también una mayor velocidad de ascenso, pero el cambio en su valor entre las condiciones de vuelo a 20 y 30 m/s, es mucho menor que salto entre las de 10 y 20 m/s, lo que también demuestra que seguir incrementando la velocidad de vuelo no permitirá incrementar la velocidad ascensional de la misma manera.
 
 En la gráfica \ref{PVEVz} se observa que las potencias de ambos rotores se incrementan con la velocidad ascensional, aunque el consumo de potencia del rotor antipar lo hace en menor medida, además de suponer una parte mínima de la potencia consumida.
 
@@ -86,14 +86,18 @@ Las variaciones dadas en los ángulos de control (gráfica \ref{ControlVEVz}) so
 
 Con los ángulos de Euler pasa algo similar; los cambios son suaves pero apreciables. Con la velocidad de ascenso aumenta el cabeceo mientras que el balanceo disminuye, como se muestra en la gráfica \ref{EulerVEVz}.
 
-\section{Integración de las Diferentes Cargas de Pago}
+\section{Análisis de la carga de pago}
+
+A continuación se exponen los resultados de los análisis realizados a la aeronave en función de la carga de pago embarcada, siendo las cargas posibles las definidas en el capítulo 3.
+
+\subsection*{Integración de las diferentes cargas de pago}
 
 Al igual que se hizo con el caso de vuelo horizontal, se comprabará el efecto de la integración de las diferentes cargas para el caso de vuelo en espiral con $\gamma_T$=5$^\circ$, giro a la derecha y radio de la trayectoria 150 m.
 
 \begin{figure}
 	\centering
-	\subfigure[Potencia necesaria para el vuelo para difeerentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/PMVEMPLcdg}}
-	\subfigure[Potencia necesaria para el vuelo para difeerentes cargas de pago  situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/PMVEMPLnocdg}}
+	\subfigure[Potencia necesaria para el vuelo para diferentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/PMVEMPLcdg}}
+	\subfigure[Potencia necesaria para el vuelo para diferentes cargas de pago  situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/PMVEMPLnocdg}}
 	\caption{Consumo de Potencia de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo en espiral con $\gamma_T$=5$^\circ$, giro a la derecha y radio de la trayectoria 150 m para diferentes cargas de pago en posiciones distintas.}
 	\label{PMVEMPL}
 \end{figure}
@@ -102,8 +106,8 @@ De un vistazo a las gráficas \ref{PMVEMPL}, \ref{Theta0VEMPL}, \ref{Theta1CVEMP
 
 \begin{figure}
 	\centering
-	\subfigure[Ángulo de paso colectivo del rotor principal durante el vuelo para difeerentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/theta0VEMPLcdg}}
-	\subfigure[Ángulo de paso colectivo del rotor principal durante el vuelo para difeerentes cargas de pago situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/theta0VEMPLnocdg}}
+	\subfigure[Ángulo de paso colectivo del rotor principal durante el vuelo para diferentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/theta0VEMPLcdg}}
+	\subfigure[Ángulo de paso colectivo del rotor principal durante el vuelo para diferentes cargas de pago situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/theta0VEMPLnocdg}}
 	\caption{Ángulos de paso colectivo del rotor principal de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo en espiral con $\gamma_T$=5$^\circ$, giro a la derecha y radio de la trayectoria 150 m para diferentes cargas de pago en posiciones distintas.}
 	\label{Theta0VEMPL}
 \end{figure}
@@ -112,8 +116,8 @@ En cuanto a los ángulos de paso colectivo del rotor principal, mostrados en la 
 
 \begin{figure}
 	\centering
-	\subfigure[Ángulo de paso cíclico longitudinal del rotor principal durante el vuelo para difeerentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/theta1CVEMPLcdg}}
-	\subfigure[Ángulo de paso cíclico longitudinal del rotor principal durante el vuelo para difeerentes cargas de pago situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/theta1CVEMPLnocdg}}
+	\subfigure[Ángulo de paso cíclico longitudinal del rotor principal durante el vuelo para diferentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/theta1CVEMPLcdg}}
+	\subfigure[Ángulo de paso cíclico longitudinal del rotor principal durante el vuelo para diferentes cargas de pago situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/theta1CVEMPLnocdg}}
 	\caption{Ángulos de paso cíclico longitudinal del rotor principal de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo en espiral con $\gamma_T$=5$^\circ$, giro a la derecha y radio de la trayectoria 150 m para diferentes cargas de pago en posiciones distintas.}
 	\label{Theta1CVEMPL}
 \end{figure}
@@ -123,7 +127,7 @@ Donde se aprecian mayores cambios es en las gráficas \ref{Theta1CVEMPL} y \ref{
 \begin{figure}
 	\centering
 	\subfigure[Ángulo de paso cíclico lateral del rotor principal durante el vuelo para diferentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/theta1SVEMPLcdg}}
-	\subfigure[Ángulo de paso cíclico lateral del rotor principal durante el vuelo para difeerentes cargas de pago situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/theta1SVEMPLnocdg}}
+	\subfigure[Ángulo de paso cíclico lateral del rotor principal durante el vuelo para diferentes cargas de pago situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/theta1SVEMPLnocdg}}
 	\caption{Ángulos de paso cíclico lateral del rotor principal de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo en espiral con $\gamma_T$=5$^\circ$, giro a la derecha y radio de la trayectoria 150 m para diferentes cargas de pago en posiciones distintas.}
 	\label{Theta1SVEMPL}
 \end{figure}
@@ -132,8 +136,8 @@ El paso cíclico lateral, por su parte, apenas sufre cambios para cargas situada
 
 \begin{figure}
 	\centering
-	\subfigure[Ángulo de cabeceo de la aeronave durante el vuelo para difeerentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/CabVEMPLcdg}}
-	\subfigure[Ángulo de cabeceo de la aeronave durante el vuelo para difeerentes cargas de pago situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/CabVEMPLnocdg}}
+	\subfigure[Ángulo de cabeceo de la aeronave durante el vuelo para diferentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/CabVEMPLcdg}}
+	\subfigure[Ángulo de cabeceo de la aeronave durante el vuelo para diferentes cargas de pago situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/CabVEMPLnocdg}}
 	\caption{Ángulos de cabeceo de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo en espiral con $\gamma_T$=5$^\circ$, giro a la derecha y radio de la trayectoria 150 m para diferentes cargas de pago en posiciones distintas.}
 	\label{ThetaVEMPL}
 \end{figure}
@@ -142,8 +146,8 @@ En la gráfica \ref{ThetaVEMPL} se puede ver la evolución del ángulo de balanc
 
 \begin{figure}
 	\centering
- 	\subfigure[Ángulo de balanceo de la aeronave durante el vuelo para difeerentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/BalanVEMPLcdg}}
-	\subfigure[Ángulo de balanceo de la aeronave durante el vuelo para difeerentes cargas de pago situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/BalanVEMPLnocdg}}
+ 	\subfigure[Ángulo de balanceo de la aeronave durante el vuelo para diferentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/BalanVEMPLcdg}}
+	\subfigure[Ángulo de balanceo de la aeronave durante el vuelo para diferentes cargas de pago situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/BalanVEMPLnocdg}}
 	\caption{Ángulos de balanceo de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo en espiral con $\gamma_T$=5$^\circ$, giro a la derecha y radio de la trayectoria 150 m para diferentes cargas de pago en posiciones distintas.}
 	\label{PhiVEMPL}
 \end{figure}
@@ -152,15 +156,15 @@ El ángulo de balanceo apenas varía con la carga, ni situándola sobre la proye
 
 \begin{figure}
 	\centering
-	\subfigure[Ángulo de paso colectivo del rotor antipar durante el vuelo para difeerentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/theta0VEraMPLcdg}}
-	\subfigure[Ángulo de paso colectivo del rotor antipar durante el vuelo para difeerentes cargas de pago situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/theta0VEraMPLnocdg}}
+	\subfigure[Ángulo de paso colectivo del rotor antipar durante el vuelo para diferentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/theta0VEraMPLcdg}}
+	\subfigure[Ángulo de paso colectivo del rotor antipar durante el vuelo para diferentes cargas de pago situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/theta0VEraMPLnocdg}}
 	\caption{Ángulos de paso colectivo del rotor antipar de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo en espiral con $\gamma_T$=5$^\circ$, giro a la derecha y radio de la trayectoria 150 m para diferentes cargas de pago en posiciones distintas.}
 	\label{Theta0VEraMPL}
 \end{figure}
 
-Por último, la evolución del ángulo de paso colectivo del rotor antipar apenas sufre variaciones con la carga cuando esta se sitúa sobre la proyección del centro de masas del helicóptero. Sin embargo, en la gráfica \ref{Theta0VEraMPL} se puede apreciar que al desplazar la carga según se ha indicado, el paso disminuye con la carga a bajas velocidades, mientras que altas velocidades aumenta. Estas variaciones son máximas a bajas velocidades y alcanzan valores de 0.0025 rad.
+Por último, la evolución del ángulo de paso colectivo del rotor antipar apenas sufre variaciones con la carga cuando esta se sitúa sobre la proyección del centro de masas del helicóptero. Sin embargo, en la gráfica \ref{Theta0VEraMPL} se puede apreciar que al colocar la carga en la posición indicada, el paso disminuye con la masa de la misma a bajas velocidades, mientras que altas velocidades aumenta. Estas variaciones son máximas a bajas velocidades y alcanzan valores de 0.0025 rad.
 
-\section{Análisis de los Parámetros de Vuelo con la Posición de la Carga de Pago}
+\subsection*{Análisis de los parámetros de vuelo con la posición de la carga de pago}
 
 Resulta interesante saber como afecta la posición de la carga de pago a los parámetros de vuelo dadas unas condiciones de vuelo concretas, para poder optimizar el montaje de los equipos según las necesidades de la misión.
 
@@ -199,7 +203,7 @@ Cabe destacar también que a mayor carga, los efectos de la posición de la mism
 	\label{theta0VE3lxy}
 \end{figure}
 
-Si se observan las gráficas \ref{theta0VE2lxy} y \ref{theta0VE3lxy}, se puede observar que el ángulo de paso colectivo a bajas velocidades se incrementa al centrar longitudinalmente la carga sobre la proyección del centro de masas del vehículo. Lateralmente, existe un máximo del paso para valores de $l_y$ próximos a -0.15 m. Estas afirmaciones se cumplen para ambas cargas, siendo para el caso de la carga 3 los valores del paso muy ligeramente mayores en un mayor rango de posiciones.
+Si se observan las gráficas \ref{theta0VE2lxy} y \ref{theta0VE3lxy}, se puede observar que el ángulo de paso colectivo a bajas velocidades se incrementa al centrar longitudinalmente la carga sobre la proyección del centro de masas del vehículo. Lateralmente, existe un máximo del paso para valores de $l_y$ próximos a -0.15 m. Estas afirmaciones se cumplen para ambas cargas, siendo para el caso de la carga 3 los valores del paso ligeramente mayores en un mayor rango de posiciones.
 Para altas velocidades, el centrado longitudinal antes mencionado contribuye a la reducción del valor de paso, al igual que el desplazamiento lateral hacia la derecha de la carga.
 
 \begin{figure}

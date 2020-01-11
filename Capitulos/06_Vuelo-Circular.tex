@@ -1,4 +1,4 @@
-\chapter{Vuelo Circular}
+\chapter{Vuelo circular}
 
 El último caso de vuelo a analizar es el del vuelo circular, un vuelo a nivel siguiendo una trayectoria curvilínea de radio constante. Se ha escogido esta trayectoria por ser una que puede ser empleada en misiones de vigilancia de un terreno concreto. 
 Se analizará la influencia de la velocidad y el radio de giro de la trayectoria en el vuelo de la aeronave para después comprobar el efecto de modificaciones sobre los parámetros de diseño de la misma. El caso inicial es de un vuelo a 1000 m de altitud con un radio de giro de 300 m. 
@@ -35,7 +35,7 @@ Respecto al resto de parámetros, solo resulta llamativo el ángulo de balanceo 
 El resto de resultados no resultan extraños, por lo que nos sirven para comprobar que se han hecho los cálculos correctamente.
 
 
-\section{Autonomía de Vuelo}
+\section{Autonomía de vuelo}
 
 En este tipo de vuelo la autonomía vuelve a cobrar relevancia ya que durante una misión de vigilancia esta podría ser la trayectoria que el vehículo mantuviese durante largos períodos de tiempo. Resulta interesante, por tanto, conocer cuanto tiempo puede estar volando antes de tener que sustituirlo.
 
@@ -64,11 +64,11 @@ Los cálculos de para la autonomía ya se expusieron en el capítulo 4, por lo q
 
 Como se puede ver, la autonomía máxima es de 4.5043 horas. Comparado con el resultado obtenido para vuelo horizontal a nivel del mar, 4.5887 horas, por lo que la disminución de la autonomía debida al cambio de condiciones no resulta muy perjudicial.
 
-\section{Análisis de Varios Tipos de Misiones}
+\section{Análisis de varios tipos de misiones}
 
 En este apartado se expondrán análisis de diversas misiones que interesan que sea capaz de realizar la aeronave, de manera que se obtengan sus actuaciones para las mismas.
 
-\subsection*{Vuelos con Trayectorias de Diferentes Radios}
+\subsection*{Vuelos con trayectorias de diferentes radios}
 
 Otra condición de vuelo interesante es el radio de la trayectoria circular. Las misiones de vigilancia pueden requerir cubrir terrenos mas o menos grandes, con lo que conviene conocer el efecto de la trayectoria en las actuaciones del vehículo. Cabe destacar que se omitirá el análisis a bajas velocidades, ya que en estas condiciones los resultados no dependen igual del radio de la trayectoria.
 
@@ -227,9 +227,9 @@ De estos resultados se puede obtener una conclusión muy clara, para trayectoria
 
 
 
-\subsection*{Triple Carga de Pago con Restricciones a la Posición}
+\subsection*{Triple carga de pago con restricciones a la posición}
 
-En un principio se pensó añadir el análisis de los parámetros de vuelo en función de la posición de la carga, pero los resultados eran prácticamente idénticos a dados en el vuelo horizontal, por lo que su análisis resultaba irrelevante.
+En un principio se pensó añadir el análisis de los parámetros de vuelo en función de la posición de la carga, pero los resultados eran prácticamente idénticos a dados en el vuelo horizontal, por lo que su análisis no aportaba información relevante  al documento.
 Por ello, como último ensayo, se ha querido representar una situación fuera de lo común para comprobar como respondería la aeronave. Dicha situación consiste en lo siguiente:
 
 \begin{itemize}
@@ -259,10 +259,10 @@ Cabe destacar que se considera que la implementación de cada carga permite redu
 		\cellcolor{Gray}Posición transversal de la carga de pago respecto a $O_f$ ($l_y$) & [-0.4 0.4] m \\ \hline
 		\cellcolor{Gray}Posición vertical del suelo del fuselaje ($l_z$) & 0.7678 m \\ \hline
 	\end{tabular}%
-	\caption{Valores másicos, de inercia y de posición de la carga de pago "carga 4".}
+	\caption{Valores másicos, de inercia y de posición de la carga de pago\\ ``carga 4''.}
 	\label{carga4}
 \end{table}%
-\subsubsection*{Efectos de la Integración de la Carga}
+\subsubsection*{Efectos de la integración de la carga}
 
 Primero se procederá a comparar las características del vuelo para el vehículo con y sin la carga 4 embarcada en la posición $l_x=0.4$ m y $l_y=-0.1$ m, suponiendo como en los casos anteriores que el peso total de la aeronave es de 450 kg.
 
@@ -318,7 +318,7 @@ Respecto a los ángulos de Euler, la gráfica \ref{PhiVCSP} indica que el ángul
 Por último, el ángulo de paso colectivo del rotor antipar se ve suavizado con la instalación de la carga 4, disminuyendo en valor absoluto para altas y bajas velocidades hasta 0.005 rad para velocidades cercanas a los 56 m/s.
 
 
-\subsubsection*{Efectos de la Posición de la Carga}
+\subsubsection*{Efectos de la posición de la carga}
 
 Ahora se comprobará como evolucionan los parámetros de vuelo con la posición de la carga 4 embarcada.
 
@@ -390,4 +390,4 @@ Según los datos obtenidos, esta posición será:
 	\item $l_x=0.11$ m
 	\item $l_y=0.05$ m
 \end{itemize}
-El valor de $l_y$ no tiene que ser exactamente el expuesto, pero si debe ser pequeño positivo para optimizar los resultados.
+El valor de $l_y$ no tiene que ser exactamente el expuesto, pero si debe ser pequeño y positivo para optimizar los resultados.

@@ -1,15 +1,15 @@
-\chapter{Desarrollo de un Helicóptero Semilla a Partir de un Helicóptero Base}
+\chapter{Desarrollo del modelo DroneHE}
 
 
-Comenzar el desarrollo del vehículo desde el principio supondría un esfuerzo y trabajo innecesarios, por lo que lo ideal es la obtención de un helicóptero semilla, un modelo que sirva de primera aproximación sobre el que trabajar y hacer modificaciones. Este helicóptero semilla se obtendrá mediante una adimensionalización de las características de un vehículo real y posterior dimensionalización empleando los parámetros que deba poseer el nuevo vehículo.
+Comenzar el desarrollo del vehículo desde el principio supondría un esfuerzo y trabajo innecesarios, por lo que lo ideal es emplear un modelo de helicóptero semilla que sirva para obtener un modelo preliminar del DroneHE. Este helicóptero semilla se obtendrá mediante una adimensionalización de las características de un vehículo real, y mediante una posterior dimensionalización empleando los parámetros que deba poseer el nuevo vehículo, se obtendrá el modelo DroneHE.
 
 Todo este proceso se describirá a lo largo de este capítulo de manera que una vez terminado se tengan los datos necesarios para poder comenzar a realizar simulaciones de vuelo.
 
-\section{Descripción Helicóptero Base}
+\section{Descripción helicóptero base}
 
-El primer paso es elegir un modelo que sirva de base para nuestros cálculos y permita obtener un primer diseño lo mas cercano posible al resultado que se desee. El requisito más importante que debe cumplir esta aeronave será que resulte semejante al diseño que se busca, de manera que pueda reescalarse según las necesidades. Para este proyecto se ha escogido el Bölkow Bo 105, un helicóptero utilitario monorrotor, cuyas características recogidas en \citet{Padfield} se exponen a continuación. Cabe indicar que todos los parámetros definidos conformarán una estructura en MATLAB que se empleará en los cálculos.
+El primer paso es elegir un modelo que sirva de base para nuestros cálculos y permita obtener un primer diseño lo mas cercano posible al resultado que se desee. El requisito más importante que debe cumplir esta aeronave será que resulte semejante al diseño que se busca, de manera que pueda reescalarse según las necesidades. Para este proyecto se ha escogido el Bölkow Bo 105, un helicóptero utilitario monorrotor, cuyas características, recogidas en \citet{Padfield}, se exponen a continuación. Cabe indicar que todos los parámetros definidos conformarán una estructura en MATLAB que se empleará en los cálculos.
 
-\subsection{Rotor Principal del Bo 105}
+\subsection{Rotor principal del Bo 105}
 
 Los parámetros necesarios para definir el rotor principal de un helicóptero incluyen datos geométricos, aerodinámicos y de inercia. Los correspondientes al Bo 105 se encuentran recogidos en la tabla \ref{RPBo}.
 Para simplificar los cálculos, la pala se modeliza como sólido rígido, unida al rotor por un muelle de constante $k_\beta$.
@@ -50,7 +50,7 @@ I_\beta & 0 & 0\\
 	\label{RPBo}
 \end{table}
 
-\subsection{Rotor Antipar del Bo 105}
+\subsection{Rotor antipar del Bo 105}
 
 Los parámetros necesarios para definir el rotor antipar de un helicóptero son los mismos que definen el rotor principal, y pueden encontrarse en la tabla \ref{RaBo}.
 Las mismas consideraciones aplicadas al rotor principal a la hora de modelizarlo se aplican al rotor antipar. Además se considera que la masa de la pala se encuentra uniformemente distribuida a lo largo de la envergadura de la misma y que la unión resulta infinitamente rígida en batimiento.
@@ -72,7 +72,7 @@ Las mismas consideraciones aplicadas al rotor principal a la hora de modelizarlo
 		Momento de inercia de la pala en paso ($I_\theta$) & 0.0648 kgm$^2$ \\ \hline
 		Momento de inercia de la pala en arrastre ($I_\zeta$) & 1.8698 kgm$^2$ \\ \hline
 		Posición del centro de gravedad de la pala ($X_{GB}$) & 0.475 m \\ \hline
-		Masa de la pala ($m_b$) & 6 $kg$ \\ \hline
+		Masa de la pala ($m_b$) & 6 kg \\ \hline
 		\cellcolor{Gray}Rigidez en batimiento ($I_\beta$) & $10^{100}$ Nm/rad \\ \hline
 	\end{tabular}%
 	\caption{Valores de diferentes parámetros del rotor antipar de la aeronave Bölkow Bo 105.}
@@ -103,7 +103,7 @@ Los parámetros más relevantes del fuselaje serán aquellos necesarios para la 
 	\label{FBo}
 \end{table}%
 
-La formulación de los coeficientes de fuerzas y momentos es la siguiente:
+La formulación de los coeficientes de fuerzas y momentos sobre el fuselaje es la siguiente:
 
 \begin{equation}
 K_x^f=\frac{-580.6-454\alpha_f+6.2\alpha_f^2+4648.9\alpha_f^3}{\frac{1}{2}\rho V_f^2S_p}
@@ -213,7 +213,7 @@ Para finalizar con la descripción del modelo del helicóptero, la tabla \ref{In
 
 Con este modelo y los parámetros de diseño calculado estadísticamente se generará un modelo inicial que se empleará en las simulaciones para comprobar su desempeño y optimizarlo según las necesidades.
 
-\section{Adimensionalización del Modelo}
+\section{Adimensionalización del modelo}
 
 Una vez esta definido el helicóptero base, es necesario realizar una adimensionalización del modelo para poder obtener luego un modelo válido para el diseño requerido.
 
@@ -238,7 +238,7 @@ Una vez definida la formulación adimensional a usar, solo resta adimensionaliza
 
 \subsection{Rotores Principal y Antipar}
 
-Adimensionalizar los parámetros correspondientes a ambos rotores requiere el uso de magnitudes características de longitud y velocidad, que serán el radio del rotor y la velocidad en punta de pala, pero además el modelo computacional de \emph{HEROES} requerirá de los parámetros atmosféricos a nivel del mar (H=0) de gravedad, $g$, densidad, $\rho$, viscosidad dinámica del fluido y velocidad del sonido.
+Adimensionalizar los parámetros correspondientes a ambos rotores requiere el uso de magnitudes características de longitud y velocidad, que serán el radio del rotor y la velocidad en punta de pala, pero además el modelo computacional de HEROES requerirá de los parámetros atmosféricos a nivel del mar (H=0) de gravedad, $g$, densidad, $\rho$, viscosidad dinámica del fluido y velocidad del sonido.
 
 Al adimensionalizar la estructura del helicóptero base se obtendrán para cada rotor estructuras con los siguientes parámetros:
 
@@ -294,12 +294,10 @@ El caso de los estabilizadores es similar al del fuselaje, únicamente será nec
 
 \begin{multicols}{2}
 	\begin{itemize}
-		\item Estabilizador vertical
-		\subitem Cuerda del perfil adimensional: $c_{ev}/R$
-		\subitem Superficie adimensional: $\frac{S_{ev}}{\pi R^2}$
-		\item Estabilizador horizontal
-		\subitem Cuerda del perfil adimensional: $c_{eh}/R$
-		\subitem Superficie adimensional: $\frac{S_{eh}}{\pi R^2}$
+		\item Cuerda del perfil adimensional del estabilizador vertical: $c_{ev}/R$
+		\item Superficie adimensional del estabilizador vertical: $\frac{S_{ev}}{\pi R^2}$
+		\item Cuerda del perfil adimensional del estabilizador horizontal: $c_{eh}/R$
+		\item Superficie adimensional del estabilizador horizontal: $\frac{S_{eh}}{\pi R^2}$
 	\end{itemize}
 \end{multicols}
 
@@ -325,69 +323,78 @@ Por otro lado, al adimensionalizar los parámetros de inercia quedarán como se 
 
 Con todos estos datos y los parámetros de diseño radio del rotor, velocidad de giro de rotor, numero de palas del rotor principal y antipar y peso del nuevo helicóptero, se puede obtener un modelo completo para el nuevo diseño.
 
-\section{Limitaciones a la Velocidad de Giro del Rotor Principal}
+\section{Limitaciones a $\Omega$}
 
-Aunque se han calculado estadísticamente los parámetros que definen en una primera aproximación el vehículo a diseñar, debido a la falta de datos de helicópteros existentes similares y a la dispersión de los pocos de los que se dispone suficiente información, es probable que el modelo no resulte realista y no pueda llegar a funcionar correctamente en una situación de vuelo fuera de la simulación. El parámetro del que menos información se dispone es de la velocidad de giro de los rotores de los modelos de las base de datos, por lo que conviene encontrar un valor que pueda resultar mejor. Para ello se ha empleado un concepto físico importante como es el Mach crítico $M_{crit}$ en la punta de pala.
+Aunque se han calculado estadísticamente los parámetros que definen en una primera aproximación el vehículo a diseñar, debido al reducido número de helicópteros existentes similares cuyos datos son públicos y a la dispersión de los datos de estos, es probable que el modelo no resulte realista y no pueda llegar a funcionar correctamente en una situación de vuelo fuera de la simulación. El parámetro del que menos información se dispone es de la velocidad de giro de los rotores principales de los modelos de la base de datos, por lo que conviene encontrar un valor que pueda resultar lo mejor posible para el diseño. Para ello se ha empleado un concepto físico importante como es el Mach crítico $M_{crit}$ en la punta de pala.
 
 La limitación en la velocidad de giro del rotor viene dada por la aparición de efectos supersónicos en las puntas de las palas del mismo. Estos efectos, como puedan ser ondas de choque, empeoran el comportamiento de las palas, pueden hacerlas entrar en pérdida e incluso provocar daños estructurales debido a cargas elevadas.
 Por esto es común establecer un límite conocido como $M_{crit}$ basado en la velocidad $\Omega R$, es decir, la velocidad de avance de las puntas de las palas. Este límite suele ser del orden de 0,4 para vuelo estacionario y 0,8 para vuelo en avance. 
-Para poder dar un valor lo más óptimo posible, se ha realizado una simulación de vuelo estacionario de un vehículo con las características obtenidas estadísticamente, a excepción de la velocidad de giro del rotor principal y del radio del mismo, que se han variado para poder obtener el mejor valor posible de estos parámetros.
+Para poder dar un valor lo más óptimo posible de la velocidad de giro del rotor principal, se ha realizado una simulación de vuelo estacionario de un vehículo con las características obtenidas estadísticamente, a excepción de la velocidad de giro del rotor principal y del radio del mismo, que se han variado para poder obtener el mejor valor posible de estos parámetros.
 
 
 \begin{figure}
 	\centering
 	\includegraphics[width=90mm]{graficos/3d3d}
-	\caption{Consumo de Potencia de la aeronave en función de la velocidad de giro del rotor y el radio del mismo.}
+	\caption{Consumo de potencia de la aeronave en función de la velocidad de giro del rotor y el radio del mismo.}
 	\label{ORP}
 \end{figure}
 \begin{figure}
 	\centering
 	\includegraphics[width=90mm]{graficos/3d2d}
-	\caption{Consumo de Potencia de la aeronave en función de la velocidad de giro del rotor y el radio del mismo junto a la línea de las potencias mínimas para cada configuración concreta de $\Omega$ y la limitación de $\Omega$ a causa del $M_{crit}$ (0,4).}
+	\caption{Consumo de potencia de la aeronave en función de la velocidad de giro del rotor y el radio del mismo junto a la línea de las potencias mínimas para cada configuración concreta de $\Omega$ y la limitación de $\Omega$ a causa del $M_{crit}$ (0.4).}
 	\label{ORPM}
 \end{figure}
 
 La gráfica \ref{ORP} representa la superficie que da un valor de potencia de la aeronave para cada $\Omega$ y $R$ del rotor. Con esto es posible observar los valores mínimos de potencia, lo que nos permite elegir unos valores de $\Omega$ y $R$ que optimicen la potencia necesaria.
-Sin embargo, al añadir la limitación del $M_{crit}$ las opciones de configuración disponibles se ven reducidas a aquellas que la cumplan. La gráfica \ref{ORPM} representa la superficie de la gráfica \ref{ORP} sobre el plano $\Omega R$ y encima la anterior limitación junto con una línea que representa las potencias mínimas absolutas para cada configuración de $\Omega$. Aunque estas líneas no se crucen, para los valores más bajos de $\Omega$ se encuentran suficientemente cerca como para pensar que las potencias necesarias son lo suficientemente bajas.
-Se observa claramente que los valores de potencia necesaria se reducen con $\Omega$ y con el aumento de radio, por lo que en primera instancia el menor valor dado, quedando automáticamente definido el radio del rotor.
+Sin embargo, al añadir la limitación del $M_{crit}$ las opciones de configuración disponibles se ven reducidas a aquellas que la cumplan. La gráfica \ref{ORPM} representa la superficie de la gráfica \ref{ORP} sobre el plano $\Omega R$ y encima la anterior limitación junto con una línea que representa las potencias mínimas absolutas para cada valor de $\Omega$. Aunque estas líneas no se crucen, para los valores más bajos de $\Omega$ se encuentran suficientemente cerca como para pensar que este puede ser un punto de diseño muy cercano al óptimo.
+Se observa claramente que los valores de potencia necesaria se reducen con $\Omega$ y con el aumento del radio, por lo que en primera instancia el menor valor dado para $\Omega$ resulta ser el mejor para el diseño en términos de potencia necesaria, quedando automáticamente definido el radio del rotor del modelo, siendo este el máximo posible que cumpla con la limitación del velocidad en punta de pala.
 
 \begin{itemize}
 	\item Velocidad de giro del rotor principal $\Omega$ = 45 $rad/s$
 	\item Radio del rotor principal $R$ = 3.0248 $m$
 \end{itemize}
 
-\section{Obtención del modelo del helicóptero \emph{DroneHE}}
+\section{Obtención del modelo del helicóptero DroneHE}
 
-El objetivo es obtener un modelo de helicóptero lo más próximo posible al diseño final sobre el que se puedan realizar unas primeras simulaciones de vuelo para comprobar si es válido y, en caso contrario, modificar el diseño para alcanzar unos resultados mejores. Su obtención se consigue empleando la herramienta \emph{HEROES}, que primero adimensionalizará el helicóptero base ya definido en el capítulo como se ha visto, para después dimensionar un nuevo modelo, al que llamaremos \emph{DroneHE}, usando los parámetros que hemos obtenido. Los resultados se recogen en las tablas \ref{RPHS}, \ref{RaHS}, \ref{FHS}, \ref{EHS}, \ref{GeHs} y \ref{InHS}.
-Cabe destacar que se exponen los mismos datos que del Bölkow Bo 105 para poder realizar una comparación rápida de ambos modelos. Además, se han conservado todas las consideraciones hechas a la hora de modelizar el helicóptero base, así como las ecuaciones que permiten calcular los coeficientes adimensionales de fuerzas y momentos aerodinámicos. Los factores de pérdidas en las trasmisiones también se conservan en ambos modelos, siendo estos:
+El objetivo es obtener un modelo de helicóptero lo más próximo posible al diseño final sobre el que se puedan realizar unas primeras simulaciones de vuelo para comprobar si cumple con resultados esperados y, en caso contrario, modificar el diseño para alcanzar unos resultados mejores. Su obtención se consigue empleando la herramienta HEROES, que empleando el modelo adimensional del helicóptero semilla, generará el modelo DroneHE dimensionalizándolo, empleando para ello los parámetros de diseño siguientes: 
 
+\begin{itemize}
+	\item Número de palas del rotor principal $b$
+	\item Radio del rotor principal $R$
+	\item Velocidad de giro del rotor principal $\Omega$
+	\item Peso de la aeronave $W$
+	\item Número de palas del rotor antipar $btr$
+\end{itemize}
+
+Además, se necesitará un modelo de atmósfera y una altitud para poder realizar la dimensionalización.
+
+Los resultados se recogen en las tablas \ref{RPHS}, \ref{RaHS}, \ref{FHS}, \ref{EHS}, \ref{GeHs} y \ref{InHS}. Cabe destacar que se exponen los mismos datos que del Bölkow Bo 105 para poder realizar una comparación rápida de ambos modelos. Además, se han conservado todas las consideraciones hechas a la hora de modelizar el helicóptero base, así como las ecuaciones que permiten calcular los coeficientes adimensionales de fuerzas y momentos aerodinámicos. Los factores de pérdidas en las trasmisiones también se conservan en ambos modelos, siendo estos:
 \begin{itemize}
 	\item $\eta_{Trp}=0.12$
 	\item $\eta_{Tra}=0.07$
 \end{itemize}
-
 \begin{table}[]
 	\centering
 	\begin{tabular}{|>{\columncolor{Gray}}c|c|}
 		\hline
-		Radio de las palas ($R$) & 3.0248 $m$ \\ \hline
-		Excentricidad ($e$) & 0 $m$ \\ \hline
+		Radio de las palas ($R$) & 3.0248 m \\ \hline
+		Excentricidad ($e$) & 0 m \\ \hline
 		Número de palas ($b$) & 2 \\ \hline
 		Torsión lineal de los perfiles ($\theta_1$) & -0.14 \\ \hline
-		Pendiente de la curva de sustentación ($\alpha$) & 6.113 $rad^{-1}$ \\ \hline
+		Pendiente de la curva de sustentación ($\alpha$) & 6.113 rad$^{-1}$ \\ \hline
 		\cellcolor{Gray} & 0.0074 \\ \cline{2-2} 
-		\cellcolor{Gray} & 0.0096 $rad^{-1}$ \\ \cline{2-2} 
-		\multirow{-3}{*}{\cellcolor{Gray}Parámetros de la polar ($\delta_0$, $\delta_1$, $\delta_2$)} & 0.294 $rad^{-2}$ \\ \hline
-		Velocidad de giro del rotor ($\Omega$) & 45 $rad/s$ \\ \hline
-		Cuerda del perfil ($c$) & 0.3327 $m$ \\ \hline
-		Momento de inercia de la pala en batimiento ($I_\beta$) & 41.1204 $kgm^2$ \\ \hline
-		Momento de inercia de la pala en paso ($I_\theta$) & 01.2423 $kgm^2$ \\ \hline
-		Momento de inercia de la pala en arrastre ($I_\zeta$) & 42.3627 $kgm^2$ \\ \hline
-		Posición del centro de gravedad de la pala ($x_{GB}$) & 1.5063 $m$ \\ \hline
-		Masa de la pala ($m_b$) & 18.7982 $kg$ \\ \hline
-		Rigidez en batimiento ($k_\beta$) & 10330 $Nm/rad$ \\ \hline
+		\cellcolor{Gray} & 0.0096 rad$^{-1}$ \\ \cline{2-2} 
+		\multirow{-3}{*}{\cellcolor{Gray}Parámetros de la polar ($\delta_0$, $\delta_1$, $\delta_2$)} & 0.294 rad$^{-2}$ \\ \hline
+		Velocidad de giro del rotor ($\Omega$) & 45 rad/s \\ \hline
+		Cuerda del perfil ($c$) & 0.3327 m \\ \hline
+		Momento de inercia de la pala en batimiento ($I_\beta$) & 41.1204 kgm$^2$ \\ \hline
+		Momento de inercia de la pala en paso ($I_\theta$) & 01.2423 kgm$^2$ \\ \hline
+		Momento de inercia de la pala en arrastre ($I_\zeta$) & 42.3627 kgm$^2$ \\ \hline
+		Posición del centro de gravedad de la pala ($x_{GB}$) & 1.5063 m \\ \hline
+		Masa de la pala ($m_b$) & 18.7982 kg \\ \hline
+		Rigidez en batimiento ($k_\beta$) & 10330 Nm/rad \\ \hline
 	\end{tabular}
-	\caption{Valores de diferentes parámetros del rotor principal del \emph{DroneHE}.}
+	\caption{Valores de diferentes parámetros del rotor principal del DroneHE.}
 	\label{RPHS}
 \end{table}
 
@@ -395,24 +402,24 @@ Cabe destacar que se exponen los mismos datos que del Bölkow Bo 105 para poder 
 	\centering
 	\begin{tabular}{|>{\columncolor{Gray}}c|c|}
 		\hline
-		Radio de las palas ($R$) & 0.5853 $m$ \\ \hline
-		Excentricidad ($e$) & 0 $m$ \\ \hline
+		Radio de las palas ($R$) & 0.5853 m \\ \hline
+		Excentricidad ($e$) & 0 m \\ \hline
 		Número de palas ($b$) & 2 \\ \hline
 		Torsión lineal de los perfiles ($\theta_1$) & \cellcolor[rgb]{ 1,  1,  1}0 \\ \hline
-		Pendiente de la curva de sustentación ($\alpha$) & 5.7 $rad^{-1}$ \\ \hline
+		Pendiente de la curva de sustentación ($\alpha$) & 5.7 rad$^{-1}$ \\ \hline
 		\cellcolor{Gray} & 0.008 \\ \cline{2-2}
-		\cellcolor{Gray} & 0.0096 $rad^{-1}$ \\ \cline{2-2}
-		\multirow{-3}{*}{\cellcolor{Gray}Parámetros de la polar ($\delta_0$, $\delta_1$, $\delta_2$)} & 0.294 $rad^{-2}$ \\ \hline
-		Velocidad de giro del rotor ($\Omega$) & \cellcolor[rgb]{ 1,  1,  1}235.6194 $rad/s$ \\ \hline
-		Cuerda del perfil ($c$) & \cellcolor[rgb]{ 1,  1,  1}0.1109 $m$ \\ \hline
-		Momento de inercia de la pala en batimiento ($I_\beta$) & 0.1602 $kgm^2$ \\ \hline
-		Momento de inercia de la pala en paso ($I_\theta$) & 0.0058 $kgm^2$ \\ \hline
-		Momento de inercia de la pala en arrastre ($I_\zeta$) & 0.1659 $kgm^2$ \\ \hline
-		Posición del centro de gravedad de la pala ($X_{GB}$) & 0.2926 $m$ \\ \hline
-		Masa de la pala ($m_b$) & 1.4029 $kg$ \\ \hline
-		\cellcolor{Gray}Rigidez en batimiento ($I_\beta$) & $9.1151^{98}$ $Nm/rad$ \\ \hline
+		\cellcolor{Gray} & 0.0096 rad$^{-1}$ \\ \cline{2-2}
+		\multirow{-3}{*}{\cellcolor{Gray}Parámetros de la polar ($\delta_0$, $\delta_1$, $\delta_2$)} & 0.294 rad$^{-2}$ \\ \hline
+		Velocidad de giro del rotor ($\Omega$) & \cellcolor[rgb]{ 1,  1,  1}235.6194 rad/s \\ \hline
+		Cuerda del perfil ($c$) & \cellcolor[rgb]{ 1,  1,  1}0.1109 m \\ \hline
+		Momento de inercia de la pala en batimiento ($I_\beta$) & 0.1602 kgm$^2$ \\ \hline
+		Momento de inercia de la pala en paso ($I_\theta$) & 0.0058 kgm$^2$ \\ \hline
+		Momento de inercia de la pala en arrastre ($I_\zeta$) & 0.1659 kgm$^2$ \\ \hline
+		Posición del centro de gravedad de la pala ($X_{GB}$) & 0.2926 m \\ \hline
+		Masa de la pala ($m_b$) & 1.4029 kg \\ \hline
+		\cellcolor{Gray}Rigidez en batimiento ($I_\beta$) & $9.1151^{98}$ Nm/rad \\ \hline
 	\end{tabular}%
-	\caption{Valores de diferentes parámetros del rotor antipar del \emph{DroneHE}.}
+	\caption{Valores de diferentes parámetros del rotor antipar del DroneHE.}
 	\label{RaHS}
 \end{table}%
 
@@ -420,12 +427,12 @@ Cabe destacar que se exponen los mismos datos que del Bölkow Bo 105 para poder 
 	\centering
 	\begin{tabular}{|>{\columncolor{Gray}}c|c|}
 		\hline
-		\cellcolor{Gray}Longitud del fuselaje ($l_f$) & \cellcolor[rgb]{ 1,  1,  1}5.2734 $m$ \\ \hline
-		\cellcolor{Gray}Superficie en planta del fuselaje ($S_p$)& \cellcolor[rgb]{ 1,  1,  1}2.8464 $m^2$ \\ \hline
-		\cellcolor{Gray}Superficie lateral del fuselaje ($S_l$) & \cellcolor[rgb]{ 1,  1,  1}3.1501 \\ \hline
+		\cellcolor{Gray}Longitud del fuselaje ($l_f$) & \cellcolor[rgb]{ 1,  1,  1}5.2734 m \\ \hline
+		\cellcolor{Gray}Superficie en planta del fuselaje ($S_p$)& \cellcolor[rgb]{ 1,  1,  1}2.8464 m$^2$ \\ \hline
+		\cellcolor{Gray}Superficie lateral del fuselaje ($S_l$) & \cellcolor[rgb]{ 1,  1,  1}3.1501 m$^2$ \\ \hline
 		\cellcolor{Gray}Factor de interferencia del rotor principal sobre el fuselaje ($k_f$) & \cellcolor[rgb]{ 1,  1,  1}1 \\ \hline
 	\end{tabular}%
-	\caption{Valores de los parámetros del fuselaje del \emph{DroneHE}.}
+	\caption{Valores de los parámetros del fuselaje del DroneHE.}
 	\label{FHS}
 \end{table}%
 
@@ -433,14 +440,14 @@ Cabe destacar que se exponen los mismos datos que del Bölkow Bo 105 para poder 
 	\centering
 	\begin{tabular}{|>{\columncolor{Gray}}c|c|}
 		\hline
-		\cellcolor{Gray}Cuerda del estabilizador vertical ($c_{ev}$) & \cellcolor[rgb]{ 1,  1,  1}0.1848 $m$ \\ \hline
-		\cellcolor{Gray}Superficie del estabilizador vertical ($S_{ev}$)& \cellcolor[rgb]{ 1,  1,  1}0.3055 $m^2$ \\ \hline
-		\cellcolor{Gray}Ángulo de calado del estabilizador vertical ($\theta_{ev}$) & \cellcolor[rgb]{ 1,  1,  1}0.0812 $rad$ \\ \hline
-		\cellcolor{Gray}Cuerda del estabilizador horizontal ($c_{ev}$) & \cellcolor[rgb]{ 1,  1,  1}0.2464 $m$ \\ \hline
-		\cellcolor{Gray}Superficie del estabilizador horizontal/2 ($S_{ev}$)& \cellcolor[rgb]{ 1,  1,  1}0.1524 $m^2$ \\ \hline
-		\cellcolor{Gray}Ángulo de calado del estabilizador horizontal ($\theta_{ev}$) & \cellcolor[rgb]{ 1,  1,  1}0.0698 $rad$ \\ \hline
+		\cellcolor{Gray}Cuerda del estabilizador vertical ($c_{ev}$) & \cellcolor[rgb]{ 1,  1,  1}0.1848 m \\ \hline
+		\cellcolor{Gray}Superficie del estabilizador vertical ($S_{ev}$)& \cellcolor[rgb]{ 1,  1,  1}0.3055 m$^2$ \\ \hline
+		\cellcolor{Gray}Ángulo de calado del estabilizador vertical ($\theta_{ev}$) & \cellcolor[rgb]{ 1,  1,  1}0.0812 rad \\ \hline
+		\cellcolor{Gray}Cuerda del estabilizador horizontal ($c_{ev}$) & \cellcolor[rgb]{ 1,  1,  1}0.2464 m \\ \hline
+		\cellcolor{Gray}Superficie del estabilizador horizontal/2 ($S_{ev}$)& \cellcolor[rgb]{ 1,  1,  1}0.1524 m$^2$ \\ \hline
+		\cellcolor{Gray}Ángulo de calado del estabilizador horizontal ($\theta_{ev}$) & \cellcolor[rgb]{ 1,  1,  1}0.0698 rad \\ \hline
 	\end{tabular}%
-	\caption{Valores de diferentes parámetros de los estabilizadores vertical y horizontal del \emph{DroneHE}. La superficie del estabilizador horizontal corresponde a la mitad ya que el mismo esta dividido en 2 partes al haber usado como base el Bölkow Bo 105.}
+	\caption{Valores de diferentes parámetros de los estabilizadores vertical y horizontal del DroneHE. La superficie del estabilizador horizontal corresponde a la mitad ya que el mismo esta dividido en 2 partes al haber usado como base el Bölkow Bo 105.}
 	\label{EHS}
 \end{table}%
 
@@ -473,7 +480,7 @@ Cabe destacar que se exponen los mismos datos que del Bölkow Bo 105 para poder 
 		\cellcolor{Gray}Componente $y$ del vector $\boldsymbol{O_fE_h}$ parte izqda. ($d_{eh,i}$) & -0.597 m \\ \hline
 		\cellcolor{Gray}Componente $z$ del vector $\boldsymbol{O_fE_h}$ parte izqda. ($h_{eh,i}$) & 0 m \\ \hline
 	\end{tabular}%
-	\caption{Valores de diferentes parámetros geométricos del \emph{DroneHE}.}
+	\caption{Valores de diferentes parámetros geométricos del DroneHE.}
 	\label{GeHs}
 \end{table}%
 
@@ -481,22 +488,22 @@ Cabe destacar que se exponen los mismos datos que del Bölkow Bo 105 para poder 
 	\centering
 	\begin{tabular}{|>{\columncolor{Gray}}c|c|}
 		\hline
-		\cellcolor{Gray}Peso del helicóptero ($W$) & \cellcolor[rgb]{ 1,  1,  1}4413 $N$ \\ \hline
-		\cellcolor{Gray}Momento de inercia del eje $x$ ($I_{x}$) & \cellcolor[rgb]{ 1,  1,  1}127.1591 $kg\cdot m^2$ \\ \hline
-		\cellcolor{Gray}Momento de inercia del eje $y$ ($I_{y}$) & \cellcolor[rgb]{ 1,  1,  1}441.2856 $kg\cdot m^2$ \\ \hline
-		\cellcolor{Gray}Momento de inercia del eje $z$ ($I_{z}$) & \cellcolor[rgb]{ 1,  1,  1}363.7301 $kg\cdot m^2$ \\ \hline
-		\cellcolor{Gray}Producto de inercia $xy$ ($I_{xy}$)& \cellcolor[rgb]{ 1,  1,  1}0 $kg\cdot m^2$ \\ \hline
-		\cellcolor{Gray}Producto de inercia $xz$ ($I_{xz}$)& \cellcolor[rgb]{ 1,  1,  1}58.566 $kg\cdot m^2$ \\ \hline
-		\cellcolor{Gray}Producto de inercia $yz$ ($I_{yz}$)& \cellcolor[rgb]{ 1,  1,  1}0 $kg\cdot m^2$ \\ \hline
+		\cellcolor{Gray}Peso del helicóptero ($W$) & \cellcolor[rgb]{ 1,  1,  1}4413 N \\ \hline
+		\cellcolor{Gray}Momento de inercia del eje $x$ ($I_{x}$) & \cellcolor[rgb]{ 1,  1,  1}127.1591 kg$\cdot$m$^2$ \\ \hline
+		\cellcolor{Gray}Momento de inercia del eje $y$ ($I_{y}$) & \cellcolor[rgb]{ 1,  1,  1}441.2856 kg$\cdot$m$^2$ \\ \hline
+		\cellcolor{Gray}Momento de inercia del eje $z$ ($I_{z}$) & \cellcolor[rgb]{ 1,  1,  1}363.7301 kg$\cdot$m$^2$ \\ \hline
+		\cellcolor{Gray}Producto de inercia $xy$ ($I_{xy}$)& \cellcolor[rgb]{ 1,  1,  1}0 kg$\cdot$m$^2$ \\ \hline
+		\cellcolor{Gray}Producto de inercia $xz$ ($I_{xz}$)& \cellcolor[rgb]{ 1,  1,  1}58.566 kg$\cdot$m$^2$ \\ \hline
+		\cellcolor{Gray}Producto de inercia $yz$ ($I_{yz}$)& \cellcolor[rgb]{ 1,  1,  1}0 kg$\cdot$m$^2$ \\ \hline
 	\end{tabular}%
-	\caption{Valores de inercia del \emph{DroneHE}.}
+	\caption{Valores de inercia del DroneHE.}
 	\label{InHS}
 \end{table}%
 
-Se observa claramente en los resultados que el proceso de generación del modelo del helicóptero semilla ha sido correcto, estando todas sus magnitudes dimensionalizadas acorde a los requisitos de diseño, especialmente la masa y el tamaño, que son significativamente diferentes al helicóptero base.
+Se observa claramente en los resultados que el proceso de generación del modelo del DroneHE ha sido correcto, estando todas sus magnitudes dimensionalizadas acorde a los requisitos de diseño, especialmente la masa y el tamaño, que son significativamente diferentes al helicóptero base.
 También se observa que hay parámetros que se han mantenido iguales en ambos diseños. Estos parámetros son, por ejemplo, los ángulos de calado de las palas o la pendiente de la curva de sustentación de las palas. Todas estas características son los parámetros adimensionales de diseño, y no dependen del tamaño del vehículo sino de elecciones de diseño como puedan ser los perfiles que se utilicen en las palas del rotor.
 
-\section{Modelización de la Carga de Pago}
+\section{Modelización de la carga de pago}
 
 La modelización realizada al DroneHE supone que la totalidad de equipos necesarios para el vuelo, incluyendo ordenadores y sistemas de comunicación e incluso combustible, ya están embarcados, pero aún falta la carga de pago, que en un helicóptero de vigilancia será una cámara o un sistema de cámaras.
 
@@ -530,7 +537,7 @@ Especificaciones técnicas
 	\begin{itemize}
 		\item Diámetro: 300 mm
 		\item Peso: 19 kg
-		\item Requerimientos de potencia: 22-36 V, 100-320 W
+		\item Requerimientos de potencia: 22-36 VDC, 100-320 W
 	\end{itemize}
 \end{minipage}
 
@@ -579,7 +586,7 @@ En la tabla \ref{tablaPL} se recogen las características másicas y de inercia 
 	\label{tablaPL}
 \end{table}%
 
-\section{Integración de la Carga de Pago}
+\section{Integración de la carga de pago}
 
 A la hora de integrar la carga de pago, es muy importante conocer la posición de la misma respecto al centro de masas del helicóptero. Para comprobar que posición puede resultar más favorable, en la tabla \ref{CGPL} se indica un rango de posiciones que se comprobarán en simulaciones posteriores para hallar una posición optima. La posición según el eje $z$ será fija ya que se situará en el suelo del fuselaje en todo momento.
 
@@ -632,7 +639,7 @@ I_y^{pl}=I_y^{pl0}+M_{pl}\cdot(l_x-X_{CG}^{he})\cdot(l_z-Z_{CG}^{he})
 I_z^{pl}=I_z^{pl0}+M_{pl}\cdot(l_x-X_{CG}^{he})\cdot(l_y-Y_{CG}^{he})
 \end{equation}
 
-El último paso para la integración de la carga de pago consiste en el calculo del tensor de inercia del helicóptero respecto al nuevo centro de gravedad, que se puede calcular con las ecuaciones siguientes:
+El último paso para la integración de la carga de pago consiste en el cálculo del tensor de inercia del helicóptero respecto al nuevo centro de gravedad, que se puede calcular con las ecuaciones siguientes:
 
 \begin{equation}
 I_x^{he}=I_x^{he0}+M_{pl}\cdot[(y_{CG}^{he0}-Y_{CG}^{he})^2+(z_{CG}^{he0}-Z_{CG}^{he})^2]

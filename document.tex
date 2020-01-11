@@ -12,7 +12,7 @@
 \usepackage{graphicx}
 \usepackage{tabularx}
 \usepackage{booktabs}
-\usepackage{afterpage}
+%\usepackage{afterpage}
 \usepackage{caption}
 \captionsetup[figure]{labelfont={bf,it},textfont={it},font=small,indention=0.5cm}
 \captionsetup[table]{labelfont={bf,it},textfont={it},font=small,indention=0.5cm}
@@ -47,11 +47,11 @@
 %\setlength{\headheight}{13.6pt} % Customize the height of the header
 
 
-\usepackage{titlesec, blindtext, color}
-\definecolor{gray75}{gray}{0.75}
+%\usepackage{titlesec, blindtext, color}
+%\definecolor{gray75}{gray}{0.75}
 \newcommand{\hsp}{\hspace{20pt}}
 %\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
-\setcounter{secnumdepth}{4}
+%\setcounter{secnumdepth}{4}
 %\usepackage[Lenny]{fncychap}
 
 
@@ -60,9 +60,10 @@
 
 \setlength{\parskip}{\baselineskip}
 \includepdf[pages=-]{Portadas/Portadadefinitiva}
+\thispagestyle{empty}
 
 %Agradecimientos
-%\input{Agradecimientos/Agradecimientos}
+\input{Agradecimientos/Agradecimientos}
 
 \tableofcontents
 

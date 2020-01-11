@@ -1,7 +1,7 @@
 \definecolor{Gray2}{rgb}{ .851,  .851,  .851}
-\chapter{Vuelo Horizontal}
+\chapter{Vuelo horizontal}
 
-Las condiciones para el vuelo rectilíneo son sencillas: la velocidad vertical ha de ser nula, mientras que la horizontal no. Con estas condiciones y a nivel del mar se pueden obtener las gráficas \ref{PMVH}, \ref{ControlVH}, \ref{EulerVH} y \ref{PVH}, que ofrecen una primera aproximación del rendimiento de la aeronave en configuración sin carga de pago. De ellas se puede deducir que el valor de potencia total mínimo es de 27,307 kW, y se da para una velocidad de vuelo de 28.73 m/s. Para calcular la velocidad máxima de avance es necesario obtener características del motor, el cual no se ha decidido, por lo que, para tener unos valores orientativos, se ha optado por emplear los datos del motor que monta el Cicaré 7B, un helicóptero de peso similar al vehículo a diseñar. El motor en cuestión es el ROTAX 912 ULS, un motor de 4 tiempos y 4 cilindros, con un consumo especifico de 285 g/kW$\cdot$ h a una potencia máxima continua de 58 kW a 5500 rpm \citep{ROTAX}. Con esta limitación reflejada en la gráfica \ref{PMVH} se puede observar que el motor, cuya potencia máxima continua disponible es de 58 kW, permite volar a velocidades de hasta 68.28 m/s en estas condiciones.
+Las condiciones para el vuelo rectilíneo son sencillas: la velocidad vertical ha de ser nula, mientras que la horizontal no. Con estas condiciones y a nivel del mar se pueden obtener las gráficas \ref{PMVH}, \ref{PVH}, \ref{ControlVH} y \ref{EulerVH}, que ofrecen una primera aproximación del rendimiento de la aeronave en configuración sin carga de pago. De ellas se puede deducir que el valor de potencia total mínimo es de 27.307 kW y se da para una velocidad de vuelo de 28.73 m/s. Para calcular la velocidad máxima de avance es necesario obtener las características del motor, por lo que para tener unos valores orientativos, se ha optado por emplear los datos del motor que monta el Cicaré 7B, un helicóptero de peso similar al vehículo a diseñar. El motor en cuestión es el ROTAX 912 ULS, un motor de 4 tiempos y 4 cilindros, con un consumo especifico de 285 g/kW$\cdot$ h a una potencia máxima continua de 58 kW a 5500 rpm \citep{ROTAX}. Con esta limitación reflejada en la gráfica \ref{PMVH} se puede observar que el motor, cuya potencia máxima continua disponible es de 58 kW, permite volar a velocidades de hasta 68.28 m/s en estas condiciones.
 
 \begin{figure}
 	\centering
@@ -28,22 +28,23 @@ Las condiciones para el vuelo rectilíneo son sencillas: la velocidad vertical h
 	\label{EulerVH}
 \end{figure}
 
-\section{Autonomía de Vuelo}
+\section{Autonomía de vuelo}
 
 Con estos datos se puede hacer una estimación de la autonomía del vehículo. 
-Para poder obtener el consumo específico del motor en las condiciones de vuelo de máxima autonomía, se emplea el modelo recogido en \citet{Cuerva}, que calcula el consumo en función de la potencia necesaria para el vuelo.
+Para poder obtener el consumo específico del motor en las condiciones de vuelo de máxima autonomía, se emplea el modelo recogido en \citet{Cuerva}, que calcula el consumo en función de la potencia necesaria:
 \begin{equation}
 	c_e(P)=\frac{c_{e,P_{max}}}{1+\frac{K_m}{c_{e,P_{max}}}(1-\frac{P_{max}}{P(t)})}
 	\label{consumo}
 \end{equation}
+
 Donde $c_e$ es el consumo específico al régimen de vuelo considerado, $c_{e,P_{max}}$ el consumo específico del motor en régimen de funcionamiento de máxima potencia, $P_{max}$ la potencia máxima continua capaz de ofrecer el motor y $P$ la potencia necesaria para el vuelo considerado.
-$K_m$ es un parámetro que mide la eficiencia del motor, que en motores muy eficientes es del orden de 8.33$\cdot$10$^-9$ kg/W$\cdot$s (0.03 kg/kW$\cdot$h), siendo más frecuente el valor 1.39$\cdot$10$^-8$ kg/W$\cdot$s (0.05 kg/kW$\cdot$h).
+$K_m$ es un parámetro que mide la eficiencia del motor, que en motores muy eficientes es del orden de 8.33$\cdot$10$^-9$ kg/W$\cdot$s (0.03 kg/kW$\cdot$h).
 Además se suponen unas cargas de combustible del 9\% del MTOW del vehículo. 
 
-Lo siguiente es decidir un modelo de cálculo de la autonomía, ya que no se dispone de datos suficientes para hacer unos cálculos exactos,ni estos son necesarios en una fase de diseño preliminar. La hipótesis básica es considerar las masa del vehículo constante durante el vuelo, cosa que no es así por el consumo del propio combustible, pero simplificará los cálculos en gran medida.
-Para los cálculos se empleará el método del equilibrado del helicóptero, que permite incluir gran cantidad de información en los cálculos y por tanto aumentar la fiabilidad de estos. Como se desarrollará a continuación, la complejidad de este método reside en el propio equilibrado del helicóptero, que permitirá obtener el valor de potencia requerido para el vuelo, a partir del cual el cálculo de la autonomía resulta trivial.
+Lo siguiente es decidir un modelo de cálculo de la autonomía, ya que no se dispone de datos suficientes para hacer unos cálculos exactos, ni estos son necesarios en una fase de diseño preliminar. La hipótesis básica es considerar las masa del vehículo constante durante el vuelo, cosa que no es así por el consumo del propio combustible, pero simplificará los cálculos en gran medida.
+Para los cálculos se empleará el método del equilibrado del helicóptero, que permite incluir gran cantidad de información en los cálculos y, por tanto, aumentar la fiabilidad de estos. Como se desarrollará a continuación, la complejidad de este método reside en el propio equilibrado del helicóptero, que permitirá obtener el valor de potencia requerido para el vuelo, a partir del cual el cálculo de la autonomía resulta trivial.
 
-En \citet{Filippone} se expone un método para calcular la autonomía de forma sencilla empleando para ello la potencia (calculada mediante el equilibrado) del vuelo y el consumo específico (calculado mediante la ecuación \ref{autonomia}).
+En \citet{Filippone} se expone un método para calcular la autonomía de forma sencilla, empleando para ello la potencia (calculada mediante el equilibrado) del vuelo y el consumo específico (calculado mediante la ecuación \ref{autonomia}).
 Se define la autonomía específica $E_s$
 \begin{equation}
 	E_s=\frac{\partial t}{\partial m}=\frac{1}{\dot{m_f}}=\frac{1}{P\cdot c_{e}(P)}
@@ -62,13 +63,14 @@ y por tanto
 E_s=\frac{1}{P\cdot c_{e}}=cte
 \label{autespecificacte}
 \end{equation}
+
 Una vez obtenido el valor de la autonomía especifica, el calculo de la autonomía resulta sencillo
 \begin{equation}
 	t_{e}=E_s\cdot \Delta m=E_s\cdot MFM=\frac{MFM}{c_e\cdot P}
 	\label{autonomia}
 \end{equation}
 
-Donde $t_e$ es la autonomía, $MFM$ es la masa máxima de combustible, $C_{e}$ es el consumo específico y $P_e$ la potencia en el régimen de de vuelo.
+Donde $t_e$ es la autonomía, $MFM$ es la masa máxima de combustible, $C_{e}$ es el consumo específico y $P_e$ la potencia en el régimen de vuelo.
 La tabla \ref{auttabla} recoge los datos necesarios para el cálculo de la autonomía máxima y el valor de esta.
 
 \begin{table}[htbp]
@@ -77,7 +79,7 @@ La tabla \ref{auttabla} recoge los datos necesarios para el cálculo de la auton
 		\hline
 		\cellcolor{Gray2}Variable & \cellcolor{Gray2}Valor \\ \hline \hline
 		\cellcolor{Gray}Potencia para máxima autonomía ($P_{min,t_{e,max}}$)  & 27.307 kW \\ \hline
-		\cellcolor{Gray}Velocidad en régimen de máxima autonomía ($V$) & 28.73 m/s \\ \hline
+		\cellcolor{Gray}Velocidad en régimen de máxima autonomía ($V_{t_{e,max}}$) & 28.73 m/s \\ \hline
 		\cellcolor{Gray}Consumo específico en régimen de máxima autonomía ($c_{e,t_{e,max}}$) & 8.98$\cdot$10$^-08$ kg/W$\cdot$s \\ \hline
 		\cellcolor{Gray}Máxima autonomía ($t_{e,max}$) & 4.5887 h \\ \hline
 	\end{tabular}%
@@ -212,14 +214,15 @@ A modo de comprobación, se han calculado las autonomías correspondientes a dis
 %	\label{FEHb}
 %\end{figure}
 
-\section{Posibles Cambios en el Diseño}
+\section{Cambios en el diseño}
 
-Hecho un análisis de los parámetros de vuelo en distintas condiciones para el vuelo horizontal, es hora de comprobar el efecto de algunos parámetros de diseño en el vuelo. Para ello se mostrarán gráficas similares a las anteriores del mismo capítulo para diferentes valores de diferentes características de la aeronave.
+Una vez hecho un análisis de los parámetros de vuelo, en distintas condiciones para el vuelo horizontal, es hora de comprobar el efecto de algunos parámetros de diseño en el vuelo. Para ello se mostrarán gráficas similares a las anteriores de este mismo capítulo para modelos del DroneHE con diferentes parámetros de diseño.
 
-\subsection{Rigidez en Batimiento $\boldsymbol{k_{\beta}}$}
+\subsection{Rigidez en batimiento $\boldsymbol{k_{\beta}}$}
 
-Un parámetro que puede ser interesante cambiar es la rigidez de las palas en batimiento. \emph{HEROES} calcula un valor suponiendo que se quiere mantener una rigidez similar a la del rotor del helicóptero base, es decir, el Bölkow Bo 105.
-Para comprobar su efecto, se ha decidido variar su valor base (denominado como $k_{\beta0}$ en las gráficas) entre el 70\% y el 130\% (tabla \ref{kbetatab}) de su valor. Los resultados de esta simulación se han reflejado en las gráficas \ref{PMVHkbeta}, \ref{ControlVHkbeta}, \ref{EulerVHkbeta} y \ref{FRPkbeta}.
+Un parámetro que puede ser interesante cambiar es la rigidez de las palas en batimiento. El valor de rigidez obtenido mediante el helicóptero semilla supone que se quiere mantener una rigidez proporcional a la del rotor del helicóptero base, es decir, el Bölkow Bo 105.
+
+Para comprobar el efecto de la rigidez en batimiento del rotor, se ha decidido variar su valor base (denominado como $k_{\beta0}$ en las gráficas) entre el 70 \% y el 130 \% (tabla \ref{kbetatab}) de su valor. Los resultados de esta simulación se han reflejado en las gráficas \ref{PMVHkbeta}, \ref{ControlVHkbeta}, \ref{EulerVHkbeta} y \ref{FRPkbeta}.
 
 \begin{table}[htbp]
 	\centering
@@ -231,14 +234,14 @@ Para comprobar su efecto, se ha decidido variar su valor base (denominado como $
 		\cellcolor{Gray} & 11879.64 \\ \cline{2-2}
 		\multirow{-5}{*}{\cellcolor{Gray}$k_\beta$ (Nm/rad)} & 13429.15 \\ \hline
 	\end{tabular}%
-	\caption{Valores de la rigidez en batimiento de las palas usados en la simulación, en orden ascendente de valor. El valor central es el valor que \emph{HEROES} ha otorgado al modelo de forma automática.}
+	\caption{Valores de la rigidez en batimiento de las palas usados en la simulación, en orden ascendente de valor. El valor central es el valor que se obtiene dimensionalizando el helicóptero semilla.}
 	\label{kbetatab}
 \end{table}%
 
 \begin{figure}
 	\centering
 	\includegraphics[width=90mm]{graficos/PMVHkbeta}
-	\caption{Consumo de Potencia de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo horizontal y limitación por potencia máxima continua disponible.}
+	\caption{Consumo de potencia de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo horizontal y diferentes valores de k$_\beta$.}
 	\label{PMVHkbeta}
 \end{figure}
 \begin{figure}
@@ -265,7 +268,7 @@ Para comprobar su efecto, se ha decidido variar su valor base (denominado como $
 	\label{FRPkbeta}
 \end{figure}
 
-Lo primero que se observa es que los cambios no son excesivamente llamativos, pero existen. En el caso de la potencia necesaria para el vuelo se observa en \ref{PMVHkbeta} que a bajas velocidades de vuelo los resultados no dependen de $k_\beta$, pero según aumenta la velocidad también lo hacen las diferencias en los resultados. Independientemente del valor de la velocidad, los resultados para una rigidez de batimiento mayor son mas favorables, es decir, la potencia necesaria para el vuelo es menor. Sin embargo, este resultado no tiene en cuenta que como consecuencia de llevar a cabo este cambio en un modelo real, las cargas sobre las palas aumentan y por tanto se han de realizar cambios también en el rotor y las palas, lo cual puede suponer aumentos de masa y de coste. En la gráfica \ref{kbetapala} se han representado el caso de máxima rigidez en batimiento anterior junto a un caso con un aumento de masa de pala de un 20\% (tabla \ref{bmtab}), lo que equivaldría a cambiar el material de fabricación de las palas para dotarlas de mayor rigidez (sin tener en cuenta posibles cambios de masa en el propio rotor). De estos resultados se observa que el aumento de masa contrarresta el efecto del aumento de rigidez, por lo que será necesario un análisis mas exhaustivo de los materiales disponibles, costes y necesidades de la aeronave para poder tomar una decisión acerca de aumentar la rigidez del rotor.
+Lo primero que se observa es que los cambios no son excesivamente llamativos, pero existen. En el caso de la potencia necesaria para el vuelo se observa en \ref{PMVHkbeta} que a bajas velocidades de vuelo los resultados no dependen de $k_\beta$, pero según aumenta la velocidad también lo hacen las diferencias en los resultados. Independientemente del valor de la velocidad, los resultados para una rigidez de batimiento mayor son mas favorables, es decir, la potencia necesaria para el vuelo es menor. Sin embargo, este resultado no tiene en cuenta que, como consecuencia de llevar a cabo este cambio en un modelo real, las cargas sobre las palas aumentan y por tanto se han de realizar cambios también en el rotor y las palas, lo cual puede suponer aumentos de masa y de coste. En la gráfica \ref{kbetapala} se ha representado el caso de máxima rigidez en batimiento anterior junto a un caso con un aumento de masa de pala de un 20 \% (tabla \ref{bmtab}), lo que equivaldría a cambiar el material de fabricación de las palas para dotarlas de mayor rigidez (sin tener en cuenta posibles cambios de masa en el propio rotor). De estos resultados se observa que el aumento de masa contrarresta el efecto del aumento de rigidez, por lo que será necesario un análisis mas exhaustivo de los materiales disponibles, costes y necesidades de la aeronave para poder tomar una decisión acerca de aumentar la rigidez del rotor.
 
 \begin{table}[htbp]
 	\centering
@@ -285,105 +288,109 @@ Lo primero que se observa es que los cambios no son excesivamente llamativos, pe
 	\label{kbetapala}
 \end{figure}
 
-En cuanto al resto de resultados, se puede observar en \ref{ControlVHkbeta} que el paso colectivo se mantiene prácticamente constante con $k_\beta$, por lo que los únicos cambios que se observan son en los ángulos de paso cíclico lateral y longitudinal. En ambos casos el aumento de la rigidez lleva acompañado una disminución de los ángulos de paso cíclico que en el caso del longitudinal se observa que la diferencia entre los valores máximo y mínimo de $k_\beta$ de la simulación supone alrededor de 0.005 rad, mientras que en el lateral las diferencias alcanzan valores de entre 0.01 y 0.012 rad. Estos cambios de menos de un grado son asumibles por lo que no supondría ningún problema a la hora de variar la rigidez en batimiento del rotor principal.
+En cuanto al resto de resultados, se puede observar en \ref{ControlVHkbeta} que el paso colectivo se mantiene prácticamente constante con $k_\beta$, por lo que los únicos cambios que se observan son en los ángulos de paso cíclico lateral y longitudinal. En ambos casos el aumento de la rigidez lleva acompañado una disminución de los ángulos de paso cíclico, que en el caso del longitudinal se observa que la diferencia entre los valores máximo y mínimo de $k_\beta$ de la simulación supone alrededor de 0.005 rad, mientras que en el lateral las diferencias alcanzan valores de entre 0.01 y 0.012 rad. Estos cambios de menos de un grado son asumibles por lo que no supondría ningún problema a la hora de variar la rigidez en batimiento del rotor principal.
 
 Donde se observan cambios mayores es en las cargas que aparecen en el rotor principal (gráfica \ref{FRPkbeta}). Lo primero que se observa es que las cargas verticales y laterales no solo no aumentan, sino que disminuyen. Las cargas verticales sufren una variación pequeña, que aumenta con la velocidad, pero esta variación llega a valores de unos 50 N a velocidades de alrededor de 40 m/s, lo que comparado con los valores de alrededor de 4475 N a los que están sometidos lo diferentes modelos a esas velocidades resulta despreciable.
 
-En el caso de las fuerzas laterales las variaciones máximas se dan para bajas velocidades de vuelo, llegando a valores de 30 N, que a 40 m/s se ven reducidas a apenas 10 N de diferencia. Pese a que estas variaciones sean menores a las que aparecen las fuerzas verticales, su valor relativo es mucho mayor ya que los valores de las cargas son de alrededor de 100 N a velocidades muy bajas y de 35 N a 40 m/s. Esto supone una disminución importante de las cargas, al menos en el eje lateral.
+En el caso de las fuerzas laterales las variaciones máximas se dan para bajas velocidades de vuelo, llegando a valores de 30 N, que a 40 m/s se ven reducidas a apenas 10 N de diferencia. Pese a que estas variaciones sean menores a las que aparecen las fuerzas verticales, su valor relativo es mucho mayor ya que los valores de las cargas son de alrededor de 100 N a velocidades muy bajas y de 35 N a 40 m/s. Esto supone una disminución importante de las cargas en el eje lateral.
 
-Sin embargo, las cargas más críticas serían las que aparecen en el eje longitudinal del helicóptero, cuyas variaciones máximas entre las distintas configuraciones son de hasta 60 N, llegando a cargas máximas un 25\% mayores que las esperadas en el modelo original. Además el modelo más rígido sufre cargas del orden de 70 N para velocidades de vuelo en las que el modelo menos rígido no sufre ninguna carga. Estos cambios por tanto harían necesario un análisis de la estructura del rotor para comprobar si pudiese soportar las nuevas cargas o si por el contrario, conviene reducir la rigidez y con ello las cargas para reducir costes o peso.
+Sin embargo, las cargas más críticas serían las que aparecen en el eje longitudinal del helicóptero, cuyas variaciones máximas entre las distintas configuraciones son de hasta 60 N, llegando a cargas máximas un 25 \% mayores que las esperadas en el modelo original. Además, el modelo más rígido sufre cargas del orden de 70 N para velocidades de vuelo en las que el modelo menos rígido no sufre ninguna carga. Estos cambios por tanto harían necesario un análisis de la estructura del rotor para comprobar si pudiese soportar las nuevas cargas o si, por el contrario, conviene reducir la rigidez y con ello las cargas para reducir costes o peso.
 
-\subsection{Integración de las Diferentes Cargas de Pago}
+\subsection{Análisis de la carga de pago}
 
-En el capítulo anterior se modelizaron 3 cargas de pago diferentes y se mostraron los cálculos para integrarlas en el fuselaje del helicóptero suponiendo que en todo momento se encuentran en su interior y por lo tanto no es necesario un cálculo aerodinámico. Estudiar como varían los parámetros de vuelo con la carga y su posición es importante a fin de poder realizar la integración ideal en cada caso.
-Para poder comprobar como afecta la carga al vuelo, se realizarán las mismas suposiciones en las condiciones de vuelo que al principio del capítulo, sumando a ellas que en todas las configuraciones el MTOW será de 450 kg, es decir, habrá que calcular en cada carga un modelo del helicóptero cuya masa sea de 450 kg menos la masa de la propia carga de pago, para luego incorporar la carga de pago como ya se ha mostrado. De no seguir este proceso, estaríamos volando por encima del MTOW requerido en todo momento.
+En este apartado se expondrán los resultados de variar la carga y posición de la misma que se embarca en la aeronave.
+
+\subsubsection*{Integración de las diferentes cargas de pago}
+
+En el capítulo anterior se modelizaron 3 cargas de pago diferentes y se mostraron los cálculos para integrarlas en el fuselaje del helicóptero suponiendo que en todo momento se encuentran en su interior y, por lo tanto, no es necesario un cálculo aerodinámico. Estudiar como varían los parámetros de vuelo con la carga y su posición es importante a fin de poder realizar la integración ideal en cada caso.
+Para poder comprobar como afecta la carga al vuelo, se realizarán las mismas suposiciones en las condiciones de vuelo que al principio del capítulo, sumando a ellas que en todas las configuraciones el MTOW será de 450 kg, es decir, habrá que calcular para cada carga un modelo del helicóptero cuya masa sea de 450 kg menos la masa de la propia carga de pago, para luego incorporar la carga de pago como ya se ha mostrado. De no seguir este proceso, estaríamos volando por encima del MTOW requerido en todo momento.
 
 \begin{figure}
 	\centering
-	\subfigure[Potencia necesaria para el vuelo para difeerentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/PMVHMPLcdg}}
-	\subfigure[Potencia necesaria para el vuelo para difeerentes cargas de pago  situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/PMVHMPLnocdg}}
-	\caption{Consumo de Potencia de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo horizontal para diferentes cargas de pago en posiciones distintas.}
+	\subfigure[Potencia necesaria para el vuelo para diferentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/PMVHMPLcdg}}
+	\subfigure[Potencia necesaria para el vuelo para diferentes cargas de pago  situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/PMVHMPLnocdg}}
+	\caption{Consumo de potencia de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo horizontal para diferentes cargas de pago en posiciones distintas.}
 	\label{PMVHMPL}
 \end{figure}
 \begin{figure}
 	\centering
-	\subfigure[Ángulo de paso colectivo del rotor principal durante el vuelo para difeerentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/theta0VHMPLcdg}}
-	\subfigure[Ángulo de paso colectivo del rotor principal durante el vuelo para difeerentes cargas de pago situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/theta0VHMPLnocdg}}
+	\subfigure[Ángulo de paso colectivo del rotor principal durante el vuelo para diferentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/theta0VHMPLcdg}}
+	\subfigure[Ángulo de paso colectivo del rotor principal durante el vuelo para diferentes cargas de pago situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/theta0VHMPLnocdg}}
 	\caption{Ángulos de paso colectivo del rotor principal de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo horizontal para diferentes cargas de pago en posiciones distintas.}
 	\label{Theta0VHMPL}
 \end{figure}
 \begin{figure}
 	\centering
-	\subfigure[Ángulo de paso cíclico longitudinal del rotor principal durante el vuelo para difeerentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/theta1CVHMPLcdg}}
-	\subfigure[Ángulo de paso cíclico longitudinal del rotor principal durante el vuelo para difeerentes cargas de pago situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/theta1CVHMPLnocdg}}
+	\subfigure[Ángulo de paso cíclico longitudinal del rotor principal durante el vuelo para diferentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/theta1CVHMPLcdg}}
+	\subfigure[Ángulo de paso cíclico longitudinal del rotor principal durante el vuelo para diferentes cargas de pago situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/theta1CVHMPLnocdg}}
 	\caption{Ángulos de paso cíclico longitudinal del rotor principal de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo horizontal para diferentes cargas de pago en posiciones distintas.}
 	\label{Theta1CVHMPL}
 \end{figure}
 \begin{figure}
 	\centering
-	\subfigure[Ángulo de paso cíclico lateral del rotor principal durante el vuelo para difeerentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/theta1SVHMPLcdg}}
-	\subfigure[Ángulo de paso cíclico lateral del rotor principal durante el vuelo para difeerentes cargas de pago situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/theta1SVHMPLnocdg}}
+	\subfigure[Ángulo de paso cíclico lateral del rotor principal durante el vuelo para diferentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/theta1SVHMPLcdg}}
+	\subfigure[Ángulo de paso cíclico lateral del rotor principal durante el vuelo para diferentes cargas de pago situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/theta1SVHMPLnocdg}}
 	\caption{Ángulos de paso cíclico lateral del rotor principal de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo horizontal para diferentes cargas de pago en posiciones distintas.}
 	\label{Theta1SVHMPL}
 \end{figure}
 \begin{figure}
 	\centering
-	\subfigure[Ángulo de cabeceo de la aeronave durante el vuelo para difeerentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/CabVHMPLcdg}}
-	\subfigure[Ángulo de cabeceo de la aeronave durante el vuelo para difeerentes cargas de pago situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/CabVHMPLnocdg}}
+	\subfigure[Ángulo de cabeceo de la aeronave durante el vuelo para diferentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/CabVHMPLcdg}}
+	\subfigure[Ángulo de cabeceo de la aeronave durante el vuelo para diferentes cargas de pago situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/CabVHMPLnocdg}}
 	\caption{Ángulos de cabeceo de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo horizontal para diferentes cargas de pago en posiciones distintas.}
 	\label{ThetaVHMPL}
 \end{figure}
 \begin{figure}
 	\centering
-	\subfigure[Ángulo de balanceo de la aeronave durante el vuelo para difeerentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/BalanVHMPLcdg}}
-	\subfigure[Ángulo de balanceo de la aeronave durante el vuelo para difeerentes cargas de pago situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/BalanVHMPLnocdg}}
+	\subfigure[Ángulo de balanceo de la aeronave durante el vuelo para diferentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/BalanVHMPLcdg}}
+	\subfigure[Ángulo de balanceo de la aeronave durante el vuelo para diferentes cargas de pago situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/BalanVHMPLnocdg}}
 	\caption{Ángulos de balanceo de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo horizontal para diferentes cargas de pago en posiciones distintas.}
 	\label{PhiVHMPL}
 \end{figure}
 \begin{figure}
 	\centering
-	\subfigure[Ángulo de paso colectivo del rotor antipar durante el vuelo para difeerentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/theta0VHraMPLcdg}}
-	\subfigure[Ángulo de paso colectivo del rotor antipar durante el vuelo para difeerentes cargas de pago situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/theta0VHraMPLnocdg}}
+	\subfigure[Ángulo de paso colectivo del rotor antipar durante el vuelo para diferentes cargas de pago situadas en la proyección del centro de masas de la aeronave en vacío sobre el suelo.]{\includegraphics[width=60mm]{graficos/theta0VHraMPLcdg}}
+	\subfigure[Ángulo de paso colectivo del rotor antipar durante el vuelo para diferentes cargas de pago situadas en $l_x$=1.3 m y $l_y$=-0.2 m.]{\includegraphics[width=60mm]{graficos/theta0VHraMPLnocdg}}
 	\caption{Ángulos de paso colectivo del rotor antipar de la aeronave en función de la velocidad de vuelo a nivel del mar para vuelo horizontal para diferentes cargas de pago en posiciones distintas.}
 	\label{Theta0VHraMPL}
 \end{figure}
 
-Las simulaciones se han realizado para las configuraciones sin carga y para cada una de las cargas en dos posiciones, sobre la proyección del centro de masas del helicóptero sin la carga sobre el suelo y para una posición de la carga en en suelo tal que $l_x$=1.3 m y $l_y$=-0.2 m, es decir, con las cámaras situadas en la parte delantera del helicóptero y desviadas ligeramente hacia un lateral del fuselaje. Los resultados de estas simulaciones se han reflejado en las gráficas \ref{PMVHMPL}, \ref{Theta0VHMPL}, \ref{Theta1CVHraMPL}, \ref{Theta1SVHMPL}, \ref{ThetaVHMPL}, \ref{PhiVHMPL} y \ref{Theta0VHraMPL}.
+Las simulaciones se han realizado para las configuraciones sin carga y para cada una de las cargas en dos posiciones, sobre la proyección del centro de masas del helicóptero sin la carga sobre el suelo del fuselaje y para una posición de la carga en el suelo tal que $l_x$=1.3 m y $l_y$=-0.2 m, es decir, con las cámaras situadas en la parte delantera del helicóptero y desviadas ligeramente hacia un lateral del fuselaje. Los resultados de estas simulaciones se han reflejado en las gráficas \ref{PMVHMPL}, \ref{Theta0VHMPL}, \ref{Theta1CVHMPL}, \ref{Theta1SVHMPL}, \ref{ThetaVHMPL}, \ref{PhiVHMPL} y \ref{Theta0VHraMPL}.
 
-De los resultados se puede apreciar que en caso de colocar la carga de pago sobre la proyección las condiciones de vuelo apenas varían, por lo que los cálculos realizados para la configuración sin carga en vuelo horizontal se pueden asumir que sirven como aproximaciones para cualquier carga de las ensayadas siempre y cuando esté situada en ese punto.
+De los resultados se puede apreciar que en caso de colocar la carga de pago sobre la proyección las condiciones de vuelo apenas varían, por lo que los cálculos realizados para la configuración sin carga en vuelo horizontal se pueden asumir que sirven como aproximaciones para cualquier carga de las ensayadas, siempre y cuando esté situada en ese punto.
 
-Los resultados mas interesantes se dan cuando la carga se desplaza de dicho punto, siendo los casos más desfavorables los de mayor masa de carga de pago. En la gráfica \ref{PMVHMPL} se observa que a bajas velocidades de vuelo las diferencias son inapreciables, pero al aumentar la misma, lo hacen también las diferencias. Aún así, las diferencias en las potencias necesarias no son excesivas, llegando a valores de cerca de 2000 W para velocidades de 60 m/s.
+Los resultados mas interesantes se dan cuando la carga se desplaza de dicho punto, siendo los casos más desfavorables los de mayor masa de carga de pago. En la gráfica \ref{PMVHMPL} se observa que a bajas velocidades de vuelo las diferencias son inapreciables, pero al aumentar aquella, lo hacen también las diferencias. Aún así, las diferencias en las potencias necesarias no son excesivas, llegando a valores de cerca de 2000 W para velocidades de 60 m/s.
 
 En lo que respecta al ángulo de paso colectivo del rotor principal, al ser una configuración muy similar a la original y tener que sustentar el mismo peso, apenas varía con la carga ni la velocidad como se puede apreciar en la gráfica \ref{Theta0VHMPL}. Diferente es el caso de los ángulos de paso cíclico, tanto longitudinal como lateral. En el caso del ángulo de paso cíclico longitudinal, se ve en la gráfica \ref{Theta1CVHMPL} que a mayor carga, menor es su valor. Esto se explica fácilmente al observar la posición de la carga; una carga en la zona frontal del helicóptero adelantará el centro de masas del mismo, lo que contribuye a disminuir el ángulo de cabeceo (gráfica \ref{ThetaVHMPL}) y, por tanto, la necesidad de un ángulo de paso cíclico longitudinal que permita el vuelo en avance. Si el fuselaje tiene un ángulo de cabeceo tal que la perpendicular al plano del rotor tenga la dirección de avance, no es necesario un paso cíclico que redirija la fuerza en esa dirección.
 
 Con el ángulo de paso cíclico lateral pasa algo similar, el desequilibrio másico que supone colocar una carga en una posición desplazada lateralmente del centro de masas del helicóptero provoca una variación en el ángulo de balanceo del vehículo (gráfica \ref{PMVHMPL}) que en este caso contribuye al desequilibrio ya existente, por lo que el paso cíclico lateral necesario para poder mantener la aeronave en equilibrio aumenta, al contrario de lo que pasaba con el paso longitudinal.
 
-Por último se ha representado en la gráfica \ref{Theta0VHraMPL} la variación del ángulo de paso colectivo del rotor antipar necesario para equilibrar cada uno de los casos descritos, pero al igual que pasaba con el del rotor principal, no sufre cambios excesivos.
+Por último, se ha representado en la gráfica \ref{Theta0VHraMPL} la variación del ángulo de paso colectivo del rotor antipar necesario para equilibrar cada uno de los casos descritos, pero al igual que pasaba con el del rotor principal, no sufre cambios excesivos.
 
-\subsection*{Análisis de los Parámetros de Vuelo con la Posición de la Carga de Pago}
+\subsubsection*{Análisis de los parámetros de vuelo con la posición de la carga de pago}
 
 Visto el efecto de la propia carga sobre los parámetros de vuelo, conviene comprobar el efecto de la posición de una misma carga volando a una velocidad determinada, por lo que en este apartado se reflejarán y comentarán los resultados de simular vuelos horizontales a velocidad constante para las cargas 2 y 3 en función de la posición de la misma dentro de los márgenes establecidos en el capítulo anterior.
 
-Como comentario general, se puede observar que el cambio de la carga apenas influye en los efectos de su posición, variando ligeramente eso si las diferentes características a analizar.
+Como comentario general, se puede observar que el cambio de la carga apenas influye en los efectos de su posición, variando ligeramente, eso si, las diferentes características a analizar.
 
 \begin{figure}
 	\centering
 	\subfigure[Potencia necesaria para el vuelo en función de la posición relativa a $O_f$ de la carga 2 para una velocidad de vuelo de 10 m/s.]{\includegraphics[width=60mm]{graficos/PMVH2lxy10ms}}
 	\subfigure[Potencia necesaria para el vuelo en función de la posición relativa a $O_f$ de la carga 2 para una velocidad de vuelo de 50 m/s.]{\includegraphics[width=60mm]{graficos/PMVH2lxy50ms}}
-	\caption{Consumo de Potencia de la aeronave en función de la posición relativa a $O_f$ de la carga 2.}
+	\caption{Consumo de potencia de la aeronave en función de la posición relativa a $O_f$ de la carga 2.}
 	\label{PMVH2lxy}
 \end{figure}
 \begin{figure}
 	\centering
 	\subfigure[Potencia necesaria para el vuelo en función de la posición relativa a $O_f$ de la carga 3 para una velocidad de vuelo de 10 m/s.]{\includegraphics[width=60mm]{graficos/PMVH3lxy10ms}}
 	\subfigure[Potencia necesaria para el vuelo en función de la posición relativa a $O_f$ de la carga 3 para una velocidad de vuelo de 50 m/s.]{\includegraphics[width=60mm]{graficos/PMVH3lxy50ms}}
-	\caption{Consumo de Potencia de la aeronave en función de la posición relativa a $O_f$ de la carga 3.}
+	\caption{Consumo de potencia de la aeronave en función de la posición relativa a $O_f$ de la carga 3.}
 	\label{PMVH3lxy}
 \end{figure}
 
-Comenzando por la potencia, los resultado resultan bastante curiosos; las gráficas \ref{PMVH2lxy} y \ref{PMVH3lxy} muestran que a bajas velocidades la potencia necesaria para el vuelo aumenta según disminuye $l_y$, es decir, es mayor cuanto mas a la izquierda del fuselaje esté situada la carga y también aumenta para cargas alejadas longitudinalmente del centro de gravedad de la aeronave sin carga ($x_{CG}=0.0972$). Sin embargo, a altas velocidades este comportamiento se invierte para el eje longitudinal, siendo los puntos de menor consumo aquellos en los que la carga está situada sobre el centro de gravedad de la aeronave. En el eje lateral, vuelve a repetirse el mismo comportamiento, la potencia necesaria disminuye para cargas situadas hacia la derecha del fuselaje, pero en esta ocasión aparece un mínimo alrededor de $l_y=0.2$, por lo que desplazar aún más la carga resulta perjudicial en términos de potencia. Además, a estas velocidades, estos cambios pueden suponer una reducción de hasta 10 kW respecto a valores extremos de posición, a diferencia de a bajas velocidades donde las diferencias apenas alcanzan el valor de 1 kW.
+Comenzando por la potencia, los resultado resultan bastante curiosos. Las gráficas \ref{PMVH2lxy} y \ref{PMVH3lxy} muestran que a bajas velocidades la potencia necesaria para el vuelo aumenta según disminuye $l_y$, es decir, es mayor cuanto más a la izquierda del fuselaje esté situada la carga y también aumenta para cargas alejadas longitudinalmente del centro de gravedad de la aeronave sin carga ($x_{CG}=0.0972$). Sin embargo, a altas velocidades este comportamiento se invierte para el eje longitudinal, siendo los puntos de menor consumo aquellos en los que la carga está situada sobre el centro de gravedad de la aeronave. En el eje lateral, vuelve a repetirse el mismo comportamiento, la potencia necesaria disminuye para cargas situadas hacia la derecha del fuselaje, pero en esta ocasión aparece un mínimo alrededor de $l_y=0.2$, por lo que desplazar aún más la carga resulta perjudicial en términos de potencia. Además, a estas velocidades estos cambios pueden suponer una reducción de hasta 10 kW respecto a valores extremos de posición, a diferencia de a bajas velocidades donde las diferencias apenas alcanzan el valor de 1 kW.
 
-Comparando los efectos de ambas cargas, se observa que a bajas velocidades su comportamiento es prácticamente idéntico, pero a altas velocidades las cargas más pesadas y de mayor tamaño requieren de un consumo ligeramente mayor de potencia en posiciones distintas de la óptima.
+Comparando los efectos de ambas cargas se observa que a bajas velocidades su comportamiento es prácticamente idéntico, pero a altas velocidades las cargas más pesadas y de mayor tamaño requieren de un consumo ligeramente mayor de potencia en posiciones distintas de la óptima.
 
 \begin{figure}
 	\centering
@@ -417,7 +424,7 @@ En lo referente a los ángulos de control del rotor principal, de nuevo se obser
 	\label{theta1CVH3lxy}
 \end{figure}
 
-La variación de los ángulos de paso cíclico con la posición de la carga son más acusados, pero la velocidad de vuelo apenas influye en la misma. Para el paso cíclico longitudinal los máximos valores se dan para cargas centradas longitudinalmente y situadas a la izquierda del fuselaje, independientemente de la velocidad, aunque estos valores crecen ligeramente con esta como se puede observa en las gráficas \ref{theta1CVH2lxy} y \ref{theta1CVH3lxy}.
+La variación de los ángulos de paso cíclico con la posición de la carga son más acusados, pero la velocidad de vuelo apenas influye en la misma. Para el paso cíclico longitudinal los máximos valores se dan para cargas centradas longitudinalmente y situadas a la izquierda del fuselaje, independientemente de la velocidad, aunque estos valores crecen ligeramente con esta como se puede observar en las gráficas \ref{theta1CVH2lxy} y \ref{theta1CVH3lxy}.
 
 \begin{figure}
 	\centering
@@ -434,7 +441,7 @@ La variación de los ángulos de paso cíclico con la posición de la carga son 
 	\label{theta1SVH3lxy}
 \end{figure}
 
-En cambio, la variación de los ángulos de paso cíclico lateral se da de forma totalmente opuesta, alcanzándose los mínimos para cargas centradas longitudinalmente y situadas a la izquierda del fuselaje, y de nuevo esta distribución se repite tanto a altas como bajas velocidades.
+En cambio, la variación de los ángulos de paso cíclico lateral se da de forma totalmente opuesta, alcanzándose los mínimos para cargas centradas longitudinalmente y situadas a la izquierda del fuselaje, y de nuevo esta distribución se repite tanto a altas como a bajas velocidades.
 
 Las mayores variaciones observadas para el efecto de la carga se encuentran para el valor del paso cíclico lateral a altas velocidades, los cuales alcanzan valores de hasta 0.02 rad superiores para la carga 3, de mayor tamaño y masa.
 
@@ -468,9 +475,9 @@ Las mayores variaciones observadas para el efecto de la carga se encuentran para
 	\label{BalanVH3lxy}
 \end{figure}
 
-En lo que respecta a los ángulos de Euler, la evolución resulta curiosa aunque no sorprendente; en las gráficas \ref{CabVH2lxy} y \ref{CabVH3lxy} se observa que el valor del ángulo de cabeceo de la aeronave no depende de la posición lateral de la carga, al igual que en las gráficas \ref{BalanVH2lxy} y \ref{BalanVH3lxy} el ángulo de balanceo no varía con la posición longitudinal de las mismas.
+En lo que respecta a los ángulos de Euler, la evolución resulta curiosa aunque no sorprendente. En las gráficas \ref{CabVH2lxy} y \ref{CabVH3lxy} se observa que el valor del ángulo de cabeceo de la aeronave no depende de la posición lateral de la carga, al igual que en las gráficas \ref{BalanVH2lxy} y \ref{BalanVH3lxy} el ángulo de balanceo no varía con la posición longitudinal de las mismas.
 
-En el caso del cabeceo, los máximos valores se alcanzan para cargas centradas, siendo ligeramente mayor el incremento para altas velocidades. Las diferencias entre las cargas también son claras, a mayor carga, mayores son las diferencias entre los valores máximo y mínimo existentes. Para el balanceo, los máximos aparecen para cargas en la parte derecha del vehículo, no influyendo tanto en este caso la velocidad de vuelo o la carga embarcada.
+En el caso del cabeceo, los máximos valores se alcanzan para cargas centradas, siendo ligeramente mayor el incremento para altas velocidades. Las diferencias entre las cargas también son claras, a mayor carga, mayores son las diferencias entre los valores máximo y mínimo existentes. Para el balanceo, los valores máximos aparecen para cargas situadas en la parte derecha de la aeronave, no influyendo tanto, en este caso, la velocidad de vuelo o la carga embarcada.
 
 \begin{figure}
 	\centering
@@ -487,4 +494,4 @@ En el caso del cabeceo, los máximos valores se alcanzan para cargas centradas, 
 	\label{theta0raVH3lxy}
 \end{figure}
 
-Por último, el ángulo de paso colectivo del rotor antipar (gráficas \ref{theta0raVH2lxy} y \ref{theta0raVH3lxy}) sigue una evolución similar al del rotor principal, siendo los máximos a velocidades bajas para cargas centradas longitudinalmente y en la parte izquierda del fuselaje, invirtiéndose el efecto de la posición longitudinal para velocidades. El incremento de carga en este caso acusa más las diferencias entre los valores máximos y mínimos del paso, pero sus valores absolutos apenas varían 0.005 rad.
+Por último, el ángulo de paso colectivo del rotor antipar (gráficas \ref{theta0raVH2lxy} y \ref{theta0raVH3lxy}) sigue una evolución similar al del rotor principal, siendo los máximos a velocidades bajas para cargas centradas longitudinalmente y en la parte izquierda del fuselaje, invirtiéndose el efecto de la posición longitudinal para altas velocidades. El incremento de carga en este caso acusa más las diferencias entre los valores máximos y mínimos del paso, pero sus valores absolutos apenas varían 0.005 rad.
